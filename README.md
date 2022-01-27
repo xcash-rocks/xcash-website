@@ -4,7 +4,7 @@
 <tr>
 <td>
 
-it's part of a repo series designed to create a **Web Application with Angular 13**
+This is xcash.foundation in Angular**
 
 
 * Featuring [**Angular 13.1.3**](https://github.com/angular/angular/releases) & [**Angular CLI 13.1.4**](https://github.com/angular/angular-cli/releases/)
@@ -61,8 +61,5 @@ Here is a step by step Tutorial :  https://www.ganatan.com/tutorials/getting-sta
 * `npm run test`
 
 # [Author](#author)
-* Author  : danny
+* Author  : X-Cash contributors
 
-## [English Tutorials](#english-tutorials)
-- Installation - https://www.ganatan.com/tutorials/getting-started-with-angular
-- Tutorials Step by Step - https://www.ganatan.com/tutorials/en
