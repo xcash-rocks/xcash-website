@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 import { NotFoundComponent } from './modules/not-found/not-found.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 // import { HomeModule } from './modules/home/home.module';
 // import { ProjectModule } from './modules/project/project.module';
 // import { TeamModule } from './modules/team/team.module';
@@ -30,7 +31,8 @@ import { AppRoutingModule } from './app-routing.module';
     // WalletComponent,
     // ContributeComponent,
     // RessourcesComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ScrollToTopComponent
   ],
   imports: [
     BrowserModule,
