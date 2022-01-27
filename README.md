@@ -1,4 +1,4 @@
-# Angular 13 Example Starter
+# Angular 13 Website Start
 
 <table>
 <tr>
@@ -26,7 +26,7 @@ Here is a working live demo :  https://angular.ganatan.com
 <p align="center">
   <p align="center">
     <a href="https://angular.ganatan.com/">
-      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 13 Example 
+      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 13 Example
       Application"/>
     </a>
   </p>
@@ -56,7 +56,7 @@ npm install
 npm start
 
 ```
-in your browser go to [http://localhost:4200](http://localhost:4200) 
+in your browser go to [http://localhost:4200](http://localhost:4200)
 
 
 # [Tutorial](#quick-start)
@@ -78,9 +78,9 @@ Here is a step by step Tutorial :  https://www.ganatan.com/tutorials/getting-sta
 
 ## Development
 * `npm run start`
-* in your browser go to [http://localhost:4200](http://localhost:4200) 
+* in your browser go to [http://localhost:4200](http://localhost:4200)
 
-## Production 
+## Production
 * `npm run build`
 
 ## Tests
@@ -96,4 +96,3 @@ Here is a step by step Tutorial :  https://www.ganatan.com/tutorials/getting-sta
 ## [Tutoriels en français](#french-tutorials)
 - Installation - https://www.ganatan.com/tutorials/demarrer-avec-angular
 - Tutoriels Etape par étape - https://www.ganatan.com/tutorials
-
