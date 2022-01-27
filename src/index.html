@@ -1,0 +1,115 @@
+<!DOCTYPE html><!--  Last Published: Fri Jan 14 2022 18:28:39 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5f5f5f0330588e58e9713b15" data-wf-site="5f5f5f0330588e2883713b14">
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <title>X-Cash | Private Cryptocurrency for the Web3.0</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <meta content="X-Cash is an open-source private cryptocurrency with unique features developed for the web3.0. Join the new stage of private cryptocurrencies." name="description">
+  <meta content="X-Cash | Private Cryptocurrency for the Web3.0" property="og:title">
+  <meta content="X-Cash is an open-source private cryptocurrency with unique features developed for the web3.0. Join the new stage of private cryptocurrencies." property="og:description">
+  <meta content="https://uploads-ssl.webflow.com/5f5f5f0330588e2883713b14/6013c780265ae4adbc338a3c_Open-Graph.png" property="og:image">
+  <meta content="X-Cash | Private Cryptocurrency for the Web3.0" property="twitter:title">
+  <meta content="X-Cash is an open-source private cryptocurrency with unique features developed for the web3.0. Join the new stage of private cryptocurrencies." property="twitter:description">
+  <meta content="https://uploads-ssl.webflow.com/5f5f5f0330588e2883713b14/6013c780265ae4adbc338a3c_Open-Graph.png" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <!-- <meta content="RvL8iutm2d2t9Zm630xeNJGtKIB3WzCAsq2oB0OUW-g" name="google-site-verification"> -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="assets/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="assets/images/webclip.png" rel="apple-touch-icon">
+
+  <!-- <link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/xcash-preview.webflow.css" rel="stylesheet" type="text/css"> -->
+
+  <!-- <script type="text/javascript" src="https://widgets.rubic.exchange/iframe/bundle.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+
+
+</head>
+<body>
+
+  <app-root></app-root>
+
+  <!-- <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f5f5f0330588e2883713b14" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> -->
+  <!-- <script src="assets/js/webflow.js" type="text/javascript"></script> -->
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+  var Webflow = Webflow || [];
+  Webflow.push(function () {
+      jQuery(document).ready(
+          async function () {
+                      $.ajax({
+                          url: 'https://explorer.xcash.foundation/getmarketdata',
+                          method: 'GET',
+                          success: function (data) {
+                              var xcashPrice = data.price["usd"];
+                              var xcashMarketCap = data.market_cap["usd"].toLocaleString('en-US', {maximumFractionDigits:2});
+                              $("#dataprice").html(data.price["usd"]);
+                              $("#datamarketcap").html(xcashMarketCap);
+                          }
+                      });
+                      $.ajax({
+                      url: 'https://explorer.xcash.foundation/getcirculatingsupply',
+                      method: 'GET',
+                      success: function (data) {
+                          var xcashCirculating = data.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                          $("#datacirculating").html(xcashCirculating);
+                      }
+                  });
+                });
+              });
+    </script>
+    <script>
+    var Webflow = Webflow || [];
+    Webflow.push(function () {
+        jQuery(document).ready(
+            async function () {
+                        $.ajax({
+                            url: 'https://explorer.xcash.foundation/getmarketdata',
+                            method: 'GET',
+                            success: function (data) {
+                                var xcashPrice = data.price["usd"];
+                                var xcashMarketCap = data.market_cap["usd"].toLocaleString('en-US', {maximumFractionDigits:2});
+                                $("#dataprice").html(data.price["usd"]);
+                                $("#datamarketcap").html(xcashMarketCap);
+                            }
+                        });
+                        $.ajax({
+                        url: 'https://explorer.xcash.foundation/getcirculatingsupply',
+                        method: 'GET',
+                        success: function (data) {
+                            var xcashCirculating = data.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                            $("#datacirculating").html(xcashCirculating);
+                        }
+                    });
+                  });
+                });
+    </script>
+    <!-- <script defer="" type="text/javascript">
+      // describe widget configuration and saving to a global variable for future use
+      var configuration = {
+          from: 'QUICK',
+          to: '0x03678f2c2c762dc63c2bb738c3a837d366eda560',
+          fromChain: 'POLYGON',
+          toChain: 'POLYGON',
+          amount: 1,
+          iframe: 'flex',
+          hideSelectionFrom: false,
+          hideSelectionTo: true,
+          theme: 'dark',
+          background: '#202020',
+          injectTokens: { polygon: ['0x03678f2c2c762dc63c2bb738c3a837d366eda560', ‘XCASH’] }
+      }
+      // prevent accidental changes to the object, for example, when re-creating a widget for another theme
+      Object.freeze(configuration);
+      // create widget
+      rubicWidget.init(configuration);
+    </script> -->
+</body>
+</html>
