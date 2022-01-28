@@ -28,6 +28,11 @@ const routes: Routes = [
       .then(mod => mod.TeamModule)
   },
   {
+    path: 'news',
+    loadChildren: () => import('./pages/news/news.module')
+      .then(mod => mod.NewsModule)
+  },
+  {
     path: 'get-started',
     loadChildren: () => import('./pages/getstarted/getstarted.module')
       .then(mod => mod.GetstartedModule)
