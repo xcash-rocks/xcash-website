@@ -8,8 +8,9 @@
  .show-scrollTop {
     opacity: 1;
     transition: all .2s ease-in-out;
-    padding: 16px;
+
    }
 .scroll-to-top button {
    background-color: transparent;
+   padding: 16px;
   }
