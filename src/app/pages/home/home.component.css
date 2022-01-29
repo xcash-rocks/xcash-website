@@ -5,13 +5,11 @@
 	margin-bottom: 20px;
   margin-top: 20px;
 	margin-left: 10px; */
-
 	padding: 20px;
 	flex-direction: column;
 	justify-content: space-around;
 	border-style: solid;
 	border-width: 1px;
-
 	transition: all 200ms ease;
 	color: #fff;
 	text-decoration: none;
@@ -21,16 +19,17 @@
 	border-color: #ff6d00;
 }
 
-
 .landing-block h3 {
   margin: 0;
 }
-.button-dark {
-  /* background-color: #1f; */
-  margin-right: 40px;
-  margin-top: 20px;
+.button-1 {
+  margin-right: 32px;
+  margin-top: 16px;
   text-align: center;
 }
+
+.button-dark {}
+
 .button-dark:hover {
   border-style: solid;
   border-width: 1px;
@@ -38,11 +37,26 @@
   color: #1f1f1f;
   background-color: #fff;
 }
+
+.button-green {
+  background-color: #7CB518;
+}
+
+.button-green:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7CB518;
+  color: #7CB518;
+  background-color: #fff;
+}
+
+
+
 #exchanges h3{
   width: 100%;
   text-align: center;
 }
 .list-2{
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
