@@ -49,6 +49,23 @@
   color: #7CB518;
   background-color: #fff;
 }
+.button-xbank {
+  background-color: #F7BF23;
+  border-color: #F7BF23;
+}
+
+.button-xpay {
+  background-color: #56B786;
+  border-color: #56B786;
+}
+.button-teal {
+  background-color: #1189A5;
+  border-color: #1189A5;
+}
+.button-wxcash {
+  background-color: #8C52FF;
+  border-color: #8C52FF;
+}
 
 
 
