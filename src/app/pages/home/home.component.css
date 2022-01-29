@@ -56,9 +56,14 @@
   width: 100%;
   text-align: center;
 }
-.list-2{
-  margin-bottom: 20px;
+.mt-20{
   margin-top: 20px;
-  font-size: 1rem;
+}
+.list-2{
+  font-size: 1.4rem;
+  line-height: 2rem;
   font-weight: bold;
+}
+ul.list-2 > li{
+  padding: 10px;
 }
