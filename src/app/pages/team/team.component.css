@@ -5,3 +5,28 @@
 .w-row {
     margin-bottom: 30px;
 }
+.avatar-block{
+  margin-bottom: 15px;
+}
+.avatar{
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #ff6d00;
+}
+.people-container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.people-text {
+
+  text-align: center;
+}
+.people-name {
+  margin-top: 0px;
+  color: #ff6d00;
+}
