@@ -9,9 +9,9 @@
     "test": "ng test"
   },
   "author": {
-    "name": "danny",
-    "email": "danny@ganatan.com",
-    "url": "https://www.ganatan.com/"
+    "name": "xcash.foundation",
+    "email": "marketing@xcash.foundation",
+    "url": "https://xcash.foundation/"
   },
   "private": true,
   "dependencies": {
