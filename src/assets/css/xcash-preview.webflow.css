@@ -38,11 +38,18 @@ p {
 }
 
 a {
-  color: #0081e2;
+  color: #ff6d00;
 }
 
 .body {
   background-color: #fff;
+}
+
+.col-white{
+  color: white;
+}
+.col-black{
+  color: #f1f1f1;
 }
 
 .brand {
