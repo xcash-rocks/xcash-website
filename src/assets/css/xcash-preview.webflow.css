@@ -181,7 +181,7 @@ a {
 }
 
 .section.half-height.black {
-  z-index: -2;
+  /* z-index: -2; */
   background-color: #1f1f1f;
 }
 
