@@ -67,7 +67,9 @@
 		background-color: transparent;
 }
 
-
+.green {
+	color: #7CB518;
+}
 
 .button-green {
   background-color: #7CB518;
@@ -149,4 +151,26 @@ ul.list-2 > li{
     right: 0%;
     bottom: 0%;
 		background-color: #1f1f1f !important;
+}
+.avatar-block{
+  margin-bottom: 15px;
+	text-align: center;
+}
+.avatar{
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #ff6d00;
+	text-align: center;
+}
+.people-container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.people-text {
+  text-align: center;
 }
