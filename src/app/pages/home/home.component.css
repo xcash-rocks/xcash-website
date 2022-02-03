@@ -53,15 +53,18 @@
 
 
 .button-discover {
+	border-width: 0px;
 	border-color: #1f1f1f;
+	background-color: transparent;
 }
 
 .button-discover:hover {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   border-color: #ff6d00;
   color: #1f1f1f;
-  background-color: #1f1f1f;
+  /* background-color: #1f1f1f; */
+		background-color: transparent;
 }
 
 
