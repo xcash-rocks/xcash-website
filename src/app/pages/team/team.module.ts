@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { NgxLottieViewModule } from 'ngx-lottie-view';
 
 import { TeamComponent } from './team.component';
 import { TeamRoutingModule } from './team-routing.module';
@@ -9,7 +10,8 @@ import { TeamRoutingModule } from './team-routing.module';
   imports: [
     CommonModule,
     TeamRoutingModule,
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    NgxLottieViewModule
   ],
   exports: [
     TeamComponent

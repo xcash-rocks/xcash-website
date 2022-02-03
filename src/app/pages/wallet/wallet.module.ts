@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgxLottieViewModule } from 'ngx-lottie-view';
 
 import { WalletComponent } from './wallet.component';
 import { WalletRoutingModule } from './wallet-routing.module';
@@ -7,7 +8,8 @@ import { WalletRoutingModule } from './wallet-routing.module';
 @NgModule({
   imports: [
     CommonModule,
-    WalletRoutingModule
+    WalletRoutingModule,
+    NgxLottieViewModule
   ],
   exports: [
     WalletComponent
