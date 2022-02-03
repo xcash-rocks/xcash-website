@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ScrollToTopComponent } from './widgets/scroll-to-top/scroll-to-top.component';
 
 import { NgxPageScrollModule } from 'ngx-page-scroll';
-
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 
 
@@ -25,7 +25,8 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     BrowserModule,
     AppRoutingModule,
     NgxLottieViewModule,
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    NgxPageScrollCoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
