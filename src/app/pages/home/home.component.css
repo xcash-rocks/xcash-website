@@ -34,7 +34,11 @@
   margin-top: 16px;
   text-align: center;
 }
-
+.section-dark {
+	background-color: #1f1f1f;
+	color: #fff;
+	z-index: -2;
+}
 .button-dark {
 	border-color: #1f1f1f;
 }
@@ -125,4 +129,21 @@
 }
 ul.list-2 > li{
   padding: 10px;
+}
+
+.background-animation.dark.smaller-animation {
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 70%;
+		background-color: #1f1f1f !important;
+}
+
+.background-animation.dark {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+		background-color: #1f1f1f !important;
 }
