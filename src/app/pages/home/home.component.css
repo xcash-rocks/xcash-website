@@ -19,6 +19,13 @@
 	border-color: #ff6d00;
 }
 
+.orange{
+	color: #ff6d00;
+	fill: #ff6d00;
+}
+.col-black{
+	color: #1f1f1f;
+}
 .landing-block h3 {
   margin: 0;
 }
@@ -28,7 +35,9 @@
   text-align: center;
 }
 
-.button-dark {}
+.button-dark {
+	border-color: #1f1f1f;
+}
 
 .button-dark:hover {
   border-style: solid;
@@ -38,8 +47,24 @@
   background-color: #fff;
 }
 
+
+.button-discover {
+	border-color: #1f1f1f;
+}
+
+.button-discover:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff6d00;
+  color: #1f1f1f;
+  background-color: #1f1f1f;
+}
+
+
+
 .button-green {
   background-color: #7CB518;
+	border-color: #7CB518;
 }
 .button-green:hover {
   border-style: solid;
