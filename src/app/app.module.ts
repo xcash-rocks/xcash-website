@@ -9,6 +9,8 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ScrollToTopComponent } from './widgets/scroll-to-top/scroll-to-top.component';
 
+import { NgxPageScrollModule } from 'ngx-page-scroll';
+
 
 
 
@@ -22,7 +24,8 @@ import { ScrollToTopComponent } from './widgets/scroll-to-top/scroll-to-top.comp
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxLottieViewModule
+    NgxLottieViewModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]
