@@ -2893,7 +2893,7 @@ a {
     flex-direction: column;
   }
 }
-
+/*
 @font-face {
   font-family: 'Aktivgroteskcorp';
   src: url('./assets/fonts/AktivGroteskCorp-BoldItalic.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-BoldItalic.woff') format('woff');
@@ -2949,21 +2949,21 @@ a {
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'Monumentgrotesktrial';
   src: url('./assets/fonts/MonumentGroteskTrial-BoldItalic.woff') format('woff');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'Monumentgrotesktrial';
   src: url('./assets/fonts/MonumentGroteskTrial-Heavy.woff') format('woff'), url('./assets/fonts/MonumentGroteskTrial-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
-}
+} */
 @font-face {
   font-family: 'Monumentgrotesktrial';
   src: url('./assets/fonts/MonumentGroteskTrial-Italic.woff') format('woff');
@@ -2971,20 +2971,20 @@ a {
   font-style: italic;
   font-display: swap;
 }
-@font-face {
+/* @font-face {
   font-family: 'Monumentgrotesktrial';
   src: url('./assets/fonts/MonumentGroteskTrial-HeavyItalic.woff') format('woff'), url('./assets/fonts/MonumentGroteskTrial-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
-}
-@font-face {
+} */
+/* @font-face {
   font-family: 'Monumentgrotesktrial';
   src: url('./assets/fonts/MonumentGroteskTrial-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
-}
+} */
 @font-face {
   font-family: 'Monumentgrotesktrial';
   src: url('./assets/fonts/MonumentGroteskTrial-Bold.woff') format('woff');
@@ -3013,10 +3013,10 @@ a {
   font-style: normal;
   font-display: swap;
 }
-@font-face {
+/* @font-face {
   font-family: 'Monumentgrotesktrial mono';
   src: url('./assets/fonts/MonumentGroteskTrial-Mono.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}
+} */
