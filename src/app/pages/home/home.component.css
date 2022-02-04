@@ -169,3 +169,6 @@ ul.list-2 > li{
 .people-text {
   text-align: center;
 }
+#stake {
+	border-bottom: 2px dotted #ff6d00;
+}
