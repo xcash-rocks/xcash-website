@@ -169,6 +169,12 @@ ul.list-2 > li{
 .people-text {
   text-align: center;
 }
-#stake {
+.section {
 	border-bottom: 2px dotted #ff6d00;
+}
+.background-animation {
+	z-index: 0;
+}
+.w-container{
+	z-index: 99;
 }
