@@ -1,13 +1,13 @@
-/* .navbar {
+.navbar {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #ff6d00;
-    background-color: #1f1f1f;
+    /* border-bottom: 2px solid #ff6d00;
+    background-color: #1f1f1f; */
     position: sticky;
     top: 0;
 }
-.nav-link {
+/* .nav-link {
     color: #f1f1f1;
     border-color: #1f1f1f;
 } */
