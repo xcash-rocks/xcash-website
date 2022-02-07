@@ -2064,6 +2064,9 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .round-animation {
+    margin: 20px auto;
+  }
   .brand {
     margin-top: 10px;
   }
