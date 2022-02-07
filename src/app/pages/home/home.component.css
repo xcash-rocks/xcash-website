@@ -146,21 +146,18 @@ ul.list-2 > li{
     object-fit: fill;
 		background-color: #1f1f1f;
 		position: relative;
-		height: 60vw;
 }
 .background-animation.smaller-animation {
-    left: auto;
     top: 0%;
     right: 0%;
-    bottom: auto;
     width: 70%;
 		background-color: #1f1f1f;
 }
 .background-animation.dark {
-    left: 0%;
-    top: auto;
-    right: 0%;
-    bottom: 0%;
+	left: auto;
+	top: 10%;
+	right: 0%;
+	bottom: auto;
 		background-color: #1f1f1f;
 }
 .avatar-block{
