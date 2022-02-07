@@ -18,3 +18,10 @@
       z-index: 100;
   }
 }
+
+.background-animation {
+	z-index: 0;
+}
+.w-container{
+	z-index: 50;
+}
