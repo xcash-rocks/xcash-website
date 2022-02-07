@@ -1,9 +1,10 @@
 .scroll-to-top {
     position: fixed;
-    right: 5%;
-    bottom: 5%;
+    right: 2%;
+    bottom: 2%;
     opacity: 0;
     transition: all .2s ease-in-out;
+    border: 1px solid #f1f1f1;
    }
  .show-scrollTop {
     opacity: 1;
@@ -12,5 +13,6 @@
    }
 .scroll-to-top button {
    background-color: transparent;
-   padding: 16px;
+   padding: 10px;
+
   }
