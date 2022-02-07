@@ -1146,7 +1146,7 @@ a {
   top: 0%;
   right: 0%;
   bottom: auto;
-  background-color: #000;
+  background-color: #1f1f1f;
   opacity: 1;
 }
 
@@ -1912,7 +1912,7 @@ a {
 
   .section.half-height.black {
     position: relative;
-    height: 60vw;
+    /* height: 60vw; */
   }
 
   .section.half-height.download-animation {
@@ -1959,39 +1959,39 @@ a {
     bottom: 0%;
   }
 
-  .background-animation.white.developers {
+  .background-animation.developers {
     right: -30%;
   }
 
-  .background-animation.white.news {
+  .background-animation.news {
     left: 0%;
     top: auto;
     right: 0%;
     bottom: 0%;
   }
 
-  .background-animation.white.news.smaller-animation {
+  .background-animation.news.smaller-animation {
     left: auto;
     top: auto;
     right: 0%;
     bottom: 0%;
   }
 
-  .background-animation.white.rocket-animation {
+  .background-animation.rocket-animation {
     left: 0%;
     top: 0%;
     right: 0%;
     bottom: auto;
   }
 
-  .background-animation.white.atm-animation {
+  .background-animation.atm-animation {
     left: 0%;
     top: 0%;
     right: 0%;
     bottom: auto;
   }
 
-  .background-animation.white.smaller-animation {
+  .background-animation.smaller-animation {
     left: auto;
     top: 0%;
     right: 0%;
@@ -1999,7 +1999,7 @@ a {
     width: 70%;
   }
 
-  .background-animation.white.smallest-animation {
+  .background-animation.smallest-animation {
     left: auto;
     top: 0%;
     right: 0%;
@@ -2007,7 +2007,7 @@ a {
     width: 70%;
   }
 
-  .background-animation.white.wxcash-animation {
+  .background-animation.wxcash-animation {
     left: 0%;
     top: 0%;
     right: 0%;
@@ -2217,7 +2217,8 @@ a {
   }
 
   .scroll-back-button {
-    display: none;
+    /* display: none; */
+    z-index: 100;
   }
 
   .button-content {
