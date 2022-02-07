@@ -164,6 +164,7 @@ a {
   position: relative;
   background-color: #1f1f1f;
   color: #fff;
+  z-index: -2;
 }
 
 .section.half-height {
@@ -189,12 +190,9 @@ a {
 
 .section.half-height.black {
   /* z-index: -2; */
-  background-color: #1f1f1f;
+  /* background-color: #1f1f1f; */
 }
 
-.section.half-height.black {
-  background-color: #1f1f1f;
-}
 
 .section.white {
   background-color: #fff;
