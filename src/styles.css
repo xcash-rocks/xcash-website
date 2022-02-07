@@ -164,7 +164,7 @@ a {
   position: relative;
   background-color: #1f1f1f;
   color: #fff;
-  z-index: -2;
+  z-index: 0;
 }
 
 .section.half-height {
