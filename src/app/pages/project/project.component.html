@@ -199,7 +199,7 @@
                   <a href="https://github.com/X-CASH-official/xcash-dpops" class="button-roadmap button-done w-button">See Repository</a>
                 </div>
                 <div class="roadmap-trigger w-col w-col-2">
-                  <div  (click)="divToggle('DPOS')" data-w-id="38ba44f4-2e15-a348-5c8f-a540769261d5" class="arrow-trigger w-embed">
+                  <div (click)="divToggle('DPOS')" data-w-id="38ba44f4-2e15-a348-5c8f-a540769261d5" class="arrow-trigger w-embed">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">.st0{fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:square;stroke-miterlimit:10;}</style><g><g><line class="st0" x1="8.5" y1="29" x2="50" y2="70.5"></line></g><g><line class="st0" x1="91.5" y1="29" x2="50" y2="70.5"></line></g></g></svg>
                   </div>
                 </div>
@@ -224,46 +224,46 @@
     <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="tabs w-tabs">
       <div class="tabs-menu-2 w-tab-menu">
         <a data-w-tab="Tab 1" data-w-id="2172bc24-2c69-8319-5c21-f7c83c131953" class="button-orange vertical-list w-inline-block w-tab-link w--current">
-          <div class="button-content">To Be Minted</div>
+          <div (click)="divToggle2('Minted')" class="button-content">To Be Minted</div>
         </a>
         <a data-w-tab="Tab 2" data-w-id="2172bc24-2c69-8319-5c21-f7c83c131956" class="button-orange vertical-list w-inline-block w-tab-link">
-          <div class="button-content">Airdrop</div>
+          <div (click)="divToggle2('Airdrop')" class="button-content">Airdrop</div>
         </a>
         <a data-w-tab="Tab 3" data-w-id="2172bc24-2c69-8319-5c21-f7c83c131959" class="button-orange vertical-list w-inline-block w-tab-link">
-          <div class="button-content">Company</div>
+          <div (click)="divToggle2('Company')" class="button-content">Company</div>
         </a>
         <a data-w-tab="Tab 4" data-w-id="4c104d8f-d4b0-de6a-b612-ab1343fad515" class="button-orange vertical-list w-inline-block w-tab-link">
-          <div class="button-content">Private Investors</div>
+          <div (click)="divToggle2('Investors')" class="button-content">Private Investors</div>
         </a>
         <a data-w-tab="Tab 5" data-w-id="dd38bd82-301b-c005-930d-fbba474d4ff3" class="button-orange vertical-list w-inline-block w-tab-link">
-          <div class="button-content">Team Reward</div>
+          <div (click)="divToggle2('Team')" class="button-content">Team Reward</div>
         </a>
         <a data-w-tab="Tab 6" class="button-orange vertical-list w-inline-block w-tab-link">
-          <div>Contributor Fund</div>
+          <div (click)="divToggle2('Contributor')" class="button-content">Contributor Fund</div>
         </a>
       </div>
       <div class="coin-allocation-text-container w-tab-content">
-        <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+        <div  *ngIf="divTab2 == 'Minted'" data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
           <h3 class="percentage">60%</h3>
           <p class="paragraph">XCASH are minted at every block creation by elected delegates. The reward from block creation is redistributed to voters as a ratio of their vote.</p>
         </div>
-        <div data-w-tab="Tab 2" class="w-tab-pane">
+        <div  *ngIf="divTab2 == 'Airdrop'" data-w-tab="Tab 2" class="w-tab-pane w--tab-active">
           <h3 class="percentage">14.2%</h3>
           <p class="paragraph">Has been distributed through a two-year long airdrop program, starting in 2018.<br>Now completed, these coins are part of the circulating supply.</p>
         </div>
-        <div data-w-tab="Tab 3" class="w-tab-pane">
+        <div  *ngIf="divTab2 == 'Company'" data-w-tab="Tab 3" class="w-tab-pane w--tab-active">
           <h3 class="percentage">10%</h3>
           <p class="paragraph">The company supplied is locked by <strong>X-Network</strong>, the company behind the initial funding of the X-Cash project.<br>These funds will be used by the company to further the development of X-Cash. All decisions about the unlocking of these funds will be made public.</p>
         </div>
-        <div data-w-tab="Tab 4" class="w-tab-pane">
+        <div  *ngIf="divTab2 == 'Investors'" data-w-tab="Tab 4" class="w-tab-pane w--tab-active">
           <h3 class="percentage">5%</h3>
           <p class="paragraph">The private investors fund was designed to enable large quantity investments of X-Cash in the initial steps of the project. It has now been mostly depleted.</p>
         </div>
-        <div data-w-tab="Tab 5" class="w-tab-pane">
+        <div  *ngIf="divTab2 == 'Team'" data-w-tab="Tab 5" class="w-tab-pane w--tab-active">
           <h3 class="percentage">5%</h3>
           <p class="paragraph">The team reward is a locked amount for each member of the X-Network company.<br>These rewards are locked until several market capitalization milestones are reached. Every time the market capitalization of XCASH is multiply by 10, starting at 10M USD market cap, 20% of the reward is unlocked.<br> As of today, the reward is still locked.</p>
         </div>
-        <div data-w-tab="Tab 6" class="w-tab-pane">
+        <div  *ngIf="divTab2 == 'Contributor'" data-w-tab="Tab 6" class="w-tab-pane w--tab-active">
           <h3 class="percentage">5.8%</h3>
           <p class="paragraph">The contributor fund is used for funding projects, bounties, and specific development tasks of the X-Cash project.<br>This fund is managed by the X-Cash Foundation</p>
         </div>
