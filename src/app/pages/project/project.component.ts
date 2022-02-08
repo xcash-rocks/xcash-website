@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectComponent implements OnInit {
 
   divTab = '';
+  divTab2 = 'Minted';
 
   // constructor(
   //   @Inject(PLATFORM_ID) private platformId: object) {
@@ -36,7 +37,13 @@ export class ProjectComponent implements OnInit {
       this.divTab =index;
     }
   }
-
+  divToggle2 (index){
+    if(index == this.divTab2) {
+      this.divTab2 = '';
+    }else{
+      this.divTab2 =index;
+    }
+  }
   constructor() { }
 
   ngOnInit(): void { }
