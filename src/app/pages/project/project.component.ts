@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Inject, PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
+// import { Inject, PLATFORM_ID } from '@angular/core';
+// import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-project',
@@ -9,23 +9,36 @@ import { isPlatformBrowser } from '@angular/common';
 })
 export class ProjectComponent implements OnInit {
 
-  constructor(
-    @Inject(PLATFORM_ID) private platformId: object) {
-  }
+  divTab = '';
 
-  ngOnInit(): void {
+  // constructor(
+  //   @Inject(PLATFORM_ID) private platformId: object) {
+  // }
+  //
+  // ngOnInit(): void {
+  //   if (isPlatformBrowser(this.platformId)) {
+  //     let navMain = document.getElementById('navbarCollapse');
+  //     if (navMain) {
+  //       navMain.onclick = function () {
+  //         if (navMain) {
+  //           navMain.classList.remove("show");
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
-    if (isPlatformBrowser(this.platformId)) {
-      let navMain = document.getElementById('navbarCollapse');
-      if (navMain) {
-        navMain.onclick = function () {
-          if (navMain) {
-            navMain.classList.remove("show");
-          }
-        }
-      }
+
+  divToggle(index){
+    if(index == this.divTab) {
+      this.divTab = '';
+    }else{
+      this.divTab =index;
     }
-
   }
+
+  constructor() { }
+
+  ngOnInit(): void { }
 
 }

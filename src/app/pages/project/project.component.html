@@ -61,7 +61,7 @@
         <div class="roadmap-items w-dyn-list">
           <div role="list" class="roadmap-list w-dyn-items">
             <div role="listitem" class="collection-item-coming-up w-dyn-item">
-              <div data-w-id="38ba44f4-2e15-a348-5c8f-a540769261a8" class="column-coming-up accordion-container w-row">
+              <div (click)="divToggle('SmartContracts')" data-w-id="38ba44f4-2e15-a348-5c8f-a540769261a8" class="column-coming-up accordion-container w-row">
                 <div class="roadmap-item-title w-col w-col-5">
                   <h3 class="h3-builders-item">Smart Contracts</h3>
                 </div>
@@ -73,12 +73,12 @@
                   </div>
                 </div>
               </div>
-              <div class="roadmap-description-container" style="height: 0px;">
+              <div class="roadmap-description-container"  *ngIf="divTab == 'SmartContracts'" >
                 <p class="roadmap-item-description">Full programs running completely decentralized on the web, nodes will be able to run smart contracts on the X-Cash blockchain.</p>
               </div>
             </div>
             <div role="listitem" class="collection-item-coming-up w-dyn-item">
-              <div data-w-id="38ba44f4-2e15-a348-5c8f-a540769261a8" class="column-coming-up accordion-container w-row">
+              <div (click)="divToggle('Sidechains')"  data-w-id="38ba44f4-2e15-a348-5c8f-a540769261a8" class="column-coming-up accordion-container w-row">
                 <div class="roadmap-item-title w-col w-col-5">
                   <h3 class="h3-builders-item">Sidechains</h3>
                 </div>
@@ -90,12 +90,12 @@
                   </div>
                 </div>
               </div>
-              <div class="roadmap-description-container" style="height: 0px;">
+              <div class="roadmap-description-container" *ngIf="divTab == 'Sidechains'" >
                 <p class="roadmap-item-description">Sidechains are blockchains running in parallel of the main X-Cash blockchain, enabling different characteristics for different needs.</p>
               </div>
             </div>
             <div role="listitem" class="collection-item-coming-up w-dyn-item">
-              <div data-w-id="38ba44f4-2e15-a348-5c8f-a540769261a8" class="column-coming-up accordion-container w-row">
+              <div (click)="divToggle('NFT')" data-w-id="38ba44f4-2e15-a348-5c8f-a540769261a8" class="column-coming-up accordion-container w-row">
                 <div class="roadmap-item-title w-col w-col-5">
                   <h3 class="h3-builders-item">Non-Fungible Tokens</h3>
                 </div>
@@ -107,7 +107,7 @@
                   </div>
                 </div>
               </div>
-              <div class="roadmap-description-container" style="height: 0px;">
+              <div class="roadmap-description-container" *ngIf="divTab == 'NFT'" >
                 <p class="roadmap-item-description">Hosted on special sidechains on the X-Cash network, NFT will enable the creation of collectables on their own blockchain.</p>
               </div>
             </div>
@@ -123,7 +123,7 @@
         <div class="roadmap-items w-dyn-list">
           <div role="list" class="roadmap-list w-dyn-items">
             <div role="listitem" class="collection-item-ongoing w-dyn-item">
-              <div data-w-id="38ba44f4-2e15-a348-5c8f-a540769261ba" class="column-ongoing accordion-container w-row">
+              <div (click)="divToggle('SidechainPayments')" data-w-id="38ba44f4-2e15-a348-5c8f-a540769261ba" class="column-ongoing accordion-container w-row">
                 <div class="roadmap-item-title w-col w-col-5 w-col-small-4 w-col-tiny-tiny-stack">
                   <h3 class="h3-builders-item">Sidechain Payments</h3>
                 </div>
@@ -136,7 +136,7 @@
                   </div>
                 </div>
               </div>
-              <div class="roadmap-description-container" style="height: 0px;">
+              <div class="roadmap-description-container" *ngIf="divTab == 'SidechainPayments'" >
                 <p class="roadmap-item-description">On the same basis of the Lightning Network on Bitcoin, sidechain payments enable quicker payment processing on the X-Cash blockchain.</p>
                 <a href="#" class="button-ongoing w-button">Read Whitepaper</a>
               </div>
@@ -153,7 +153,7 @@
         <div class="roadmap-items w-dyn-list">
           <div role="list" class="roadmap-list w-dyn-items">
             <div role="listitem" class="collection-item-done w-dyn-item">
-              <div data-w-id="38ba44f4-2e15-a348-5c8f-a540769261ce" class="column-done accordion-container w-row">
+              <div (click)="divToggle('wXCASH')" data-w-id="38ba44f4-2e15-a348-5c8f-a540769261ce" class="column-done accordion-container w-row">
                 <div class="roadmap-column roadmap-item-title w-col w-col-5">
                   <h3 class="h3-builders-item">wXCASH</h3>
                 </div>
@@ -166,13 +166,13 @@
                   </div>
                 </div>
               </div>
-              <div class="roadmap-description-container" style="height: 0px;">
+              <div class="roadmap-description-container" *ngIf="divTab == 'wXCASH'" >
                 <p class="roadmap-item-description">The wrapped XCASH is an ERC20 bridge for X-Cash, enabling the integration of X-Cash into the Ethereum and Polygon ecosystem. Through a secured platform within the X-Bank, we are developing a solution to swap XCASH for WXCASH on the Polygon blockchain.</p>
                 <a href="#" class="button-done w-button">Read Whitepaper</a>
               </div>
             </div>
             <div role="listitem" class="collection-item-done w-dyn-item">
-              <div data-w-id="38ba44f4-2e15-a348-5c8f-a540769261ce" class="column-done accordion-container w-row">
+              <div (click)="divToggle('Flexprivacy')" data-w-id="38ba44f4-2e15-a348-5c8f-a540769261ce" class="column-done accordion-container w-row">
                 <div class="roadmap-column roadmap-item-title w-col w-col-5">
                   <h3 class="h3-builders-item">Flexprivacy</h3>
                 </div>
@@ -185,13 +185,13 @@
                   </div>
                 </div>
               </div>
-              <div class="roadmap-description-container" style="height: 0px;">
+              <div class="roadmap-description-container" *ngIf="divTab == 'Flexprivacy'" >
                 <p class="roadmap-item-description">Flexprivacy is a unique feature enabling both public and private transactions on the same network, on a per-transaction basis. Every transaction made public are viewable on the X-Cash explorer in a similar fashion as on the Bitcoin chain.</p>
-                <a href="https://uploads-ssl.webflow.com/5f68a0704c2aa36eb05ad311/5f9c1ce815576145b32b4950_XCASH_Yellowpaper_Hybrid-tx.pdf" class="button-done w-button">Read Whitepaper</a>
+                <a href="./../../../assets/downloads/XCASH_Yellowpaper_Hybrid-tx.pdf" class="button-done w-button">Read Whitepaper</a>
               </div>
             </div>
             <div role="listitem" class="collection-item-done w-dyn-item">
-              <div data-w-id="38ba44f4-2e15-a348-5c8f-a540769261ce" class="column-done accordion-container w-row">
+              <div (click)="divToggle('DPOS')" data-w-id="38ba44f4-2e15-a348-5c8f-a540769261ce" class="column-done accordion-container w-row">
                 <div class="roadmap-column roadmap-item-title w-col w-col-5">
                   <h3 class="h3-builders-item">Delegated Proof-Of-Private-Stake</h3>
                 </div>
@@ -204,7 +204,7 @@
                   </div>
                 </div>
               </div>
-              <div class="roadmap-description-container" style="height: 0px;">
+              <div class="roadmap-description-container" *ngIf="divTab == 'DPOS'" >
                 <p class="roadmap-item-description">Delegated-Proof-Of-Private-Stake (DPOPS) is a new blockchain consensus developed on top of the cryptonote protocol to tackle the caveats of POW consensus.</p>
                 <a href="https://uploads-ssl.webflow.com/5f68a0704c2aa36eb05ad311/5f9c1cc8a3001d6d26bb5e2f_XCASH_Yellowpaper_DPoPS.pdf" class="button-done w-button">Read Whitepaper</a>
               </div>
