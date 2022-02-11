@@ -1086,21 +1086,21 @@ a {
   opacity: 0.5;
 }
 
-.background-animation.white.developers {
+.background-animation.developers {
   left: auto;
   top: 0%;
   right: -20%;
   bottom: 0%;
 }
 
-.background-animation.white.news {
+.background-animation.news {
   left: 0%;
   top: auto;
   right: auto;
   bottom: 0%;
 }
 
-.background-animation.white.news.smaller-animation {
+.background-animation.news.smaller-animation {
   left: auto;
   top: auto;
   right: 0%;
@@ -1108,7 +1108,7 @@ a {
   width: 100%;
 }
 
-.background-animation.white.rocket-animation {
+.background-animation.rocket-animation {
   left: 0%;
   top: 0%;
   right: 0%;
@@ -1116,7 +1116,7 @@ a {
   opacity: 0.4;
 }
 
-.background-animation.white.smaller-animation {
+.background-animation.smaller-animation {
   left: auto;
   top: 0%;
   right: 0%;
@@ -1124,7 +1124,7 @@ a {
   width: 70%;
 }
 
-.background-animation.white.smallest-animation {
+.background-animation.smallest-animation {
   left: auto;
   top: auto;
   right: 0%;
@@ -1132,14 +1132,14 @@ a {
   width: 50%;
 }
 
-.background-animation.white.get-started {
+.background-animation.get-started {
   left: 0%;
   top: 0%;
   right: 0%;
   bottom: auto;
 }
 
-.background-animation.white.wxcash-animation {
+.background-animation.wxcash-animation {
   left: 0%;
   top: 0%;
   right: 0%;
@@ -2390,11 +2390,11 @@ a {
     width: 70vh;
   }
 
-  .background-animation.white.atm-animation {
+  .background-animation.atm-animation {
     width: auto;
   }
 
-  .background-animation.white.get-started {
+  .background-animation.get-started {
     width: auto;
   }
 
@@ -2673,7 +2673,7 @@ a {
     background-color: #fff;
   }
 
-  .background-animation.white.rocket-animation {
+  .background-animation.rocket-animation {
     left: auto;
     top: auto;
     right: 0%;
@@ -2681,7 +2681,7 @@ a {
     width: 200%;
   }
 
-  .background-animation.white.atm-animation {
+  .background-animation.atm-animation {
     left: auto;
     top: auto;
     right: 0%;
@@ -2689,14 +2689,14 @@ a {
     width: 100%;
   }
 
-  .background-animation.white.get-started {
+  .background-animation.get-started {
     left: 0%;
     top: auto;
     right: 0%;
     bottom: 0%;
   }
 
-  .background-animation.white.wxcash-animation {
+  .background-animation.wxcash-animation {
     left: auto;
     top: auto;
     right: 0%;
