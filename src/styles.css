@@ -2081,10 +2081,11 @@ a {
   }
 
   .nav-menu {
-    height: 100%;
+    height: auto;
     margin-left: 0px;
     padding-left: 20px;
     background-color: #fff;
+    border-bottom: 2px solid #ff6d00;
   }
 
   .navbar {
@@ -2283,6 +2284,14 @@ a {
     background-color: #fff;
     color: #ff6d00;
   }
+
+  .menu-button.w--open > .w-icon-nav-menu:before {
+    content: "\00d7";
+    font-weight: bolder;
+    font-size: 28px;
+
+  }
+
 
   .list-get-started {
     color: #ff6d00;
