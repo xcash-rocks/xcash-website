@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 //import * as $ from 'jquery';
 
-declare var jQuery: any;
+//declare var jQuery: any;
 
 
 @Component({
