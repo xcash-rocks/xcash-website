@@ -12,8 +12,12 @@
   vertical-align: middle;
   width: 175px;
   height: 175px;
-  border-radius: 50%;
-  border: 1px solid #ff6d00;
+  /* border-radius: 50%;
+  border: 1px solid #ff6d00; */
+  /* -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
+  -webkit-clip-path: polygon(20% 0%, 0% 20%, 11% 49%, 0% 80%, 20% 100%, 50% 89%, 80% 100%, 100% 80%, 87% 50%, 100% 20%, 80% 0%, 50% 12%);
+  clip-path: polygon(20% 0%, 0% 20%, 11% 49%, 0% 80%, 20% 100%, 50% 89%, 80% 100%, 100% 80%, 87% 50%, 100% 20%, 80% 0%, 50% 12%);
 }
 .people-container {
   padding-right: 0px;
@@ -40,4 +44,28 @@
 }
 .team-lottie {
     width: 70%;
+}
+.team-animation{
+  left: 0%;
+  top: 0%;
+  right: auto;
+  /* bottom:  0%; */
+  width: 50%;
+  background-color: #fff;
+  opacity: 0.15;
+}
+.team-header-section{
+    height: 60vw;
+    position: relative;
+    /* display: flex; */
+    align-items: center;
+}
+.w-container {
+    /*padding-top: 15vw;
+     padding-bottom: 5vw; */
+    margin-left: auto;
+    margin-right: auto;
+    /* min-width: 940px; */
+    width: 90%;
+    max-width: 980px;
 }
