@@ -128,28 +128,33 @@
 ul.list-2 > li{
   padding: 10px;
 }
-.landing-animation {
-    left: auto;
-    top: 10%;
-    right: 0%;
-    bottom: auto;
-    width: 60%;
-		background-color: #1f1f1f;
-}
+
 #landingbox.section {
     overflow: hidden;
-    padding-top: 60px;
-    padding-bottom: 80px;
+    /* padding-top: 60px;
+    padding-bottom: 80px; */
     background-color: transparent;
     object-fit: fill;
 		background-color: #1f1f1f;
 		position: relative;
 }
-.background-animation.smaller-animation {
-    top: 0%;
-    right: 0%;
-    width: 70%;
+
+.landing-animation {
+    left: auto;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    width: 100%;
 		background-color: #1f1f1f;
+}
+@media screen and (max-width: 479px) {
+	.landing-animation {
+			left: -127%;
+	    top: auto;
+	    right: 0;
+	    bottom: 0;
+	    width: 300%;
+		}
 }
 .background-animation.dark {
 	left: auto;
