@@ -12,6 +12,12 @@ export class WalletComponent implements OnInit {
     el.scrollIntoView({behavior: 'smooth'});
 }
 
+isShowDivIf = false
+
+toggleDisplayDivIf() {  
+  this.isShowDivIf = !this.isShowDivIf;  
+}  
+
   constructor() {
 
   }
