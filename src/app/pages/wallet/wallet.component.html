@@ -23,10 +23,10 @@
       <li class="list-wallet-item">Vote for the delegate of your choice.</li>
       <li class="list-wallet-item">Check your transfer history and register addresses for easy access.</li>
     </ul>
-    <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="download-tab w-tabs">
+    <div (click)="onClickToggle()"  data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="download-tab w-tabs">
       <div class="os-menu w-tab-menu">
-        <a data-w-tab="Tab 1" class="button-orange vertical-list download-button w-inline-block w-tab-link w--current">
-          <div class="os-logo w-embed"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
+        <a data-w-tab="Tab 1" class="button-orange vertical-list download-button w-inline-block w-tab-link w--current"><!--WINDOWS Box. click this then open #bullsEye1-->
+          <div  class="os-logo w-embed"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
               <style type="text/css">
 .st0{fill:currentColor;}
 </style>
@@ -34,7 +34,7 @@
             </svg></div>
           <div class="os-text">Windows</div>
         </a>
-        <a data-w-tab="Tab 2" class="button-orange vertical-list download-button w-inline-block w-tab-link">
+        <a (click)="onClickToggle()" data-w-tab="Tab 2" class="button-orange vertical-list download-button w-inline-block w-tab-link"><!--click this bullseye2 MAC OS box-->
           <div class="os-logo w-embed"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
               <style type="text/css">
 .st0{fill:currentColor;}
@@ -46,7 +46,7 @@ c-0.8,1-1.5,2.6-1.3,4C14.1,6.4,15.7,5.6,16.6,4.4z"></path>
             </svg></div>
           <div class="os-text">MacOS</div>
         </a>
-        <a data-w-tab="Tab 3" class="button-orange vertical-list download-button w-inline-block w-tab-link">
+        <a (click)="onClickToggle()" data-w-tab="Tab 3" class="button-orange vertical-list download-button w-inline-block w-tab-link"><!--Linux box-->
           <div class="os-logo w-embed"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
               <style type="text/css">
 .st0{fill-rule:evenodd;clip-rule:evenodd;fill:currentColor;}
@@ -100,11 +100,15 @@ C10,7.8,10.1,7.9,10.3,8z"></path>
           <div class="os-text">Linux</div>
         </a>
       </div>
-      <div class="wallet-container w-tab-content">
-        <div data-w-tab="Tab 1" class="wallet-download w-tab-pane w--tab-active">
-          <div class="columns w-row">
-            <div class="download-column w-col w-col-6">
-              <div class="wallet-download-container">
+      
+      <div *ngIf="toggle" class="wallet-container w-tab-content">  <!-- #bullsEye1:  WINDOWS both wallet boxes-->
+        
+        <div data-w-tab="Tab 1" class="wallet-download w-tab-pane w--tab-active"> <!-- both wallet boxes-->
+          
+          <div class="columns w-row"> <!-- both wallet boxes-->
+            
+            <div class="download-column w-col w-col-6"> <!-- GUI wallet box--> 
+              <div class="wallet-download-container"><!-- GUI wallet box--> 
                 <h3 class="wallet-type">GUI Wallet</h3>
                 <h4 class="wallet-info">Version</h4>
                 <p class="download-info">v0.0.1-alpha</p>
@@ -113,12 +117,14 @@ C10,7.8,10.1,7.9,10.3,8z"></path>
                 <div>⚠️ This is an early access alpha release. Please read the instructions before using.</div>
                 <a href="https://github.com/X-CASH-official/desktop-wallet/releases/tag/v0.0.1-alpha" class="button-orange w-button">Download</a>
 
-
+                
 
               </div>
+              
             </div>
+            
             <div class="download-column w-col w-col-6">
-              <div class="wallet-download-container">
+              <div class="wallet-download-container"> <!-- CLI wallet box--> 
                 <h3 class="wallet-type">CLI Wallet</h3>
                 <h4 class="wallet-info">Version</h4>
                 <p class="download-info">2.0.1</p>
@@ -127,16 +133,20 @@ C10,7.8,10.1,7.9,10.3,8z"></path>
                 <a href="https://github.com/X-CASH-official/xcash-core/releases/download/2.0.1/xcash-cli-windows-2.0.1.zip" class="button-orange w-button">Download</a>
               </div>
             </div>
+         
           </div>
+        
         </div>
-        <div data-w-tab="Tab 2" class="wallet-download w-tab-pane">
+
+      
+        <div (click)="onClickToggle()"  data-w-tab="Tab 2" class="wallet-download w-tab-pane">
           <div class="columns w-row">
             <div class="download-column w-col w-col-6">
               <div class="wallet-download-container">
                 <h3 class="wallet-type">GUI Wallet</h3>
                 <h4 class="wallet-info">Version</h4>
                 <p class="download-info">v0.0.1-alpha</p>
-                <h4 class="wallet-info">SHA256</h4>
+                <h4 class="wallet-info">SHA256</h4><!--MAC-->
                 <p word-wrap="break-word" class="download-info">8486D8B06501B5A5C64C1BB03919C3EF9A5743EA9EF3F5FEDF3B719247000EAB</p>
                 <div>⚠️ This is an early access alpha release. Please read the instructions before using.</div>
                 <a href="https://github.com/X-CASH-official/desktop-wallet/releases/tag/v0.0.1-alpha" class="button-orange w-button">Download</a>
@@ -154,6 +164,7 @@ C10,7.8,10.1,7.9,10.3,8z"></path>
             </div>
           </div>
         </div>
+        
         <div data-w-tab="Tab 3" class="wallet-download w-tab-pane">
           <div class="columns w-row">
             <div class="download-column w-col w-col-6">
@@ -161,7 +172,7 @@ C10,7.8,10.1,7.9,10.3,8z"></path>
                 <h3 class="wallet-type">GUI Wallet</h3>
                 <h4 class="wallet-info">Version</h4>
                 <p class="download-info">v0.0.1-alpha</p>
-                <h4 class="wallet-info">SHA256</h4>
+                <h4 class="wallet-info">SHA256</h4> <!--lINUX-->
                 <p word-wrap="break-word" class="download-info">467260CE8061ECF67CE1353813657ADE0754ACF3DBD494CC8EB40B67B26FDFF6</p>
                 <div>⚠️ This is an early access alpha release. Please read the instructions before using.</div>
                 <a href="https://github.com/X-CASH-official/desktop-wallet/releases/tag/v0.0.1-alpha" class="button-orange w-button">Download</a>
@@ -213,7 +224,7 @@ z M16.8,4.4c0-0.4-0.3-0.8-0.8-0.8S15.3,4,15.3,4.4c0,0.4,0.3,0.8,0.8,0.8S16.8,4.9
             </svg></div>
           <div class="os-text">Android</div>
         </a>
-        <a data-w-tab="Tab 2" class="button-orange vertical-list download-button w-inline-block w-tab-link">
+        <a (click)="onClickToggle()"  data-w-tab="Tab 2" class="button-orange vertical-list download-button w-inline-block w-tab-link">
           <div class="os-logo w-embed"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
               <style type="text/css">
 .st0{fill:currentColor;}
@@ -238,7 +249,7 @@ c-0.8,1-1.5,2.6-1.3,4C14.1,6.4,15.7,5.6,16.6,4.4z"></path>
             <a href="https://github.com/X-CASH-official/android-wallet/releases/download/v1.2.2-beta/xcash-android-wallet-1.2.2-beta.apk" class="button-orange w-button">Download</a>
           </div>
         </div>
-        <div data-w-tab="Tab 2" class="wallet-download w-tab-pane">
+        <div (click)="onClickToggle()"  data-w-tab="Tab 2" class="wallet-download w-tab-pane">
           <div class="columns w-row">
             <div class="download-column w-col w-col-6">
               <div class="wallet-download-container-not-available">

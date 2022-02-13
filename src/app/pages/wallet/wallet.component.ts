@@ -12,6 +12,13 @@ export class WalletComponent implements OnInit {
     el.scrollIntoView({behavior: 'smooth'});
 }
 
+toggle : boolean = true;
+  
+  onClickToggle(){
+    this.toggle = !this.toggle;
+  }
+
+
   constructor() {
 
   }
