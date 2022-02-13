@@ -24,7 +24,8 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/X-CASH-PaperWalletGenerator.html"
             ],
             "styles": [
               "src/assets/css/normalize.css",
