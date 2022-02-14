@@ -25,7 +25,9 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/X-CASH-PaperWalletGenerator.html"
+              "src/paper-wallet-generator-testnet.html",
+              "src/paper-wallet-generator-vanity.html",
+              "src/paper-wallet-generator.html"
             ],
             "styles": [
               "src/assets/css/normalize.css",
