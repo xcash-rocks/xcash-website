@@ -12,7 +12,8 @@ import { ScrollToTopComponent } from './widgets/scroll-to-top/scroll-to-top.comp
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
-
+import {HttpClientModule} from '@angular/common/http';
+import {httpdataservice} from '../app/services/http-request.service'
 
 
 @NgModule({
@@ -26,9 +27,12 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
     AppRoutingModule,
     NgxLottieViewModule,
     NgxPageScrollModule,
-    NgxPageScrollCoreModule
+    NgxPageScrollCoreModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    httpdataservice
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
