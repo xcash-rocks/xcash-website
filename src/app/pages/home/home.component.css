@@ -181,3 +181,6 @@ ul.list-2 > li{
 .section {
 	border-bottom: 2px dotted #ff6d00;
 }
+.metrics-container {
+	background-color: #1f1f1f;
+}
