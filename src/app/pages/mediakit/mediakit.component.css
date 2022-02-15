@@ -6,3 +6,12 @@
     border-width: 1px;
     border-color: #1f1f1f;
 }
+.press-item {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    list-style-type: disc;
+}
+.press-link {
+  text-decoration: none;
+}
