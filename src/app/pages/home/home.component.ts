@@ -12,28 +12,26 @@ export class HomeComponent implements OnInit {
 
   BLOCKS_PER_DAY:number = 288; //1440;
 
+  blockchain_algorithm:string;
+  block_height:string;
+  block_reward:number;
   generated_supply:string;
   circulating_supply:string;
-  block_height:string;
-  current_blockchain_difficulty:string;
-  blockchain_algorithm:string;
-  current_blockchain_hashrate:string;
-  total_tx:string;
-  total_tx_pool:string;
-  current_estimated_blockchain_size:string;
-  blockchain_current_version:string;
-  blockchain_current_version_block_height:string;
-  blockchain_current_version_date:string;
-  blockchain_next_version:string;
-  blockchain_next_version_block_height:string;
-  blockchain_next_version_estimated_date:string;
-  block_reward:number;
-  network_hashrate_chart_title:string = "Network Hashrate Chart";
-  miningpoolchartdata:any [];
-  difficultychartdata:any [];
-  public_tx_count:number;
   private_tx_count:number;
-  htmlcode:boolean = false;
+  public_tx_count:number;
+
+  // current_estimated_blockchain_size:string;
+  // current_blockchain_difficulty:string;
+
+  // current_blockchain_hashrate:string;
+  // total_tx:string;
+  // total_tx_pool:string;
+  // network_hashrate_chart_title:string = "Network Hashrate Chart";
+  // miningpoolchartdata:any [];
+  // difficultychartdata:any [];
+
+
+  //htmlcode:boolean = false;
   // htmlcodechart:boolean = false;
 
   constructor(private httpdataservice: httpdataservice) { }
@@ -46,65 +44,59 @@ export class HomeComponent implements OnInit {
       {
         if (JSON.stringify(res).indexOf("Error") !== -1)
         {
+          this.blockchain_algorithm = "Error";
+          this.block_height = "Error";
+
           this.generated_supply = "Error";
           this.circulating_supply = "Error";
-          this.block_height = "Error";
-          this.blockchain_algorithm = "Error";
-          this.current_blockchain_difficulty = "Error";
-          this.current_blockchain_hashrate = "Error";
-          this.total_tx = "Error";
-          this.total_tx_pool = "Error";
-          this.current_estimated_blockchain_size = "Error";
-          this.blockchain_current_version = "Error";
-          this.blockchain_current_version_block_height = "Error";
-          this.blockchain_current_version_date = "Error";
-          this.blockchain_next_version = "Error";
-          this.blockchain_next_version_block_height = "Error";
-          this.blockchain_next_version_estimated_date = "Error";
+
           this.public_tx_count = 0;
           this.private_tx_count = 0;
+
+          // this.current_blockchain_difficulty = "Error";
+          // this.current_blockchain_hashrate = "Error";
+          // this.total_tx = "Error";
+          // this.total_tx_pool = "Error";
+          // this.current_estimated_blockchain_size = "Error";
+
         }
         else
         {
+          this.blockchain_algorithm = "DPOPS/CryptoNote"; //+ res["blockchain_algorithm"];
+          this.block_height = res['block_height'];
+
           this.generated_supply = res['generated_supply'];
           this.circulating_supply = res['circulating_supply'];
-          this.block_height = res['block_height'];
-          this.current_blockchain_difficulty = res['current_blockchain_difficulty'];
-          this.blockchain_algorithm = "DPOPS/CryptoNote"; //+ res["blockchain_algorithm"];
-          this.current_blockchain_hashrate = res['current_blockchain_hashrate'];
-          this.total_tx = res['total_tx'];
-          this.total_tx_pool = res['total_tx_pool'];
-          this.current_estimated_blockchain_size = res['current_estimated_blockchain_size'] != 0 ? res['current_estimated_blockchain_size'] : "Error";
-          this.blockchain_current_version = res['blockchain_current_version'];
-          this.blockchain_current_version_block_height = res['blockchain_current_version_block_height'];
-          this.blockchain_current_version_date = res['blockchain_current_version_date'];
-          this.blockchain_next_version = res['blockchain_next_version'];
-          this.blockchain_next_version_block_height = res['blockchain_next_version_block_height'];
-          this.blockchain_next_version_estimated_date = res['blockchain_next_version_estimated_date'];
+
           this.public_tx_count = res['public_tx_count'];
           this.private_tx_count = res['private_tx_count'];
+
+          // this.current_blockchain_difficulty = res['current_blockchain_difficulty'];
+          // this.current_blockchain_hashrate = res['current_blockchain_hashrate'];
+          // this.total_tx = res['total_tx'];
+          // this.total_tx_pool = res['total_tx_pool'];
+          // this.current_estimated_blockchain_size = res['current_estimated_blockchain_size'] != 0 ? res['current_estimated_blockchain_size'] : "Error";
+
         }
-        this.htmlcode = true;
+        //this.htmlcode = true;
       },
       (error) =>
       {
+        this.blockchain_algorithm = "Error";
+        this.block_height = "Error";
+
         this.generated_supply = "Error";
         this.circulating_supply = "Error";
-        this.block_height = "Error";
-        this.current_blockchain_difficulty = "Error";
-        this.blockchain_algorithm = "Error";
-        this.current_blockchain_hashrate = "Error";
-        this.total_tx = "Error";
-        this.total_tx_pool = "Error";
-        this.current_estimated_blockchain_size = "Error";
-        this.blockchain_current_version = "Error";
-        this.blockchain_current_version_block_height = "Error";
-        this.blockchain_current_version_date = "Error";
-        this.blockchain_next_version = "Error";
-        this.blockchain_next_version_block_height = "Error";
-        this.blockchain_next_version_estimated_date = "Error";
+
         this.public_tx_count = 0;
         this.private_tx_count = 0;
+
+        // this.current_blockchain_difficulty = "Error";
+        // this.current_blockchain_hashrate = "Error";
+        // this.total_tx = "Error";
+        // this.total_tx_pool = "Error";
+        // this.current_estimated_blockchain_size = "Error";
+
       }
     );
 
