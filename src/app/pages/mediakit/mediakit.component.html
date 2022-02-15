@@ -10,22 +10,19 @@
         <a href="#about" class="link-2">About Us</a>
       </li>
       <li class="get-started-item">
-        <a href="#statistics" class="link-2">Statistics</a>
+        <a  routerLink="/mediakit" fragment="statistics" class="link-2">Statistics</a>
       </li>
       <li class="get-started-item">
-        <a href="#press" class="link-2">Press Coverage</a>
+        <a  routerLink="/mediakit" fragment="press" class="link-2">Press Coverage</a>
       </li>
       <li class="get-started-item">
-        <a href="#testimonials" class="link-2">Testimonials</a>
+        <a  routerLink="/mediakit" fragment="partnerships" class="link-2">Partnerships</a>
       </li>
       <li class="get-started-item">
-        <a href="#partnerships" class="link-2">Partnerships</a>
+        <a  routerLink="/mediakit" fragment="faq" class="link-2">Frequently Asked Questions</a>
       </li>
       <li class="get-started-item">
-        <a href="#faq" class="link-2">Frequently Asked Questions</a>
-      </li>
-      <li class="get-started-item">
-        <a href="#assets" class="link-2">Visual Assets</a>
+        <a  routerLink="/mediakit" fragment="assets" class="link-2">Visual Assets</a>
       </li>
     </ul>
   </div>
@@ -36,7 +33,7 @@
   <ngx-lottie-view path="./../../../assets/documents/download.json" data-default-duration="4.4" data-duration="0" class="background-animation white smallest-animation">  </ngx-lottie-view>
   <div class="w-container">
     <h1 class="h1-jumbotron">About Us</h1>
-    <p class="h1-subtitles">X-Cash ws founded in 1018 by ....</p>
+    <p class="h1-subtitles">X-Cash was founded in 1018 by King Henry the 7th. ....</p>
   </div>
 </div>
 
@@ -46,7 +43,84 @@
   <div class="w-container">
     <h1 class="h1-jumbotron">Statistics</h1>
     <p class="h1-subtitles">The X-Cash Project gathers a worldwide community with skilled and engaged people. Join us, discuss with everyone and be a part of the community.</p>
-    <p><strong>Discord</strong><br>The X-Cash Community is mostly active on Discord, a free live chat room where long-time supporters, contributors and the founding team hangs most of the day. Feel free to join and spark up a discussion!<br></p>
+    <div class="w-row">
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Algorithm</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{blockchain_algorithm}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Block Height</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{block_height | number}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Block Time</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">5 Minutes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-row mt-20">
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Current Block Reward</h4>
+          <div class="metrics-data-container">
+            <div id="dataprice" class="metrics-currency-xcash">{{ block_reward | number }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Maximum Supply</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">100,000,000,000</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Generated Supply</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{generated_supply | number}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-row mt-20">
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Circulating Supply</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{circulating_supply | number}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Total Private Transactions</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{private_tx_count | number}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Total Public Transactions</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{public_tx_count | number}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -60,16 +134,6 @@
   </div>
 </div>
 
-
-<div id="testimonials" class="section small-section wf-section">
-  <ngx-lottie-view path="./../../../assets/documents/atm.json" data-default-duration="4.4" data-duration="0" class="background-animation white smallest-animation atm-animation">  </ngx-lottie-view>
-  <div class="container-6 w-container">
-    <h1 class="h1-jumbotron">Testimonials</h1>
-    <p class="h1-subtitles">The community is building new products and new ways to use XCASH.<br></p>
-    <p><strong>X-Payment<br></strong>A payment solution that can be instantaneously integrated on any Discord server. Send some XCASH over there, participate in the discussions and easily send funds to anyone on the same server.<br></p>
-    <p><strong>Vote and earn XCASH<br></strong>The X-Cash Network is governed by delegates elected by the community. You can use your XCASH to vote for a delegate, and be retributed for your stake.<br></p>
-  </div>
-</div>
 
 
 <div id="partnerships" class="section small-section wf-section">
