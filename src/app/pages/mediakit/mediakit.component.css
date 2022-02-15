@@ -15,3 +15,16 @@
 .press-link {
   text-decoration: none;
 }
+.background-animation.press-animation {
+    /* left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    width: 50%; */
+
+    left: auto;
+    top: auto;
+    right: 2%;
+    bottom: auto;
+    width: 30%;
+}
