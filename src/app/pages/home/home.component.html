@@ -47,6 +47,93 @@
 </div>
 
 
+<div id="metrics" class="section black wf-section">
+  <div class="w-container">
+    <h1>XCASH Metrics</h1>
+    <p class="h1-subtitles">XCASH, the native currency used for governance, creating sidechains and smart-contracts,<strong></strong> is powering the different products and services of the X-Cash blockchain.</p>
+    <div class="w-row">
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Algorithm</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{blockchain_algorithm}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Block Height</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{block_height | number}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Block Time</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">5 Minutes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-row mt-20">
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Current Block Reward</h4>
+          <div class="metrics-data-container">
+            <div id="dataprice" class="metrics-currency-xcash">{{ block_reward | number }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Maximum Supply</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">100,000,000,000</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Generated Supply</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{generated_supply | number}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-row mt-20">
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Circulating Supply</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{circulating_supply | number}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Total Private Transactions</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{private_tx_count | number}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="metrics-column w-col w-col-4">
+        <div class="metrics-container">
+          <h4>Total Public Transactions</h4>
+          <div class="metrics-data-container">
+            <div class="metrics-currency-xcash">{{public_tx_count | number}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <a href="https://coinmarketcap.com/currencies/x-cash/" class="button-orange inverse button-1 w-button">Coinmarketcap</a>
+    <a href="https://www.coingecko.com/en/coins/x-cash" class="button-orange inverse button-1 w-button">Coingecko</a>
+    <a href="https://nomics.com/assets/xcashpos-x-cash-polygon" class="button-orange inverse button-1 w-button">Nomics</a> -->
+  </div>
+</div>
 
 
 
@@ -346,44 +433,6 @@
   </div>
 </div>
 
-<!-- <div id="metrics" class="section black wf-section">
-  <div class="w-container">
-    <h1>XCASH Coin</h1>
-    <p class="h1-subtitles">XCASH, the native currency used for governance, creating sidechains and smart-contracts,<strong></strong> is powering the different products and services of the X-Cash blockchain.</p>
-    <div class="w-row">
-      <div class="metrics-column w-col w-col-4">
-        <div class="metrics-container">
-          <h4>Price</h4>
-          <div class="metrics-data-container">
-            <div class="metrics-currency">$</div>
-            <div id="dataprice" class="metrics-text">0</div>
-          </div>
-        </div>
-      </div>
-      <div class="metrics-column w-col w-col-4">
-        <div class="metrics-container">
-          <h4>Market Cap</h4>
-          <div class="metrics-data-container">
-            <div class="metrics-currency">$</div>
-            <div id="datamarketcap" class="metrics-text">0</div>
-          </div>
-        </div>
-      </div>
-      <div class="metrics-column w-col w-col-4">
-        <div class="metrics-container">
-          <h4>Circulating Supply</h4>
-          <div class="metrics-data-container">
-            <div id="datacirculating" class="metrics-text">0</div>
-            <div class="metrics-currency-xcash"> XCASH</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a href="https://coinmarketcap.com/currencies/x-cash/" class="button-dark button-1 w-button">Coinmarketcap</a>
-    <a href="https://www.coingecko.com/en/coins/x-cash" class="button-dark button-1 w-button">Coingecko</a>
-    <a href="https://nomics.com/assets/xcashpos-x-cash-polygon" class="button-dark w-button">Nomics</a>
-  </div>
-</div> -->
 
 <div id="foundation" class="section half-height middle-centered black wf-section">
   <!-- <div data-w-id="f3564922-4867-ea62-7b42-3607fabca4ea" data-animation-type="lottie" data-src="./../../../assets/documents/compositionrocket_dark_nogrid.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="7.766666666666667" data-duration="0" class="background-animation white rocket-animation"></div> -->
@@ -406,8 +455,6 @@
 
 
 <div id="exchanges" class="section half-height middle-centered black wf-section">
-  <!-- <div data-w-id="e03330d5-df9a-634c-01a4-fae8df6f7dec" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/5f5f5f0330588e2883713b14/5f68bc4cd6c9f9a92ae2bea6_atm.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="3" data-duration="0" class="background-animation white atm-animation smaller-animation"></div> -->
-
   <ngx-lottie-view path="./../../../assets/documents/actuality_dark_nogrid.json" class="background-animation dark atm-animation smaller-animation">
   </ngx-lottie-view>
 
