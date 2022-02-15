@@ -1123,7 +1123,7 @@ textarea.w-select {
   color: #222222;
 }
 .w-dropdown-link.w--current {
-  color: #0082f3;
+  /* color: #0082f3; */
 }
 .w-dropdown-link:focus {
   outline: 0;
