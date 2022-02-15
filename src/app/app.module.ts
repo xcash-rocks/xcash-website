@@ -13,7 +13,7 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 import {HttpClientModule} from '@angular/common/http';
-import {httpdataservice} from '../app/services/http-request.service'
+import {httpdataservice} from '../app/services/http-request.service';
 
 
 @NgModule({

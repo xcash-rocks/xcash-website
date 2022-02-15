@@ -57,6 +57,11 @@ const routes: Routes = [
     loadChildren: () => import('./pages/contribute/contribute.module')
       .then(mod => mod.ContributeModule)
   },
+  {
+    path: 'mediakit',
+    loadChildren: () => import('./pages/mediakit/mediakit.module')
+      .then(mod => mod.MediakitModule)
+  },
 
   // components routes
   //{ path: '', component: HomeComponent, },
