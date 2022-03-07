@@ -133,11 +133,11 @@ ul.list-2 > li{
 }
 
 .landing-animation {
-    left: auto;
+    left: 35%;
     top: auto;
     right: 0;
     bottom: 0;
-    width: 100%;
+    width: 65%;
 		background-color: #1f1f1f;
 }
 @media screen and (max-width: 479px) {

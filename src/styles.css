@@ -188,11 +188,11 @@ a {
   background-color: rgba(0, 0, 0, 0.73);
 }
 
-.section.half-height.black {
+/*.section.half-height.black {
   /* z-index: -2; */
-  /* background-color: #1f1f1f; */
+  /* background-color: #1f1f1f; 
 }
-
+*/
 
 .section.white {
   background-color: #fff;
@@ -2902,6 +2902,16 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-right {
+    text-align: right;
   }
 }
 /*
