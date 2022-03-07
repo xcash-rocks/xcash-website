@@ -190,7 +190,7 @@ a {
 
 /*.section.half-height.black {
   /* z-index: -2; */
-  /* background-color: #1f1f1f; 
+  /* background-color: #1f1f1f;
 }
 */
 
@@ -2903,88 +2903,8 @@ a {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+}
 
-  .text-center {
-    text-align: center;
-  }
-  .text-left {
-    text-align: left;
-  }
-  .text-right {
-    text-align: right;
-  }
-}
-/*
-@font-face {
-  font-family: 'Aktivgroteskcorp';
-  src: url('./assets/fonts/AktivGroteskCorp-BoldItalic.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-BoldItalic.woff') format('woff');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aktivgroteskcorp';
-  src: url('./assets/fonts/AktivGroteskCorp-Light.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aktivgroteskcorp';
-  src: url('./assets/fonts/AktivGroteskCorp-Bold.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aktivgroteskcorp';
-  src: url('./assets/fonts/AktivGroteskCorp-LightItalic.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aktivgroteskcorp';
-  src: url('./assets/fonts/AktivGroteskCorp-Medium.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aktivgroteskcorp';
-  src: url('./assets/fonts/AktivGroteskCorp-MediumItalic.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-MediumItalic.woff') format('woff');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aktivgroteskcorp';
-  src: url('./assets/fonts/AktivGroteskCorp-Regular.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Aktivgroteskcorp';
-  src: url('./assets/fonts/AktivGroteskCorp-Italic.woff2') format('woff2'), url('./assets/fonts/AktivGroteskCorp-Italic.woff') format('woff');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-} */
-/* @font-face {
-  font-family: 'Monumentgrotesktrial';
-  src: url('./assets/fonts/MonumentGroteskTrial-BoldItalic.woff') format('woff');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-} */
-/* @font-face {
-  font-family: 'Monumentgrotesktrial';
-  src: url('./assets/fonts/MonumentGroteskTrial-Heavy.woff') format('woff'), url('./assets/fonts/MonumentGroteskTrial-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-} */
 @font-face {
   font-family: 'Monumentgrotesktrial';
   src: url('./assets/fonts/MonumentGroteskTrial-Italic.woff') format('woff');
@@ -2992,20 +2912,6 @@ a {
   font-style: italic;
   font-display: swap;
 }
-/* @font-face {
-  font-family: 'Monumentgrotesktrial';
-  src: url('./assets/fonts/MonumentGroteskTrial-HeavyItalic.woff') format('woff'), url('./assets/fonts/MonumentGroteskTrial-BlackItalic.woff') format('woff');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-} */
-/* @font-face {
-  font-family: 'Monumentgrotesktrial';
-  src: url('./assets/fonts/MonumentGroteskTrial-MediumItalic.woff') format('woff');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-} */
 @font-face {
   font-family: 'Monumentgrotesktrial';
   src: url('./assets/fonts/MonumentGroteskTrial-Bold.woff') format('woff');
@@ -3034,13 +2940,7 @@ a {
   font-style: normal;
   font-display: swap;
 }
-/* @font-face {
-  font-family: 'Monumentgrotesktrial mono';
-  src: url('./assets/fonts/MonumentGroteskTrial-Mono.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-} */
+
 
 
 
@@ -3054,4 +2954,14 @@ a {
 }
 .mt-20{
   margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
 }
