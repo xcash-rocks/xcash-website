@@ -2940,8 +2940,10 @@ a {
   font-style: normal;
   font-display: swap;
 }
-
-
+/* bg colors */
+.bg-dark{
+  background-color: #1F1F1F;
+}
 /* colors */
 .xbank {
   color: #F7BF23;
