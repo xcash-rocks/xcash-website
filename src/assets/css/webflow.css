@@ -507,6 +507,7 @@ textarea.w-select {
 .w-container {
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
   /* max-width: 940px; */
   max-width: 980px;
 }
@@ -570,6 +571,7 @@ textarea.w-select {
   width: 41.66666667%;
 }
 .w-col-6 {
+  text-align: left;
   width: 50%;
 }
 .w-col-7 {
@@ -588,6 +590,7 @@ textarea.w-select {
   width: 91.66666667%;
 }
 .w-col-12 {
+  text-align: center;
   width: 100%;
 }
 .w-hidden-main {

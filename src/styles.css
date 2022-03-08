@@ -2981,3 +2981,9 @@ a {
 .text-right {
   text-align: right;
 }
+.center {
+  position:relative; left:35px; top:2px
+}
+.center2 {
+  position:relative; left:-47px; top:2px
+}
