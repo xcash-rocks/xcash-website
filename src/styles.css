@@ -2942,8 +2942,19 @@ a {
 }
 
 
-
-
+/* colors */
+.xbank {
+  color: #F7BF23;
+}
+.xpay {
+  color: #56B786;
+}
+.teal {
+  color: #1189A5;
+}
+.wxcash {
+  color: #8C52FF;
+}
 .orange{
 	color: #ff6d00;
 	fill: #ff6d00;
@@ -2952,10 +2963,13 @@ a {
 	color: #7CB518;
 	fill: #7CB518;
 }
+
+/* margin padding helpers */
 .mt-20{
   margin-top: 20px;
 }
 
+/* text align helpers */
 .text-center {
   text-align: center;
 }
