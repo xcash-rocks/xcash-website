@@ -132,6 +132,16 @@ ul.list-2 > li{
 		position: relative;
 }
 
+#listbox.section {
+  overflow: hidden;
+  /* padding-top: 60px;
+  padding-bottom: 80px; */
+  background-color: transparent;
+  object-fit: fill;
+  background-color: #1f1f1f;
+  position: relative;
+}
+
 .landing-animation {
     left: 35%;
     top: auto;

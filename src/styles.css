@@ -167,6 +167,11 @@ a {
   z-index: 0;
 }
 
+.back-black{
+  background-color: #1F1F1F;
+}
+
+
 .section.half-height {
   position: relative;
   height: 60vw;
@@ -2986,4 +2991,7 @@ a {
 }
 .center2 {
   position:relative; left:-47px; top:2px
+}
+.pos-list {
+  position:relative; left:150px; top:0
 }
