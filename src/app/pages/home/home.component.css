@@ -187,41 +187,59 @@ ul.list-2 > li{
 }
 
 
-
-
-.landing-headline {
+/* global for all width's */
+.landing-headline > h1,
+.landing-headline > h2  {
+	width: 100%;
+}
+.landing-headline  > h1 {
 	padding-top:0px;
 	padding-bottom:30px;
 	font-size: 4.8em;
 }
+.landing-headline  > h2 {
+	font-size: 1.2em;
+}
 
-
-
+/* specific for mobiles */
 @media screen and (max-width: 991px) {
 	.landing-animation {
-			left: -127%;
+			left: auto;
 	    top: auto;
 	    right: 0;
 	    bottom: 0;
-	    width: 300%;
+	    width: 80%;
 		}
-		.landing-headline {
-			font-size: 1.8em;
+		.center, .center2{
+			left: auto;
+		}
+		.landing-headline > h1 {
+			font-size: 3em;
+		}
+		.landing-headline > h2 {
+			font-size: 1.4em;
 		}
 }
 
 @media screen and (max-width: 767px) {
 	.landing-animation {
-			left: -127%;
+			left: auto;
 	    top: auto;
 	    right: 0;
 	    bottom: 0;
-	    width: 300%;
+	    width: 100%;
 		}
-		.landing-headline {
-			font-size: 3.8em;
+		.center, .center2{
+			left: auto;
+		}
+		.landing-headline > h1 {
+			font-size: 2.8em;
+		}
+		.landing-headline > h2 {
+			font-size: 1.4em;
 		}
 }
+
 
 @media screen and (max-width: 479px) {
 	.landing-animation {
@@ -231,13 +249,13 @@ ul.list-2 > li{
 	    bottom: 0;
 	    width: 100%;
 		}
-		.center{
+		.center, .center2{
 			left: auto;
-			right: auto;
-			text-align: center;
 		}
-		.landing-headline {
+		.landing-headline > h1 {
 			font-size: 2.8em;
-			background-color: #1f1f1f;
+		}
+		.landing-headline > h2 {
+			font-size: 1.4em;
 		}
 }
