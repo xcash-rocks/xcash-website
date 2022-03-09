@@ -188,10 +188,7 @@ ul.list-2 > li{
 
 
 /* global for all width's */
-.landing-headline > h1,
-.landing-headline > h2  {
-	width: 100%;
-}
+
 .landing-headline  > h1 {
 	padding-top:0px;
 	padding-bottom:30px;
@@ -200,6 +197,11 @@ ul.list-2 > li{
 .landing-headline  > h2 {
 	font-size: 1.2em;
 }
+
+.landing-teaser{
+
+}
+
 
 /* specific for mobiles */
 @media screen and (max-width: 991px) {
@@ -212,6 +214,10 @@ ul.list-2 > li{
 		}
 		.center, .center2{
 			left: auto;
+		}
+		.landing-headline > h1,
+		.landing-headline > h2  {
+			width: 100%;
 		}
 		.landing-headline > h1 {
 			font-size: 3em;
@@ -232,6 +238,10 @@ ul.list-2 > li{
 		.center, .center2{
 			left: auto;
 		}
+		.landing-headline > h1,
+		.landing-headline > h2  {
+			width: 100%;
+		}
 		.landing-headline > h1 {
 			font-size: 2.8em;
 		}
@@ -251,6 +261,10 @@ ul.list-2 > li{
 		}
 		.center, .center2{
 			left: auto;
+		}
+		.landing-headline > h1,
+		.landing-headline > h2  {
+			width: 100%;
 		}
 		.landing-headline > h1 {
 			font-size: 2.8em;
