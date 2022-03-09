@@ -150,15 +150,6 @@ ul.list-2 > li{
     width: 65%;
 		background-color: #1f1f1f;
 }
-@media screen and (max-width: 479px) {
-	.landing-animation {
-			left: -127%;
-	    top: auto;
-	    right: 0;
-	    bottom: 0;
-	    width: 300%;
-		}
-}
 .background-animation.dark {
 	left: auto;
 	top: 10%;
@@ -193,4 +184,60 @@ ul.list-2 > li{
 }
 .metrics-container {
 	background-color: #1f1f1f;
+}
+
+
+
+
+.landing-headline {
+	padding-top:0px;
+	padding-bottom:30px;
+	font-size: 4.8em;
+}
+
+
+
+@media screen and (max-width: 991px) {
+	.landing-animation {
+			left: -127%;
+	    top: auto;
+	    right: 0;
+	    bottom: 0;
+	    width: 300%;
+		}
+		.landing-headline {
+			font-size: 1.8em;
+		}
+}
+
+@media screen and (max-width: 767px) {
+	.landing-animation {
+			left: -127%;
+	    top: auto;
+	    right: 0;
+	    bottom: 0;
+	    width: 300%;
+		}
+		.landing-headline {
+			font-size: 3.8em;
+		}
+}
+
+@media screen and (max-width: 479px) {
+	.landing-animation {
+			left: 0%;
+	    top: auto;
+	    right: 0;
+	    bottom: 0;
+	    width: 100%;
+		}
+		.center{
+			left: auto;
+			right: auto;
+			text-align: center;
+		}
+		.landing-headline {
+			font-size: 2.8em;
+			background-color: #1f1f1f;
+		}
 }
