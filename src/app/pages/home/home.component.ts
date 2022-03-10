@@ -2,7 +2,7 @@
 import {Component, OnInit, AfterViewInit} from '@angular/core';
 import {httpdataservice} from '../../services/http-request.service';
 declare var anime: any;
-const word:any = 'Public'; 
+const word:any = 'Public';
 
 @Component({
   selector: 'app-home',
@@ -15,8 +15,8 @@ export class HomeComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     // Animation code goes here
-    const textWrapper:any = document.querySelector('.an-1');
-  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  //  const textWrapper:any = document.querySelector('.an-1');
+  //  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
   .add({
@@ -34,6 +34,16 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   })
+  .add({
+      targets: '.an-2',
+      scale: [4,1],
+      opacity: [0,1],
+      translateZ: 0,
+      easing: "easeInExpo",
+      duration: 950,
+      display: 'block',
+
+    })
 }
 
   BLOCKS_PER_DAY:number = 288; //1440;

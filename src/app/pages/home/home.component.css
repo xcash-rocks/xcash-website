@@ -251,7 +251,7 @@ ul.list-2 > li{
 		.landing-headline > h2 {
 			font-size: 1.4em;
 		}
-    
+
 }
 
 
@@ -305,4 +305,9 @@ ul.list-2 > li{
 		.landing-headline > h2 {
 			font-size: 1.4em;
 		}
+}
+
+.an-2 {
+  display: none;
+  opacity: hidden;
 }
