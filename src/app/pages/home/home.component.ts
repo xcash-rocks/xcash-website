@@ -1,14 +1,40 @@
 //import { Component, OnInit } from '@angular/core';
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, AfterViewInit} from '@angular/core';
 import {httpdataservice} from '../../services/http-request.service';
+declare var anime: any;
+const word:any = 'Public'; 
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements AfterViewInit {
 
+
+
+  ngAfterViewInit(): void {
+    // Animation code goes here
+    const textWrapper:any = document.querySelector('.an-1');
+  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.an-1 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.an-1',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  })
+}
 
   BLOCKS_PER_DAY:number = 288; //1440;
 

@@ -239,15 +239,19 @@ ul.list-2 > li{
 			left: auto;
 		}
 		.landing-headline > h1,
-		.landing-headline > h2  {
+    .landing-headline > h2  {
 			width: 100%;
 		}
+    #scroll-arrow-button{
+      position:relative; left:15px; top:0
+    }
 		.landing-headline > h1 {
 			font-size: 2.8em;
 		}
 		.landing-headline > h2 {
 			font-size: 1.4em;
 		}
+    
 }
 
 
@@ -266,6 +270,35 @@ ul.list-2 > li{
 		.landing-headline > h2  {
 			width: 100%;
 		}
+    #scroll-arrow-button{
+      position:relative; left:0px; top:10
+    }
+		.landing-headline > h1 {
+			font-size: 2.8em;
+		}
+		.landing-headline > h2 {
+			font-size: 1.4em;
+		}
+}
+
+@media screen and (max-width: 301px) {
+	.landing-animation {
+			left: 0%;
+	    top: auto;
+	    right: 0;
+	    bottom: 0;
+	    width: 100%;
+		}
+		.center, .center2{
+			left: auto;
+		}
+		.landing-headline > h1,
+		.landing-headline > h2  {
+			width: 100%;
+		}
+    #scroll-arrow-button{
+      position:relative; left:17px; top:10
+    }
 		.landing-headline > h1 {
 			font-size: 2.8em;
 		}
