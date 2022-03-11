@@ -14,6 +14,7 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 import {HttpClientModule} from '@angular/common/http';
 import {httpdataservice} from '../app/services/http-request.service';
+import { DatePipe } from '@angular/common';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import {httpdataservice} from '../app/services/http-request.service';
     HttpClientModule
   ],
   providers: [
-    httpdataservice
+    httpdataservice,
+    DatePipe,
   ],
   bootstrap: [AppComponent]
 })
