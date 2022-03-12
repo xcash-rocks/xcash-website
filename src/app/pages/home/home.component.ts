@@ -3,11 +3,9 @@ import {Component, OnInit, AfterViewInit} from '@angular/core';
 import {httpdataservice} from '../../services/http-request.service';
 
 
-
-
-
 declare var anime: any;
 const word:any = 'Public';
+
 
 
 
@@ -19,7 +17,10 @@ const word:any = 'Public';
 })
 export class HomeComponent implements AfterViewInit {
 
-   
+  show: boolean = true;
+
+  flag: boolean = true;
+  
 
 
   ngAfterViewInit(): void {
@@ -27,54 +28,40 @@ export class HomeComponent implements AfterViewInit {
   const textWrapper:any = document.querySelector('.an-1');
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
- 
 
-  var pubPri = [
-    'Public ',
-    'Private ' 
-  ]
-  
-  var updates = 0;
-
-anime.timeline({loop: true})
+  anime.timeline({loop: true})
   .add({
-   
     targets: '.an-1 .letter',
     scale: [4,1],
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
     duration: 950,
-    delay: (el, i) => 70*i,
-    
-    
+    delay: (el, i) => 70*i
   }).add({
     targets: '.an-1',
     opacity: 0,
     duration: 1000,
     easing: "easeOutExpo",
-    delay: 1000,
-    update: function() {
-      updates++;
-      if (updates%40 === 0){ textWrapper.innerHTML = (pubPri[0])} 
-      else if (updates%60 === 0){ textWrapper.innerHTML = (pubPri[1])}
-    }
+    delay: 1000
+  })
+  anime.timeline({loop: true})
+  .add({
+    targets: '.an-2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.an-2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
   });
-    
-    //update: function() {
-      
-      //textWrapper.innerHTML = ((pubPri[1]));
-      
-      
-   // },
-    
-    
-
-
- 
-}
-//document.getElementById("an-1").classList.toggle("hide")
-
+  }
 
   BLOCKS_PER_DAY:number = 288; //1440;
 
