@@ -36,32 +36,11 @@ export class HomeComponent implements AfterViewInit {
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 950,
+    duration: 3000,
     delay: (el, i) => 70*i
-  }).add({
-    targets: '.an-1',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
+
   })
-  anime.timeline({loop: true})
-  .add({
-    targets: '.an-2 .letter',
-    scale: [4,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 950,
-    delay: (el, i) => 70*i
-  }).add({
-    targets: '.an-2',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-  }
+}
 
   BLOCKS_PER_DAY:number = 288; //1440;
 
