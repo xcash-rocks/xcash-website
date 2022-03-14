@@ -4,11 +4,28 @@ import {httpdataservice} from '../../services/http-request.service';
 
 
 declare var anime: any;
-const word:any = 'Public';
 
+var varian = document.getElementById('anid')
 
+var changer: string
 
+const showfunc = function(varian){
+  for(let i = 0; i < 10; i++ ){
+  if (i%2 === 0){
+    setTimeout(function(){
+    },3000);
+    changer = 'Public'
+  }
+  if (i%2 === 0){
+    setTimeout(function(){
+    },3000);
+    changer = 'Private'
+  if (i === 10){
+    i = 0
+  }
+}
 
+showfunc(varian)
 
 @Component({
   selector: 'app-home',
@@ -17,10 +34,29 @@ const word:any = 'Public';
 })
 export class HomeComponent implements AfterViewInit {
 
-  show: boolean = true;
+  //show: boolean = true;
 
-  flag: boolean = true;
-  
+
+//messageSuccess: boolean;
+
+//getan1= document.getElementsByClassName("an-1");
+//getan2 = document.getElementsByClassName("an-2")
+
+
+//showMessageSuccess(){
+
+  //var that = this;
+  //this.messageSuccess = true;
+
+  //setTimeout(function(){
+    //that.messageSuccess = false;
+  //},3000);
+
+//}
+
+
+
+//anSelector = [document.getElementsByClassName(JSON.stringify ("an-1")), document.getElementsByClassName("an-2")]
 
 
   ngAfterViewInit(): void {
