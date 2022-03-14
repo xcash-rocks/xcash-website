@@ -5,78 +5,71 @@ import {httpdataservice} from '../../services/http-request.service';
 
 declare var anime: any;
 
-var varian = document.getElementById('anid')
+var varian = document.getElementById('anid');
 
-var changer: string
+var changer: string;
 
 const showfunc = function(varian){
   for(let i = 0; i < 10; i++ ){
-  if (i%2 === 0){
-    setTimeout(function(){
-    },3000);
-    changer = 'Public'
-  }
-  if (i%2 === 0){
-    setTimeout(function(){
-    },3000);
-    changer = 'Private'
-  if (i === 10){
-    i = 0
+    if (i%2 === 0){
+      setTimeout(function(){},3000);
+      changer = 'Public'
+    }
+    if (i%2 === 0){
+      setTimeout(function(){},3000);
+      changer = 'Private'
+      if (i === 10){
+        i = 0
+      }
+    }
   }
 }
 
-showfunc(varian)
+
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
+
 export class HomeComponent implements AfterViewInit {
 
   //show: boolean = true;
+  //messageSuccess: boolean;
+  //getan1= document.getElementsByClassName("an-1");
+  //getan2 = document.getElementsByClassName("an-2")
 
+  //showMessageSuccess(){
+    //var that = this;
+    //this.messageSuccess = true;
+    //setTimeout(function(){
+      //that.messageSuccess = false;
+    //},3000);
+  //}
 
-//messageSuccess: boolean;
-
-//getan1= document.getElementsByClassName("an-1");
-//getan2 = document.getElementsByClassName("an-2")
-
-
-//showMessageSuccess(){
-
-  //var that = this;
-  //this.messageSuccess = true;
-
-  //setTimeout(function(){
-    //that.messageSuccess = false;
-  //},3000);
-
-//}
-
-
-
-//anSelector = [document.getElementsByClassName(JSON.stringify ("an-1")), document.getElementsByClassName("an-2")]
+  //anSelector = [document.getElementsByClassName(JSON.stringify ("an-1")), document.getElementsByClassName("an-2")]
 
 
   ngAfterViewInit(): void {
     // Animation code goes here
-  const textWrapper:any = document.querySelector('.an-1');
-  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    const textWrapper:any = document.querySelector('.an-1');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+    anime.timeline({loop: true})
+      .add({
+        targets: '.an-1 .letter',
+        scale: [4,1],
+        opacity: [0,1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 3000,
+        delay: (el, i) => 70*i
 
-  anime.timeline({loop: true})
-  .add({
-    targets: '.an-1 .letter',
-    scale: [4,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 3000,
-    delay: (el, i) => 70*i
+      })
 
-  })
-}
+  }
 
   BLOCKS_PER_DAY:number = 288; //1440;
 
@@ -88,27 +81,16 @@ export class HomeComponent implements AfterViewInit {
   private_tx_count:number;
   public_tx_count:number;
 
-  // current_estimated_blockchain_size:string;
-  // current_blockchain_difficulty:string;
-
-  // current_blockchain_hashrate:string;
-  // total_tx:string;
-  // total_tx_pool:string;
-  // network_hashrate_chart_title:string = "Network Hashrate Chart";
-  // miningpoolchartdata:any [];
-  // difficultychartdata:any [];
+  changer:string;
 
 
-  //htmlcode:boolean = false;
-  // htmlcodechart:boolean = false;
-
-
-  
   constructor(private httpdataservice: httpdataservice) { }
 
 
-  
+
   ngOnInit() {
+
+    showfunc(varian);
 
     clearInterval(this.httpdataservice.Timer);
     this.httpdataservice.get_request(this.httpdataservice.SERVER_HOSTNAME_AND_PORT_GET_BLOCKCHAIN_DATA).subscribe(
@@ -124,13 +106,6 @@ export class HomeComponent implements AfterViewInit {
 
           this.public_tx_count = 0;
           this.private_tx_count = 0;
-
-          // this.current_blockchain_difficulty = "Error";
-          // this.current_blockchain_hashrate = "Error";
-          // this.total_tx = "Error";
-          // this.total_tx_pool = "Error";
-          // this.current_estimated_blockchain_size = "Error";
-
         }
         else
         {
@@ -142,15 +117,7 @@ export class HomeComponent implements AfterViewInit {
 
           this.public_tx_count = res['public_tx_count'];
           this.private_tx_count = res['private_tx_count'];
-
-          // this.current_blockchain_difficulty = res['current_blockchain_difficulty'];
-          // this.current_blockchain_hashrate = res['current_blockchain_hashrate'];
-          // this.total_tx = res['total_tx'];
-          // this.total_tx_pool = res['total_tx_pool'];
-          // this.current_estimated_blockchain_size = res['current_estimated_blockchain_size'] != 0 ? res['current_estimated_blockchain_size'] : "Error";
-
         }
-        //this.htmlcode = true;
       },
       (error) =>
       {
@@ -162,17 +129,10 @@ export class HomeComponent implements AfterViewInit {
 
         this.public_tx_count = 0;
         this.private_tx_count = 0;
-
-        // this.current_blockchain_difficulty = "Error";
-        // this.current_blockchain_hashrate = "Error";
-        // this.total_tx = "Error";
-        // this.total_tx_pool = "Error";
-        // this.current_estimated_blockchain_size = "Error";
-
       }
     );
 
-    
+
     this.httpdataservice.get_request(this.httpdataservice.SERVER_HOSTNAME_AND_PORT_GET_LAST_BLOCK_DATA).subscribe(
       (res) =>
       {
@@ -191,11 +151,6 @@ export class HomeComponent implements AfterViewInit {
       }
     );
 
-
-
-    
   }
 
-
-  
 }
