@@ -5,7 +5,7 @@ import {httpdataservice} from '../../services/http-request.service';
 
 declare var anime: any;
 
-var varian = document.getElementById('anid');
+var varian = document.getElementById('anid')!;
 
 var changer: string;
 
@@ -13,18 +13,17 @@ const showfunc = function(varian){
   for(let i = 0; i < 10; i++ ){
     if (i%2 === 0){
       setTimeout(function(){},3000);
-      changer = 'Public'
+      changer = 'Public';
     }
-    if (i%2 === 0){
+    if (i%3 === 0){
       setTimeout(function(){},3000);
-      changer = 'Private'
+      changer = 'Private';
       if (i === 10){
         i = 0
       }
     }
   }
 }
-
 
 
 @Component({
@@ -46,7 +45,7 @@ export class HomeComponent implements AfterViewInit {
   private_tx_count:number;
   public_tx_count:number;
 
-  changer:string;
+  changer:string = 'Private';
 
   constructor(private httpdataservice: httpdataservice) { }
 
@@ -68,23 +67,38 @@ export class HomeComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
 
-    showfunc(varian);
+    //showfunc(varian);
+    for(let i = 0; i < 10; i++ ){
+      if (i%2 === 0){
+        setTimeout(function(){},3000);
+        this.changer = 'Public';
+        console.log("Public");
+      }
+      if (i%3 === 0){
+        setTimeout(function(){},3000);
+        this.changer = 'Private';
+        console.log("Private");
+        if (i === 10){
+          i = 0
+        }
+      }
+    }
 
     // Animation code goes here
-    const textWrapper:any = document.querySelector('.an-1');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-    anime.timeline({loop: true})
-      .add({
-        targets: '.an-1 .letter',
-        scale: [4,1],
-        opacity: [0,1],
-        translateZ: 0,
-        easing: "easeOutExpo",
-        duration: 3000,
-        delay: (el, i) => 70*i
-
-      })
+    // const textWrapper:any = document.querySelector('.an-1');
+    // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    //
+    // anime.timeline({loop: true})
+    //   .add({
+    //     targets: '.an-1 .letter',
+    //     scale: [4,1],
+    //     opacity: [0,1],
+    //     translateZ: 0,
+    //     easing: "easeOutExpo",
+    //     duration: 3000,
+    //     delay: (el, i) => 70*i
+    //
+    //   })
 
   }
 
