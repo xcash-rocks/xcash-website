@@ -9,7 +9,7 @@ var varian = document.getElementById('anid')!;
 
 var changer: string;
 
-const showfunc = function(varian){
+/* const showfunc = function(varian){
   for(let i = 0; i < 10; i++ ){
     if (i%2 === 0){
       setTimeout(function(){},3000);
@@ -20,10 +20,11 @@ const showfunc = function(varian){
       changer = 'Private';
       if (i === 10){
         i = 0
+        
       }
     }
   }
-}
+} */
 
 
 @Component({
@@ -84,27 +85,33 @@ export class HomeComponent implements AfterViewInit {
       }
     }
 
-    // Animation code goes here
-    // const textWrapper:any = document.querySelector('.an-1');
-    // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-    //
-    // anime.timeline({loop: true})
-    //   .add({
-    //     targets: '.an-1 .letter',
-    //     scale: [4,1],
-    //     opacity: [0,1],
-    //     translateZ: 0,
-    //     easing: "easeOutExpo",
-    //     duration: 3000,
-    //     delay: (el, i) => 70*i
-    //
-    //   })
+     // Animation code goes here
+     const textWrapper:any = document.querySelector('.an-1');
+     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    
+     anime.timeline({loop: true})
+       .add({
+         targets: '.an-1 .letter',
+         scale: [4,1],
+         opacity: [0,1],
+         translateZ: 0,
+         easing: "easeOutExpo",
+         duration: 3000,
+         delay: (el, i) => 70*i,
+         
+    //update: function() {
 
+      //textWrapper.innerHTML = ((pubPri[1]));
+    
+       })
+ 
   }
 
 
 
   ngOnInit() {
+
+    
 
 
 

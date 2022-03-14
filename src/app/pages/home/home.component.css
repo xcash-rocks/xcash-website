@@ -312,11 +312,34 @@ ul.list-2 > li{
   opacity: hidden;
 }
 
-.enlarge-wcol{
+.enlarge-xx{
 	
 	font-size: xx-large;
-	text-align: left;
-	
+}
+
+#desktop-scroll-arrow-button{
+	position:relative; left:17px; top:10
+  }
+
+.enlarge-x{
+
+	font-size: x-large;
 
 }
 
+.large{
+
+	font-size: large;
+
+}
+
+.list-align-left{
+
+	position:relative; left:-260px; top:-20;
+
+}
+
+.underline{
+	text-decoration: underline; color: #ff6d00;
+
+}
