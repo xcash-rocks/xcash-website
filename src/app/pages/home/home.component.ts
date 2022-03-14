@@ -36,6 +36,20 @@ const showfunc = function(varian){
 
 export class HomeComponent implements AfterViewInit {
 
+  BLOCKS_PER_DAY:number = 288; //1440;
+
+  blockchain_algorithm:string;
+  block_height:string;
+  block_reward:number;
+  generated_supply:string;
+  circulating_supply:string;
+  private_tx_count:number;
+  public_tx_count:number;
+
+  changer:string;
+
+  constructor(private httpdataservice: httpdataservice) { }
+
   //show: boolean = true;
   //messageSuccess: boolean;
   //getan1= document.getElementsByClassName("an-1");
@@ -53,6 +67,9 @@ export class HomeComponent implements AfterViewInit {
 
 
   ngAfterViewInit(): void {
+
+    showfunc(varian);
+
     // Animation code goes here
     const textWrapper:any = document.querySelector('.an-1');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -71,26 +88,11 @@ export class HomeComponent implements AfterViewInit {
 
   }
 
-  BLOCKS_PER_DAY:number = 288; //1440;
-
-  blockchain_algorithm:string;
-  block_height:string;
-  block_reward:number;
-  generated_supply:string;
-  circulating_supply:string;
-  private_tx_count:number;
-  public_tx_count:number;
-
-  changer:string;
-
-
-  constructor(private httpdataservice: httpdataservice) { }
-
 
 
   ngOnInit() {
 
-    showfunc(varian);
+
 
     clearInterval(this.httpdataservice.Timer);
     this.httpdataservice.get_request(this.httpdataservice.SERVER_HOSTNAME_AND_PORT_GET_BLOCKCHAIN_DATA).subscribe(
