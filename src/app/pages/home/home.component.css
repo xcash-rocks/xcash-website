@@ -352,3 +352,15 @@ ul.list-2 > li{
 	overflow: hidden;
 	position: absolute;
 }
+
+.computing-text-align{
+
+	position:relative; left:270px; top:0;
+
+}
+
+.pos-heading{
+
+	position:relative; left:-130px; top:0;
+
+}
