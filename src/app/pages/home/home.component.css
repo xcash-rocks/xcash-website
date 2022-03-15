@@ -414,3 +414,29 @@ ul.list-2 > li{
 	height: 1600px;
 
 }
+
+.asterix-hide{
+	color:#1f1f1f
+
+}
+
+.actua-pos{
+	position:absolute; left:1260px; top:70;
+	width:1200px;
+	height:auto
+}
+.pos-usethem{
+	position:absolute; left:1100px; top:-80;
+	width:1650px;
+	height:auto
+}
+.pos-rocket{
+	position:absolute; left:600px; top:0;
+	width:1670px;
+	height:auto
+}
+
+.pos-xgreen{
+	position:absolute; left:20px; top:15;
+
+}
