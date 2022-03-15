@@ -406,3 +406,11 @@ ul.list-2 > li{
 	position:absolute; left:26px; top:215;
 
 }
+
+.pos-woman-svg{
+
+	position:absolute; left:900; top:-50;
+	width: 1400px;
+	height: 1600px;
+
+}
