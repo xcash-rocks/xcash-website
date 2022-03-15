@@ -364,3 +364,21 @@ ul.list-2 > li{
 	position:relative; left:-130px; top:0;
 
 }
+
+.pos-votebox{
+
+	position:relative; left:22px; top:0;
+
+}
+
+.pos-abs{
+
+	position:absolute; left:0px; top:0;
+
+}
+
+.pos-down{
+
+	position:absolute; left:36px; top:219;
+
+}

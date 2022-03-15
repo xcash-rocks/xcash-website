@@ -4,6 +4,7 @@ import {httpdataservice} from '../../services/http-request.service';
 import anime from 'animejs/lib/anime.es.js';
 
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -30,8 +31,8 @@ export class HomeComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
 
-      anime({
-          targets: '.slidingHorizontal span',
+     anime({
+          targets: '.slidingHorizontal span ',
         keyframes: [
           {translateX: -50, opacity: 0, duration:0},
           {translateX: 0, opacity:1, duration:500},
@@ -39,10 +40,23 @@ export class HomeComponent implements AfterViewInit {
         ],
         easing: 'linear',
         delay: anime.stagger(2500, {start: 0}),
-        loop: true
+        loop: true,
+        
       });
 
   }
+
+  an2 = anime({
+    targets: '.square',
+    left: '50%'
+  });
+   
+  an3 = anime({
+    targets: '.square',
+    backgroundColor: '#f96'
+  });
+  
+
 
 
 

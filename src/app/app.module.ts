@@ -17,11 +17,13 @@ import {httpdataservice} from '../app/services/http-request.service';
 import { DatePipe } from '@angular/common';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
     ScrollToTopComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -29,11 +31,13 @@ import { DatePipe } from '@angular/common';
     NgxLottieViewModule,
     NgxPageScrollModule,
     NgxPageScrollCoreModule,
-    HttpClientModule
+    HttpClientModule,
+  
+  
   ],
   providers: [
     httpdataservice,
-    DatePipe,
+    DatePipe
   ],
   bootstrap: [AppComponent]
 })
