@@ -377,6 +377,12 @@ ul.list-2 > li{
 
 }
 
+.pos-abs-move{
+
+	position:absolute; left:-58px; top:-45;
+
+}
+
 .pos-down{
 
 	position:absolute; left:36px; top:219;
