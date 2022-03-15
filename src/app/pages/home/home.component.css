@@ -383,8 +383,26 @@ ul.list-2 > li{
 
 }
 
+.pos-abs-green{
+
+	position:absolute; left:23px; top:0;
+
+}
+
 .pos-down{
 
 	position:absolute; left:36px; top:219;
+
+}
+
+.pos-leaf{
+
+	position:absolute; left:20px; top:19;
+
+}
+
+.pos-leaf-text{
+
+	position:absolute; left:26px; top:215;
 
 }
