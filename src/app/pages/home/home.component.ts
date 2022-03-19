@@ -2,6 +2,8 @@
 import {Component, OnInit, AfterViewInit} from '@angular/core';
 import {httpdataservice} from '../../services/http-request.service';
 import anime from 'animejs/lib/anime.es.js';
+import { DatePipe } from '@angular/common';
+//import { ChangeDetectorRef } from '@angular/core';
 
 
 
@@ -26,8 +28,8 @@ export class HomeComponent implements AfterViewInit {
 
 
 
-  constructor(private httpdataservice: httpdataservice) { }
-
+  constructor(private httpdataservice: httpdataservice, public datepipe: DatePipe) { } //private changeRef: ChangeDetectorRef
+  
 
   ngAfterViewInit(): void {
 
@@ -45,6 +47,12 @@ export class HomeComponent implements AfterViewInit {
       });
 
   }
+
+  currentDateTime =this.datepipe.transform((new Date), 'dd/MM/yyyy h:mm:ss' );
+  //this.changeRef.detectChanges();
+  
+
+
 
   an2 = anime({
     targets: '.square',
@@ -84,9 +92,12 @@ export class HomeComponent implements AfterViewInit {
 
           this.generated_supply = res['generated_supply'];
           this.circulating_supply = res['circulating_supply'];
+          //this.changeRef.detectChanges();
 
           this.public_tx_count = res['public_tx_count'];
+          //this.changeRef.detectChanges();
           this.private_tx_count = res['private_tx_count'];
+          //this.changeRef.detectChanges();
         }
       },
       (error) =>

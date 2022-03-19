@@ -1,0 +1,62 @@
+What's left for desktop view:
+
+Homepage
+
+Section 1: 
+
+- Raise position + increase size of 'Welcome to Web3's...'
+- Public/ Private redo?
+- move 'Discover X-Cash' arrow down and enlarge text
+
+Section 2:
+
+- is final SVG for this section?
+- 'conscious one' doesn't look right somehow
+
+Section 3: 
+
+- 'X-Cash provides' enlarge? 
+- add more to list + keep items to one line
+- change SVG?
+
+Section 4:
+
+- increase size of ' XCASH is the native...'
+- Revise text content
+
+Section 5:
+
+-Revise text
+- add text colours?
+
+Section 6:
+
+- Revise text
+
+Section 7:
+
+-Revise text
+
+Section 8: 
+
+-Revise text
+
+Section 9:
+
+-Revise text and review header colours
+
+Section 10: 
+
+- Revise text
+
+Section 11: 
+
+- Revise text
+- colour wxcash purple?
+
+Section 12:
+
+- Revise text
+
+- Colour x-bank teal?
+
