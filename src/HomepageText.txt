@@ -1,0 +1,159 @@
+X-Cash provides:
+
+Private/Public choice
+Decentralized, anonymous, & fair governance
+Dynamic block sizes: Breathing blocks 
+Decentralized database
+
+Decentralized layer 2s
+Multi-language Smart contracts
+Cross-chain interoperability
+Python library
+
+JS library
+dAPPS
+NFTs
+X-DEX
+
+Instant payments
+anonymous voting protocol
+Social account tipping 
+Merchant system
+
+String CTs
+
+----
+
+Key Features
+
+X-Cash is a developer-friendly open source project, with an energy-efficent blockchain built with a security-first & modularly upgradable design philosophy.
+
+Born from Monero's codebase in 2018, the X-Cash blockchain has evolved to bring new features to the private cryptocurrency space. 
+To modernise Monero for the Web3, the following technological pillars were built upon:
+
+Public/Private
+Transactions
+Like cash, you retain control.
+
+Private Delegated Proof Of Stake
+Ground up redesign of DPOS with an optimised CryptoNote
+
+Decentralized Side-chains
+Supercharged security in all areas of our expansive network
+
+X-Green
+Energy-efficient & Sustainable
+
+----
+
+Public/Private Transactions
+
+The end user is the ultimate authority on how their funds are managed, and we provide tools for the user.
+
+Private/ Public send
+One single wallet on our blockchain can be used to perform public and private transaction at the discretion of the user. 
+This enables anonymity to be used when privacy is needed while allowing for transparent transactions when required.
+
+Private/ Public receive
+X-Cash offers the choice to receive only private or only public transactions to an address, and of course just like private send, 
+unconditional transactions are the default setting.
+
+Private Stake
+‍Always putting the user experience first, X-Cash is the first blockchain to offer this feature with such a high level of ease from the user perspective.
+
+Secured & Unfalsifiable
+Private and public transactions are cryptographically signed in large fixed ring sized transactions.
+
+----
+
+Delegated
+Proof-of-Private-Stake
+
+Built to remove scaling limitations, while enhancing overall security, X-Cash's blockchain expands processing capabilities through its Private implementation of DPOS, thus enabling 
+the crypto playground for all to coalesce.
+
+Staking
+The X-Cash Public Network is secured by delegates, elected in their position by XCASH holders. By providing your vote through a stake in XCASH, 
+you are electing a representative to secure the network and forge new blocks, which will in return split the block reward with you.
+
+DBFT
+‍The unique implementation of DBFT into the consensus process enables the X-Cash blockchain to become immune to forks, henceforth instantly validating new transactions.
+
+Randomized Block Producer Selection
+The selection of the next delegate in charge of forging a block is completely randomized through the use of Verifiable Random Functions (VRF), increasing the security of the delegates by preventing attacks to the next block producer.
+
+Stake Delegation with Reserve Proofs
+Instead of sending your stake to another wallet to vote toward a delegate, you are providing a cryptographic reserve proof of your funds to your delegate, meaning that you keep complete control of your stake at all times. 
+
+----
+
+Decentralized Sidechains
+
+
+X-Cash's true innovation relies in its capacity to spawn new blockchains on demand. Because these blockchain are directly hosted by the delegates, they are secured, customizable, 
+& economical.
+
+No hardware needed
+A sidechain is a full blockchain which is hosted by the delegates. This means that contrary to traditional blockchains, you do not need to rent your own infrastructure.
+‍
+Easy to code and customizable
+The deployment of a sidechain is fully automated and does not require extensive coding skills. Thanks to X-Blockchain modules, you can even choose an already customized blockchain that
+matches your needs.
+
+Symmetrically secure
+All nodes operate side chains with implicit consent from all other nodes as part of X-Cash's inherited security model.
+
+Technological arms race
+Delegate nodes will be concurrently in a race to secure the highest spec system resources in order to achieve the block rewards for appending decentralised database entries of time
+sensitive-transactions by:
+
+#1 Maintaining low network latency and competitive CPU and RAM to be able to process incoming txs, and parse then store tx data.
+#2 Maintaining appropriate network speed to be able to sync with the rest of our nodes.
+
+Cost effective and scalable
+Because a sidechain is your blockchain, you can set how many delegates will host it and how many sidechains you will need. Therefore, sidechains can perfectly match and grow with your 
+needs which makes them cost effective. 
+
+----
+
+X-Green
+
+(Green + Clean) + Blockchain = X-Cash
+
+An Energy-Efficient Algorithm.
+Unlike Proof-of-Work blockchains like Bitcoin or Ethereum, or POS blockchains which require wallets to remain open, X-Cash's Private DPOS requires significantly less 
+energy making it the ideal platform for building eco-friendly blockchain applications.
+
+Eco proofs
+Our use of reserve proofs free devices from obligation to remain open in order to receive stake rewards, therefore giving the voted for delegate the task of distributing rewards:
+reward status can be verified by plugging into our delegate explorer API, or with a third-party integration.
+
+Extremely low 
+Through our internal monitoring, we concluded that X-Cash's blockchain uses the equivalent of < 4 Toasters using the following workings:
+
+[Show workings here]
+
+however, while we're confident that this estimate is accurate, we encourage you to dispute this claim and if a more accurate counter assessment is made (with 
+demonstrable workings) then we will update the figures along with workings: and give you credit where it is due.
+
+----
+
+Stake and earn passive income
+
+Earn more XCASH with your computer off!
+
+Staking
+The days of constantly checking that your computer is up staking are long gone. With only 2million xcash you can vote for a delegate, 
+(need to describe delegate stuff in another bullet point) turn off your computer and enjoy your worry-free day.
+
+DBFT
+‍LOREM IPSUM
+
+Randomized Block Producer Selection
+With the presence of Verifiable random functions (VRF), you can rest assured that you have equal chance of receiving a stake with any other
+staking wallet. VRF force true random and unanticipatable delegate block producer selection, which also bolsters our network's security by removing
+the chance of attack on the next elected delegate node. 
+
+Stake Delegation with Reserve Proofs
+Instead of sending your stake to another wallet to vote toward a delegate, you are providing a cryptographic reserve proof of your funds to your delegate, 
+meaning that you keep complete control of your stake at all times. 
