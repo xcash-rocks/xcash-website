@@ -143,8 +143,8 @@ ul.list-2 > li{
 }
 
 .landing-animation {
-    left: 35%;
-    top: auto;
+    left: 36%;
+    top: 215px;
     right: 0;
     bottom: 0;
     width: 65%;
@@ -314,7 +314,7 @@ ul.list-2 > li{
 
 .enlarge-xx{
 
-	font-size: xx-large;
+	font-size: 2.4em;
 }
 
 #desktop-scroll-arrow-button{
@@ -439,4 +439,21 @@ ul.list-2 > li{
 .pos-xgreen{
 	position:absolute; left:20px; top:15;
 
+}
+.pos-boysit{
+	position:absolute; left:-700px; top:-190px;
+	width:auto;
+	height:1500px
+}
+.pos-boysit2{
+	position:absolute; left:-5000px; top:-1820px;
+	width:auto;
+	height:5000px
+}
+.pos-wholebox{
+	position:relative; top:45px;
+}
+
+.pos-provides{
+	position:absolute; left:1200px; top:-60px;
 }
