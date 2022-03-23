@@ -123,7 +123,7 @@
 }
 
 ul.list-2 > li::before{
-	content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	content: "■ ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
 	color: #ff6d00; /* Change the color */
 	font-weight: bold; /* If you want it to be bold */
 	display: inline-block; 
