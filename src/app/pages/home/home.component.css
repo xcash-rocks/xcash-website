@@ -117,9 +117,23 @@
   font-size: 1.4rem;
   line-height: 2rem;
   font-weight: bold;
+  list-style: none;
+  
+
 }
+
+ul.list-2 > li::before{
+	content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: #ff6d00; /* Change the color */
+	font-weight: bold; /* If you want it to be bold */
+	display: inline-block; 
+	width: 1em; 
+	margin-left: -1em;
+}
+
 ul.list-2 > li{
-  padding: 10px;
+  padding: 8.5px;
+  
 }
 
 #landingbox.section {
