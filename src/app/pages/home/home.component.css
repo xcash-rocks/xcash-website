@@ -118,22 +118,23 @@
   line-height: 2rem;
   font-weight: bold;
   list-style: none;
-  
-
 }
 
 ul.list-2 > li::before{
-	content: "■ ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	content: "■";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
 	color: #ff6d00; /* Change the color */
 	font-weight: bold; /* If you want it to be bold */
-	display: inline-block; 
-	width: 1em; 
-	margin-left: -1em;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1.5em;
+	PADDING-bottom: 0.6em;
 }
-
+.consensus-item {
+    list-style-type: none;
+}
 ul.list-2 > li{
   padding: 8.5px;
-  
+
 }
 
 .list-2-small-txt{
@@ -141,22 +142,22 @@ ul.list-2 > li{
 	line-height: 1rem;
 	font-weight: bold;
 	list-style: none;
-	
-  
+
+
   }
-  
+
   ul.list-2-small-txt > li::before{
 	  content: "■ ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
 	  color: #ff6d00; /* Change the color */
 	  font-weight: bold; /* If you want it to be bold */
-	  display: inline-block; 
-	  width: 1em; 
+	  display: inline-block;
+	  width: 1em;
 	  margin-left: -1em;
   }
-  
+
   ul.list-2-small-txt > li{
 	padding: 8.5px;
-	
+
   }
 
 #landingbox.section {
@@ -372,7 +373,9 @@ ul.list-2 > li{
 
 .list-align-left{
 
-	position:relative; left:-260px; top:-20;
+	/* position:relative; left:-260px; top:-20; */
+	text-align: left;
+	margin-bottom: 2rem;
 
 }
 
@@ -493,4 +496,9 @@ ul.list-2 > li{
 
 .pos-provides{
 	position:absolute; left:1200px; top:-60px;
+}
+@media screen and (max-width: 1300px) {
+	.pos-provides{
+		display: none;
+	}
 }
