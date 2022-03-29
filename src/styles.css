@@ -2022,7 +2022,7 @@ a {
   transform: scale(1.06);
 }
 
-.nowblack
+/* .nowblack */
 
 @media screen and (min-width: 1920px) {
   .section.half-height {
