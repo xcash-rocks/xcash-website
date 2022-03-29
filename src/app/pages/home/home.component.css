@@ -8,6 +8,7 @@
 }
 
 
+
 .landing-block {
 	display: flex;
 	/* min-height: 100px; */
@@ -292,6 +293,21 @@ ul.list-2 > li{
 
 }
 
+.pos-move-right{
+	position:relative; left:61px;
+}
+
+.pos-move-right-bc{
+	position:relative; left:33px;
+}
+
+.pos-move-right-cml{
+	position:relative; left:38px;
+}
+
+.pos-move-right-wxcash-exchange{
+	position:relative; left:60px;
+}
 
 @media screen and (max-width: 479px) {
 	.landing-animation {
