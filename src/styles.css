@@ -478,6 +478,94 @@ a {
   background-color: #1f1f1f;
 }
 
+.button-black {
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1f1f1f;
+  background-color: #1f1f1f;
+  -webkit-transition: all 200ms cubic-bezier(.455, .03, .515, .955);
+  transition: all 200ms cubic-bezier(.455, .03, .515, .955);
+  color: #1f1f1f;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-black:hover {
+  background-color: #ff6d00;
+  color: #fff;
+}
+
+.button-black.vertical-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.button-black.vertical-list:hover {
+  background-color: #ff6d00;
+  color: #fff;
+}
+
+.button-black.vertical-list.w--current {
+  background-color: #ff6d00;
+  color: #fff;
+}
+
+.button-black.vertical-list.download-button {
+  margin-top: 0px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.button-black.vertical-list.download-button.outside-link {
+  width: 28%;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.button-black.vertical-list.hidden {
+  display: none;
+}
+
+.button-black.button-1 {
+  margin-right: 40px;
+}
+
+.button-black.inverse {
+  background-color: #1f1f1f;
+  border-color: #fa741c;
+  color: #fa741c;
+}
+
+.button-black.inverse:hover {
+  background-color: #242424;
+  color: #ff6d00;
+}
+
+.button-black.inverse.button-1.on-black:hover {
+  background-color: #1f1f1f;
+}
+
 .wallet-container {
   overflow: visible;
   -webkit-box-flex: 1;
@@ -1933,6 +2021,8 @@ a {
   -ms-transform: scale(1.02);
   transform: scale(1.06);
 }
+
+.nowblack
 
 @media screen and (min-width: 1920px) {
   .section.half-height {
