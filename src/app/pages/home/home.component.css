@@ -309,6 +309,10 @@ ul.list-2 > li{
 	position:relative; left:60px;
 }
 
+.change-font{
+	color: #fa741c;
+}
+
 @media screen and (max-width: 479px) {
 	.landing-animation {
 			left: 0%;
