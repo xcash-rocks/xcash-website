@@ -59,6 +59,9 @@
   color: #1f1f1f;
   /* background-color: #1f1f1f; */
 	background-color: transparent;
+	-webkit-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.06);
 }
 .button-green {
   background-color: #7CB518;
@@ -521,4 +524,19 @@ ul.list-2 > li{
 	.pos-provides{
 		display: none;
 	}
+}
+
+.move-bubble{
+	position:absolute;top:416px;left: 1480px;
+	width: 370px
+}
+
+.move-bubble-section{
+	position:absolute;top:371px;left:400px;
+
+}
+
+.pos-goFurther{
+	position:absolute;top:230px; left:950px
+
 }
