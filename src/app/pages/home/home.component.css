@@ -543,18 +543,20 @@ ul.list-2 > li > span{
 
 }
 .pos-boysit{
-	position:absolute; left:-21%; top:-9%;
-	width:auto;
-	height:1500px
+	position:absolute;
+	/* left:-21%; top:-9%; */
+	left: 50%;
+	bottom: 0%;
+	width:1200px;
 }
 .pos-boysit2{
 	position:absolute; left:-5000px; top:-1820px;
 	width:auto;
 	height:5000px
 }
-.pos-wholebox{
+/* .pos-wholebox{
 	position:relative; top:45px;
-}
+} */
 
 .pos-provides{
 	position:absolute; left:1200px; top:-60px;
@@ -562,10 +564,12 @@ ul.list-2 > li > span{
 @media screen and (max-width: 1300px) {
 	.pos-boysit{
 
-		position:fixed;
-		orientation: left;
-
-		width: auto;
+		position:absolute;
+		/* orientation: left; */
+		left: 25%;
+		bottom: 20%;
+		/* width: auto; */
+		width:1500px;
 
 	}
 	.pos-provides{
