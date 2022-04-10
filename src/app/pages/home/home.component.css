@@ -140,7 +140,10 @@ ul.list-2 > li{
   padding: 8.5px;
 
 }
+ul.list-2 > li > span{
+  padding-left: 10px;
 
+}
 .list-2-small-txt{
 	font-size: 1rem;
 	line-height: 1rem;
@@ -282,7 +285,7 @@ ul.list-2 > li{
 
 		position:fixed;
 				orientation: left;
-		
+
 				width: auto;
 
 	}
@@ -349,13 +352,13 @@ ul.list-2 > li{
 		}
 		.pos-boysit{
 
-		
-		
+
+
 				position:fixed;
 				orientation: left;
-		
+
 				width: auto;
-	
+
 		}
     #scroll-arrow-button{
       position:relative; left:0px; top:10
@@ -381,11 +384,11 @@ ul.list-2 > li{
 		orientation: left;
 
 	    width: auto;
-		
-		
+
+
 		}
 
-	
+
 		.center, .center2{
 			left: auto;
 		}
@@ -508,9 +511,9 @@ ul.list-2 > li{
 
 .pos-woman-svg{
 
-	position:absolute; left:900; top:-50;
-	width: 1400px;
-	height: 1600px;
+	position:absolute; right:0%; bottom: -10%;
+	/* width: 1400px;
+	height: 1600px; */
 
 }
 
@@ -581,10 +584,19 @@ ul.list-2 > li{
 }
 
 .pos-goFurther{
-	position:absolute;top:230px; left:950px
+	/* position:absolute;top:230px; left:950px */
 
 }
 
 .discord-resize{
 	width:100px
+}
+@media screen and (max-width: 479px) {
+	.list-2 {
+	  font-size: 1rem;
+	  line-height: 1.2rem;
+	  font-weight: bold;
+	  list-style: none;
+		padding-left: 20px;
+	}
 }
