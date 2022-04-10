@@ -247,6 +247,14 @@ ul.list-2 > li{
 
 /* specific for mobiles */
 @media screen and (max-width: 991px) {
+	.pos-boysit{
+
+		position:fixed;
+		orientation: left;
+
+		width: auto;
+
+	}
 	.landing-animation {
 			left: auto;
 	    top: auto;
@@ -270,6 +278,14 @@ ul.list-2 > li{
 }
 
 @media screen and (max-width: 767px) {
+	.pos-boysit{
+
+		position:fixed;
+				orientation: left;
+		
+				width: auto;
+
+	}
 	.landing-animation {
 			left: auto;
 	    top: auto;
@@ -331,6 +347,16 @@ ul.list-2 > li{
 		.landing-headline > h2  {
 			width: 100%;
 		}
+		.pos-boysit{
+
+		
+		
+				position:fixed;
+				orientation: left;
+		
+				width: auto;
+	
+		}
     #scroll-arrow-button{
       position:relative; left:0px; top:10
     }
@@ -350,6 +376,16 @@ ul.list-2 > li{
 	    bottom: 0;
 	    width: 100%;
 		}
+	.pos-boysit{
+		position:relative;
+		orientation: left;
+
+	    width: auto;
+		
+		
+		}
+
+	
 		.center, .center2{
 			left: auto;
 		}
@@ -504,7 +540,7 @@ ul.list-2 > li{
 
 }
 .pos-boysit{
-	position:absolute; left:-700px; top:-190px;
+	position:absolute; left:-21%; top:-9%;
 	width:auto;
 	height:1500px
 }
@@ -521,6 +557,14 @@ ul.list-2 > li{
 	position:absolute; left:1200px; top:-60px;
 }
 @media screen and (max-width: 1300px) {
+	.pos-boysit{
+
+		position:fixed;
+		orientation: left;
+
+		width: auto;
+
+	}
 	.pos-provides{
 		display: none;
 	}

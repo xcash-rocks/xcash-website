@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   zoomAndPan="magnify"
+   viewBox="0 0 1440 809.999993"
+   height="1080"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.0"
+   id="svg858"
+   sodipodi:docname="xcashLeafWire.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview860"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="0.58177083"
+     inkscape:cx="960"
+     inkscape:cy="540.59087"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg858" />
+  <defs
+     id="defs846">
+    <clipPath
+       id="id1">
+      <path
+         d="M 385 36.925781 L 742 36.925781 L 742 590 L 385 590 Z M 385 36.925781 "
+         clip-rule="nonzero"
+         id="path843" />
+    </clipPath>
+  </defs>
+  <path
+     fill="rgb(98.039246%, 45.489502%, 10.978699%)"
+     d="M 1027.738281 56.394531 C 987.5625 162.539062 858.371094 153.433594 739.925781 249.164062 C 705.148438 277.28125 687.804688 312.894531 681.21875 349.273438 C 720.453125 389.867188 712.863281 554.839844 712.863281 554.839844 C 712.863281 554.839844 715.386719 512.96875 729.785156 446.871094 C 756.316406 324.984375 935.007812 238.917969 935.007812 238.917969 C 935.007812 238.917969 689.265625 390.746094 749.632812 589.609375 C 804.503906 483.6875 897.542969 522.136719 978.5625 435.007812 C 1098.132812 306.414062 1047.1875 106.847656 1027.738281 56.394531 "
+     fill-opacity="1"
+     fill-rule="nonzero"
+     id="path848"
+     style="fill:none;fill-opacity:1;stroke:#fa741c;stroke-opacity:1;stroke-width:4.96913384;stroke-miterlimit:4;stroke-dasharray:none" />
+  <g
+     clip-path="url(#id1)"
+     id="g852"
+     style="fill:none;fill-opacity:1;stroke:#fa741c;stroke-opacity:1;stroke-width:4.96913384;stroke-miterlimit:4;stroke-dasharray:none">
+    <path
+       fill="rgb(98.039246%, 45.489502%, 10.978699%)"
+       d="M 426.660156 36.785156 C 458.664062 145.679688 588.175781 146.425781 698.996094 250.882812 C 758.238281 306.738281 742.710938 392.566406 726.257812 451.730469 C 715.3125 491.046875 716.652344 521.839844 712.863281 554.839844 C 697.632812 354.339844 505.265625 225.851562 505.265625 225.851562 C 505.265625 225.851562 738.761719 395.914062 663.464844 589.609375 C 616.789062 479.824219 521.113281 511.085938 446.941406 418.046875 C 337.484375 280.726562 403.445312 85.617188 426.660156 36.785156 "
+       fill-opacity="1"
+       fill-rule="nonzero"
+       id="path850"
+       style="fill:none;fill-opacity:1;stroke:#fa741c;stroke-opacity:1;stroke-width:4.96913384;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+  <path
+     fill="rgb(33.729553%, 71.759033%, 52.549744%)"
+     d="M 1303.476562 447.429688 C 1205.734375 505.042969 1110.675781 417.019531 958.417969 417.492188 C 822.914062 417.898438 769.195312 572.316406 769.441406 617.976562 C 849.34375 491.070312 1116.953125 531.6875 1116.953125 531.6875 C 1116.953125 531.6875 830.316406 496.148438 752.960938 689.027344 C 862.035156 640.816406 910.53125 729.0625 1028.21875 711.871094 C 1201.933594 686.488281 1287.074219 498.960938 1303.476562 447.429688 "
+     fill-opacity="1"
+     fill-rule="nonzero"
+     id="path854"
+     style="fill:none;fill-opacity:1;stroke:#fa741c;stroke-opacity:1;stroke-width:4.96913384;stroke-miterlimit:4;stroke-dasharray:none" />
+  <path
+     fill="rgb(33.729553%, 71.759033%, 52.549744%)"
+     d="M 110.4375 447.429688 C 208.167969 505.042969 303.226562 417.019531 455.480469 417.492188 C 591 417.898438 644.707031 572.316406 644.460938 617.976562 C 564.554688 491.070312 296.949219 531.6875 296.949219 531.6875 C 296.949219 531.6875 583.585938 496.148438 660.949219 689.027344 C 551.863281 640.816406 503.371094 729.0625 385.691406 711.871094 C 211.980469 686.488281 126.839844 498.960938 110.4375 447.429688 "
+     fill-opacity="1"
+     fill-rule="nonzero"
+     id="path856"
+     style="fill:none;fill-opacity:1;stroke:#fa741c;stroke-opacity:1;stroke-width:4.96913384;stroke-miterlimit:4;stroke-dasharray:none" />
+</svg>
