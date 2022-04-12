@@ -428,10 +428,11 @@ ul.list-2 > li > span{
 	margin:0%;
 }
 .pip-style{
-	position:relative;
-	right:0%;
-	top:30%;
-	margin:0%;
+		position:relative; left:0%; top:0%;
+		width: 35%;
+		margin:0%;
+		float:right
+
 }
 
 @media screen and (max-width: 301px) {
@@ -442,13 +443,10 @@ ul.list-2 > li > span{
 	    bottom: 0;
 	    width: 100%;
 		}
-	.pos-boysit{
-		position:relative;
-		orientation: left;
-
+		.pos-boysit{
+			position:relative;
+			orientation: left;
 	    width: auto;
-
-
 		}
 
 		.leaf-svg-enlarge{
