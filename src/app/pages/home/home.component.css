@@ -586,8 +586,10 @@ ul.list-2 > li > span{
 }
 
 .actua-pos{
-	position:absolute; left:1260px; top:70;
-	width:1200px;
+	position:absolute;
+	right:-15%;
+	bottom:0px;
+	width:50%;
 	height:auto
 }
 .pos-usethem{
