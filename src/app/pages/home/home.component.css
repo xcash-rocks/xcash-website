@@ -417,22 +417,18 @@ ul.list-2 > li > span{
 	position:relative;left: 1.2%;
 }
 
-.floaty-right{
-	float: right;
-	width: 35%;
-}
 .wallet-style{
 	position:relative;
 	right:0%;
 	top:0%;
 	margin:0%;
+	float: right;
 }
 .pip-style{
-		position:relative; left:0%; top:0%;
-		width: 35%;
-		margin:0%;
-		float:right
-
+	position:relative; left:0%; top:0%;
+	width: 35%;
+	margin:0%;
+	float:right
 }
 
 @media screen and (max-width: 301px) {
