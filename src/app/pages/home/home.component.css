@@ -374,10 +374,10 @@ ul.list-2 > li > span{
 
 .pos-logo-list{
 	position:relative; top:-50%;left:-27.2%;
-	
+
 	width:43%; height:auto;
 	margin: 1.9%;
-	
+
 }
 
 .leaf-svg-enlarge{
@@ -387,7 +387,7 @@ ul.list-2 > li > span{
 
 .pos-logo-metrics{
 
-	
+
 	width:43%; height:auto; position: relative; left:-3%;
 	margin: 3%;
 }
@@ -399,7 +399,7 @@ ul.list-2 > li > span{
 	position:relative;left:-29%; top:10%;
 	padding: top;
 	margin: 0%;
-	
+
 	border:10
 }
 
@@ -418,7 +418,7 @@ ul.list-2 > li > span{
 }
 
 .wallet-style{
-	position:relative;left:40%; top:0%;
+	position:relative; left:20%; top:0%;
 	width: 35%;
 	margin:0%;
 	float:right
