@@ -424,6 +424,14 @@ ul.list-2 > li > span{
 	float:right
 }
 
+.pip-style{
+		position:relative; left:0%; top:0%;
+		width: 35%;
+		margin:0%;
+		float:right
+	
+}
+
 @media screen and (max-width: 301px) {
 	.landing-animation {
 			left: 0%;
