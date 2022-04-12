@@ -429,7 +429,7 @@ ul.list-2 > li > span{
 		width: 35%;
 		margin:0%;
 		float:right
-	
+
 }
 
 @media screen and (max-width: 301px) {
@@ -440,13 +440,10 @@ ul.list-2 > li > span{
 	    bottom: 0;
 	    width: 100%;
 		}
-	.pos-boysit{
-		position:relative;
-		orientation: left;
-
+		.pos-boysit{
+			position:relative;
+			orientation: left;
 	    width: auto;
-
-
 		}
 
 		.leaf-svg-enlarge{
