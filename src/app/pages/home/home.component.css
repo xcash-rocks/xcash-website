@@ -424,6 +424,21 @@ ul.list-2 > li > span{
 	margin:0%;
 	float: right;
 }
+.dex-style{
+	position:relative;
+	right:0%;
+	top:0%;
+	margin:0%;
+	width:40%;
+	float: right;
+}
+
+.text-big{
+	font-size: 3rem;
+	padding:20%;
+	
+}
+
 .pip-style{
 	position:relative; left:0%; top:0%;
 	width: 35%;
