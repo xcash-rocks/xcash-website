@@ -9,6 +9,24 @@
     
 }
 
+.pos-overlay-drop{
+  position:fixed;top:76.5%;left:1.51%
+}
+
+.pos-overlay-svg{
+  position:fixed;top:88.5%;left:-5%;
+
+  opacity: 100;
+  color:#fa741c;
+  background-color:#1f1f1f;
+  transform: rotate(360);
+  
+}
+
+.button-svg{
+  width:30%
+}
+
 .white{
   color:f1f1f1
 }
@@ -22,9 +40,7 @@
   -o-transform:rotate(90deg); /* Opera */}
  
 
-.pos-overlay-drop{
-  position:fixed;top:40.5%;left:1.51%
-}
+
 
 .example-list {
     width: 100px;

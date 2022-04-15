@@ -1,8 +1,7 @@
-<button class="pos-overlay" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
- <span class="white">W<br>A<br>L<br>L<br>E<br>T<br>S</span>
+<button class="pos-overlay-svg" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+ <img class="button-svg" src="\assets\images\wallet_clean.svg">
     
  </button>
- 
 
  <ng-template 
  cdkConnectedOverlay 
@@ -12,11 +11,7 @@
  cdkConnectedOverlayBackdropClass="cdk-overlay-transparent-backdrop"
  [cdkConnectedOverlayHasBackdrop]="true"
  (backdropClick)="isOpen = false"  
- (overlayOutsideClick)="isOpen = false"
- 
-
-
- >
+ (overlayOutsideClick)="isOpen = false">
 
     <ul class="example-list pos-overlay-drop">
        <li><a href="#wallets">GUI</a></li>
