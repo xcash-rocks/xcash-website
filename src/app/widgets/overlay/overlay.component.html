@@ -1,0 +1,26 @@
+<button class="pos-overlay" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+ <span class="white">Wallets</span>
+    
+ </button>
+ 
+
+ <ng-template 
+ cdkConnectedOverlay 
+ [cdkConnectedOverlayOrigin]="trigger" 
+ [cdkConnectedOverlayOpen]="isOpen"
+ cdkConnectedOverlayBackdropClass="cdk-overlay-transparent-backdrop"
+ [cdkConnectedOverlayHasBackdrop]="true" 
+ (backdropClick)="isOpen = false"  
+ (overlayOutsideClick)="isOpen = false"
+ 
+
+
+ >
+
+    <ul class="example-list pos-overlay-drop">
+       <li><a href="#wallets">GUI</a></li>
+       <li><a href="#wallets">CLI</a></li>
+       <li><a href="#wallets">Mobile</a></li>
+    </ul>
+</ng-template>
+

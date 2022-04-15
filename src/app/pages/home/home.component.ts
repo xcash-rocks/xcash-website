@@ -3,7 +3,10 @@ import {Component, OnInit, AfterViewInit} from '@angular/core';
 import {httpdataservice} from '../../services/http-request.service';
 import anime from 'animejs/lib/anime.es.js';
 import { DatePipe } from '@angular/common';
-//import { ChangeDetectorRef } from '@angular/core';
+import { Overlay, OverlayRef } from "@angular/cdk/overlay";
+import { ComponentPortal } from "@angular/cdk/portal";
+import { OverlayComponent } from 'src/app/widgets/overlay/overlay.component';
+
 
 
 
@@ -15,6 +18,8 @@ import { DatePipe } from '@angular/common';
 
 
 export class HomeComponent implements AfterViewInit {
+
+  overlayRef: OverlayRef | undefined;
 
   BLOCKS_PER_DAY:number = 288; //1440;
 
@@ -28,8 +33,18 @@ export class HomeComponent implements AfterViewInit {
 
 
 
-  constructor(private httpdataservice: httpdataservice, public datepipe: DatePipe) { } //private changeRef: ChangeDetectorRef
+  constructor(private httpdataservice: httpdataservice, public datepipe: DatePipe, private overlay: Overlay) { } //private changeRef: ChangeDetectorRef
   
+  open() {
+    // We create the overlay
+    this.overlayRef = this.overlay.create();
+    //Then we create a portal to render a component
+    const componentPortal = new ComponentPortal(OverlayComponent);
+    // We add a custom CSS class to our overlay
+    this.overlayRef.addPanelClass("example-list");
+    //We render the portal in the overlay
+    this.overlayRef.attach(componentPortal);
+}
 
   ngAfterViewInit(): void {
 

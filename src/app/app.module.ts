@@ -15,6 +15,8 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import {HttpClientModule} from '@angular/common/http';
 import {httpdataservice} from '../app/services/http-request.service';
 import { DatePipe } from '@angular/common';
+import { OverlayComponent } from './widgets/overlay/overlay.component';
+import { OverlayModule } from "@angular/cdk/overlay";
 
 
 
@@ -22,7 +24,8 @@ import { DatePipe } from '@angular/common';
   declarations: [
     AppComponent,
     NotFoundComponent,
-    ScrollToTopComponent
+    ScrollToTopComponent,
+    OverlayComponent
     
   ],
   imports: [
@@ -32,6 +35,7 @@ import { DatePipe } from '@angular/common';
     NgxPageScrollModule,
     NgxPageScrollCoreModule,
     HttpClientModule,
+    OverlayModule,
   
   
   ],
