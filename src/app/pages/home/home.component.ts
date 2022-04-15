@@ -36,13 +36,9 @@ export class HomeComponent implements AfterViewInit {
   constructor(private httpdataservice: httpdataservice, public datepipe: DatePipe, private overlay: Overlay) { } //private changeRef: ChangeDetectorRef
   
   open() {
-    // We create the overlay
     this.overlayRef = this.overlay.create();
-    //Then we create a portal to render a component
     const componentPortal = new ComponentPortal(OverlayComponent);
-    // We add a custom CSS class to our overlay
     this.overlayRef.addPanelClass("example-list");
-    //We render the portal in the overlay
     this.overlayRef.attach(componentPortal);
 }
 

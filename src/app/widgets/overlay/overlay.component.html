@@ -1,5 +1,5 @@
 <button class="pos-overlay" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
- <span class="white">Wallets</span>
+ <span class="white">W<br>A<br>L<br>L<br>E<br>T<br>S</span>
     
  </button>
  
@@ -8,8 +8,9 @@
  cdkConnectedOverlay 
  [cdkConnectedOverlayOrigin]="trigger" 
  [cdkConnectedOverlayOpen]="isOpen"
+ hasBackdrop="true"
  cdkConnectedOverlayBackdropClass="cdk-overlay-transparent-backdrop"
- [cdkConnectedOverlayHasBackdrop]="true" 
+ [cdkConnectedOverlayHasBackdrop]="true"
  (backdropClick)="isOpen = false"  
  (overlayOutsideClick)="isOpen = false"
  

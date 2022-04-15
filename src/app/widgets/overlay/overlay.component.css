@@ -2,7 +2,7 @@
     position:fixed;top:40%;
     size-adjust:100%;
     opacity: 100;
-    border: 1px solid #fa741c;
+    border: 5px solid #fa741c;
     color:#fa741c;
     background-color:#1f1f1f;
     transform: rotate(360);
@@ -23,16 +23,16 @@
  
 
 .pos-overlay-drop{
-  position:fixed;top:42.5%
+  position:fixed;top:40.5%;left:1.51%
 }
 
 .example-list {
     width: 100px;
-    border: solid 1px #ccc;
-    border-radius: 5px;
-    background: #fff;
+    border: solid 5px #fa741c;
+    border-radius: 4px;
+    background: #1f1f1f;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
   }
   
