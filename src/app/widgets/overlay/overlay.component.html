@@ -1,5 +1,5 @@
-<button class="pos-overlay-svg" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
- <img class="button-svg" src="\assets\images\wallet_clean.svg">
+<button class="pos-overlay-svg mobileHide" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
+ <img class="button-svg mobileHide" src="\assets\images\wallet_clean.svg">
     
  </button>
 
@@ -13,7 +13,7 @@
  (backdropClick)="isOpen = false"  
  (overlayOutsideClick)="isOpen = false">
 
-    <ul class="example-list pos-overlay-drop">
+    <ul class="example-list pos-overlay-drop mobileHide">
        <li><a href="#wallets">GUI</a></li>
        <li><a href="#wallets">CLI</a></li>
        <li><a href="#wallets">Mobile</a></li>

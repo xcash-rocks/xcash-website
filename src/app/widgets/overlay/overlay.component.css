@@ -18,8 +18,8 @@
 
   opacity: 100;
   color:#fa741c;
-  background-color:#1f1f1f;
-  transform: rotate(360);
+  background-color:transparent;
+
   
 }
 
@@ -62,3 +62,24 @@
   .example-list > li:last-child {
     border-bottom: none;
   }
+
+
+  
+
+  @media screen and (max-width: 301px)
+   {  .mobileHide { 
+     display: none;
+    }}
+
+    @media screen and (max-width: 479px)
+    {  .mobileHide { 
+      display: none;
+     }}
+     @media screen and (max-width: 767px)
+     {  .mobileHide { 
+       display: none;
+      }}
+      @media screen and (max-width: 991px)
+      {  .mobileHide { 
+        display: none;
+       }}
