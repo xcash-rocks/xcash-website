@@ -258,6 +258,19 @@ ul.list-2 > li > span{
 		width: auto;
 
 	}
+
+	.slide-replace{
+		display:visible;
+		visibility: visible;
+		width:100%
+	}
+
+	.slidingHorizontal{
+		display:none
+	}
+	.pos-heading{
+		display:none
+	}
 	.landing-animation {
 			left: auto;
 	    top: auto;
@@ -288,6 +301,18 @@ ul.list-2 > li > span{
 
 				width: auto;
 
+	}
+	.slide-replace{
+		display:visible;
+		visibility: visible;
+		width:100%
+	}
+
+	.slidingHorizontal{
+		display:none
+	}
+	.pos-heading{
+		display:none
 	}
 	.landing-animation {
 			left: auto;
@@ -350,6 +375,19 @@ ul.list-2 > li > span{
 		.landing-headline > h2  {
 			width: 100%;
 		}
+		.slide-replace{
+			display:visible;
+			visibility: visible;
+			width:100%
+		}
+
+		.slidingHorizontal{
+			display:none
+		}
+		.pos-heading{
+			display:none
+		}
+
 		.pos-boysit{
 
 
@@ -676,6 +714,18 @@ ul.list-2 > li > span{
 	.pos-provides{
 		display: none;
 	}
+	.slide-replace{
+		display:visible;
+		visibility: visible;
+		width:100%
+	}
+
+	.slidingHorizontal{
+		display:none
+	}
+	.pos-heading{
+		display:none
+	}
 }
 
 .move-bubble{
@@ -703,5 +753,17 @@ ul.list-2 > li > span{
 	  font-weight: bold;
 	  list-style: none;
 		padding-left: 20px;
+	}
+	.slide-replace{
+		display:visible;
+		visibility: visible;
+		width:100%
+	}
+
+	.slidingHorizontal{
+		display:none
+	}
+	.pos-heading{
+		display:none
 	}
 }
