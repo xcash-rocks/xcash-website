@@ -446,6 +446,16 @@ ul.list-2 > li > span{
 	float:right
 }
 
+
+@media (min-width: 991px) and (max-width: 3000px) {
+	.slide-replace{
+		display:none;
+		visibility: hidden;
+	}
+}
+
+
+
 @media screen and (max-width: 301px) {
 	.landing-animation {
 			left: 0%;
@@ -466,7 +476,18 @@ ul.list-2 > li > span{
 			margin:3%
 		}
 
+		.slide-replace{
+			display:visible;
+			visibility: visible;
+			width:100%
+		}
 
+		.slidingHorizontal{
+			display:none
+		}
+		.pos-heading{
+			display:none
+		}
 		.center, .center2{
 			left: auto;
 		}
