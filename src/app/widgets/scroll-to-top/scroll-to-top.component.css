@@ -9,7 +9,7 @@
  .show-scrollTop {
     opacity: 1;
     transition: all .2s ease-in-out;
-    background-color: transparent
+    background-color: #1f1f1f
    }
 .scroll-to-top button {
    background-color: transparent;
