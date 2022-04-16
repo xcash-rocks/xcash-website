@@ -461,7 +461,14 @@ ul.list-2 > li > span{
 	top:0%;
 	margin:0%;
 	float: right;
+	width:25%
 }
+.wxcash-style{
+	position:absolute;
+	top:18%;
+	left:64%;
+}
+
 .dex-style{
 	position:relative;
 	right:0%;
@@ -646,9 +653,14 @@ ul.list-2 > li > span{
 
 }
 
+.pos-metrics{
+	position: relative;left:-31%;top:-7%;
+
+}
+
 .pos-woman-svg{
 
-	position:absolute; right:0%; bottom: -10%;
+	position:relative; left:45%; top:25.5%;
 	/* width: 1400px;
 	height: 1600px; */
 
