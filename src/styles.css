@@ -1210,11 +1210,12 @@ a {
 }
 
 .background-animation.rocket-animation {
-  left: 0%;
-  top: 0%;
+  left: 6.6%;
+  top: -2%;
   right: 0%;
   bottom: auto;
-  opacity: 0.4;
+  opacity: 1;
+  width:80%
 }
 
 .background-animation.smaller-animation {
@@ -2106,12 +2107,6 @@ a {
     bottom: 0%;
   }
 
-  .background-animation.rocket-animation {
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: auto;
-  }
 
   .background-animation.atm-animation {
     left: 0%;
