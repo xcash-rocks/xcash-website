@@ -13,13 +13,15 @@
 
 .pos-overlay-drop{
   position:fixed;
-  top:76.5%;
+  /* top:76.5%; */
+  bottom:130px;
   left:15px;
 }
 
 .pos-overlay-svg{
   position:fixed;
-  top:88.5%;
+  /* top:88.5%; */
+  bottom:15px;
   left:15px;
   opacity: 100;
   color:#fa741c;
