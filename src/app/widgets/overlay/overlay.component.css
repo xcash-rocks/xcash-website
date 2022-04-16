@@ -1,34 +1,37 @@
 .pos-overlay{
-    position:fixed;top:40%;
+    position:fixed;
+    top:40%;
+    left:40%;
     size-adjust:100%;
     opacity: 100;
     border: 5px solid #fa741c;
     color:#fa741c;
     background-color:#1f1f1f;
     transform: rotate(360);
-    
+
 }
 
 .pos-overlay-drop{
-  position:fixed;top:76.5%;left:1.51%
+  position:fixed;
+  top:76.5%;
+  left:15px;
 }
 
 .pos-overlay-svg{
-  position:fixed;top:88.5%;left:-5%;
-
+  position:fixed;
+  top:88.5%;
+  left:15px;
   opacity: 100;
   color:#fa741c;
   background-color:transparent;
-
-  
 }
 
 .button-svg{
-  width:30%
+  width:120px;
 }
 
 .white{
-  color:f1f1f1
+  color:f1f1f1;
 }
 
 #rotate{
@@ -37,13 +40,11 @@
   -ms-transform:rotate(90deg); /* IE 9 */
   -moz-transform:rotate(90deg); /* Firefox */
   -webkit-transform:rotate(90deg); /* Safari and Chrome */
-  -o-transform:rotate(90deg); /* Opera */}
- 
-
-
+  -o-transform:rotate(90deg); /* Opera */
+}
 
 .example-list {
-    width: 100px;
+    width: 130px;
     border: solid 5px #fa741c;
     border-radius: 4px;
     background: #1f1f1f;
@@ -51,35 +52,34 @@
     padding: 0px;
     margin: 0;
   }
-  
 
-  .example-list > li {
-    list-style-type: none;
-    border-bottom: solid 1px #8b8b8b;
-    padding: 8px 0;
-  }
-  
-  .example-list > li:last-child {
-    border-bottom: none;
-  }
+.example-list > li {
+  list-style-type: none;
+  border-bottom: solid 1px #8b8b8b;
+  padding: 8px 0;
+}
+
+.example-list > li:last-child {
+  border-bottom: none;
+}
 
 
-  
+@media screen and (max-width: 301px) {
+   .mobileHide { display: none; }
+}
 
-  @media screen and (max-width: 301px)
-   {  .mobileHide { 
-     display: none;
-    }}
-
-    @media screen and (max-width: 479px)
-    {  .mobileHide { 
+@media screen and (max-width: 479px) {
+  .mobileHide {
       display: none;
-     }}
-     @media screen and (max-width: 767px)
-     {  .mobileHide { 
-       display: none;
-      }}
-      @media screen and (max-width: 991px)
-      {  .mobileHide { 
-        display: none;
-       }}
+  }
+}
+@media screen and (max-width: 767px) {
+   .mobileHide {
+     display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .mobileHide {
+    display: none;
+   }
+ }

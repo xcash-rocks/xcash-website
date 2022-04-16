@@ -1,9 +1,8 @@
 <button class="pos-overlay-svg mobileHide" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
  <img class="button-svg mobileHide" src="\assets\images\wallet_clean.svg">
+</button>
 
- </button>
-
- <ng-template
+<ng-template
  cdkConnectedOverlay
  [cdkConnectedOverlayOrigin]="trigger"
  [cdkConnectedOverlayOpen]="isOpen"
