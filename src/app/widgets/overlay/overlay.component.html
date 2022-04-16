@@ -1,22 +1,21 @@
 <button class="pos-overlay-svg mobileHide" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
  <img class="button-svg mobileHide" src="\assets\images\wallet_clean.svg">
-    
+
  </button>
 
- <ng-template 
- cdkConnectedOverlay 
- [cdkConnectedOverlayOrigin]="trigger" 
+ <ng-template
+ cdkConnectedOverlay
+ [cdkConnectedOverlayOrigin]="trigger"
  [cdkConnectedOverlayOpen]="isOpen"
  hasBackdrop="true"
  cdkConnectedOverlayBackdropClass="cdk-overlay-transparent-backdrop"
  [cdkConnectedOverlayHasBackdrop]="true"
- (backdropClick)="isOpen = false"  
+ (backdropClick)="isOpen = false"
  (overlayOutsideClick)="isOpen = false">
 
     <ul class="example-list pos-overlay-drop mobileHide">
-       <li><a href="#wallets">GUI</a></li>
-       <li><a href="#wallets">CLI</a></li>
-       <li><a href="#wallets">Mobile</a></li>
+       <li><a href="wallet#desktop">GUI</a></li>
+       <li><a href="wallet#desktop">CLI</a></li>
+       <li><a href="wallet#mobile">Mobile</a></li>
     </ul>
 </ng-template>
-
