@@ -2,15 +2,10 @@
  <img class="button-svg mobileHide" src="\assets\images\wallet_clean.svg">
 </button>
 
-<ng-template
- cdkConnectedOverlay
- [cdkConnectedOverlayOrigin]="trigger"
- [cdkConnectedOverlayOpen]="isOpen"
- hasBackdrop="true"
- cdkConnectedOverlayBackdropClass="cdk-overlay-transparent-backdrop"
- [cdkConnectedOverlayHasBackdrop]="true"
- (backdropClick)="isOpen = false"
- (overlayOutsideClick)="isOpen = false">
+<ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
+    [cdkConnectedOverlayOpen]="isOpen"
+    [cdkConnectedOverlayHasBackdrop]="true"
+    (backdropClick)="isOpen = false">
 
     <ul class="example-list pos-overlay-drop mobileHide">
        <li><a routerLink="wallet" fragment="desktop" >GUI</a></li>
