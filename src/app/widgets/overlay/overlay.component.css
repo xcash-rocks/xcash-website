@@ -10,6 +10,17 @@
     transform: rotate(360);
 
 }
+.border-glow{
+  visibility: visible;
+}
+
+.border-glow.inverse:hover {
+  
+  -webkit-transform: scale(1.02);
+
+  -ms-transform: scale(1.02);
+  transform: scale(1.06);
+}
 
 .pos-overlay-drop{
   position:fixed;
