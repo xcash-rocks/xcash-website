@@ -1,0 +1,29 @@
+
+.landing-block {
+	display: flex;
+	/* min-height: 100px; */
+  /* margin-right: 10px;
+	margin-bottom: 20px;
+  margin-top: 20px;
+	margin-left: 10px; */
+	padding: 20px;
+	flex-direction: column;
+	justify-content: space-around;
+	border-style: solid;
+	border-width: 1px;
+	transition: all 200ms ease;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+.landing-block.orange {
+	border-color: #ff6d00;
+}
+.landing-block h3 {
+  margin: 0;
+}
+.button-1 {
+  margin-right: 32px;
+  margin-top: 16px;
+  text-align: center;
+}

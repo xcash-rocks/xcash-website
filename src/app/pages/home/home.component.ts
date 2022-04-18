@@ -6,9 +6,7 @@ import { DatePipe } from '@angular/common';
 import { Overlay, OverlayRef } from "@angular/cdk/overlay";
 import { ComponentPortal } from "@angular/cdk/portal";
 import { OverlayComponent } from 'src/app/widgets/overlay/overlay.component';
-
-
-
+import { DiscoverComponent } from 'src/app/sections/discover/discover.component';
 
 @Component({
   selector: 'app-home',
@@ -34,7 +32,7 @@ export class HomeComponent implements AfterViewInit {
 
 
   constructor(private httpdataservice: httpdataservice, public datepipe: DatePipe, private overlay: Overlay) { } //private changeRef: ChangeDetectorRef
-  
+
   open() {
     this.overlayRef = this.overlay.create();
     const componentPortal = new ComponentPortal(OverlayComponent);
@@ -54,14 +52,14 @@ export class HomeComponent implements AfterViewInit {
         easing: 'linear',
         delay: anime.stagger(2500, {start: 0}),
         loop: true,
-        
+
       });
 
   }
 
   currentDateTime =this.datepipe.transform((new Date), 'dd/MM/yyyy h:mm:ss' );
   //this.changeRef.detectChanges();
-  
+
 
 
 
@@ -69,12 +67,12 @@ export class HomeComponent implements AfterViewInit {
     targets: '.square',
     left: '50%'
   });
-   
+
   an3 = anime({
     targets: '.square',
     backgroundColor: '#f96'
   });
-  
+
 
 
 

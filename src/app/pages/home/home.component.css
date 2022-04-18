@@ -7,111 +7,6 @@
 	color: #1f1f1f;
 }
 
-
-
-.landing-block {
-	display: flex;
-	/* min-height: 100px; */
-  /* margin-right: 10px;
-	margin-bottom: 20px;
-  margin-top: 20px;
-	margin-left: 10px; */
-	padding: 20px;
-	flex-direction: column;
-	justify-content: space-around;
-	border-style: solid;
-	border-width: 1px;
-	transition: all 200ms ease;
-	color: #fff;
-	text-decoration: none;
-	cursor: pointer;
-}
-.landing-block.orange {
-	border-color: #ff6d00;
-}
-.landing-block h3 {
-  margin: 0;
-}
-.button-1 {
-  margin-right: 32px;
-  margin-top: 16px;
-  text-align: center;
-}
-.button-dark {
-	border-color: #ff6d00;
-}
-.button-dark:hover {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #1f1f1f;
-  color: #1f1f1f;
-  background-color: rgb(231, 255, 17);
-}
-.button-discover {
-	border-width: 0px;
-	border-color: #1f1f1f;
-	background-color: transparent;
-}
-.button-discover:hover {
-  border-style: solid;
-  border-width: 0px;
-  border-color: #ff6d00;
-  color: #1f1f1f;
-  /* background-color: #1f1f1f; */
-	background-color: transparent;
-	-webkit-transform: scale(1.02);
-	-ms-transform: scale(1.02);
-	transform: scale(1.06);
-}
-.button-green {
-  background-color: #7CB518;
-	border-color: #7CB518;
-}
-.button-green:hover {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #7CB518;
-  color: #7CB518;
-  background-color: #fff;
-}
-.button-xbank {
-  background-color: #F7BF23;
-  border-color: #F7BF23;
-}
-.button-xbank:hover {
-  background-color: #fff;
-  border-color: #F7BF23;
-  color: #F7BF23;
-}
-.button-xpay {
-  background-color: #56B786;
-  border-color: #56B786;
-}
-.button-xpay:hover {
-  background-color: #fff;
-  border-color: #56B786;
-  color: #56B786;
-}
-.button-teal {
-  background-color: #1189A5;
-  border-color: #1189A5;
-}
-.button-teal:hover {
-  background-color: #fff;
-  border-color: #1189A5;
-  color: #1189A5;
-}
-.button-wxcash {
-  background-color: #8C52FF;
-  border-color: #8C52FF;
-}
-.button-wxcash:hover {
-  background-color: #fff;
-  border-color: #8C52FF;
-  color: #8C52FF;
-}
-
-
 #exchanges h3{
   width: 100%;
   text-align: center;
@@ -493,7 +388,7 @@ ul.list-2 > li > span{
 .text-big{
 	font-size: 3rem;
 	padding:20%;
-	
+
 }
 
 .pip-style{

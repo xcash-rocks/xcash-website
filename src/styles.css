@@ -3124,3 +3124,80 @@ a {
 .pos-list2 {
   position:relative; left:70px; top:0
 }
+
+.button-dark {
+	border-color: #ff6d00;
+}
+.button-dark:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1f1f1f;
+  color: #1f1f1f;
+  background-color: rgb(231, 255, 17);
+}
+.button-discover {
+	border-width: 0px;
+	border-color: #1f1f1f;
+	background-color: transparent;
+}
+.button-discover:hover {
+  border-style: solid;
+  border-width: 0px;
+  border-color: #ff6d00;
+  color: #1f1f1f;
+  /* background-color: #1f1f1f; */
+	background-color: transparent;
+	-webkit-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.06);
+}
+.button-green {
+  background-color: #7CB518;
+	border-color: #7CB518;
+}
+.button-green:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7CB518;
+  color: #7CB518;
+  background-color: #fff;
+}
+.button-xbank {
+  background-color: #F7BF23;
+  border-color: #F7BF23;
+}
+.button-xbank:hover {
+  background-color: #fff;
+  border-color: #F7BF23;
+  color: #F7BF23;
+}
+.button-xpay {
+  background-color: #56B786;
+  border-color: #56B786;
+}
+.button-xpay:hover {
+  background-color: #fff;
+  border-color: #56B786;
+  color: #56B786;
+}
+.button-teal {
+  background-color: #1189A5;
+  border-color: #1189A5;
+}
+.button-teal:hover {
+  background-color: #fff;
+  border-color: #1189A5;
+  color: #1189A5;
+}
+.button-wxcash {
+  background-color: #8C52FF;
+  border-color: #8C52FF;
+}
+.button-wxcash:hover {
+  background-color: #fff;
+  border-color: #8C52FF;
+  color: #8C52FF;
+}
+.footer, .footer-link, .footer-heading{
+	color: #1f1f1f;
+}
