@@ -12,55 +12,7 @@
   text-align: center;
 }
 
-.list-2{
-  font-size: 1.4rem;
-  line-height: 2rem;
-  font-weight: bold;
-  list-style: none;
-}
 
-ul.list-2 > li::before{
-	content: "■";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-	color: #ff6d00; /* Change the color */
-	font-weight: bold; /* If you want it to be bold */
-	display: inline-block;
-	width: 1em;
-	margin-left: -1.5em;
-	PADDING-bottom: 0.6em;
-}
-.consensus-item {
-    list-style-type: none;
-}
-ul.list-2 > li{
-  padding: 8.5px;
-
-}
-ul.list-2 > li > span{
-  padding-left: 10px;
-
-}
-.list-2-small-txt{
-	font-size: 1rem;
-	line-height: 1rem;
-	font-weight: bold;
-	list-style: none;
-
-
-  }
-
-  ul.list-2-small-txt > li::before{
-	  content: "■ ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-	  color: #ff6d00; /* Change the color */
-	  font-weight: bold; /* If you want it to be bold */
-	  display: inline-block;
-	  width: 1em;
-	  margin-left: -1em;
-  }
-
-  ul.list-2-small-txt > li{
-	padding: 8.5px;
-
-  }
 
 #landingbox.section {
     overflow: hidden;
@@ -282,14 +234,9 @@ ul.list-2 > li > span{
 		}
 
 		.pos-boysit{
-
-
-
 				position:fixed;
 				orientation: left;
-
 				width: auto;
-
 		}
     #scroll-arrow-button{
       position:relative; left:0px; top:10
