@@ -19,14 +19,13 @@ import { OverlayComponent } from './widgets/overlay/overlay.component';
 import { OverlayModule } from "@angular/cdk/overlay";
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
     ScrollToTopComponent,
-    OverlayComponent
-    
+    OverlayComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -36,8 +35,6 @@ import { OverlayModule } from "@angular/cdk/overlay";
     NgxPageScrollCoreModule,
     HttpClientModule,
     OverlayModule,
-  
-  
   ],
   providers: [
     httpdataservice,

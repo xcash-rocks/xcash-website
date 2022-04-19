@@ -1,26 +1,13 @@
-//import { Component, OnInit } from '@angular/core';
-import {Component, OnInit, AfterViewInit} from '@angular/core';
+import { Component, OnInit, AfterViewInit} from '@angular/core';
 import {httpdataservice} from '../../services/http-request.service';
-import anime from 'animejs/lib/anime.es.js';
-import { DatePipe } from '@angular/common';
-import { Overlay, OverlayRef } from "@angular/cdk/overlay";
-import { ComponentPortal } from "@angular/cdk/portal";
-import { OverlayComponent } from 'src/app/widgets/overlay/overlay.component';
-import { DiscoverComponent } from 'src/app/sections/discover/discover.component';
-import { LandingComponent } from 'src/app/sections/landing/landing.component';
-
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-metrics',
+  templateUrl: './metrics.component.html',
+  styleUrls: ['../../pages/home/home.component.css']
 })
+export class MetricsComponent implements AfterViewInit {
 
-
-export class HomeComponent implements AfterViewInit {
-
-
-  overlayRef: OverlayRef | undefined;
 
   BLOCKS_PER_DAY:number = 288; //1440;
 
@@ -32,56 +19,13 @@ export class HomeComponent implements AfterViewInit {
   private_tx_count:number;
   public_tx_count:number;
 
+  constructor(private httpdataservice: httpdataservice) { }
+
+  ngAfterViewInit(): void {}
 
 
-  constructor(private httpdataservice: httpdataservice, public datepipe: DatePipe, private overlay: Overlay) { } //private changeRef: ChangeDetectorRef
-
-  open() {
-    this.overlayRef = this.overlay.create();
-    const componentPortal = new ComponentPortal(OverlayComponent);
-    this.overlayRef.addPanelClass("example-list");
-    this.overlayRef.attach(componentPortal);
-}
-
-  ngAfterViewInit(): void {
-
-     anime({
-          targets: '.slidingHorizontal span ',
-        keyframes: [
-          {translateX: -50, opacity: 0, duration:0},
-          {translateX: 0, opacity:1, duration:500},
-          {translateX: 50, opacity:0,delay: 2000, duration:500},
-        ],
-        easing: 'linear',
-        delay: anime.stagger(2500, {start: 0}),
-        loop: true,
-
-      });
-
-  }
-
-  currentDateTime =this.datepipe.transform((new Date), 'dd/MM/yyyy h:mm:ss' );
-  //this.changeRef.detectChanges();
-
-
-
-
-  an2 = anime({
-    targets: '.square',
-    left: '50%'
-  });
-
-  an3 = anime({
-    targets: '.square',
-    backgroundColor: '#f96'
-  });
-
-
-
-
-
-  ngOnInit() {
-
+  ngOnInit() {  
+    
     clearInterval(this.httpdataservice.Timer);
     this.httpdataservice.get_request(this.httpdataservice.SERVER_HOSTNAME_AND_PORT_GET_BLOCKCHAIN_DATA).subscribe(
       (res) =>
@@ -146,4 +90,6 @@ export class HomeComponent implements AfterViewInit {
 
   }
 
-}
+  }
+
+

@@ -1,0 +1,91 @@
+<div id="metrics" class="section half-height middle-centered black  ">
+    <ngx-lottie-view path="./../../../assets/documents/womanchart_dark_nogrid.json" class="background-animation smallest-animation pos-woman-svg" data-default-duration="4.183333333333334" data-duration="0"  style="z-index: -2;">
+    </ngx-lottie-view>
+    <div class="w-container pos-metrics">
+      <img class="pos-logo-metrics" src="/assets/images/xcash_metrics.svg" />
+      <p class="h1-subtitles"><span class="bg-dark">XCASH is the native currency used for governance, sidechains, and smart contracts.<br /> Our blockchain is capable of effectively powering any product and service you design to run on our network.
+      </span></p>
+      <div class="w-row">
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Algorithm</h4>
+            <div class="metrics-data-container">
+              <div class="metrics-currency-xcash">{{blockchain_algorithm}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Block Height</h4>
+            <div class="metrics-data-container">
+              <div class="metrics-currency-xcash">{{block_height | number}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Block Time</h4>
+            <div class="metrics-data-container">
+              <div class="metrics-currency-xcash">5 Minutes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-row mt-20">
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Current Block Reward</h4>
+            <div class="metrics-data-container">
+              <div id="dataprice" class="metrics-currency-xcash">{{ block_reward | number }}</div>
+            </div>
+          </div>
+        </div>
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Maximum Supply</h4>
+            <div class="metrics-data-container">
+              <div class="metrics-currency-xcash">100,000,000,000</div>
+            </div>
+          </div>
+        </div>
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Generated Supply</h4>
+            <div class="metrics-data-container">
+              <div class="metrics-currency-xcash">{{generated_supply | number}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-row mt-20">
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Circulating Supply</h4>
+            <div class="metrics-data-container">
+              <div class="metrics-currency-xcash">{{circulating_supply | number}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Total Private Transactions</h4>
+            <div class="metrics-data-container">
+              <div class="metrics-currency-xcash">{{private_tx_count | number}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="metrics-column w-col w-col-4">
+          <div class="metrics-container">
+            <h4>Total Public Transactions</h4>
+            <div class="metrics-data-container">
+              <div class="metrics-currency-xcash">{{public_tx_count | number}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <a href="https://coinmarketcap.com/currencies/x-cash/" class="button-orange inverse button-1 w-button">Coinmarketcap</a>
+      <a href="https://www.coingecko.com/en/coins/x-cash" class="button-orange inverse button-1 w-button">Coingecko</a>
+      <a href="https://nomics.com/assets/xcashpos-x-cash-polygon" class="button-orange inverse button-1 w-button">Nomics</a> -->
+    </div>
+  </div>
+  
