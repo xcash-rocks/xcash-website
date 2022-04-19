@@ -1,0 +1,10 @@
+.section {
+  border-bottom: 2px dotted #ff6d00;
+}
+.pos-logo-metrics{
+	width:43%; height:auto; position: relative; left:-3%;
+	margin: 3%;
+}
+.metrics-container {
+	background-color: #1f1f1f;
+}

@@ -4,7 +4,7 @@ import {httpdataservice} from '../../services/http-request.service';
 @Component({
   selector: 'app-metrics',
   templateUrl: './metrics.component.html',
-  styleUrls: ['../../pages/home/home.component.css']
+  styleUrls: ['./metrics.component.css']
 })
 export class MetricsComponent implements AfterViewInit {
 
@@ -24,8 +24,8 @@ export class MetricsComponent implements AfterViewInit {
   ngAfterViewInit(): void {}
 
 
-  ngOnInit() {  
-    
+  ngOnInit() {
+
     clearInterval(this.httpdataservice.Timer);
     this.httpdataservice.get_request(this.httpdataservice.SERVER_HOSTNAME_AND_PORT_GET_BLOCKCHAIN_DATA).subscribe(
       (res) =>
@@ -91,5 +91,3 @@ export class MetricsComponent implements AfterViewInit {
   }
 
   }
-
-
