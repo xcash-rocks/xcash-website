@@ -387,6 +387,7 @@ ul.list-2 > li > span{
 
 .text-big{
 	font-size: 3rem;
+	line-height: 3rem;
 	padding:20%;
 
 }
