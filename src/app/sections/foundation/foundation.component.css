@@ -1,0 +1,11 @@
+.section {
+  border-bottom: 2px dotted #ff6d00;
+}
+.background-animation.rocket-animation {
+  left: auto;
+  top: auto;
+  right: 0px;
+  bottom: 0px;
+  opacity: 1;
+  width:80%
+}
