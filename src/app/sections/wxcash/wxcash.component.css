@@ -1,0 +1,22 @@
+.section {
+  border-bottom: 2px dotted #ff6d00;
+}
+.wxcash-style{
+	position:relative;
+	left:-10%;
+	top:0%;
+	margin:0%;
+	float: right;
+	width:20%
+}
+.reduced-width {
+  width: 50%;
+}
+@media screen and (max-width: 479px) {
+  .reduced-width {
+  width: 80%;
+  }
+  .wxcash-style{
+    	left: 0%;
+  }
+}
