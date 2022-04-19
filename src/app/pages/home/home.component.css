@@ -399,7 +399,7 @@ ul.list-2 > li > span{
 }
 
 
-@media (min-width: 991px) and (max-width: 3000px) {
+@media (min-width: 1300px) and (max-width: 6000px) {
 	.slide-replace{
 		display:none;
 		visibility: hidden;
@@ -410,7 +410,7 @@ ul.list-2 > li > span{
 
 @media screen and (max-width: 301px) {
 	.landing-animation {
-			left: 0%;
+		left: 0%;
 	    top: auto;
 	    right: 0;
 	    bottom: 0;
