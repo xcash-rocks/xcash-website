@@ -10,7 +10,7 @@
 	width:20%
 }
 .reduced-width {
-  width: 50%;
+  width: 60%;
 }
 @media screen and (max-width: 479px) {
   .reduced-width {
