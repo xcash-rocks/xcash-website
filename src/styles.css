@@ -3201,3 +3201,38 @@ a {
 .footer, .footer-link, .footer-heading{
 	color: #1f1f1f;
 }
+.list-2{
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: bold;
+  list-style: none;
+}
+
+ul.list-2 > li::before{
+	content: "■";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+	color: #ff6d00;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1.5em;
+	padding-bottom: 0.6em;
+}
+.consensus-item {
+    list-style-type: none;
+}
+ul.list-2 > li{
+  padding: 8.5px;
+
+}
+ul.list-2 > li > span{
+  padding-left: 10px;
+
+}
+
+ul.list-2-small-txt > li{
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: bold;
+  list-style-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1OCA1OCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZmlsbD0iI2ZmNmQwMCIgZD0iTTAgMGg1OHY1OEgweiIvPjwvc3ZnPgo=");
+	padding: 8.5px;
+}
