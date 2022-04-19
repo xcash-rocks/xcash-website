@@ -593,8 +593,12 @@ ul.list-2 > li > span{
 }
 
 .style-atm{
-	position:relative;
-	left:50%
+
+	left:auto;
+	top: auto;
+	right:-20%;
+	bottom: 0px;
+	width: 70%;
 }
 
 .use-left{
