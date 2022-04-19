@@ -49,28 +49,8 @@
 	bottom: auto;
 	background-color: #1f1f1f;
 }
-.avatar-block{
-  margin-bottom: 15px;
-	text-align: center;
-}
-.avatar{
-  vertical-align: middle;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 1px solid #ff6d00;
-	text-align: center;
-}
-.people-container {
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-top: 0px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-.people-text {
-  text-align: center;
-}
+
+
 .section {
 	border-bottom: 2px dotted #ff6d00;
 }
