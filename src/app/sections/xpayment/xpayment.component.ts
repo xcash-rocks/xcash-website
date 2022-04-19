@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-xpayment',
   templateUrl: './xpayment.component.html',
-  styleUrls: ['../../pages/home/home.component.css']
+  styleUrls: ['./xpayment.component.css']
 })
 export class XpaymentComponent implements OnInit {
 
