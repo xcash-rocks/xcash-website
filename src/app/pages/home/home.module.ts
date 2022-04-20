@@ -24,7 +24,7 @@ import { XdexComponent } from 'src/app/sections/xdex/xdex.component';
 import { FoundationComponent } from 'src/app/sections/foundation/foundation.component';
 import { PartnersComponent } from 'src/app/sections/partners/partners.component';
 import { GetStartedComponent } from 'src/app/sections/get-started/get-started.component';
-
+import { UsexcashComponent } from 'src/app/sections/usexcash/usexcash.component';
 
 
 @NgModule({
@@ -56,7 +56,8 @@ import { GetStartedComponent } from 'src/app/sections/get-started/get-started.co
     XdexComponent,
     FoundationComponent,
     PartnersComponent,
-    GetStartedComponent
+    GetStartedComponent,
+    UsexcashComponent
   ],
   providers: [
   ],
