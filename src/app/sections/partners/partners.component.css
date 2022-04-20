@@ -1,0 +1,47 @@
+.section {
+  border-bottom: 2px dotted #ff6d00;
+}
+.news-container-dark {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6rem;
+  padding: 10px 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fa741c;
+  background-color: #1f1f1f;
+  -webkit-transition: all 225ms ease;
+  transition: all 225ms ease;
+  color: #1f1f1f;
+}
+
+.news-container-dark:hover {
+  -webkit-transform: scale(1.02);
+  background-color: #242424;
+  -ms-transform: scale(1.02);
+  transform: scale(1.06);
+}
+.actua-pos{
+	position:absolute;
+	right:-15%;
+	bottom:0px;
+	width:50%;
+	height:auto
+}
+.exchange-logo{
+  display: block;
+  height: 4rem;
+}
+@media screen and (max-width: 479px){
+  .exchange-logo {
+      display: block;
+      height: 4rem;
+  }
+}

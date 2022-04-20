@@ -2703,10 +2703,7 @@ a {
     flex-direction: column;
   }
 
-  .exchange-logo {
-    display: block;
-    height: 2vh;
-  }
+
 
   .collection-list {
     display: block;

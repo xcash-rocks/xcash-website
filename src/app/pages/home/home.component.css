@@ -496,13 +496,7 @@
 	left:-20%
 }
 
-.actua-pos{
-	position:absolute;
-	right:-15%;
-	bottom:0px;
-	width:50%;
-	height:auto
-}
+
 .pos-usethem{
 	position:absolute; left:1100px; top:-80;
 	width:1650px;
