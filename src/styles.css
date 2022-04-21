@@ -44,11 +44,11 @@ a {
 }
 
 .body {
-  background-color: #fff;
+  background-color: #f1f1f1;
 }
 
 .col-white{
-  color: white;
+  color: #f1f1f1;
 }
 .col-black{
   color: #f1f1f1;
@@ -3060,8 +3060,8 @@ a {
   color: #8C52FF;
 }
 .orange{
-	color: #ff6d00;
-	fill: #ff6d00;
+	color: #fa741cff;
+	fill: #fa741cff;
 }
 .green {
 	color: #7CB518;
