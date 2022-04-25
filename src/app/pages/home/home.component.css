@@ -43,6 +43,7 @@
 		background-color: #1f1f1f;
 }
 
+
 .background-animation.dark {
 	left: auto;
 	top: 10%;
@@ -409,8 +410,8 @@
 
 .underline{
 	text-decoration: underline; color: #ff6d00;
-
 }
+
 .slidingHorizontal {
 	display: inline;
 	text-indent: 8px;

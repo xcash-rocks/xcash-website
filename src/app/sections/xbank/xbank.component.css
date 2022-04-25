@@ -1,11 +1,41 @@
 .background-animation.xbank {
   position: relative;
   left: 20%;
-  margin-top: -48%;
+  margin-top: -38%;
   margin-bottom: -50%;
   right: auto;
   z-index: -1;
   width: 80%;
+}
+
+
+.xbank-black {
+  overflow: hidden;
+  padding-top: 0px;
+  padding-bottom: 80px;
+  background-color: transparent;
+  -o-object-fit: fill;
+  object-fit: fill;
+  position: relative; top:-20%;
+  background-color: #1f1f1f;
+  color: #fff;
+  z-index: 0;
+  border-bottom: 2px dotted #ff6d00;
+}
+
+
+.pos-assets{
+  position:relative;
+  margin-top:-10%;
+  padding-top:30%;
+}
+
+.w-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  /* max-width: 940px; */
+  max-width: 980px;
 }
 
 .logo{
@@ -18,7 +48,7 @@
 
 .section {
   border-bottom: 2px dotted #ff6d00;
-  padding-top: 15%;
+  padding-top: -100%;
 }
 .reduced-width {
   width: 60%;
