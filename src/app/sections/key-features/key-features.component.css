@@ -18,10 +18,12 @@
 	text-align: center;
 }
 .people-container{
+  left:-2%;
   padding-right: 0px;
   padding-left: 0px;
   margin-top: 0px;
   padding-bottom: 30px;
+  width:20%;
   text-align: center;
 }
 .people-text{
