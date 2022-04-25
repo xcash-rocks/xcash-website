@@ -25,7 +25,7 @@ import { FoundationComponent } from 'src/app/sections/foundation/foundation.comp
 import { PartnersComponent } from 'src/app/sections/partners/partners.component';
 import { GetStartedComponent } from 'src/app/sections/get-started/get-started.component';
 import { UsexcashComponent } from 'src/app/sections/usexcash/usexcash.component';
-
+import { NamespaceComponent } from 'src/app/sections/namespace/namespace.component';
 
 @NgModule({
   imports: [
@@ -57,7 +57,8 @@ import { UsexcashComponent } from 'src/app/sections/usexcash/usexcash.component'
     FoundationComponent,
     PartnersComponent,
     GetStartedComponent,
-    UsexcashComponent
+    UsexcashComponent,
+    NamespaceComponent
   ],
   providers: [
   ],

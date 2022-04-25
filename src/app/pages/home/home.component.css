@@ -388,6 +388,18 @@
 
 }
 
+.margin-gc{
+	position:relative;left:60%; 
+	margin-top:-45%;
+	width:27%;
+}
+
+.left-button{
+    position:relative;
+    left:-16%;
+	margin-top:5%
+}
+
 #makeOrange{
 	color:#fa741cff;
 	margin-bottom: -1%;
