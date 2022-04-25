@@ -1,8 +1,31 @@
+.background-animation.xbank {
+  position: relative;
+  left: 20%;
+  margin-top: -48%;
+  margin-bottom: -50%;
+  right: auto;
+  z-index: -1;
+  width: 80%;
+}
+
+.logo{
+  width:10%;
+  position:relative;
+  left:65%;
+  margin-top:-15%;
+  margin-bottom: 15%;
+}
+
 .section {
   border-bottom: 2px dotted #ff6d00;
+  padding-top: 15%;
 }
 .reduced-width {
   width: 60%;
+}
+
+.reduce-margin {
+  margin-top: -18%;
 }
 @media screen and (max-width: 767px) {
   .reduced-width {
