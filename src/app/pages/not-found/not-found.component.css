@@ -91,3 +91,22 @@
   border-color: #8C52FF;
   color: #8C52FF;
 }
+
+.spinner{
+  width: 100px;
+  height: 100px;
+  border: 16px solid blue;
+  border-top: 16px solid white;
+  border-radius: 50%;
+  animation: load 1s linear infinite;
+
+}
+
+@keyframes load {
+  0%{
+      transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
