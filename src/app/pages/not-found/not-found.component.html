@@ -11,10 +11,13 @@
       <div class="spinner"></div>
       <h1 class="h1-section col-white"><strong>404</strong><br> Page Not Found</h1>
 
-      <button class="button"(click)="toggle()">{{buttonName}}</button>
-    </div>
+      <button *ngIf="buttonFlag" class="button"(click)="open(); scroll(target); buttonDisappear() "><strong >Discover X-Cash</strong></button>
     
-    <div class="w-col w-col-12">
+
+    <img *ngIf="!buttonFlag" class="image-big" src="\..\assets\images\Discover.svg" alt="here!!">
+    </div>
+    <div #target class="w-col w-col-12">
       
     </div>
       
+ 

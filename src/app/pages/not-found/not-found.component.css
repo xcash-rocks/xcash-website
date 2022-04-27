@@ -123,13 +123,28 @@
   border-radius: 5%;
   font-size: 1.2rem;
   white-space:nowrap;
-  width:17%;
+  width:19%;
   height: 5%;
   background-color: #1f1f1f;
 }
 
+.image-big{
+  margin-top:7%;
+  margin-bottom: 4%;
+  width:20%;
+  z-index: -1;
+  visibility:visible;
+}
+
+.pos{
+  position:relative;
+  top:-30%;
+}
+
 .example-list {
   width: 130px;
+  position:relative;
+  top:-50%;
   border: solid 5px #fa741c;
   border-radius: 4px;
   background: #1f1f1f;

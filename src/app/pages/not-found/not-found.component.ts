@@ -11,12 +11,18 @@ import { DiscoverComponent } from 'src/app/sections/discover/discover.component'
 })
 export class NotFoundComponent implements OnInit {
 
-  overlayRef: OverlayRef | undefined;
+  overlayRef: OverlayRef | Overlay;
 
   public show:boolean = false;
   public buttonName:any = 'Discover X-Cash';
 
   constructor( private overlay: Overlay) { }
+
+  buttonFlag : boolean = true
+
+  buttonDisappear(){
+    this.buttonFlag = !this.buttonFlag
+  }
 
   open() {
     this.overlayRef = this.overlay.create();
@@ -25,15 +31,10 @@ export class NotFoundComponent implements OnInit {
     this.overlayRef.attach(componentPortal);
 }
 
-
-toggle() {
-  this.show = !this.show;
-  if(this.show)
-  this.buttonName = "Keep Discovering because CDK overlay doesn't have a close method";
-else
-  this.buttonName = "Discover X-Cash";
-  this.open()
+scroll(el: HTMLElement) {
+  el.scrollIntoView({behavior: 'smooth'});
 }
+
 
   ngOnInit(): void {
   }
