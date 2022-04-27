@@ -38,7 +38,6 @@ export class HomeComponent implements AfterViewInit {
     const componentPortal = new ComponentPortal(OverlayComponent);
     this.overlayRef.addPanelClass("");
     this.overlayRef.attach(componentPortal);
-    this.overlayRef._keydownEvents;
 }
 
 
