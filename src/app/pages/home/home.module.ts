@@ -5,7 +5,7 @@ import { NgxLottieViewModule } from 'ngx-lottie-view';
 import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
 
-import { DiscoverComponent } from 'src/app/sections/discover/discover.component';
+
 import { LandingComponent } from 'src/app/sections/landing/landing.component';
 import { LandingArtComponent } from 'src/app/sections/landing-art/landing-art.component';
 import { FeatureListComponent } from 'src/app/sections/feature-list/feature-list.component';
@@ -26,6 +26,7 @@ import { PartnersComponent } from 'src/app/sections/partners/partners.component'
 import { GetStartedComponent } from 'src/app/sections/get-started/get-started.component';
 import { UsexcashComponent } from 'src/app/sections/usexcash/usexcash.component';
 import { NamespaceComponent } from 'src/app/sections/namespace/namespace.component';
+import { DiscoverComponent } from 'src/app/sections/discover/discover.component';
 
 @NgModule({
   imports: [

@@ -12,11 +12,12 @@ import { ScrollToTopComponent } from './widgets/scroll-to-top/scroll-to-top.comp
 import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
-import {HttpClientModule} from '@angular/common/http';
-import {httpdataservice} from '../app/services/http-request.service';
-import { DatePipe } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { httpdataservice } from '../app/services/http-request.service';
 import { OverlayComponent } from './widgets/overlay/overlay.component';
 import { OverlayModule } from "@angular/cdk/overlay";
+import { DragDropModule } from '@angular/cdk/drag-drop';
+
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { OverlayModule } from "@angular/cdk/overlay";
     NotFoundComponent,
     ScrollToTopComponent,
     OverlayComponent,
+
 
   ],
   imports: [
@@ -35,10 +37,11 @@ import { OverlayModule } from "@angular/cdk/overlay";
     NgxPageScrollCoreModule,
     HttpClientModule,
     OverlayModule,
+    DragDropModule
+ 
   ],
   providers: [
     httpdataservice,
-    DatePipe
   ],
   bootstrap: [AppComponent]
 })

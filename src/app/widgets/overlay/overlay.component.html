@@ -1,11 +1,20 @@
-<button class="pos-overlay-svg mobileHide" (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
- <img class="button-svg mobileHide border-glow inverse" src="\assets\images\wallet_clean.svg">
+<!--p>
+    <button (click)="changePosition()">Change element position</button>
+  </p>
+  
+  <div class="example-box" cdkDrag [cdkDragFreeDragPosition]="dragPosition">
+    Drag me around
+  </div-->
+
+<button class="pos-overlay-svg mobileHide "  (click)="isOpen = !isOpen; changePosition()"  type="button" cdkOverlayOrigin #trigger1="cdkOverlayOrigin">
+
+ <img class="button-svg mobileHide border-glow inverse" cdkDrag   src="\assets\images\wallet_clean.svg">
 </button>
 
-<ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
+<ng-template  cdkConnectedOverlay [cdkConnectedOverlayOrigin] ="trigger1"
     [cdkConnectedOverlayOpen]="isOpen"
     [cdkConnectedOverlayHasBackdrop]="true"
-    (backdropClick)="isOpen = false">
+    (backdropClick)="isOpen = !isOpen">
 
     <ul class="example-list pos-overlay-drop mobileHide">
        <li><a routerLink="wallet" fragment="desktop" >GUI</a></li>
@@ -13,3 +22,5 @@
        <li><a routerLink="wallet" fragment="mobile" >Mobile</a></li>
     </ul>
 </ng-template>
+
+

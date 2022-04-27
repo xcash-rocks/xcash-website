@@ -8,14 +8,12 @@
     color:#fa741c;
     background-color:#1f1f1f;
     transform: rotate(360);
-
 }
 .border-glow{
   visibility: visible;
 }
 
 .border-glow.inverse:hover {
-  
   -webkit-transform: scale(1.02);
 
   -ms-transform: scale(1.02);
@@ -96,3 +94,4 @@
     display: none;
    }
  }
+

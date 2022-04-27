@@ -1,13 +1,11 @@
 //import { Component, OnInit } from '@angular/core';
-import {Component, OnInit, AfterViewInit} from '@angular/core';
+import {Component, AfterViewInit} from '@angular/core';
 import {httpdataservice} from '../../services/http-request.service';
 import anime from 'animejs/lib/anime.es.js';
-import { DatePipe } from '@angular/common';
 import { Overlay, OverlayRef } from "@angular/cdk/overlay";
 import { ComponentPortal } from "@angular/cdk/portal";
 import { OverlayComponent } from 'src/app/widgets/overlay/overlay.component';
-import { DiscoverComponent } from 'src/app/sections/discover/discover.component';
-import { LandingComponent } from 'src/app/sections/landing/landing.component';
+
 
 
 @Component({
@@ -19,8 +17,7 @@ import { LandingComponent } from 'src/app/sections/landing/landing.component';
 
 export class HomeComponent implements AfterViewInit {
 
-
-  overlayRef: OverlayRef | undefined;
+  overlayRef: OverlayRef | Overlay;
 
   BLOCKS_PER_DAY:number = 288; //1440;
 
@@ -34,14 +31,16 @@ export class HomeComponent implements AfterViewInit {
 
 
 
-  constructor(private httpdataservice: httpdataservice, public datepipe: DatePipe, private overlay: Overlay) { } //private changeRef: ChangeDetectorRef
+  constructor(private httpdataservice: httpdataservice, private overlay: Overlay, ) { } //private changeRef: ChangeDetectorRef
 
   open() {
     this.overlayRef = this.overlay.create();
     const componentPortal = new ComponentPortal(OverlayComponent);
-    this.overlayRef.addPanelClass("example-list");
+    this.overlayRef.addPanelClass("");
     this.overlayRef.attach(componentPortal);
+    this.overlayRef._keydownEvents;
 }
+
 
   ngAfterViewInit(): void {
 
@@ -59,27 +58,6 @@ export class HomeComponent implements AfterViewInit {
       });
 
   }
-
-  currentDateTime =this.datepipe.transform((new Date), 'dd/MM/yyyy h:mm:ss' );
-  //this.changeRef.detectChanges();
-
-
-
-
-  an2 = anime({
-    targets: '.square',
-    left: '50%'
-  });
-
-  an3 = anime({
-    targets: '.square',
-    backgroundColor: '#f96'
-  });
-
-
-
-
-
   ngOnInit() {
 
     clearInterval(this.httpdataservice.Timer);
@@ -147,3 +125,7 @@ export class HomeComponent implements AfterViewInit {
   }
 
 }
+function id(id: any) {
+  throw new Error('Function not implemented.');
+}
+
