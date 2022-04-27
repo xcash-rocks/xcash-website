@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 })
 
 
-
 export class OverlayComponent implements OnInit {
 
 
@@ -18,12 +17,4 @@ export class OverlayComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  dragPosition: any = {x: 0, y: 0};
-
-  changePosition() {
-    this.dragPosition = {x: this.dragPosition.x + 50, y: this.dragPosition.y + 50};
-  }
 }
-
-
