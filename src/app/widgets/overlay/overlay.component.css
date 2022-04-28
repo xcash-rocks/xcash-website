@@ -40,6 +40,20 @@
 .button-svg{
   width:120px;
 }
+.animate-in{
+animation: load 2s linear;
+animation-name: fadeInOpacity;
+
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 .white{
   color:f1f1f1;
