@@ -43,7 +43,6 @@
 .animate-in{
 animation: load 2s linear;
 animation-name: fadeInOpacity;
-
 }
 
 @keyframes fadeInOpacity {

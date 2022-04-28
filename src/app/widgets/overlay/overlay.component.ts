@@ -1,3 +1,4 @@
+import { NgStyle } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 
@@ -11,6 +12,14 @@ import { Component, OnInit } from '@angular/core';
 export class OverlayComponent implements OnInit {
 
   isOpen: boolean = false
+
+  count:number = 0
+
+ 
+  animateOnce(){
+    if(this.isOpen === true){
+    this.count++;}
+  }
 
   constructor() { }
 
