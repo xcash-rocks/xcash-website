@@ -10,8 +10,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class OverlayComponent implements OnInit {
 
-
-  isOpen = false
+  isOpen: boolean = false
 
   constructor() { }
 

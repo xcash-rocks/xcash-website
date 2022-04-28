@@ -1,6 +1,10 @@
 <button class="pos-overlay-svg mobileHide"  (click)="isOpen = !isOpen"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
-
+<div *ngIf="!isOpen">
  <img class="button-svg mobileHide border-glow inverse animate-in " src="\assets\images\wallet_clean.svg">
+</div>
+<div *ngIf="isOpen">
+    <img class="button-svg mobileHide border-glow inverse " src="\assets\images\wallet_open.svg">
+</div>
 </button>
 
 <ng-template [cdkConnectedOverlay]
