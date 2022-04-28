@@ -33,10 +33,23 @@ export class HomeComponent implements AfterViewInit {
 
   constructor(private httpdataservice: httpdataservice, private overlay: Overlay, ) { } //private changeRef: ChangeDetectorRef
 
+  flag : boolean = true;
+
+  initalizeMethod(){
+    if(this.flag){
+      this.noMoreOverlayIterations()
+    }
+  }
+
+  noMoreOverlayIterations(){
+    this.open();
+    this.flag = false;
+  }
+
   open() {
     this.overlayRef = this.overlay.create();
     const componentPortal = new ComponentPortal(OverlayComponent);
-    this.overlayRef.addPanelClass("");
+    this.overlayRef.addPanelClass("example-list");
     this.overlayRef.attach(componentPortal);
 }
 
