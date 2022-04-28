@@ -52,6 +52,17 @@
 	background-color: #1f1f1f;
 }
 
+.boysit{
+	position:relative; left:38%; top:-33%;
+	width:15%;
+	
+}
+
+.pos-box-left{
+	position: relative;
+	left: -10%;
+	top:17%;
+}
 
 .section {
 	border-bottom: 2px dotted #ff6d00;
