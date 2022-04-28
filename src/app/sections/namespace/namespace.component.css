@@ -1,0 +1,21 @@
+.section {
+  border-bottom: 2px dotted #ff6d00;
+}
+.round-animation-column{
+  text-align: center;
+}
+.leaf-svg-enlarge{
+	width:35%;
+  height:auto;
+	position:relative;
+  left:2%
+}
+@media screen and (max-width: 301px) {
+  .leaf-svg-enlarge{
+    position: relative;
+    left:-3%;
+    width:100%;
+    height:auto;
+    margin:3%
+  }
+}
