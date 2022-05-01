@@ -1,3 +1,7 @@
+.buttonClick{
+  background: transparent;
+}
+
 .bb, .bb::before, .bb::after {
     position: absolute;
     top: 0;
@@ -10,7 +14,7 @@
     top:-14%;
     width: 2.5%;
     height: 30%; /*1630*/
-    margin-top: 10%;
+    margin-top: 15%;
     z-index: 10;
     border-left: 7px solid #fa741c;
     animation: clipMe 600s linear infinite;
@@ -127,3 +131,6 @@ body {
 }
 
 /**/
+
+
+
