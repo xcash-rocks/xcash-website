@@ -5,11 +5,50 @@
   text-align: center;
 }
 .leaf-svg-enlarge{
-	width:35%;
+	width:25%;
   height:auto;
 	position:relative;
   left:2%
 }
+
+.button-black-New {
+  margin-top: 20%;
+  margin-left: -74%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1f1f1f;
+  background-color: #1f1f1f;
+  -webkit-transition: all 200ms cubic-bezier(.455, .03, .515, .955);
+  transition: all 200ms cubic-bezier(.455, .03, .515, .955);
+  color: #1f1f1f;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button-black-New.button-1 {
+  margin-right: 30px;
+}
+
+.button-black-New.inverse {
+  background-color: #1f1f1f;
+  border-color: #fa741c;
+  color: #fa741c;
+}
+
+.button-black-New.inverse:hover {
+  background-color: #242424;
+  color: #ff6d00;
+  -webkit-transform: scale(1.02);
+  background-color: #242424;
+  -ms-transform: scale(1.02);
+  transform: scale(1.06);
+}
+
+.button-black-New.inverse.button-1.on-black:hover {
+  background-color: #1f1f1f;
+}
+
+
 @media screen and (max-width: 301px) {
   .leaf-svg-enlarge{
     position: relative;
