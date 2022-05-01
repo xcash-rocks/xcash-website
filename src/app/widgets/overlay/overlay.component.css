@@ -37,6 +37,16 @@
   background-color:transparent;
 }
 
+.move-right{
+  margin-left:240%;
+  margin-top: -400%;
+}
+
+.move-right-list{
+  padding-left:40%;
+  border:red solid 3px;
+}
+
 .button-svg{
   width:120px;
 }
@@ -74,7 +84,8 @@ animation-name: fadeInOpacity;
     background: #1f1f1f;
     text-align: center;
     padding: 0px;
-    margin: 0;
+    margin-left: 13.2%;
+    margin-bottom: 17.5%;
   }
 
 .example-list > li {

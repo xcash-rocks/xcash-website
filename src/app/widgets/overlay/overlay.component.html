@@ -1,12 +1,12 @@
 <button class="pos-overlay-svg mobileHide"  (click)="isOpen = !isOpen; animateOnce()"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
 <div *ngIf="!isOpen">
  
-    <img [ngClass]="{'animate-in': count === 0}" class="button-svg mobileHide border-glow inverse " src="\assets\images\wallet_clean.svg">
+    <img [ngClass]="{'animate-in': count === 0}" class="button-svg mobileHide border-glow inverse move-right " src="\assets\images\wallet_clean.svg">
     
 </div>
 <div *ngIf="isOpen">
 
-    <img class="button-svg mobileHide border-glow inverse" src="\assets\images\wallet_open.svg">
+    <img class="button-svg mobileHide border-glow inverse move-right" src="\assets\images\wallet_open.svg">
 
 </div>
 </button>
@@ -16,7 +16,7 @@
     [cdkConnectedOverlayHasBackdrop]="true"
     (backdropClick)="isOpen = !isOpen">
 
-    <ul class="example-list pos-overlay-drop mobileHide">
+    <ul class="example-list pos-overlay-drop mobileHide ">
        <li><a routerLink="wallet" fragment="desktop" >GUI</a></li>
        <li><a routerLink="wallet" fragment="desktop" >CLI</a></li>
        <li><a routerLink="wallet" fragment="mobile" >Mobile</a></li>
