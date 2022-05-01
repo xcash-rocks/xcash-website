@@ -1,0 +1,129 @@
+.bb, .bb::before, .bb::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .bb {
+    content: '';
+    top:-14%;
+    width: 2.5%;
+    height: 30%; /*1630*/
+    margin-top: 10%;
+    z-index: 10;
+    border-left: 7px solid #fa741c;
+    animation: clipMe 600s linear infinite;
+    animation-play-state: running;
+
+  }
+
+  .bb:hover{
+      animation-play-state: paused;
+  }
+
+
+
+
+
+
+ /* .bb::after {
+    content: '';
+    box-shadow: #fa741c inset 1px 1px 1px 4px;
+    animation: clipMe 8s linear infinite;
+    border-top: transparent;
+  }*/
+
+  @keyframes clipMe {
+
+ 0%{ left:0; top: 0%}
+ 5%{ left: 0%; top: 163%}
+ 10%{ left: 0%; top: 326%}
+ 15%{ left:0; top: 489%}
+ 20%{ left: 0%; top: 652%}
+ 25%{ left: 0%; top: 815%}
+ 30%{ left: 0%; top: 978%}
+ 35%{left: 0%; top: 1141%;}
+ 40%{ left:0; top: 1304%}
+ 45%{ left: 0%; top: 1467%}
+ 50%{ left: 0%; top: 1630%}
+ 55%{ left: 0%; top: 1430%}
+ 60%{ left:0; top: 1304%}
+ 65%{ left: 0%; top: 1141%}
+ 70%{ left: 0%; top: 978%}
+ 75%{ left: 0%; top: 815%}
+ 80%{left: 0%; top: 652%;}
+ 85%{ left:0; top: 489%}
+ 90%{ left: 0%; top: 326%}
+ 95%{ left: 0%; top: 163%}
+ 100%{ left: 0%; top: 1%}
+
+}
+
+
+  /* from {
+        width: 0.5%;
+        height:1630%;
+        transform: translateY(0%)
+    }
+
+    to {
+        width: 0.5%;
+        height: 0% ;
+        transform: translateY(0%);
+    }
+/////////////////////
+
+.bb, .bb::before, .bb::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.bb {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+   color: #fa741c;
+  
+}
+.bb::before, .bb::after {
+  content: '';
+  z-index: -1;
+  margin: -5%;
+  box-shadow: inset 0 0 0 2px;
+  animation: clipMe 8s linear infinite;
+}
+.bb::before {
+  animation-delay: -4s;
+}
+.bb:hover::after, .bb:hover::before {
+  background-color: transparent;
+}
+@keyframes clipMe {
+  0%, 100% {
+    clip: rect(0px, 220px, 2px, 0px);
+  }
+  25% {
+    clip: rect(0px, 2px, 220px, 0px);
+  }
+  50% {
+    clip: rect(218px, 220px, 220px, 0px);
+  }
+  75% {
+    clip: rect(0px, 220px, 220px, 218px);
+  }
+}
+html, body {
+  height: 100%;
+}
+body {
+  position: relative;
+  background-color: transparent;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/**/

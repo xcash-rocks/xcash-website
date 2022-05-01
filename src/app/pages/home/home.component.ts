@@ -5,6 +5,7 @@ import anime from 'animejs/lib/anime.es.js';
 import { Overlay, OverlayRef } from "@angular/cdk/overlay";
 import { ComponentPortal } from "@angular/cdk/portal";
 import { OverlayComponent } from 'src/app/widgets/overlay/overlay.component';
+import { CssanimationsComponent } from '../../cssanimations/cssanimations.component';
 
 
 
@@ -18,6 +19,8 @@ import { OverlayComponent } from 'src/app/widgets/overlay/overlay.component';
 export class HomeComponent implements AfterViewInit {
 
   overlayRef: OverlayRef | Overlay;
+
+  overlayRef2: OverlayRef | Overlay;
 
   BLOCKS_PER_DAY:number = 288; //1440;
 
@@ -51,6 +54,26 @@ export class HomeComponent implements AfterViewInit {
     const componentPortal = new ComponentPortal(OverlayComponent);
     this.overlayRef.addPanelClass("example-list");
     this.overlayRef.attach(componentPortal);
+}
+
+flag2 : boolean = true;
+
+initalizeMethod2(){
+  if(this.flag2){
+    this.noMoreOverlayIterations2()
+  }
+}
+
+noMoreOverlayIterations2(){
+  this.openanimation();
+  this.flag2 = false;
+}
+
+
+openanimation() {
+  this.overlayRef2 = this.overlay.create();
+  const componentPortal = new ComponentPortal(CssanimationsComponent);
+  this.overlayRef2.attach(componentPortal);
 }
 
 

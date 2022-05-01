@@ -28,6 +28,7 @@ import { UsexcashComponent } from 'src/app/sections/usexcash/usexcash.component'
 import { NamespaceComponent } from 'src/app/sections/namespace/namespace.component';
 import { DiscoverComponent } from 'src/app/sections/discover/discover.component';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -59,7 +60,7 @@ import { DiscoverComponent } from 'src/app/sections/discover/discover.component'
     PartnersComponent,
     GetStartedComponent,
     UsexcashComponent,
-    NamespaceComponent
+    NamespaceComponent,
   ],
   providers: [
   ],

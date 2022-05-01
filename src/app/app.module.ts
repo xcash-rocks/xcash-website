@@ -17,6 +17,8 @@ import { httpdataservice } from '../app/services/http-request.service';
 import { OverlayComponent } from './widgets/overlay/overlay.component';
 import { OverlayModule } from "@angular/cdk/overlay";
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { CssanimationsComponent } from './cssanimations/cssanimations.component';
+
 
 
 
@@ -26,8 +28,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     NotFoundComponent,
     ScrollToTopComponent,
     OverlayComponent,
-
-
+    CssanimationsComponent,
   ],
   imports: [
     BrowserModule,
