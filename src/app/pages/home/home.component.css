@@ -419,8 +419,25 @@
 	margin-top:2%
 }
 
+.reduced-width{
+	width: 75%
+}
+
+.reduced-width-hybrid{
+	width: 40%;
+}
+
 .underline{
 	text-decoration: underline; color: #ff6d00;
+}
+
+.underline-dashed{
+	text-decoration: underline dashed 1.4px; color: #ff6d00;
+	
+}
+
+.text-to-white{
+	color:#f1f1f1
 }
 
 .slidingHorizontal {

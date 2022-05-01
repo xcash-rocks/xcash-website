@@ -13,6 +13,10 @@
 	width:96%;
 }
 
+.reduced-width{
+  width: 78%;
+}
+
 .leaf-svg-enlarge{
 	width:25%;
   height:auto;
