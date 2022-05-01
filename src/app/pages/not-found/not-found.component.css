@@ -55,6 +55,7 @@
   color: #7CB518;
   background-color: #fff;
 }
+
 .button-xbank {
   background-color: #F7BF23;
   border-color: #F7BF23;
@@ -92,8 +93,27 @@
   color: #8C52FF;
 }
 
+.pos-down{
+  margin-top:15%;
+}
+
+.background-animation {
+  position: relative;
+  margin-bottom:-50%;
+  padding-bottom: -50%;
+  margin-top:-20%;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: -1;
+  width: 100%;
+  background-color: #1f1f1f;
+}
+
 .spinner{
-  position: relative; left: 45%;
+  position: relative; left: 47%;
+  margin-top:10%;
   margin-bottom: 05%;
   width: 100px;
   height: 100px;
@@ -101,7 +121,10 @@
   border-top: 16px solid #fa741c;
   border-radius: 50%;
   animation: load 1s linear infinite;
+}
 
+.pos-bottom{
+  margin-bottom:-04%;
 }
 
 @keyframes load {
@@ -126,12 +149,13 @@
   width:19%;
   height: 5%;
   background-color: #1f1f1f;
+  z-index: -1;
 }
 
 .image-big{
   margin-top:7%;
   margin-bottom: 4%;
-  width:20%;
+  width:18%;
   z-index: -1;
   visibility:visible;
 }
@@ -139,6 +163,9 @@
 .pos{
   position:relative;
   top:-30%;
+}
+.pos-hack{
+  position:relative; top:90%;
 }
 
 .example-list {

@@ -35,6 +35,7 @@ scroll(el: HTMLElement) {
   el.scrollIntoView({behavior: 'smooth'});
 }
 
+flag:boolean = true
 
   ngOnInit(): void {
   }
