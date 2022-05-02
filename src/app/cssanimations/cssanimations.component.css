@@ -64,9 +64,17 @@
   border:none
 }
 
-.button-style  > * {
-  border-top:#f1f1f1 solid 4px;
+.button-style{
+
   background: #1f1f1f;
+}
+/* classes with border-styles */
+.bottom-border{
+  border-bottom:#f1f1f1 solid 4px;
+}
+.no-tb-border{
+  border-bottom:0;
+  border-top: 0;
 }
 
 .a-style{
