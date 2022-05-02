@@ -1,29 +1,34 @@
-<button  class="bb buttonClick" (click)="flagOn = !flagOn" >
-
+<button class="bb buttonClick mobileHide" (click)="flagOn = !flagOn" >
+    <div *ngIf="flagOn">
+        <ngx-lottie-view path="assets/documents/clickHint.json" class="orb" data-default-duration="1.1833333333333333" data-duration="5">
+        </ngx-lottie-view>
+    </div>
     <div *ngIf="!flagOn">
-    <ngx-lottie-view path="assets/documents/enlightenedBeing.json" class="round-animation" data-default-duration="1.1833333333333333" data-duration="5" style="width:250px; height:250px; z-index: 1; margin-top: -700%; margin-bottom: -280%; ">
-    </ngx-lottie-view>
-        <div style="margin-top:300%;">
-    <button style="width:600%; border:solid #fa741c 4px; background-color: #1f1f1f;">
-        <a style="text-align:center; font-size: 1.4rem; color:#fa741c; background-color: transparent;" href="https://www.xcash.foundation/contribute" class="dropdown-link w-dropdown-link"><strong>Join our Team</strong></a>
-    </button>
-    <button style="width:600%; border:solid #fa741c 4px; background-color: #1f1f1f;">
-        <a style="text-align:center; font-size: 1.4rem; color:#fa741c; background-color: transparent;" href="https://www.coingecko.com/en/coins/x-cash" class="dropdown-link w-dropdown-link"><strong>Trade</strong></a>
-    </button>
-    <button style="width:600%; border:solid #fa741c 4px; background-color: #1f1f1f;">
-        <a style="text-align:center; font-size: 1.4rem; color:#fa741c; background-color: transparent;" href="http://calculator.xcash.foundation/" class="dropdown-link w-dropdown-link"><strong>Stake Calculator</strong></a>
-    </button>
-    <button style="width:600%; border:solid #fa741c 4px; background-color: #1f1f1f;">
-        <a style="text-align:center; font-size: 1.4rem; color:#fa741c; background-color: transparent;" href="https://x-bank.io/" class="dropdown-link w-dropdown-link"><strong>Cross-chain swaps</strong></a>
-    </button>
-    <button style="width:600%; border:solid #fa741c 4px; background-color: #1f1f1f;">
-        <a style="text-align:center; font-size: 1.4rem; color:#fa741c; background-color: transparent;" href="https://www.xcash.foundation/contribute" class="dropdown-link w-dropdown-link"><strong>Number 5</strong></a>
-    </button>
-    <button style="width:600%; border:solid #fa741c 4px; background-color: #1f1f1f;">
-        <a style="text-align:center; font-size: 1.4rem; color:#fa741c; background-color: transparent;" href="https://www.xcash.foundation/contribute" class="dropdown-link w-dropdown-link"><strong>Community friend<br> of the Month</strong></a>
-    </button>
+        <ngx-lottie-view path="assets/documents/enlightenedBeing.json" class="guru" data-default-duration="1.1833333333333333" data-duration="5">
+        </ngx-lottie-view>
+
+    <div style="margin-top:300%;">
+        <button class="button-style">
+            <a class="a-style" href="https://www.xcash.foundation/contribute"><strong>Join our Team</strong></a>
+        </button>
+        <button class="button-style">
+            <a class="a-style" href="https://www.coingecko.com/en/coins/x-cash"><strong>Trade</strong></a>
+        </button>
+        <button class="button-style">
+            <a class="a-style" href="http://calculator.xcash.foundation/"><strong>Stake Calculator</strong></a>
+        </button>
+        <button class="button-style">
+            <a class="a-style" href="https://x-bank.io/"><strong>Cross-chain swaps</strong></a>
+        </button>
+        <button class="button-style">
+            <a class="a-style" href="https://www.xcash.foundation/contribute"><strong>Number 5</strong></a>
+        </button>
+        <button class="button-style">
+            <a class="a-style" href="https://www.xcash.foundation/contribute"><strong>Community friend<br> of the Month</strong></a>
+        </button>
     </div>
 </div>
+
 <div *ngIf="flagOn"></div>
 
 <div cdkOverlayOrigin #trigger="cdkOverlayOrigin"></div>
