@@ -1,61 +1,59 @@
-.pos-overlay{
-    position:fixed;
-    top:40%;
-    left:40%;
-    size-adjust:100%;
-    opacity: 100;
-    border: 5px solid #fa741c;
-    color:#fa741c;
-    background-color:#1f1f1f;
-    transform: rotate(360);
-}
-.border-glow{
+.border-grow{
   visibility: visible;
-}
-
-.border-glow.inverse:hover {
+}.border-grow:hover {
   -webkit-transform: scale(1.02);
-
   -ms-transform: scale(1.02);
   transform: scale(1.06);
 }
 
-.pos-overlay-drop{
+.pos-overlay-button{
   position:fixed;
-  /* top:76.5%; */
-  bottom:130px;
-  left:15px;
-}
-
-.pos-overlay-svg{
-  position:fixed;
-  /* top:88.5%; */
-  bottom:15px;
-  left:15px;
-  opacity: 100;
-  color:#fa741c;
   background-color:transparent;
+  margin-left:73.7%;
+  right: 1.75%;
+  bottom: 11.5%;
+  width:73px;
+  z-index:10;
+ }
+
+.overlay-display {
+  width: 63px;
+  height: 160px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  margin-left: 83.7%;
+  position:fixed;
+  right: 2%;
+  bottom: 8.5%;
+  opacity: 1;
+  font-size: 1rem;
+  line-height: 150%;
+}.overlay-display > li {
+  border:  solid 3px #fa741c;
+  border-bottom: none;
+  background: #1f1f1f;
+}.overlay-display:hover{
+  opacity: 100%
+}.overlay-display> li:nth-child(2) {
+  border-top:  solid #f1f1f1 1px;
+  border-bottom: solid #f1f1f1 1px
+}.overlay-display> li:last-child {
+  border-top:none;
+  border-bottom:  solid 3px #fa741c;
 }
 
-.move-right{
-  margin-left:240%;
-  margin-top: -400%;
+.opacity{
+  opacity: 70%;
+}.opacity:hover{
+  opacity:100%;
 }
 
-.move-right-list{
-  padding-left:40%;
-  border:red solid 3px;
-}
 
-.button-svg{
-  width:120px;
-}
 .animate-in{
 animation: load 2s linear;
 animation-name: fadeInOpacity;
-}
-
-@keyframes fadeInOpacity {
+} @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;
 	}
@@ -64,58 +62,100 @@ animation-name: fadeInOpacity;
 	}
 }
 
-.white{
-  color:f1f1f1;
-}
+.list-delay{
+  animation: load 1s linear;
+  animation-name: list-delay;
+  } @keyframes list-delay {
+    0% {
+      opacity: 0;
+    }
 
-#rotate{
-  vertical-align:top;
-  transform:rotate(7deg);
-  -ms-transform:rotate(90deg); /* IE 9 */
-  -moz-transform:rotate(90deg); /* Firefox */
-  -webkit-transform:rotate(90deg); /* Safari and Chrome */
-  -o-transform:rotate(90deg); /* Opera */
-}
+    
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.7;
+    }
 
-.example-list {
-    width: 130px;
-    border: solid 5px #fa741c;
-    border-radius: 4px;
-    background: #1f1f1f;
-    text-align: center;
-    padding: 0px;
-    margin-left: 13.2%;
-    margin-bottom: 17.5%;
+    
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
-.example-list > li {
-  list-style-type: none;
-  border-bottom: solid 1px #8b8b8b;
-  padding: 8px 0;
-}
 
-.example-list > li:last-child {
-  border-bottom: none;
-}
+.riseOverlay{
+  position: fixed;
+  bottom:21%;
+  right:2%;
+  width:100%;
+  height: 100%;
+  transform: rotate(180deg);
+  animation: load 0.15s ;
+  animation-name: riseOverlay;
+  } @keyframes riseOverlay {
+    0% {
+      opacity: 1;
+      background-image: url('../../../assets/images/overlay-animate.svg');
+      z-index: 222;
+      background-size:63px 8px;
+      background-repeat: no-repeat;
+    }
+    10% {
+      opacity: 1;
+      z-index: 222;
+      background-image: url('../../../assets/images/overlay-animate.svg');
+      background-size:63px 32px;
+      background-repeat: no-repeat;
+    }
+    25% {
+      opacity: 1;
+      z-index: 222;
+      background-image: url('../../../assets/images/overlay-animate.svg');
+      background-size:63px 64px;
+      background-repeat: no-repeat;
+    }
+    50% {
+      opacity: 1;
+      z-index: 222;
+      background-image: url('../../../assets/images/overlay-animate.svg');
+      background-size:63px 74px;
+      background-repeat: no-repeat;
+    }
+    75% {
+      opacity: 1;
+      z-index: 222;
+      background-image: url('../../../assets/images/overlay-animate.svg');
+      background-size:63px 74px;
+      background-repeat: no-repeat;
+    }
+    100% {
+      opacity: 1;
+      z-index: 222;
+      background-image: url('../../../assets/images/overlay-animate.svg');
+      background-size:63px 84px;
+      background-repeat: no-repeat;
+    }
+  }
 
 
 @media screen and (max-width: 301px) {
    .mobileHide { display: none; }
 }
-
 @media screen and (max-width: 479px) {
   .mobileHide {
-      display: none;
-  }
+      display: none;}
 }
 @media screen and (max-width: 767px) {
    .mobileHide {
-     display: none;
-  }
+     display: none;}
 }
 @media screen and (max-width: 991px) {
   .mobileHide {
-    display: none;
-   }
+    display: none;}
  }
 

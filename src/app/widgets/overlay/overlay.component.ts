@@ -16,6 +16,7 @@ export class OverlayComponent implements OnInit {
   count:number = 0
 
  
+ 
   animateOnce(){
     if(this.isOpen === true){
     this.count++;}
