@@ -63,6 +63,12 @@
 	object-fit: fill;
 	border-bottom: #fa741c 2px dotted;
   }
+.card-dark-style{
+	width:250px;
+	height:250px;
+	border: #fa741c solid 2.5px;
+	border-radius: 100%;
+}
 
   .section-hybrid.black {
 	position: relative;

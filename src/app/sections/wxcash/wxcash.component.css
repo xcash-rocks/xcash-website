@@ -1,13 +1,20 @@
 .section {
   border-bottom: 2px dotted #ff6d00;
 }
+
+.pos-button-wxcash{
+  margin-left:2%;
+  margin-top:-4%;
+}
+
 .wxcash-style{
 	position:relative;
-	left:-26.5%;
+	right:-2%;
 	top:0%;
 	margin:0%;
+
 	float: right;
-	width:250px
+	width:260px
 }
 .reduced-width {
   width: 60%;

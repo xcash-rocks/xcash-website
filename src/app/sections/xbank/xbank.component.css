@@ -17,13 +17,16 @@
 
 .xbanklogo{
   position:relative;
-	left:2.8%;
+	left:2.2%;
 	top:0%;
 	margin:0%;
 	float: right;
-	width:250px
-}
+	width:250px;
 
+}
+.pos-button-xbank{
+  margin-left:2%;
+}
 .reduced-width {
   width: 60%;
   margin-bottom:0%;

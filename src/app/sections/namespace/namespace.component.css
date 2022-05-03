@@ -8,7 +8,9 @@
 	width:25%;
   height:auto;
 	position:relative;
-  left:2%
+  left:2%;
+  border: #fa741c solid 3px;
+	border-radius: 100%;
 }
 
 .reduced-width{

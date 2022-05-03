@@ -29,3 +29,8 @@
   text-align: center;
   margin-top: 1rem;
 }
+
+.border-radius-orange{
+  border: #fa741c solid 2px;
+	border-radius: 100%;
+}
