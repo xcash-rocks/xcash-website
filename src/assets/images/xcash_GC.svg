@@ -60,9 +60,9 @@
    inkscape:window-height="1001"
    id="namedview25"
    showgrid="false"
-   inkscape:zoom="0.08838835"
-   inkscape:cx="3139.554"
-   inkscape:cy="616.5971"
+   inkscape:zoom="0.125"
+   inkscape:cx="12"
+   inkscape:cy="1076"
    inkscape:window-x="-9"
    inkscape:window-y="-9"
    inkscape:window-maximized="1"
@@ -147,13 +147,13 @@
      x="-10.835788"
      y="221.02335"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:207.399px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none"><tspan
-   style="stroke:#2ffa1c;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   style="fill:#2ffa1c;fill-opacity:1;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="tspan9791">Green</tspan> <tspan
    style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="tspan20281">+</tspan> <tspan
-   style="stroke:#1189a5;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   style="fill:#1189a5;fill-opacity:1;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="tspan94549">Clean</tspan>   <tspan
-   style="fill:#ffffff;fill-opacity:1;stroke:#fa741c;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   style="fill:#fa741c;fill-opacity:1;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="tspan110787">Blockchain</tspan> <tspan
    style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
    id="tspan15333">=</tspan> </tspan></text><text
