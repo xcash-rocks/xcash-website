@@ -1852,7 +1852,12 @@ a {
 }
 
 .dropdown-list.w--open {
-  border-color: #ff6d00;
+  border-color: none;
+  margin-top:20.5%
+}
+.dropdown-list.w--open-services {
+  border-color: none;
+  margin-top:16.5%
 }
 
 .list-5 {
