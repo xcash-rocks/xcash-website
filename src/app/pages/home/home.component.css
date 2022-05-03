@@ -50,6 +50,54 @@
 	color:#fa741c
 }
 
+.pubpri-lottie{
+	margin-top:-27%;
+}
+
+.section-hybrid {
+	overflow: hidden;
+	padding-top: 360px;
+	padding-bottom: 5%;
+	background-color: #1f1f1f;
+	-o-object-fit: fill;
+	object-fit: fill;
+	border-bottom: #fa741c 2px dotted;
+  }
+
+  .section-hybrid.black {
+	position: relative;
+	background-color: #1f1f1f;
+	color: #fff;
+	z-index: 0;
+  }
+  
+
+.section-hybrid.half-height-hybrid {
+	position: relative;
+	height: 60vw;
+  }
+  
+  .section-hybrid.half-height-hybrid.middle-centered {
+	position: relative;
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: contents;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+  }
+
+  .w-container-hybrid {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	/* max-width: 940px; */
+	max-width: 980px;
+  }
+
 .background-animation.dark {
 	left: auto;
 	top: 10%;
@@ -590,12 +638,14 @@
 	width:auto;
 	height:5000px
 }
-/* .pos-wholebox{
-	position:relative; top:45px;
-} */
+
+.pubpri-margin{
+	margin-top:-40%;
+}
 
 .pos-provides{
-	position:absolute; left:1200px; top:-60px;
+	position:relative; left:800px;margin-bottom:0%; top:-1000px; margin-bottom:-160%;
+	width: 900px;
 }
 @media screen and (max-width: 1300px) {
 	.pos-boysit{
