@@ -650,8 +650,8 @@
 }
 
 .pos-provides{
-	position:relative; left:800px;margin-bottom:0%; top:-1000px; margin-bottom:-160%;
-	width: 900px;
+	position:relative;  top:150px; margin-bottom:-30%; margin-top:-20%;margin-left:75%;
+	width: 350px;
 }
 @media screen and (max-width: 1300px) {
 	.pos-boysit{
