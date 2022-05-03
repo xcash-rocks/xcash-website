@@ -1,29 +1,29 @@
 
 <div *ngIf="isOpen mobileHide" class="riseOverlay"></div>
+
 <button class="pos-overlay-button mobileHide opacity border-grow"  (click)="isOpen = !isOpen; animateOnce();"  type="button" cdkOverlayOrigin #trigger="cdkOverlayOrigin">
-    
+
     <div *ngIf="!isOpen">
-    
-    <img [ngClass]="{'animate-in;': count === 0}" class="mobileHide" src="\assets\images\wallet_clean.svg">
+        <img [ngClass]="{'animate-in;': count === 0}" class="mobileHide" src="\assets\images\wallet_clean.svg">
+    </div>
 
-</div>
-<div *ngIf="isOpen">
+    <div *ngIf="isOpen">
+        <img class="mobileHide " src="\assets\images\wallet_open.svg">
+    </div>
 
-    <img class="mobileHide " src="\assets\images\wallet_open.svg">
-
-</div>
 </button>
 
-<ng-template [cdkConnectedOverlay]
+<ng-template
+    [cdkConnectedOverlay]
     [cdkConnectedOverlayOpen]="isOpen"
     [cdkConnectedOverlayHasBackdrop]="true"
     (backdropClick)="isOpen = !isOpen">
 
     <ul class="overlay-display mobileHide border-grow list-delay">
- 
        <li><a class="a-style" routerLink="wallet" fragment="desktop" >GUI</a></li>
        <li><a class="a-style" routerLink="wallet" fragment="desktop" >CLI</a></li>
        <li><a class="a-style" routerLink="wallet" fragment="mobile" >Mobile</a></li>
     </ul>
+
 </ng-template>
 

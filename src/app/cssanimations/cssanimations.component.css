@@ -8,26 +8,20 @@
     bottom: 0;
     left: 0;
     right: 0;
-  }
-  .bb {
+  }.bb {
     content: '';
     top:-14%;
     width: 2.5%;
-    height: 30%; /*1630*/
+    height: 30%;
     margin-top: 15%;
     z-index: 10;
-    border-left: transparent; /*7px solid #fa741c;*/
+    border-left: transparent;
     animation: clipMe 600s linear infinite;
     animation-play-state: running;
-  }
-
-  .bb:hover{
-      animation-play-state: paused;
-  }
+  }.bb:hover{animation-play-state: paused;}
 
   @keyframes clipMe {
-
- 0%{ left:0; top: 0%}
+ 0%{ left:0; top: 4%}
  5%{ left: 0%; top: 163%}
  10%{ left: 0%; top: 326%}
  15%{ left:0; top: 489%}
@@ -54,9 +48,7 @@
   width:600%;
   background-color: #1f1f1f;
   border:  solid 1px #fa741c;
-}
-
-.button-style:hover{
+}.button-style:hover{
   transform:scale(1);
   color: #F7BF23;
 }
@@ -66,41 +58,26 @@
   font-size: 17px;
   color:#fa741c;
   text-decoration: none;
-}
-
-.a-style:hover{
- 
-  color: #F7BF23;
-
-}
+}.a-style:hover{color: #F7BF23;}
 
 .top-border{
   border-top-right-radius:100px;
   border-top-left-radius:100px;
 }
-
 .mid-border{
   border-top:#f1f1f1 solid 1px;
   border-bottom: #f1f1f1 solid 1px;
 }
-
 .bottom-border{
   border-top:#f1f1f1 solid 1px;
   border-bottom-right-radius:35px;
   border-bottom-left-radius:35px;
-}
+}.bottom-border:hover{display: visible}
 
-.bottom-border:hover{
-  display: visible
-}
-
-.bottom-border-hover{
-  border-top:#f1f1f1 solid 1px;
-  border-bottom-right-radius:35px;
-  border-bottom-left-radius:35px;
-}
-
-
+.date-style{
+  font-size:0.75rem;
+  color:#f1f1f1;
+ }
 
 .guru{
   width:650%;
@@ -120,14 +97,9 @@
   margin-left:170%;
 }
 
-.dropdown-link12 {
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-  font-weight: 500;
-}
-
 @media screen and (max-width: 301px) {
-  .mobileHide { display: none; }
+  .mobileHide {
+     display: none;}
 }
 @media screen and (max-width: 479px) {
  .mobileHide {

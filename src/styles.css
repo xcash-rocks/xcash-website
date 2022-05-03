@@ -3198,17 +3198,7 @@ ul.list-2 > li::before{
 }
 ul.list-2 > li{
   padding: 8.5px;
-
 }
 ul.list-2 > li > span{
   padding-left: 10px;
-
-}
-
-ul.list-2-small-txt > li{
-  font-size: 1rem;
-  line-height: 1rem;
-  font-weight: bold;
-  list-style-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1OCA1OCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZmlsbD0iI2ZmNmQwMCIgZD0iTTAgMGg1OHY1OEgweiIvPjwvc3ZnPgo=");
-	padding: 8.5px;
 }

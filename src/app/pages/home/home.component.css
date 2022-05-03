@@ -43,6 +43,12 @@
 		background-color: #1f1f1f;
 }
 
+.private-hide{
+	opacity:19%;
+}.private-hide:hover{
+	opacity:1;
+	color:#fa741c
+}
 
 .background-animation.dark {
 	left: auto;
@@ -55,7 +61,6 @@
 .boysit{
 	position:relative; left:38%; top:-33%;
 	width:15%;
-	
 }
 
 .pos-box-left{
@@ -382,9 +387,24 @@
   }
 
 .enlarge-x{
-
 	font-size: x-large;
+}
 
+.list-2-small-txt{
+	padding-top: 2%;
+	padding-bottom: 1%;
+  }
+
+  ul.list-2-small-txt > li{
+	font-size: 1rem;
+	line-height: 1rem;
+	font-weight: bold;
+	list-style-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1OCA1OCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZmlsbD0iI2ZmNmQwMCIgZD0iTTAgMGg1OHY1OEgweiIvPjwvc3ZnPgo=");
+	padding: 8.5px;
+  }
+
+.pos-dpops-button{
+	margin-left:1%;
 }
 
 .large{
@@ -412,12 +432,10 @@
     left:-16%;
 	margin-top:5%
 }
-
-.makeOrange{
-	color:#fa741cff;
-	margin-bottom: -1%;
-	margin-top:2%
+.move-down-sidechains{
+	margin-bottom:2.5%;
 }
+
 
 .reduced-width{
 	width: 75%

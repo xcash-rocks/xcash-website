@@ -55,7 +55,6 @@
   color: #F7BF23;
 }
 
-
 .animate-in{
 animation: load 2s linear;
 animation-name: fadeInOpacity;
@@ -142,7 +141,6 @@ animation-name: fadeInOpacity;
     }
   }
 
-
 @media screen and (max-width: 301px) {
    .mobileHide { display: none; }
 }
@@ -158,4 +156,3 @@ animation-name: fadeInOpacity;
   .mobileHide {
     display: none;}
  }
-
