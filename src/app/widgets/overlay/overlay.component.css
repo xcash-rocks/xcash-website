@@ -34,10 +34,11 @@
   border-bottom: none;
   background: #1f1f1f;
 }.overlay-display:hover{
-  opacity: 100%
+  opacity: 100%;
 }.overlay-display> li:nth-child(2) {
   border-top:  solid #f1f1f1 1px;
-  border-bottom: solid #f1f1f1 1px
+  border-bottom: solid #f1f1f1 1px;
+  text-decoration: none;
 }.overlay-display> li:last-child {
   border-top:none;
   border-bottom:  solid 3px #fa741c;
@@ -47,6 +48,11 @@
   opacity: 70%;
 }.opacity:hover{
   opacity:100%;
+}
+.a-style{
+  text-decoration: none;
+}.a-style:hover{
+  color: #F7BF23;
 }
 
 
@@ -69,16 +75,12 @@ animation-name: fadeInOpacity;
     0% {
       opacity: 0;
     }
-
-    
     25% {
       opacity: 0;
     }
     50% {
       opacity: 0.7;
     }
-
-    
     75% {
       opacity: 1;
     }
@@ -86,8 +88,6 @@ animation-name: fadeInOpacity;
       opacity: 1;
     }
   }
-
-
 .riseOverlay{
   position: fixed;
   bottom:21%;
