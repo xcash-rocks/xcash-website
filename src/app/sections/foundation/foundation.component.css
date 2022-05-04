@@ -2,14 +2,285 @@
   border-bottom: 2px dotted #ff6d00;
 }
 .background-animation.rocket-animation {
-  left: auto;
-  top: auto;
-  right: 0px;
-  bottom: 0px;
+  position:relative;
+  padding-top: -40px;
+  left:28%;
+  white-space: nowrap;
+  top: -733px;
+  bottom: 100px;
+  margin-top: 150px;
+  margin-bottom:-1000px;
   opacity: 1;
-  width:80%
+  width:800px;
 }
 .pos-button-foundation{
-  margin-top:-3%;
+  margin-top:3%;
   margin-left:2%
   }
+.reduced-width{
+  width:80%;
+}
+
+.move-right{
+  margin-left:2.7%;
+}
+.move-right-less{
+  margin-left:2%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 3840px /*40% zoom*/) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -400px;
+    left:41%;
+    white-space: nowrap;
+    top: -1340px;
+    bottom: 100px;
+    margin-top: 170px;
+    margin-bottom:-2000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+@media screen and (min-width: 5120px /*30% zoom*/) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -400px;
+    left:43%;
+    white-space: nowrap;
+    top: -1640px;
+    bottom: 100px;
+    margin-top: 170px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}/*50% zoom*/
+@media screen and (min-width: 3072px) and (max-width: 3839px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -400px;
+    left:39%;
+    white-space: nowrap;
+    top: -1140px;
+    bottom: 100px;
+    margin-top: 170px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*60% zoom*/
+@media screen and (min-width: 2560px) and (max-width: 3071px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -400px;
+    left:36%;
+    white-space: nowrap;
+    top: -980px;
+    bottom: 100px;
+    margin-top: 160px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*70% zoom*/
+@media screen and (min-width: 2208px) and (max-width: 2559px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -400px;
+    left:34%;
+    white-space: nowrap;
+    top: -920px;
+    bottom: 100px;
+    margin-top: 150px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*80% zoom*/
+@media screen and (min-width: 1920px) and (max-width: 2207px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:32%;
+    white-space: nowrap;
+    top: -800px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+
+/*90% zoom*/
+@media screen and (min-width: 1696px) and (max-width: 1919px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:30%;
+    white-space: nowrap;
+    top: -730px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*110% zoom*/
+@media screen and (min-width: 1408px) and (max-width: 1535px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:25%;
+    white-space: nowrap;
+    top: -650px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*120% zoom*/
+@media screen and (min-width: 1280px) and (max-width: 1407px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:22%;
+    white-space: nowrap;
+    top: -630px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*130% zoom*/
+@media screen and (min-width: 1184px) and (max-width: 1279px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:20%;
+    white-space: nowrap;
+    top: -613px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*140% zoom*/
+@media screen and (min-width: 1088px) and (max-width: 1183px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:15%;
+    white-space: nowrap;
+    top: -580px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*150% zoom*/
+@media screen and (min-width: 1024px) and (max-width: 1087px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:12%;
+    white-space: nowrap;
+    top: -550px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*160% zoom*/
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:11%;
+    white-space: nowrap;
+    top: -550px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*170% zoom*/
+@media screen and (min-width: 896px) and (max-width: 959px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:11%;
+    white-space: nowrap;
+    top: -550px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*180% zoom*/
+@media screen and (min-width: 864px) and (max-width: 895px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:9%;
+    white-space: nowrap;
+    top: -550px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*190% zoom*/
+@media screen and (min-width: 800px) and (max-width: 863px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:9%;
+    white-space: nowrap;
+    top: -550px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
