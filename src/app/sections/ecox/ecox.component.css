@@ -10,7 +10,9 @@
 .margin-gc{
 	position:relative;left:-2.5%;
 	margin:2.5%;
-	width:96%;
+	width:550px;
+  margin-bottom:3.3%;
+  margin-top:1.24%;
 }
 
 .reduced-width{

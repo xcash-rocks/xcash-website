@@ -76,7 +76,29 @@
 	color: #fff;
 	z-index: 0;
   }
-  
+
+  .stake-subt{
+	margin-bottom:5%;
+}
+
+.underline-stake{
+
+	font-size: 1.04rem;
+	border: #fa741c 2px dotted;
+	border-top: none;
+	border-left: none;
+	border-right:none;
+
+}
+.bothline-stake{
+
+	font-size: 1.04rem;
+	border: #fa741c 2px dotted;
+	border-top: none;
+	border-left: none;
+	border-right:none;
+
+}
 
 .section-hybrid.half-height-hybrid {
 	position: relative;
@@ -504,7 +526,7 @@
 }
 
 .underline-dashed{
-	text-decoration: underline dashed 1.4px; color: #ff6d00;
+	text-decoration: underline dashed 1.4px; color: #f7bf23ff;
 	
 }
 
@@ -605,7 +627,7 @@
 .style-atm{
 
 	left:auto;
-	top: auto;
+	top: 30px;
 	right:-20%;
 	bottom: 0px;
 	width: 70%;
