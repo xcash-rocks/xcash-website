@@ -4,7 +4,11 @@
 .round-animation-column{
   text-align: center;
 }
-.leaf-svg-enlarge{
+
+.white{
+  color: #f1f1f1
+}
+.img-namespace{
 	width:25%;
   height:auto;
 	position:relative;
@@ -62,5 +66,315 @@
     width:100%;
     height:auto;
     margin:3%
+  }
+}
+
+
+/*30% zoom*/
+@media screen and (min-width: 5120px) {
+
+}
+/*40% zoom*/
+@media screen and (min-width: 3840px)  and (max-width: 5119px) {
+
+}
+/*50% zoom*/
+@media screen and (min-width: 3072px) and (max-width: 3839px) {
+
+}
+/*60% zoom*/
+@media screen and (min-width: 2560px) and (max-width: 3071px) {
+
+}
+/*70% zoom*/
+@media screen and (min-width: 2208px) and (max-width: 2559px) {
+
+}
+/*80% zoom*/
+@media screen and (min-width: 1920px) and (max-width: 2207px) {
+
+}
+/*90% zoom*/
+@media screen and (min-width: 1696px) and (max-width: 1919px) {
+
+}
+/*110% zoom*/
+@media screen and (min-width: 1408px) and (max-width: 1535px) {
+
+}
+/*120% zoom*/
+@media screen and (min-width: 1280px) and (max-width: 1407px) {
+
+}
+/*130% zoom*/
+@media screen and (min-width: 1184px) and (max-width: 1279px) {
+
+}
+/*140% zoom*/
+@media screen and (min-width: 1088px) and (max-width: 1183px) {
+
+}
+/*150% zoom*/
+@media screen and (min-width: 1024px) and (max-width: 1087px) {
+
+}
+/*160% zoom*/
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+  .button-black-New {
+    margin-top: 48.2%;
+    margin-left: -74%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1f1f1f;
+    background-color: #1f1f1f;
+    -webkit-transition: all 200ms cubic-bezier(.455, .03, .515, .955);
+    transition: all 200ms cubic-bezier(.455, .03, .515, .955);
+    color: #1f1f1f;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+/*170% zoom*/
+@media screen and (min-width: 896px) and (max-width: 959px) {
+  .button-black-New {
+    margin-top: 48.2%;
+  }
+}
+/*180% zoom*/
+@media screen and (min-width: 864px) and (max-width: 895px) {
+  .button-black-New {
+    margin-top: 48.2%;
+  }
+}
+/*190% zoom*/
+@media screen and (min-width: 800px) and (max-width: 863px) {
+  .button-black-New {
+    margin-top: 48.2%;
+  }
+}
+/*200% zoom*/
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .button-black-New {
+    margin-top: 48.2%;
+  }
+}
+/*210% zoom*/
+@media screen and (min-width: 736px) and (max-width: 767px) {
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 35.3%;
+  }
+  .img-namespace{
+    position:relative;
+    width:30%;
+    margin-top:5%;
+    margin-left:30%;
+  }
+}
+/*220% zoom*/
+@media screen and (min-width: 704px) and (max-width: 735px) {
+  .img-namespace{
+    position:relative;
+    width:30%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 32.8%;
+  }
+}
+/*230% zoom*/
+@media screen and (min-width: 672px) and (max-width: 703px) {
+  .img-namespace{
+    position:relative;
+    width:30%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 32.4%;
+  }
+}
+/*240% zoom*/
+@media screen and (min-width: 640px) and (max-width: 671px) {
+  .img-namespace{
+    position:relative;
+    width:30%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 32.0%;
+  }
+}
+/*250% zoom*/
+@media screen and (min-width: 608px) and (max-width: 639px) {
+  .img-namespace{
+    position:relative;
+    width:30%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 31%;
+  }
+}
+/*260% zoom*/
+@media screen and (min-width: 576px) and (max-width: 607px) {
+  .img-namespace{
+    position:relative;
+    width:30%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 31%;
+  }
+}
+
+/*270% zoom NONE available*/
+
+
+/*280% zoom*/
+@media screen and (min-width: 544px) and (max-width: 575px) {
+  .img-namespace{
+    position:relative;
+    width:30%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 29.5%;
+  }
+}
+
+/*290% zoom NONE AVAILABLE*/
+
+
+/*300% zoom*/
+@media screen and (min-width: 512px) and (max-width: 543px) {
+  .img-namespace{
+    position:relative;
+    width:33%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 29.5%;
+  }
+}
+/*310% zoom*/
+@media screen and (min-width: 480px) and (max-width: 511px) {
+  .img-namespace{
+    position:relative;
+    width:33%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 28%;
+  }
+}
+
+/*320% & 330% zoom NOT AVAILABLE*/
+
+
+/*340% zoom*/
+@media screen and (min-width: 448px) and (max-width: 479px) {
+  .img-namespace{
+    position:relative;
+    width:35%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 27.8%;
+  }
+}
+
+/*350% zoom NOT AVAILABLE*/
+
+/*360% zoom*/
+@media screen and (min-width: 416px) and (max-width: 447px) {
+  .img-namespace{
+    position:relative;
+    width:35%;
+    margin-top:5%;
+    margin-left:28.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 26.7%;
+  }
+}
+
+/*380% zoom NOT AVAILABLE*/
+
+/*390% zoom*/
+@media screen and (min-width: 384px) and (max-width: 415px) {
+  .img-namespace{
+    position:relative;
+    width:50%;
+    margin-top:5%;
+    margin-left:21.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 25%;
+  }
+}
+
+/*400% & 410% zoom NOT AVAILABLE */
+
+/*420% zoom*/
+@media screen and (min-width: 352px) and (max-width: 383px) {
+  .img-namespace{
+    position:relative;
+    width:50%;
+    margin-top:5%;
+    margin-left:21.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 22%;
+  }
+}
+
+/*430% , 440%, & 450% zoom NOT AVAILABLE */
+
+/*460% zoom*/
+@media screen and (min-width: 320px) and (max-width: 351px) {
+  .img-namespace{
+    position:relative;
+    width:50%;
+    margin-top:5%;
+    margin-left:21.5%;
+  }
+  .button-black-New {
+    position: relative;
+    margin-top: 7.2%;
+    margin-left: 19.5%;
   }
 }

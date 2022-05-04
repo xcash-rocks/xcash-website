@@ -32,8 +32,8 @@
 
 
 
-
-@media screen and (min-width: 3840px /*40% zoom*/) {
+/*40% zoom*/
+@media screen and (min-width: 3840px ) {
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -400px;
@@ -47,7 +47,8 @@
     width:800px;
   }
 }
-@media screen and (min-width: 5120px /*30% zoom*/) {
+/*30% zoom*/
+@media screen and (min-width: 5120px ) {
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -400px;
@@ -60,7 +61,8 @@
     opacity: 1;
     width:800px;
   }
-}/*50% zoom*/
+}
+/*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
   .background-animation.rocket-animation{
     position:relative;
