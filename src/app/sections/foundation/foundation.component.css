@@ -284,3 +284,260 @@
     width:800px;
   }
 }
+
+/*200% zoom*/
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -300px;
+    left:3%;
+    white-space: nowrap;
+    top: -500px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:800px;
+  }
+}
+
+/*210% zoom*/
+@media screen and (min-width: 736px) and (max-width: 767px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:37%;
+    white-space: nowrap;
+    top: -500px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*220% zoom*/
+@media screen and (min-width: 704px) and (max-width: 735px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:35%;
+    white-space: nowrap;
+    top: -400px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*230% zoom*/
+@media screen and (min-width: 672px) and (max-width: 703px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:32%;
+    white-space: nowrap;
+    top: -400px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*240% zoom*/
+@media screen and (min-width: 640px) and (max-width: 671px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:30%;
+    white-space: nowrap;
+    top: -390px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*250% zoom*/
+@media screen and (min-width: 608px) and (max-width: 639px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:28%;
+    white-space: nowrap;
+    top: -390px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*260% zoom*/
+@media screen and (min-width: 576px) and (max-width: 607px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:26%;
+    white-space: nowrap;
+    top: -390px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*270% zoom NONE available*/
+
+
+/*280% zoom*/
+@media screen and (min-width: 544px) and (max-width: 575px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:23%;
+    white-space: nowrap;
+    top: -390px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*290% zoom NONE AVAILABLE*/
+
+
+/*300% zoom*/
+@media screen and (min-width: 512px) and (max-width: 543px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:19%;
+    white-space: nowrap;
+    top: -400px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*310% zoom*/
+@media screen and (min-width: 480px) and (max-width: 511px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -270px;
+    left:15%;
+    white-space: nowrap;
+    top: -300px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*320% & 330% zoom NOT AVAILABLE*/
+
+
+/*340% zoom*/
+@media screen and (min-width: 448px) and (max-width: 479px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -268px;
+    left:11%;
+    white-space: nowrap;
+    top: -287px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*350% zoom NOT AVAILABLE*/
+
+/*360% zoom*/
+@media screen and (min-width: 416px) and (max-width: 447px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -268px;
+    left:5%;
+    white-space: nowrap;
+    top: -287px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*380% zoom NOT AVAILABLE*/
+
+/*390% zoom*/
+@media screen and (min-width: 384px) and (max-width: 415px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -268px;
+    left:-1%;
+    white-space: nowrap;
+    top: -287px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*400% & 410% zoom NOT AVAILABLE */
+
+/*420% zoom*/
+@media screen and (min-width: 352px) and (max-width: 383px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -268px;
+    left:-9%;
+    white-space: nowrap;
+    top: -287px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-3000px;
+    opacity: 1;
+    width:500px;
+  }
+}
+
+/*430% , 440%, & 450% zoom NOT AVAILABLE */
+
+/*460% zoom*/
+@media screen and (min-width: 320px) and (max-width: 351px) {
+  .background-animation.rocket-animation{
+    position:relative;
+    padding-top: -268px;
+    left:-120%;
+    white-space: nowrap;
+    top: -67px;
+    bottom: 100px;
+    margin-top: 90px;
+    margin-bottom:-120px;
+    opacity: 1;
+    width:800px;
+  }
+}
