@@ -506,13 +506,10 @@
 	width:80%;
 	position:relative; left:30%; top:-10%
 }
-
-
 .pos-adjust{
 	position:relative;
 	left:-27%;
 }
-
 
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
@@ -535,7 +532,27 @@
 	    bottom: 0;
 	    width: 64%;
 		transform:scaleX(-1)
-		}
+	}
+	.font-larger{
+		transform: scale(1.5);
+	}
+	.discover-larger{
+		font-size: 180%;
+	}
+
+	.fuel-larger{
+		padding-top:3%;
+		font-size: 235%
+	}
+
+	#scroll-arrow-button{
+		transform: scale(1.5);
+		margin-top: 5%;
+	}
+	#scroll-arrow-button:hover{
+		transform: scale(1.6);
+	
+	}
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
@@ -558,6 +575,19 @@
 	    bottom: 0;
 	    width: 64%;
 		transform:scaleX(-1)
+		}
+		#scroll-arrow-button{
+			transform: scale(1.5);
+			margin-top: 5%;
+		}
+		#scroll-arrow-button:hover{
+			transform: scale(1.6);
+		}
+		.discover-larger{
+			font-size: 160%;
+		}
+		.font-larger{
+			transform: scale(1.3);
 		}
 }
 /*50% zoom*/
