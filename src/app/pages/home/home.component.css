@@ -177,7 +177,8 @@
 }
 
 .pos-move-right-wxcash-exchange{
-	position:relative; left:60px;
+	position:relative;
+	left:60px;
 }
 
 .change-font{
@@ -185,11 +186,11 @@
 }
 
 .pos-logo-list{
-	position:relative; top:-50%;left:-27.2%;
-
+	position:relative;
+	top:-50%;
+	left:-27.2%;
 	width:43%; height:auto;
 	margin: 1.9%;
-
 }
 
 
@@ -513,6 +514,43 @@
 
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
+	.pos-provides{
+		position:relative;
+		top:400px;
+		margin-bottom:-28%;
+		margin-top:-20%;
+		margin-left:60%;
+		width: 550px;
+	}.list-2 {
+		font-size: 1rem;
+		line-height: 1.2rem;
+		font-weight: bold;
+		list-style: none;
+	    padding-left: 20px;
+		padding-right:80px;
+		transform:scale(2.6);
+		margin-bottom:64%;
+		margin-left:16%;
+		margin-top:20%;
+	}.list-2-right-features{
+		position:absolute;
+		right:-85%;
+		padding-top: 11%;
+		margin-top:-5%;
+		width:100%;
+	}.pos-logo-list{
+		position:relative;
+		margin-bottom:30%;
+		left:-27.2%;
+		width:65%;
+		height:auto;
+		margin: 1.9%;
+	}.enlarge-x{
+		font-size: x-large;
+		margin-top:27%;
+	}
+
+
 	.slide-replace{
 		display:none;
 	}
@@ -561,6 +599,42 @@
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
+	.pos-provides{
+		position:relative;
+		top:400px;
+		margin-bottom:-28%;
+		margin-top:-20%;
+		margin-left:65%;
+		width: 500px;
+	}.list-2 {
+		font-size: 1rem;
+		line-height: 1.2rem;
+		font-weight: bold;
+		list-style: none;
+	    padding-left: 20px;
+		padding-right:80px;
+		transform:scale(2.6);
+		margin-bottom:64%;
+		margin-left:16%;
+		margin-top:20%;
+	}.list-2-right-features{
+		position:absolute;
+		right:-85%;
+		padding-top: 11%;
+		margin-top:-5%;
+		width:100%;
+	}.pos-logo-list{
+		position:relative;
+		margin-bottom:30%;
+		left:-27.2%;
+		width:65%;
+		height:auto;
+		margin: 1.9%;
+	}.enlarge-x{
+		font-size: x-large;
+		margin-top:27%;
+	}
+
 	.slide-replace{
 		display:none;
 	}
@@ -598,6 +672,42 @@
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
+	.pos-provides{
+		position:relative;
+		top:400px;
+		margin-bottom:-28%;
+		margin-top:-20%;
+		margin-left:65%;
+		width: 500px;
+	}.list-2 {
+		font-size: 1rem;
+		line-height: 1.2rem;
+		font-weight: bold;
+		list-style: none;
+	    padding-left: 20px;
+		padding-right:80px;
+		transform:scale(2.6);
+		margin-bottom:64%;
+		margin-left:16%;
+		margin-top:20%;
+	}.list-2-right-features{
+		position:absolute;
+		right:-85%;
+		padding-top: 11%;
+		margin-top:-5%;
+		width:100%;
+	}.pos-logo-list{
+		position:relative;
+		margin-bottom:30%;
+		left:-27.2%;
+		width:65%;
+		height:auto;
+		margin: 1.9%;
+	}.enlarge-x{
+		font-size: x-large;
+		margin-top:27%;
+	}
+
 	.slide-replace{
 		display:none;
 	}
@@ -635,6 +745,45 @@
 }
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
+	.pos-provides{
+		position:relative;
+		top:400px;
+		margin-bottom:-28%;
+		margin-top:-20%;
+		margin-left:65%;
+		width: 500px;
+	}.list-2 {
+		font-size: 1rem;
+		line-height: 1.2rem;
+		font-weight: bold;
+		list-style: none;
+	    padding-left: 20px;
+		padding-right:80px;
+		transform:scale(2.6);
+		margin-bottom:64%;
+		margin-left:16%;
+		margin-top:20%;
+	}.list-2-right-features{
+		position:absolute;
+		right:-85%;
+		padding-top: 11%;
+		margin-top:-5%;
+		width:100%;
+	}.pos-logo-list{
+		position:relative;
+		margin-bottom:30%;
+		margin-left:-2.2%;
+		width:65%;
+		height:auto;
+		margin: 1.9%;
+	}.enlarge-x{
+		font-size: x-large;
+		margin-top:27%;
+	}.scale-total-features-list{
+		transform:scale(0.85);
+	}
+
+
 	.slide-replace{
 		display:none;
 	}
@@ -664,6 +813,21 @@
 }
 /*70% zoom*/
 @media screen and (min-width: 2208px) and (max-width: 2559px) {
+	.pos-provides{
+		position:relative;
+		top:250px;
+		margin-bottom:-28%;
+		margin-top:-20%;
+		margin-left:65%;
+		width: 400px;
+	}.pos-logo-list{
+		position:relative;
+		margin-bottom:30%;
+		left:1.2%;
+		width:45%;
+		height:auto;
+		margin: 1.9%;
+	}
 	.slide-replace{
 		display:none;
 	}
@@ -693,6 +857,19 @@
 }
 /*80% zoom*/
 @media screen and (min-width: 1920px) and (max-width: 2207px) {
+	.pos-provides{
+		position:relative;
+		top:220px;
+		margin-bottom:-28%;
+		margin-top:-18%;
+		margin-left:69%;
+		width: 400px;
+	}.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:40%;
+		height:auto;
+	}
 	.slide-replace{
 		display:none;
 	}
@@ -722,6 +899,19 @@
 }
 /*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
+	.pos-provides{
+		position:relative;
+		top:250px;
+		margin-bottom:-28%;
+		margin-top:-18%;
+		margin-left:69%;
+		width: 370px;
+	}.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:40%;
+		height:auto;
+	}
 	.slide-replace{
 		display:none;
 	}
@@ -751,6 +941,19 @@
 }
 /*100% zoom*/
 @media screen and (min-width: 1536px) and (max-width: 1695px) {
+	.pos-provides{
+		position:relative;
+		top:250px;
+		margin-bottom:-28%;
+		margin-top:-18%;
+		margin-left:69%;
+		width: 350px;
+	}.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:37%;
+		height:auto;
+	}
 	.slide-replace{
 		display:none;
 	}
@@ -780,6 +983,19 @@
 }
 /*110% zoom*/
 @media screen and (min-width: 1408px) and (max-width: 1535px) {
+	.pos-provides{
+		position:relative;
+		top:250px;
+		margin-bottom:-28%;
+		margin-top:-18%;
+		margin-left:69%;
+		width: 320px;
+	}.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
 	.slide-replace{
 		display:none;
 	}
@@ -803,6 +1019,19 @@
 }
 /*120% zoom*/
 @media screen and (min-width: 1280px) and (max-width: 1407px) {
+	.pos-provides{
+		position:relative;
+		top:250px;
+		margin-bottom:-28%;
+		margin-top:-18%;
+		margin-left:69%;
+		width: 310px;
+	}.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
 	.pos-boysit{
 		position:relative;
 		left: 38%;
@@ -837,6 +1066,12 @@
 }
 /*130% zoom*/
 @media screen and (min-width: 1184px) and (max-width: 1279px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:30%;
@@ -875,6 +1110,12 @@
 }
 /*140% zoom*/
 @media screen and (min-width: 1088px) and (max-width: 1183px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:30%;
@@ -913,6 +1154,12 @@
 }
 /*150% zoom*/
 @media screen and (min-width: 1024px) and (max-width: 1087px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:30%;
@@ -951,6 +1198,15 @@
 }
 /*160% zoom*/
 @media screen and (min-width: 960px) and (max-width: 1023px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:30%;
@@ -986,6 +1242,15 @@
 }
 /*170% zoom*/
 @media screen and (min-width: 896px) and (max-width: 959px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:30%;
@@ -1058,6 +1323,15 @@
 }
 /*180% zoom*/
 @media screen and (min-width: 864px) and (max-width: 895px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:30%;
@@ -1130,6 +1404,15 @@
 }
 /*190% zoom*/
 @media screen and (min-width: 800px) and (max-width: 863px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:30%;
@@ -1203,6 +1486,15 @@
 }
 /*200% zoom*/
 @media screen and (min-width: 768px) and (max-width: 799px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:30%;
@@ -1276,6 +1568,15 @@
 }
 /*210% zoom*/
 @media screen and (min-width: 736px) and (max-width: 767px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -1355,6 +1656,15 @@
 }
 /*220% zoom*/
 @media screen and (min-width: 704px) and (max-width: 735px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -1434,6 +1744,15 @@
 }
 /*230% zoom*/
 @media screen and (min-width: 672px) and (max-width: 703px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:35%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -1513,6 +1832,15 @@
 }
 /*240% zoom*/
 @media screen and (min-width: 640px) and (max-width: 671px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:36%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -1593,6 +1921,15 @@
 }
 /*250% zoom*/
 @media screen and (min-width: 608px) and (max-width: 639px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:37%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -1675,6 +2012,15 @@
 }
 /*260% zoom*/
 @media screen and (min-width: 576px) and (max-width: 607px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:38%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -1759,6 +2105,15 @@
 
 /*280% zoom*/
 @media screen and (min-width: 544px) and (max-width: 575px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:39%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -1844,6 +2199,15 @@
 
 /*300% zoom*/
 @media screen and (min-width: 512px) and (max-width: 543px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:40%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -1924,6 +2288,15 @@
 }
 /*310% zoom*/
 @media screen and (min-width: 480px) and (max-width: 511px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:40%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:17%;
@@ -2008,6 +2381,15 @@
 
 /*340% zoom*/
 @media screen and (min-width: 448px) and (max-width: 479px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:44%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:14%;
@@ -2099,6 +2481,15 @@
 
 /*360% zoom*/
 @media screen and (min-width: 416px) and (max-width: 447px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:46%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:14%;
@@ -2194,6 +2585,15 @@
 
 /*390% zoom*/
 @media screen and (min-width: 384px) and (max-width: 415px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:48%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:14%;
@@ -2288,6 +2688,15 @@
 
 /*420% zoom*/
 @media screen and (min-width: 352px) and (max-width: 383px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:50%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:14%;
@@ -2381,6 +2790,15 @@
 
 /*460% zoom*/
 @media screen and (min-width: 320px) and (max-width: 351px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:52%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:14%;
@@ -2464,6 +2882,15 @@
 	}
 }
 @media screen and (max-width: 301px) {
+	.pos-logo-list{
+		position:relative;
+		left:1.2%;
+		width:54%;
+		height:auto;
+	}
+	.pos-provides{
+		display: none;
+	}
 	.landing-animation-left {
 		position:absolute;
 		margin-right:14%;
