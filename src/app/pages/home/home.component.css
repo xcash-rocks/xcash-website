@@ -12,8 +12,9 @@
   text-align: center;
 }
 
-
-
+.hybrid-border-top{
+	border-top:#fa741c 2px dotted;
+}
 #landingbox.section {
     overflow: hidden;
     /* padding-top: 60px;
