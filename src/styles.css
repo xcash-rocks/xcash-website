@@ -58,7 +58,7 @@ a {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: relative;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -75,6 +75,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  
 }
 
 .nav-menu {
@@ -88,6 +89,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+ 
 }
 
 .navbar {
@@ -120,11 +122,11 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   border-color: #fff;
   -webkit-transition: all 200ms cubic-bezier(.645, .045, .355, 1);
   transition: all 200ms cubic-bezier(.645, .045, .355, 1);
-  color: #1f1f1f;
+  color:#fa741c;
   font-size: 0.8em;
   font-weight: 700;
   text-decoration: none;
@@ -132,12 +134,14 @@ a {
 
 .nav-link:hover {
   text-decoration: underline;
+  color:#f1f1f1
 }
 
 .nav-link.w--current {
   max-height: 50px;
   color: #1f1f1f;
   font-weight: 900;
+  
 }
 
 .section {
@@ -1843,11 +1847,13 @@ a {
 
 .dropdown-list {
   border: 1px solid #000;
+
 }
 
 .dropdown-list.w--open {
   border-color: none;
   margin-top:20.5%
+  
 }
 .dropdown-list.w--open-services {
   border-color: none;
@@ -2185,7 +2191,7 @@ a {
     height: auto;
     margin-left: 0px;
     padding-left: 20px;
-    background-color: #fff;
+    background-color: #1f1f1f;
     border-bottom: 2px solid #ff6d00;
   }
 
@@ -2378,11 +2384,12 @@ a {
     background-color: #fff;
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease;
-    color: #1f1f1f;
+    color: #f1f1f1;
+    background-color: #1f1f1f;
   }
 
   .menu-button.w--open {
-    background-color: #fff;
+    background-color: #1f1f1f;
     color: #ff6d00;
   }
 
@@ -2390,7 +2397,6 @@ a {
     content: "\00d7";
     font-weight: bolder;
     font-size: 28px;
-
   }
 
 
