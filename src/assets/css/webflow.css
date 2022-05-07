@@ -1595,11 +1595,12 @@ textarea.w-select {
 .w-nav:before,
 .w-nav:after {
   content: " ";
-  display: table;
+  display: flex;
   grid-column-start: 1;
   grid-row-start: 1;
   grid-column-end: 2;
   grid-row-end: 2;
+ 
 }
 .w-nav:after {
   clear: both;
@@ -1619,7 +1620,8 @@ textarea.w-select {
   padding: 20px;
   text-align: left;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; /*Look*/
+  
 }
 .w-nav-link.w--current {
   color: #0082f3;
@@ -1627,11 +1629,12 @@ textarea.w-select {
 .w-nav-menu {
   position: relative;
   float: right;
+ 
 }
 [data-nav-menu-open] {
   display: block !important;
   position: absolute;
-  top: 100%;
+  top: 1000%;
   left: 0;
   right: 0;
   background: #C8C8C8;
@@ -1645,7 +1648,7 @@ textarea.w-select {
 }
 .w-nav-overlay {
   position: absolute;
-  overflow: hidden;
+  overflow: visible;
   display: none;
   top: 100%;
   left: 0;
@@ -1714,7 +1717,7 @@ textarea.w-select {
     display: none;
   }
   .w-nav[data-collapse="medium"] .w-nav-button {
-    display: block;
+    display: block; /*HERE*/
   }
 }
 @media screen and (max-width: 767px) {
