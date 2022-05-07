@@ -27,9 +27,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.5"
-     inkscape:cx="-55"
-     inkscape:cy="357"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="409.06127"
+     inkscape:cy="371.58461"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -96,33 +96,29 @@
        stroke="#fa741c"
        id="path79580-4"
        style="fill:none;stroke-width:1.557;stroke-miterlimit:4;stroke-dasharray:none" />
-    <g
-       id="g1195"
-       transform="matrix(2.0209751,0,0,2.0209751,61.822151,62.027637)">
-      <circle
-         transform="scale(-1)"
-         r="7.6999998"
-         cy="-38.5"
-         cx="-38.5"
-         class="st0"
-         fill="#fa741c"
-         id="circle4"
-         style="fill:#56b786;fill-opacity:1" />
-      <path
-         d="m 28.2,23.1 c 0,-5.7 4.6,-7.7 10.3,-7.7 A 7.7,7.7 0 1 0 30.8,7.7 c 0,5.7 -2,10.3 -7.7,10.3 -5.7,0 -7.7,-4.6 -7.7,-10.3 a 7.7,7.7 0 1 0 -7.7,7.7 c 5.7,0 10.3,2 10.3,7.7 0,5.7 -4.7,7.7 -10.3,7.7 a 7.7,7.7 0 1 0 7.7,7.7 c 0,-5.7 2,-10.3 7.7,-10.3 a 5.1,5.1 0 0 0 5.1,-5"
-         class="st1"
-         fill="#ffffff"
-         id="path6"
-         style="fill:#1189a5;fill-opacity:1" />
-      <circle
-         transform="scale(-1)"
-         cy="-30.200001"
-         cx="-29.5"
-         class="st0"
-         fill="#fa741c"
-         id="circle8"
-         style="fill:#56b786;fill-opacity:1"
-         r="3.2" />
-    </g>
+    <circle
+       transform="scale(-1)"
+       r="15.561508"
+       cy="-139.83517"
+       cx="-139.6297"
+       class="st0"
+       fill="#fa741c"
+       id="circle4"
+       style="fill:#56b786;fill-opacity:1;stroke-width:2.02098" />
+    <path
+       d="m 118.81365,108.71216 c 0,-11.519556 9.29648,-15.561506 20.81604,-15.561506 A 15.561508,15.561508 0 1 0 124.06818,77.589145 c 0,11.519558 -4.04195,20.816044 -15.5615,20.816044 -11.519562,0 -15.561512,-9.296486 -15.561512,-20.816044 A 15.561508,15.561508 0 1 0 77.383659,93.150654 c 11.519558,0 20.816044,4.04195 20.816044,15.561506 0,11.51956 -9.498583,15.56151 -20.816044,15.56151 a 15.561508,15.561508 0 1 0 15.561509,15.56151 c 0,-11.51956 4.04195,-20.81605 15.561512,-20.81605 a 10.306973,10.306973 0 0 0 10.30697,-10.10487"
+       class="st1"
+       fill="#ffffff"
+       id="path6"
+       style="fill:#f1f1f1;fill-opacity:1;stroke-width:2.02098" />
+    <circle
+       transform="scale(-1)"
+       cy="-123.06109"
+       cx="-121.44092"
+       class="st0"
+       fill="#fa741c"
+       id="circle8"
+       style="fill:#56b786;fill-opacity:1;stroke-width:2.02098"
+       r="6.4671206" />
   </g>
 </svg>
