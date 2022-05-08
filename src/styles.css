@@ -75,7 +75,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  
+
 }
 
 .nav-menu {
@@ -89,7 +89,7 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
- 
+
 }
 
 .navbar {
@@ -110,7 +110,8 @@ a {
   display: flex;
   width: auto;
   max-height: 50px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  margin-top: 25px;
   margin-bottom: 10px;
   padding: 0px 20px;
   -webkit-box-pack: center;
@@ -141,7 +142,7 @@ a {
   max-height: 50px;
   color: #1f1f1f;
   font-weight: 900;
-  
+
 }
 
 .section {
@@ -1818,11 +1819,14 @@ a {
 .icon {
   position: static;
   margin-right: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 4px;
+  font-size: 0.5rem;
 }
-
+.icon:hover {
+ text-decoration: none;
+}
 .dropdown {
-  max-height: 50px;
+  max-height: 60px;
 }
 
 .empty-state-2 {
@@ -1853,7 +1857,7 @@ a {
 .dropdown-list.w--open {
   border-color: none;
   margin-top:20.5%
-  
+
 }
 .dropdown-list.w--open-services {
   border-color: none;
