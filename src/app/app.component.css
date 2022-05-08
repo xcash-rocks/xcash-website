@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     /* border-bottom: 2px solid #ff6d00;
     background-color: #1f1f1f; */
     position: sticky;
@@ -114,4 +114,8 @@ margin-top:-10%}
 }
 .w-container{
 	z-index: 50;
+}
+.button-orange-centered.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
