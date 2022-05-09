@@ -2589,7 +2589,7 @@
 		position:absolute;
 		margin-left:17.6%;
 		right: 0;
-		margin-bottom: 1.9%;
+		margin-bottom: 2.47%;
 		width: 64%;
 		transform: scale(0.64);
 		}.welcome-to-web3-reposition-resizing-for-small-screen{
@@ -3179,5 +3179,14 @@
 	}
 	.landing-headline > h2 {
 		font-size: 1.4em;
+	}
+	.slide-replace{
+		display:visible;
+		visibility: visible;
+		width:100%
+	}.slidingHorizontal{
+		display:none
+	}.pos-heading{
+		display:none
 	}
 }
