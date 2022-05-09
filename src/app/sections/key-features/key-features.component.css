@@ -46,6 +46,18 @@
     transform: scale(2);
     margin-bottom:10%;
   }
+  .key-features-move-left{
+    margin-left:-11%;
+    margin-top:3%;
+  }
+  .scale-this-text{
+    font-size: 210%;
+    margin-left:0.5%;
+  }
+  .scale-these-subtitles{
+    font-size: 116%;
+    margin-left:0.5%;
+  }
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
@@ -89,7 +101,16 @@
 }
 /*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
-
+  .scale-for-screen-sizes{
+    margin-top:5%;
+    transform: scale(1.1);
+    margin-bottom:3%;
+    margin-left:18.8%;
+  }
+  .key-features-move-left{
+    margin-left:-5%;
+    margin-top:3%;
+  }
 }
 /*110% zoom*/
 @media screen and (min-width: 1408px) and (max-width: 1535px) {

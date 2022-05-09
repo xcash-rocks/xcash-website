@@ -518,11 +518,11 @@
 	.total-scale-hybrid-screens{
 		transform:scale(2.2);
 		margin-top:10%;
-		margin-left:41.5%;
+		margin-left:42%;
 	}
 	.pos-provides{
 		position:relative;
-		top:400px;
+		top:310px;
 		margin-bottom:-28%;
 		margin-top:-20%;
 		margin-left:60%;
@@ -536,7 +536,7 @@
 		padding-right:80px;
 		transform:scale(2.6);
 		margin-bottom:64%;
-		margin-left:16%;
+		margin-left:11.5%;
 		margin-top:20%;
 	}.list-2-right-features{
 		position:absolute;
@@ -547,11 +547,11 @@
 	}.pos-logo-list{
 		position:relative;
 		margin-bottom:30%;
-		left:-27.2%;
-		width:70%;
+		left:-29%;
+		width:80%;
 		height:auto;
 		margin: 1.9%;
-		margin-top:15%;
+		margin-top:1%;
 	}.enlarge-x{
 		font-size: x-large;
 		margin-top:27%;
@@ -631,7 +631,7 @@
 		padding-right:80px;
 		transform:scale(2.6);
 		margin-bottom:64%;
-		margin-left:16%;
+		margin-left:12%;
 		margin-top:20%;
 	}.list-2-right-features{
 		position:absolute;
@@ -642,8 +642,8 @@
 	}.pos-logo-list{
 		position:relative;
 		margin-bottom:30%;
-		left:-27.2%;
-		width:65%;
+		left:-28%;
+		width:72%;
 		height:auto;
 		margin: 1.9%;
 	}.enlarge-x{
@@ -714,7 +714,7 @@
 		padding-right:80px;
 		transform:scale(2.6);
 		margin-bottom:64%;
-		margin-left:16%;
+		margin-left:15%;
 		margin-top:20%;
 	}.list-2-right-features{
 		position:absolute;
@@ -725,8 +725,8 @@
 	}.pos-logo-list{
 		position:relative;
 		margin-bottom:30%;
-		left:-27.2%;
-		width:65%;
+		left:-24.9%;
+		width:70%;
 		height:auto;
 		margin: 1.9%;
 	}.enlarge-x{
@@ -783,7 +783,7 @@
 	}
 	.pos-provides{
 		position:relative;
-		top:400px;
+		top:320px;
 		margin-bottom:-28%;
 		margin-top:-20%;
 		margin-left:65%;
@@ -809,7 +809,8 @@
 		position:relative;
 		margin-bottom:30%;
 		margin-left:-2.2%;
-		width:65%;
+		left:-24.2%;
+		width:70%;
 		height:auto;
 		margin: 1.9%;
 	}.enlarge-x{
@@ -867,14 +868,16 @@
 	}.pos-logo-list{
 		position:relative;
 		margin-bottom:30%;
-		left:1.2%;
+		left:0.5%;
 		width:45%;
 		height:auto;
 		margin: 1.9%;
 	}.scale-total-features-list{
-		margin-left:-26%;
+		margin-left:-18%;
 		margin-right:-7%;
-		margin-top:14%;
+		margin-top:12%;
+		transform:scale(1.2);
+		margin-bottom:5%;
 	}
 	.slide-replace{
 		display:none;
@@ -919,11 +922,11 @@
 		width: 400px;
 	}.pos-logo-list{
 		position:relative;
-		left:1.2%;
+		left:0.5%;
 		width:40%;
 		height:auto;
 	}.scale-total-features-list{
-		margin-left:-20%;
+		margin-left:-19.8%;
 		margin-right:-7%;
 		margin-top:14%;
 	}
@@ -964,14 +967,14 @@
 	}
 	.pos-provides{
 		position:relative;
-		top:250px;
+		top:160px;
 		margin-bottom:-28%;
 		margin-top:-18%;
 		margin-left:69%;
 		width: 370px;
 	}.pos-logo-list{
 		position:relative;
-		left:1.2%;
+		left:0.5%;
 		width:40%;
 		height:auto;
 	}.scale-total-features-list{
