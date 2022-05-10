@@ -1,7 +1,8 @@
 <div id="metrics" class="section half-height middle-centered black">
-    <ngx-lottie-view path="./../../../assets/documents/womanchart_dark_nogrid.json" class="background-animation smallest-animation" data-default-duration="4.183333333333334" data-duration="0"  style="z-index: -2;">
-    </ngx-lottie-view>
-    <div class="w-container">
+
+    <div class="w-container metrics-scale-and-positioning-for-small-screens">
+      <!-- this lottie is causing too many problems ngx-lottie-view path="./../../../assets/documents/womanchart_dark_nogrid.json" class="background-animation woman-animation " data-default-duration="4.183333333333334" data-duration="0"  style="z-index: -2;">
+      </ngx-lottie-view-->
       <img class="pos-logo-metrics" src="/assets/images/xcash_metrics.svg" />
       <p class="h1-subtitles"><span class="bg-dark orange">XCASH is the native currency used for governance, sidechains, and smart contracts.<br /> Our blockchain is capable of effectively powering any product and service you design to run on our network.
       </span></p>
@@ -68,7 +69,7 @@
         </div>
         <div class="metrics-column w-col w-col-4">
           <div class="metrics-container">
-            <h4>Total Private Transactions</h4>
+            <h4>Total Private TXs</h4>
             <div class="metrics-data-container">
               <div class="metrics-currency-xcash">{{private_tx_count | number}}</div>
             </div>
@@ -82,6 +83,7 @@
             </div>
           </div>
         </div>
+      
       </div>
       <!-- <a href="https://coinmarketcap.com/currencies/x-cash/" class="button-orange inverse button-1 w-button">Coinmarketcap</a>
       <a href="https://www.coingecko.com/en/coins/x-cash" class="button-orange inverse button-1 w-button">Coingecko</a>
