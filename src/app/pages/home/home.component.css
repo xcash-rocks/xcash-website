@@ -515,6 +515,18 @@
 
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(2.15);
+		margin-left:41.5%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(2.15);
+		margin-left:41.5%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(2.2);
 		margin-top:10%;
@@ -609,6 +621,18 @@
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(2.15);
+		margin-left:38.6%;
+		margin-top: 10%;
+		margin-bottom: 12%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(2.15);
+		margin-left:38.6%;
+		margin-top: 12%;
+		margin-bottom: 12%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(2.1);
 		margin-top:13%;
@@ -692,6 +716,18 @@
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(2.15);
+		margin-left:38.8%;
+		margin-top: 13%;
+		margin-bottom: 15%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(2.15);
+		margin-left:38.6%;
+		margin-top: 15%;
+		margin-bottom: 16%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(2.15);
 		margin-top:14%;
@@ -776,6 +812,18 @@
 }
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(2);
+		margin-left:37.2%;
+		margin-top: 13%;
+		margin-bottom: 15%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(2);
+		margin-left:37.2%;
+		margin-top: 16%;
+		margin-bottom: 16%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(1.94);
 		margin-top:17%;
@@ -854,6 +902,18 @@
 }
 /*70% zoom*/
 @media screen and (min-width: 2208px) and (max-width: 2559px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(1.7);
+		margin-left:33.2%;
+		margin-top: 12%;
+		margin-bottom: 13%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(1.7);
+		margin-left:33.3%;
+		margin-top: 13%;
+		margin-bottom: 14%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(1.735);
 		margin-top:17%;
@@ -910,6 +970,18 @@
 }
 /*80% zoom*/
 @media screen and (min-width: 1920px) and (max-width: 2207px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(1.5);
+		margin-left:31.4%;
+		margin-top: 10%;
+		margin-bottom: 12%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(1.5);
+		margin-left:31.4%;
+		margin-top: 11%;
+		margin-bottom: 14%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(1.53);
 		margin-top:15%;
@@ -963,6 +1035,18 @@
 }
 /*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(1.3);
+		margin-left:23.4%;
+		margin-top: 6.5%;
+		margin-bottom: 9%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(1.3);
+		margin-left:23.4%;
+		margin-top: 6.5%;
+		margin-bottom: 9%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(1.33);
 		margin-top:9%;
@@ -1016,6 +1100,18 @@
 }
 /*100% zoom*/
 @media screen and (min-width: 1536px) and (max-width: 1695px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(1);
+		margin-left:17.4%;
+		margin-top: 0.5%;
+		margin-bottom: 1%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(1);
+		margin-left:17.4%;
+		margin-top: 0.5%;
+		margin-bottom: 1%;
+	}
 	.total-scale-hybrid-screens{
 		margin-left:17.3%;
 	}
@@ -1065,6 +1161,18 @@
 }
 /*110% zoom*/
 @media screen and (min-width: 1408px) and (max-width: 1535px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.95);
+		margin-left:16.2%;
+		margin-top: -1%;
+		margin-bottom: 1%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.95);
+		margin-left:16.2%;
+		margin-top: -1%;
+		margin-bottom: 1%;
+	}
 	.total-scale-hybrid-screens{
 		margin-left:18%;
 	}
@@ -1110,6 +1218,18 @@
 }
 /*120% zoom*/
 @media screen and (min-width: 1280px) and (max-width: 1407px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.92);
+		margin-left:13.8%;
+		margin-top: -3%;
+		margin-bottom: -2%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.92);
+		margin-left:13.8%;
+		margin-top: -3%;
+		margin-bottom: -2%;
+	}
 	.total-scale-hybrid-screens{
 		margin-left:16.8%;
 	}
@@ -1166,6 +1286,18 @@
 }
 /*130% zoom*/
 @media screen and (min-width: 1184px) and (max-width: 1279px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.92);
+		margin-left:10.3%;
+		margin-top: -4%;
+		margin-bottom: -4%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.92);
+		margin-left:10.3%;
+		margin-top: -4%;
+		margin-bottom: -4%;
+	}
 	.total-scale-hybrid-screens{
 		margin-left:13.4%;
 	}
@@ -1219,6 +1351,18 @@
 }
 /*140% zoom*/
 @media screen and (min-width: 1088px) and (max-width: 1183px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:7.55%;
+		margin-top: -5%;
+		margin-bottom: -5%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:7.55%;
+		margin-top: -5%;
+		margin-bottom: -5%;
+	}
 	.total-scale-hybrid-screens{
 		margin-left:11.4%;
 	}
@@ -1273,6 +1417,18 @@
 }
 /*150% zoom*/
 @media screen and (min-width: 1024px) and (max-width: 1087px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:5.8%;
+		margin-top: -5%;
+		margin-bottom: -5%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:5.8%;
+		margin-top: -5%;
+		margin-bottom: -5%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.95);
 		margin-top: -1%;
@@ -1337,6 +1493,18 @@
 }
 /*160% zoom*/
 @media screen and (min-width: 960px) and (max-width: 1023px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:11.5%;
+		margin-top: -7%;
+		margin-bottom: -7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:11.5%;
+		margin-top: -7%;
+		margin-bottom: -7%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.95);
 		margin-top:-10%;
@@ -1400,6 +1568,18 @@
 }
 /*170% zoom*/
 @media screen and (min-width: 896px) and (max-width: 959px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:6.2%;
+		margin-top: -7%;
+		margin-bottom: -7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:6.2%;
+		margin-top: -7%;
+		margin-bottom: -7%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.91);
 		margin-top:-14%;
@@ -1491,6 +1671,18 @@
 }
 /*180% zoom*/
 @media screen and (min-width: 864px) and (max-width: 895px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:5.8%;
+		margin-top: -7%;
+		margin-bottom: -7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:5.8%;
+		margin-top: -7%;
+		margin-bottom: -7%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.91);
 		margin-top:-15%;
@@ -1582,6 +1774,18 @@
 }
 /*190% zoom*/
 @media screen and (min-width: 800px) and (max-width: 863px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:1.5%;
+		margin-top: -7%;
+		margin-bottom: -7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:1.5%;
+		margin-top: -7%;
+		margin-bottom: -7%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.88);
 		margin-top:-20%;
@@ -1673,6 +1877,18 @@
 }
 /*200% zoom*/
 @media screen and (min-width: 768px) and (max-width: 799px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:-0.2%;
+		margin-top: -8%;
+		margin-bottom: -7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:-0.2%;
+		margin-top: -8%;
+		margin-bottom: -7%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.84);
 		margin-top:-22%;
@@ -1763,6 +1979,28 @@
 }
 /*210% zoom*/
 @media screen and (min-width: 736px) and (max-width: 767px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:3%;
+		margin-top: -8%;
+		margin-bottom: -7%;
+	}.dpops-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-dpops-button{
+		margin-left:28.7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.91);
+		margin-left:3%;
+		margin-top: -8%;
+		margin-bottom: -7%;
+	}.sidechains-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-sidechains-button{
+		margin-left:26.4%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.81);
 		margin-top:-15%;
@@ -1876,6 +2114,28 @@
 }
 /*220% zoom*/
 @media screen and (min-width: 704px) and (max-width: 735px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.89);
+		margin-left:3%;
+		margin-top: -12%;
+		margin-bottom: -7%;
+	}.dpops-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-dpops-button{
+		margin-left:28.7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.89);
+		margin-left:3%;
+		margin-top: -12%;
+		margin-bottom: -7%;
+	}.sidechains-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-sidechains-button{
+		margin-left:26.4%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.81);
 		margin-top:-18%;
@@ -1989,6 +2249,28 @@
 }
 /*230% zoom*/
 @media screen and (min-width: 672px) and (max-width: 703px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.84);
+		margin-left:-0.5%;
+		margin-top: -16%;
+		margin-bottom: -7%;
+	}.dpops-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-dpops-button{
+		margin-left:28.7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.84);
+		margin-left:-0.5%;
+		margin-top: -16%;
+		margin-bottom: -7%;
+	}.sidechains-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-sidechains-button{
+		margin-left:26.4%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.81);
 		margin-top:-22%;
@@ -2101,6 +2383,28 @@
 }
 /*240% zoom*/
 @media screen and (min-width: 640px) and (max-width: 671px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.84);
+		margin-left:-0.5%;
+		margin-top: -16%;
+		margin-bottom: -7%;
+	}.dpops-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-dpops-button{
+		margin-left:28.7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.84);
+		margin-left:-0.5%;
+		margin-top: -16%;
+		margin-bottom: -7%;
+	}.sidechains-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-sidechains-button{
+		margin-left:26.4%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.81);
 		margin-top:-25%;
@@ -2214,6 +2518,28 @@
 }
 /*250% zoom*/
 @media screen and (min-width: 608px) and (max-width: 639px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.84);
+		margin-left:-0.7%;
+		margin-top: -16%;
+		margin-bottom: -7%;
+	}.dpops-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-dpops-button{
+		margin-left:28.7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.84);
+		margin-left:-0.7%;
+		margin-top: -16%;
+		margin-bottom: -7%;
+	}.sidechains-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-sidechains-button{
+		margin-left:26.4%;
+	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.81);
 		margin-top:-27%;
@@ -2329,6 +2655,28 @@
 }
 /*260% zoom*/
 @media screen and (min-width: 576px) and (max-width: 607px) {
+	.dpops-scale-and-positioning-for-small-screens{
+		transform:scale(0.84);
+		margin-left:-0.7%;
+		margin-top: -16%;
+		margin-bottom: -7%;
+	}.dpops-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-dpops-button{
+		margin-left:28.7%;
+	}
+	.sidechains-scale-and-positioning-for-small-screens{
+		transform:scale(0.84);
+		margin-left:-0.7%;
+		margin-top: -16%;
+		margin-bottom: -7%;
+	}.sidechains-lottie-move-scale{
+		margin-top:5%;
+		margin-left:26.5%;
+	}.pos-sidechains-button{
+		margin-left:26.4%;
+	}/*Restart from here*/
 	.total-scale-hybrid-screens{
 		transform:scale(0.81);
 		margin-top:-30%;
