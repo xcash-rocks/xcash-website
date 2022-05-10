@@ -3715,6 +3715,9 @@
 
 /*420% zoom*/
 @media screen and (min-width: 352px) and (max-width: 383px) {
+	.xdex-margin{
+		margin-top:20%;
+	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
@@ -3871,6 +3874,9 @@
 
 /*460% zoom*/
 @media screen and (min-width: 320px) and (max-width: 351px) {
+	.xdex-margin{
+		margin-top:20%;
+	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
@@ -4020,6 +4026,9 @@
 	}
 }
 @media screen and (max-width: 301px) {
+	.xdex-margin{
+		margin-top:20%;
+	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
