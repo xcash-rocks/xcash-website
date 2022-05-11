@@ -6,12 +6,12 @@
     height:45.5px;
     opacity: 0;
     transition: all .2s ease-in-out;
-    border: 1px solid #fa741c;
+    border: transparent;
    }
  .show-scrollTop {
     opacity: 1;
     transition: all .2s ease-in-out;
-    background-color: #1f1f1f
+    background-color: transparent
    }
 .scroll-to-top button {
    background-color: transparent;
@@ -29,55 +29,87 @@
  }
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
-
+  .scroll-to-top button{
+   transform: scale(6);
+  }
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
-
+  .scroll-to-top button{
+    transform: scale(5);
+   }
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
-
+  .scroll-to-top button{
+    transform: scale(4);
+   }
 }
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
-
+  .scroll-to-top button{
+    transform: scale(3);
+   }
 }
 /*70% zoom*/
 @media screen and (min-width: 2208px) and (max-width: 2559px) {
-
+  .scroll-to-top button{
+    transform: scale(3);
+   }
 }
 /*80% zoom*/
 @media screen and (min-width: 1920px) and (max-width: 2207px) {
-
+  .scroll-to-top button{
+    transform: scale(3);
+   }
 }
 /*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
-
+  .scroll-to-top button{
+    transform: scale(2.8);
+   }
+}
+/*100% zoom*/
+@media screen and (min-width: 1536px) and (max-width: 1695px) {
+  .scroll-to-top button{
+    transform: scale(2.6);
+   }
 }
 /*110% zoom*/
 @media screen and (min-width: 1408px) and (max-width: 1535px) {
-
+  .scroll-to-top button{
+    transform: scale(2.4);
+   }
 }
 /*120% zoom*/
 @media screen and (min-width: 1280px) and (max-width: 1407px) {
-
+  .scroll-to-top button{
+    transform: scale(2.15);
+   }
 }
 /*130% zoom*/
 @media screen and (min-width: 1184px) and (max-width: 1279px) {
-
+  .scroll-to-top button{
+    transform: scale(2);
+   }
 }
 /*140% zoom*/
 @media screen and (min-width: 1088px) and (max-width: 1183px) {
-
+  .scroll-to-top button{
+    transform: scale(1.9);
+   }
 }
 /*150% zoom*/
 @media screen and (min-width: 1024px) and (max-width: 1087px) {
-
+  .scroll-to-top button{
+    transform: scale(1.8);
+   }
 }
 /*160% zoom*/
 @media screen and (min-width: 960px) and (max-width: 1023px) {
-
+  .scroll-to-top button{
+    transform: scale(1.7);
+   }
 }
 /*170% zoom*/
 @media screen and (min-width: 896px) and (max-width: 959px) {
@@ -89,6 +121,7 @@
    padding: 6.3px;
    margin-left:-2.5px;
    margin-top:-11%;
+   transform: scale(1.6);
 }
 
 }
@@ -102,6 +135,7 @@
    padding: 6.3px;
    margin-left:-5px;
    margin-top:-28%;
+   transform: scale(1.5);
 }
 }
 /*190% zoom*/
@@ -113,6 +147,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
+   transform: scale(1.4);
 }
 }
 /*200% zoom*/
@@ -124,6 +159,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
+   transform: scale(1.3);
 }
 }
 /*210% zoom*/
@@ -135,6 +171,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
+   transform: scale(1.2);
 }
 }
 /*220% zoom*/
@@ -146,6 +183,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
+   transform: scale(1.2);
 }
 }
 /*230% zoom*/
@@ -157,7 +195,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
-   transform: scale(0.85);
+   transform: scale(1.1);
 }
 }
 /*240% zoom*/
@@ -169,7 +207,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
-   transform: scale(0.9);
+   transform: scale(1);
 }
 }
 /*250% zoom*/
@@ -181,7 +219,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
-   transform: scale(0.9);
+   transform: scale(1);
 }
 }
 /*260% zoom*/
@@ -193,7 +231,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
-   transform: scale(0.9);
+   transform: scale(1);
 }
 }
 
@@ -209,7 +247,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
-   transform: scale(0.9);
+   transform: scale(1);
 }
 }
 
@@ -225,7 +263,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
-   transform: scale(0.9);
+   transform: scale(1);
 }
 }
 /*310% zoom*/
@@ -237,7 +275,7 @@
    padding: 6.3px;
    margin-left:7px;
    margin-top:-0%;
-   transform: scale(0.9);
+   transform: scale(1);
 }
 }
 
