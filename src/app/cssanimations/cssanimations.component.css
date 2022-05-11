@@ -16,7 +16,7 @@
     margin-top: 15%;
     z-index: 10;
     border-left: transparent;
-    animation: clipMe 600s linear infinite;
+    animation: clipMe 500s linear infinite;
     animation-play-state: running;
   }.bb:hover{animation-play-state: paused;}
 
@@ -114,3 +114,185 @@
    display: none;}
 }
 
+/*30% zoom*/
+@media screen and (min-width: 5120px) {
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*40% zoom*/
+@media screen and (min-width: 3840px)  and (max-width: 5119px) {
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1470%}
+    50%{ left: 0%; top: 1700%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*50% zoom*/
+@media screen and (min-width: 3072px) and (max-width: 3839px) {
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*60% zoom*/
+@media screen and (min-width: 2560px) and (max-width: 3071px) {
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*70% zoom*/
+@media screen and (min-width: 2208px) and (max-width: 2559px) {
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*80% zoom*/
+@media screen and (min-width: 1920px) and (max-width: 2207px) {
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*90% zoom*/
+@media screen and (min-width: 1696px) and (max-width: 1919px) {
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
