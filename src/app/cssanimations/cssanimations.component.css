@@ -58,7 +58,7 @@
   font-size: 17px;
   color:#fa741c;
   text-decoration: none;
-}.a-style:hover{color: #F7BF23;}
+}.a-style:hover{color: #f1f1f1;}
 
 .top-border{
   border-top-right-radius:100px;
@@ -76,7 +76,7 @@
 
 .date-style{
   font-size:0.75rem;
-  color:#f1f1f1;
+  color:#F7BF23;
  }
 
 .guru{
@@ -116,6 +116,15 @@
 
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
+  .button-style{
+    line-height:380%;
+  }
+  .a-style{
+    font-size: 320%;
+  }
+  .date-style{
+    font-size:100%;
+   }
   @keyframes clipMe {
     0%{ left:0; top: 4%}
     5%{ left: 0%; top: 163%}
@@ -142,6 +151,15 @@
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
+  .button-style{
+    line-height:320%;
+  }
+  .a-style{
+    font-size: 270%;
+  }
+  .date-style{
+    font-size:90%;
+   }
   @keyframes clipMe {
     0%{ left:0; top: 4%}
     5%{ left: 0%; top: 163%}
@@ -168,6 +186,15 @@
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
+  .button-style{
+    line-height:280%;
+  }
+  .a-style{
+    font-size: 230%;
+  }
+  .date-style{
+    font-size:80%;
+   }
   @keyframes clipMe {
     0%{ left:0; top: 4%}
     5%{ left: 0%; top: 163%}
@@ -194,6 +221,15 @@
 }
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
+  .button-style{
+    line-height:230%;
+  }
+  .a-style{
+    font-size: 200%;
+  }
+  .date-style{
+    font-size:70%;
+   }
   @keyframes clipMe {
     0%{ left:0; top: 4%}
     5%{ left: 0%; top: 163%}
@@ -220,6 +256,15 @@
 }
 /*70% zoom*/
 @media screen and (min-width: 2208px) and (max-width: 2559px) {
+  .button-style{
+    line-height:200%;
+  }
+  .a-style{
+    font-size: 170%;
+  }
+  .date-style{
+    font-size:67%;
+   }
   @keyframes clipMe {
     0%{ left:0; top: 4%}
     5%{ left: 0%; top: 163%}
@@ -246,6 +291,15 @@
 }
 /*80% zoom*/
 @media screen and (min-width: 1920px) and (max-width: 2207px) {
+  .button-style{
+    line-height:170%;
+  }
+  .a-style{
+    font-size: 140%;
+  }
+  .date-style{
+    font-size:60%;
+   }
   @keyframes clipMe {
     0%{ left:0; top: 4%}
     5%{ left: 0%; top: 163%}
@@ -272,6 +326,15 @@
 }
 /*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
+  .button-style{
+    line-height:150%;
+  }
+  .a-style{
+    font-size: 120%;
+  }
+  .date-style{
+    font-size:62%;
+   }
   @keyframes clipMe {
     0%{ left:0; top: 4%}
     5%{ left: 0%; top: 163%}
