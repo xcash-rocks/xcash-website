@@ -158,13 +158,6 @@
 	font-size: 1.2em;
 }
 
-.landing-teaser{
-
-}
-
-
-
-
 .pos-move-right{
 	position:relative; left:61px;
 }
@@ -193,11 +186,6 @@
 	width:43%; height:auto;
 	margin: 1.9%;
 }
-
-
-
-
-
 .large-text{
 	font-size: 2.9rem;
 	font-weight: bolder;
@@ -205,14 +193,8 @@
 	position:relative;left:-29%; top:10%;
 	padding: top;
 	margin: 0%;
-
 	border:10
 }
-
-
-
-
-
 .xpy-style{
 	position:relative;
 	left:-10%;
@@ -221,16 +203,11 @@
 	float: right;
 	width:25%
 }
-
-
 /* .wxcash-style{
 	position:absolute;
 	top:18%;
 	left:59%;
 } */
-
-
-
 .dex-style{
 	position:relative;
 	right:0%;
@@ -4026,9 +4003,7 @@
 	}
 }
 @media screen and (max-width: 301px) {
-	.xdex-margin{
-		margin-top:20%;
-	}
+	
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
@@ -4087,11 +4062,11 @@
 		transform:scaleX(-1);
 		}.landing-animation {
 		position:absolute;
-		margin-left:60.6%;
-		margin-right:-8%;
-		margin-bottom: 25.7%;
+		margin-left:23.6%;
+		margin-right:-40%;
+		margin-bottom: 29.3%;
 		width: 64%;
-		transform: scale(0.805);
+		transform: scale(0.705);
 		}.welcome-to-web3-reposition-resizing-for-small-screen{
 		margin-left:-2%;
 		transform: scale(0.72);
