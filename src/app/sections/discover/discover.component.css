@@ -35,11 +35,17 @@
   margin-top: 16px;
   text-align: center;
 }
+.move-this-text-left{
+	margin-left:-1%;
+}
+.move-this-subtitle-text-left{
+	margin-left:-2.5%;
+}
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(2.15);
-		  margin-left:41.5%;
+		  margin-left:36.5%;
 		  margin-top: 15%;
 		  margin-bottom: 15%;
 	  }
@@ -48,34 +54,34 @@
   @media screen and (min-width: 3840px)  and (max-width: 5119px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(2.15);
-		  margin-left:38.6%;
-		  margin-top: 15%;
-		  margin-bottom: 15%;
+		  margin-left:36.1%;
+		  margin-top: 18%;
+		  margin-bottom: 18%;
 	  }
   }
   /*50% zoom*/
   @media screen and (min-width: 3072px) and (max-width: 3839px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(2.15);
-		  margin-left:38.8%;
-		  margin-top: 17%;
-		  margin-bottom: 19%;
+		  margin-left:33.9%;
+		  margin-top: 22%;
+		  margin-bottom: 21%;
 	  }
   }
   /*60% zoom*/
   @media screen and (min-width: 2560px) and (max-width: 3071px) {
 	  .discover-scale-and-positioning-for-small-screens{
 		  transform:scale(2);
-		  margin-left:37.2%;
-		  margin-top: 18%;
-		  margin-bottom: 19%;
+		  margin-left:30.9%;
+		  margin-top: 21%;
+		  margin-bottom: 21%;
 	  }
   }
   /*70% zoom*/
   @media screen and (min-width: 2208px) and (max-width: 2559px) {
 	  .discover-scale-and-positioning-for-small-screens{
 		  transform:scale(1.7);
-		  margin-left:33.2%;
+		  margin-left:27.8%;
 		  margin-top: 18%;
 		  margin-bottom: 19%;
 	  }
@@ -84,18 +90,18 @@
   @media screen and (min-width: 1920px) and (max-width: 2207px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(1.5);
-		  margin-left:31.4%;
-		  margin-top: 14%;
-		  margin-bottom: 15%;
+		  margin-left:24.2%;
+		  margin-top: 15%;
+		  margin-bottom: 17%;
 	  }
   }
   /*90% zoom*/
   @media screen and (min-width: 1696px) and (max-width: 1919px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(1.3);
-		  margin-left:23.4%;
-		  margin-top: 8.5%;
-		  margin-bottom: 9%;
+		  margin-left:22.4%;
+		  margin-top: 10.5%;
+		  margin-bottom: 12%;
 	  }
   }
   /*100% zoom*/
@@ -110,7 +116,7 @@
   @media screen and (min-width: 1408px) and (max-width: 1535px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.95);
-		  margin-left:16.2%;
+		  margin-left:14.2%;
 		  margin-top: -1%;
 		  margin-bottom: 1%;
 	  }
@@ -119,7 +125,7 @@
   @media screen and (min-width: 1280px) and (max-width: 1407px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.92);
-		  margin-left:13.8%;
+		  margin-left:11.8%;
 		  margin-top: -3%;
 		  margin-bottom: -2%;
 	  }
@@ -128,7 +134,7 @@
   @media screen and (min-width: 1184px) and (max-width: 1279px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.92);
-		  margin-left:10.3%;
+		  margin-left:8%;
 		  margin-top: -4%;
 		  margin-bottom: -4%;
 	  }
@@ -137,7 +143,7 @@
   @media screen and (min-width: 1088px) and (max-width: 1183px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.91);
-		  margin-left:7.55%;
+		  margin-left:5.55%;
 		  margin-top: -5%;
 		  margin-bottom: -5%;
 	  }
@@ -146,27 +152,25 @@
   @media screen and (min-width: 1024px) and (max-width: 1087px) {
 	  .discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.91);
-		  margin-left:5.8%;
+		  margin-left:2.8%;
 		  margin-top: -5%;
 		  margin-bottom: -5%;
 	  }
-  
   }
   /*160% zoom*/
   @media screen and (min-width: 960px) and (max-width: 1023px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.91);
-		  margin-left:11.5%;
+		  margin-left:13.2%;
 		  margin-top: -7%;
 		  margin-bottom: -7%;
 	  }
-	
   }
   /*170% zoom*/
   @media screen and (min-width: 896px) and (max-width: 959px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.91);
-		  margin-left:6.2%;
+		  margin-left:9.4%;
 		  margin-top: -7%;
 		  margin-bottom: -7%;
 	  }
@@ -176,7 +180,7 @@
   @media screen and (min-width: 864px) and (max-width: 895px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.91);
-		  margin-left:5.8%;
+		  margin-left:7.8%;
 		  margin-top: -7%;
 		  margin-bottom: -7%;
 	  }
@@ -186,7 +190,7 @@
   @media screen and (min-width: 800px) and (max-width: 863px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.91);
-		  margin-left:1.5%;
+		  margin-left:4%;
 		  margin-top: -7%;
 		  margin-bottom: -7%;
 	  }
@@ -196,8 +200,8 @@
   @media screen and (min-width: 768px) and (max-width: 799px) {
 	.discover-scale-and-positioning-for-small-screens{
 		  transform:scale(0.91);
-		  margin-left:-0.2%;
-		  margin-top: -8%;
+		  margin-left:2.2%;
+		  margin-top: -34%;
 		  margin-bottom: -7%;
 	  }
 	
