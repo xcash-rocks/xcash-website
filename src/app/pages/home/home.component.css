@@ -1999,6 +1999,14 @@
 }
 /*210% zoom*/
 @media screen and (min-width: 736px) and (max-width: 767px) {
+	.stake-lottie-move{
+		margin-top:-113%;
+		margin-left:73%;
+		transform:scale(0.9)
+	}.buttons-stake{
+		margin-top:4%;
+		margin-bottom:-4%;
+	}
 	.style-atm{
 		left:55%;
 		width: 70%;
