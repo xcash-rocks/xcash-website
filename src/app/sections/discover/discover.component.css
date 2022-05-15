@@ -20,7 +20,7 @@
 	border-style: solid;
 	border-width: 1px;
 	transition: all 200ms ease;
-	color: #fff;
+	/* color: #fff; */
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -174,7 +174,7 @@
 		  margin-top: -7%;
 		  margin-bottom: -7%;
 	  }
-   
+
   }
   /*180% zoom*/
   @media screen and (min-width: 864px) and (max-width: 895px) {
@@ -184,7 +184,7 @@
 		  margin-top: -7%;
 		  margin-bottom: -7%;
 	  }
-	
+
   }
   /*190% zoom*/
   @media screen and (min-width: 800px) and (max-width: 863px) {
@@ -194,7 +194,7 @@
 		  margin-top: -7%;
 		  margin-bottom: -7%;
 	  }
-	
+
   }
   /*200% zoom*/
   @media screen and (min-width: 768px) and (max-width: 799px) {
@@ -204,7 +204,7 @@
 		  margin-top: -34%;
 		  margin-bottom: -7%;
 	  }
-	
+
   }
   /*210% zoom*/
   @media screen and (min-width: 736px) and (max-width: 767px) {
@@ -214,7 +214,7 @@
 		  margin-top: -8%;
 		  margin-bottom: -7%;
 	}
-	
+
   }
   /*220% zoom*/
   @media screen and (min-width: 704px) and (max-width: 735px) {
@@ -224,7 +224,7 @@
 		  margin-top: -24%;
 		  margin-bottom: -15%;
 	  }
-   
+
   }
   /*230% zoom*/
   @media screen and (min-width: 672px) and (max-width: 703px) {
@@ -234,7 +234,7 @@
 		  margin-top: -30%;
 		  margin-bottom: -15%;
 	  }
-   
+
   }
   /*240% zoom*/
   @media screen and (min-width: 640px) and (max-width: 671px) {
@@ -244,7 +244,7 @@
 		  margin-top: -40%;
 		  margin-bottom: -15%;
 	  }
-	
+
   }
   /*250% zoom*/
   @media screen and (min-width: 608px) and (max-width: 639px) {
@@ -254,7 +254,7 @@
 		  margin-top: -40%;
 		  margin-bottom: -15%;
 	  }
-	
+
   }
   /*260% zoom*/
   @media screen and (min-width: 576px) and (max-width: 607px) {
@@ -264,12 +264,12 @@
 		  margin-top: -45%;
 		  margin-bottom: -15%;
 	  }
-  
+
   }
-  
+
   /*270% zoom NONE available*/
-  
-  
+
+
   /*280% zoom*/
   @media screen and (min-width: 544px) and (max-width: 575px) {
 	.discover-scale-and-positioning-for-small-screens{
@@ -277,12 +277,12 @@
 		  margin-top: -45%;
 		  margin-bottom: -15%;
 	  }
-   
+
   }
-  
+
   /*290% zoom NONE AVAILABLE*/
-  
-  
+
+
   /*300% zoom*/
   @media screen and (min-width: 512px) and (max-width: 543px) {
 	.discover-scale-and-positioning-for-small-screens{
@@ -291,7 +291,7 @@
 		  margin-top: -48%;
 		  margin-bottom: -15%;
 	}
-  
+
   }
   /*310% zoom*/
   @media screen and (min-width: 480px) and (max-width: 511px) {
@@ -301,12 +301,12 @@
 		  margin-top: -50%;
 		  margin-bottom: -15%;
 	  }
-  
+
   }
-  
+
   /*320% & 330% zoom NOT AVAILABLE*/
-  
-  
+
+
   /*340% zoom*/
   @media screen and (min-width: 448px) and (max-width: 479px) {
 	.discover-scale-and-positioning-for-small-screens{
@@ -315,11 +315,11 @@
 		  margin-top: -55%;
 		  margin-bottom: -15%;
 	  }
-	
+
   }
-  
+
   /*350% zoom NOT AVAILABLE*/
-  
+
   /*360% zoom*/
   @media screen and (min-width: 416px) and (max-width: 447px) {
 	.discover-scale-and-positioning-for-small-screens{
@@ -329,9 +329,9 @@
 		  margin-bottom: -15%;
 	  }
   }
-  
+
   /*380% zoom NOT AVAILABLE*/
-  
+
   /*390% zoom*/
   @media screen and (min-width: 384px) and (max-width: 415px) {
 	.discover-scale-and-positioning-for-small-screens{
@@ -340,11 +340,11 @@
 		  margin-top: -68%;
 		  margin-bottom: -15%;
 	  }
-	
+
   }
-  
+
   /*400% & 410% zoom NOT AVAILABLE */
-  
+
   /*420% zoom*/
   @media screen and (min-width: 352px) and (max-width: 383px) {
 	.discover-scale-and-positioning-for-small-screens{
@@ -353,11 +353,11 @@
 		  margin-top: -75%;
 		  margin-bottom: -15%;
 	  }
-	
+
   }
-  
+
   /*430% , 440%, & 450% zoom NOT AVAILABLE */
-  
+
   /*460% zoom*/
   @media screen and (min-width: 320px) and (max-width: 351px) {
 	.discover-scale-and-positioning-for-small-screens{
