@@ -43,8 +43,8 @@ margin-top:-10%}
     transform: scale(0.9);
   }
 }
-/*40% zoom*/
-@media screen and (min-width: 3840px)  and (max-width: 5119px) {
+/*40% + 50% zoom*/
+@media screen and (min-width: 3072px)  and (max-width: 5119px) {
   .navbar{
     transform: scale(2.7);
   }
@@ -52,37 +52,16 @@ margin-top:-10%}
     margin-top:14px;
     transform:scale(0.70)
   }
-  .contribute-scale-down{
-    margin-top:14px;
-    transform: scale(0.9);
-  }
 }
-/*50% zoom*/
-@media screen and (min-width: 3072px) and (max-width: 3839px) {
-  .navbar{
-    transform: scale(2.7);
-  }
-  .nav-logo-screens{
-    margin-top:14px;
-    transform:scale(0.70)
-  }
-  .contribute-scale-down{
-    margin-top:14px;
-    transform: scale(0.9);
-  }
-}
+
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
   .navbar{
     transform: scale(2.3);
   }
   .nav-logo-screens{
-    margin-top:14px;
+    margin-top:8px;
     transform:scale(0.70)
-  }
-  .contribute-scale-down{
-    margin-top:14px;
-    transform: scale(0.9);
   }
 }
 /*70% zoom*/
@@ -91,12 +70,8 @@ margin-top:-10%}
     transform: scale(2);
   }
   .nav-logo-screens{
-    margin-top:14px;
+    margin-top:8px;
     transform:scale(0.70)
-  }
-  .contribute-scale-down{
-    margin-top:14px;
-    transform: scale(0.9);
   }
 }
 /*80% zoom*/
@@ -105,15 +80,17 @@ margin-top:-10%}
     transform: scale(1.8);
   }
   .nav-logo-screens{
-    margin-top:14px;
+    margin-top:8px;
     transform:scale(0.70)
   }
+}
+/*50% -> 80% zoom*/
+@media screen and (min-width: 1920px) and (max-width: 5119px) {
   .contribute-scale-down{
     margin-top:14px;
     transform: scale(0.9);
   }
 }
-
 .background-animation {
 	z-index: 0;
 }

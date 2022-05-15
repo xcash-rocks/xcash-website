@@ -111,7 +111,8 @@ a {
   width: auto;
   max-height: 50px;
   /* margin-top: 10px; */
-  margin-top: 25px;
+  /* margin-top: 25px; */
+  margin-top: 20px;
   margin-bottom: 10px;
   padding: 0px 20px;
   -webkit-box-pack: center;
@@ -140,7 +141,8 @@ a {
 
 .nav-link.w--current {
   max-height: 50px;
-  color: #1f1f1f;
+  color: #fa741c;
+  text-decoration: underline;
   font-weight: 900;
 
 }
@@ -2177,7 +2179,7 @@ a {
     margin: 20px auto;
   }
   .brand {
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
 
   .brand.w--current {
@@ -2197,6 +2199,8 @@ a {
     padding-left: 20px;
     background-color: #1f1f1f;
     border-bottom: 2px solid #ff6d00;
+    padding-bottom: 25px;
+    z-index: 45;
   }
 
   .navbar {
@@ -2205,8 +2209,9 @@ a {
 
   .nav-link {
     margin-left: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 0px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
