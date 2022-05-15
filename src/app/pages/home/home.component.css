@@ -67,8 +67,8 @@
 .card-dark-style{
 	width:240px;
 	height:240px;
-	border: #fa741c solid 2.5px;
-	border-radius: 100%;
+	/* border: #fa741c solid 2.5px;
+	border-radius: 100%; */
 }
 
   .section-hybrid.black {
@@ -105,10 +105,10 @@
 	position: relative;
 	height: 60vw;
   }
-  
+
   .section-hybrid.half-height-hybrid.middle-centered {
 	position: relative;
-	
+
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -283,7 +283,7 @@
 }
 
 .margin-gc{
-	position:relative;left:60%; 
+	position:relative;left:60%;
 	margin-top:-45%;
 	width:27%;
 }
@@ -312,7 +312,7 @@
 
 .underline-dashed{
 	text-decoration: underline dashed 1.4px; color: #f7bf23ff;
-	
+
 }
 
 .text-to-white{
@@ -596,7 +596,7 @@
 	}
 	#scroll-arrow-button:hover{
 		transform: scale(1.6);
-	
+
 	}
 }
 /*40% zoom*/
@@ -2638,7 +2638,7 @@
 		}.fuel-move{
 		margin-left:-3%;
 		}
-	
+
 	.pos-boysit{
 		position:relative;
 		left: 34%;
@@ -4011,7 +4011,7 @@
 	}
 }
 @media screen and (max-width: 301px) {
-	
+
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
