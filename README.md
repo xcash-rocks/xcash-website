@@ -1,4 +1,4 @@
-# Angular 13 Website Start
+# xcash.foundation Angular 13 Website Refactor
 
 <table>
 <tr>
@@ -62,4 +62,3 @@ Here is a step by step Tutorial :  https://www.ganatan.com/tutorials/getting-sta
 
 # [Author](#author)
 * Author  : X-Cash contributors
-
