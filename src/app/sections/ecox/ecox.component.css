@@ -24,8 +24,8 @@
   height:auto;
 	position:relative;
   left:2%;
-  border: #fa741c solid 2.5px;
-	border-radius: 100%;
+  /* border: #fa741c solid 2.5px;
+	border-radius: 100%; */
 }
 .round-animation-column{
   text-align: center;
