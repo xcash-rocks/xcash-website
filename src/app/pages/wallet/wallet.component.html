@@ -14,7 +14,7 @@
     </div>
   </div>
 </div>
-<div id="desktop" class="section half-height download-animation wf-section">
+<div id="desktop" class="section full-height download-animation wf-section">
 
   <div class="w-container">
     <h2 #target class="sub-section">Desktop Wallet</h2>
@@ -26,7 +26,7 @@
     </ul>
     <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="download-tab w-tabs">
       <div class="os-menu w-tab-menu">
-        <a (click)="divToggle('winWallet')" [ngClass]="{'w--current' : divTab == 'winWallet'}" data-w-tab="Tab 1" class="button-orange vertical-list download-button w-inline-block w-tab-link"><!--WINDOWS Box. click this then open #bullsEye1-->
+        <a (click)="divToggle('winWallet')" [ngClass]="{'w--current' : divTab == 'winWallet'}" data-w-tab="Tab 1" class="button-orange vertical-list download-button w-inline-block w-tab-link win"><!--WINDOWS Box. click this then open #bullsEye1-->
           <div  class="os-logo w-embed">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
               <style type="text/css">
@@ -37,7 +37,7 @@
           </div>
           <div class="os-text">Windows</div>
         </a>
-        <a  (click)="divToggle('macWallet')" [ngClass]="{'w--current' : divTab == 'macWallet'}"   data-w-tab="Tab 2" class="button-orange vertical-list download-button w-inline-block w-tab-link"><!--click this bullseye2 MAC OS box-->
+        <a  (click)="divToggle('macWallet')" [ngClass]="{'w--current' : divTab == 'macWallet'}"   data-w-tab="Tab 2" class="button-orange vertical-list download-button w-inline-block w-tab-link macos"><!--click this bullseye2 MAC OS box-->
           <div class="os-logo w-embed">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
               <style type="text/css">
@@ -48,7 +48,7 @@
           </div>
           <div class="os-text">MacOS</div>
         </a>
-        <a  (click)="divToggle('linuxWallet')" [ngClass]="{'w--current' : divTab == 'linuxWallet'}"   data-w-tab="Tab 3" class="button-orange vertical-list download-button w-inline-block w-tab-link"><!--Linux box-->
+        <a  (click)="divToggle('linuxWallet')" [ngClass]="{'w--current' : divTab == 'linuxWallet'}"   data-w-tab="Tab 3" class="button-orange vertical-list download-button w-inline-block w-tab-link linux"><!--Linux box-->
           <div class="os-logo w-embed">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
               <style type="text/css">
