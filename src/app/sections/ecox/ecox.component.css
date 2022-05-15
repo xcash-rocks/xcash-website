@@ -18,18 +18,28 @@
 .reduced-width{
   width: 78%;
 }
-
-.leaf-svg-enlarge{
-	width:25%;
-  height:auto;
-	position:relative;
-  left:2%;
-  /* border: #fa741c solid 2.5px;
-	border-radius: 100%; */
+.xleaf-lottie{
+  width: 240px;
+  height: 240px;
+}
+@media screen and (max-width: 767px)  {
+  .lottie-move-scale{
+    margin-top: 5%;
+    margin-left: 17%;
+  }
 }
 .round-animation-column{
   text-align: center;
 }
+
+
+/* .leaf-svg-enlarge{
+	width:25%;
+  height:auto;
+	position:relative;
+  left:2%;
+}
+
 @media screen and (max-width: 301px) {
   .leaf-svg-enlarge{
     position: relative;
@@ -38,7 +48,8 @@
     height:auto;
     margin:3%
   }
-}
+} */
+
 .section {
   border-bottom: 2px dotted #ff6d00;
 }
