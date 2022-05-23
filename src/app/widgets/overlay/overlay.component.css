@@ -1,0 +1,406 @@
+.border-grow{
+  visibility: visible;
+}.border-grow:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.06);
+}
+
+.pos-overlay-button{
+  position:fixed;
+  background-color:transparent;
+  margin-left:73.7%;
+  right: 1.75%;
+  bottom: 11.5%;
+  width:73px;
+  z-index:10;
+ }
+
+.overlay-list-display {
+  width: 63px;
+  height: 160px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+  margin-left: 83.7%;
+  position:fixed;
+  right: 2%;
+  bottom: 8.5%;
+  opacity: 1;
+  font-size: 1rem;
+  line-height: 150%;
+}.overlay-list-display > li {
+  border:  solid 3px #fa741c;
+  border-bottom: none;
+  background: #1f1f1f;
+}.overlay-list-display:hover{
+  opacity: 100%;
+}.overlay-list-display> li:nth-child(2) {
+  border-top:  solid #f1f1f1 1px;
+  border-bottom: solid #f1f1f1 1px;
+  text-decoration: none;
+}.overlay-list-display> li:last-child {
+  border-top:none;
+  border-bottom:  solid 3px #fa741c;
+}
+
+.opacity{
+  opacity: 70%;
+}.opacity:hover{
+  opacity:100%;
+}
+.a-style{
+  text-decoration: none;
+}.a-style:hover{
+  color: #F7BF23;
+}
+
+.animate-in{
+animation: load 2s linear;
+animation-name: fadeInOpacity;
+} @keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.list-delay{
+  animation: load 1s linear;
+  animation-name: list-delay;
+  } @keyframes list-delay {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.7;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+@media screen and (max-width: 991px) {
+  .mobileHide {
+    display: none;}
+ }
+
+
+ /*30% zoom*/
+@media screen and (min-width: 5120px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: 0.3%;
+    transform: scale(3.4);
+  }
+  .overlay-list-display{
+    margin-bottom: 2%;
+    left:13%;
+    transform:scale(3.4)
+  }
+  .border-grow:hover{
+    transform:scale(3.6)
+  }
+
+}
+/*40% zoom*/
+@media screen and (min-width: 3840px)  and (max-width: 5119px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: 0.3%;
+    transform: scale(2.8);
+  }
+  .overlay-list-display{
+    margin-bottom: 1.8%;
+    left:12.5%;
+    transform:scale(2.8)
+  }
+  .border-grow:hover{
+    transform:scale(2.9)
+  }
+
+}
+/*50% zoom*/
+@media screen and (min-width: 3072px) and (max-width: 3839px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: 0.21%;
+    transform: scale(2);
+  }
+  .overlay-list-display{
+    margin-bottom: 1%;
+    left:12.1%;
+    transform:scale(2)
+  }
+  .border-grow:hover{
+    transform:scale(2.1)
+  }
+}
+/*60% zoom*/
+@media screen and (min-width: 2560px) and (max-width: 3071px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: 0.21%;
+    transform: scale(1.8);
+  }
+  .overlay-list-display{
+    margin-bottom: 1%;
+    left:11.66%;
+    transform:scale(1.8)
+  }
+  .border-grow:hover{
+    transform:scale(1.9)
+  }
+}
+/*70% zoom*/
+@media screen and (min-width: 2208px) and (max-width: 2559px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: 0.21%;
+    transform: scale(1.5);
+  }
+  .overlay-list-display{
+    margin-bottom: 0.5%;
+    left:11.23%;
+    transform:scale(1.5)
+  }
+  .border-grow:hover{
+    transform:scale(1.6)
+  }
+}
+/*80% zoom*/
+@media screen and (min-width: 1920px) and (max-width: 2207px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: 0.21%;
+    transform: scale(1.35);
+  }
+  .overlay-list-display{
+    margin-bottom: 0.4%;
+    left:10.85%;
+    transform:scale(1.35)
+  }
+  .border-grow:hover{
+    transform:scale(1.45)
+  }
+}
+/*90% zoom*/
+@media screen and (min-width: 1696px) and (max-width: 1919px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: 0.19%;
+    transform: scale(1.25);
+  }
+  .overlay-list-display{
+    margin-bottom: 0%;
+    left:10.35%;
+    transform:scale(1.25)
+  }
+  .border-grow:hover{
+    transform:scale(1.35)
+  }
+}
+/*100% zoom*/
+@media screen and (min-width: 1536px) and (max-width: 1695px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: 0%;
+    transform: scale(1.15);
+  }
+  .overlay-list-display{
+    margin-bottom: -0.3%;
+    left:10.16%;
+    transform:scale(1.15)
+  }
+  .border-grow:hover{
+    transform:scale(1.25)
+  }
+}
+/*110% zoom*/
+@media screen and (min-width: 1408px) and (max-width: 1535px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: -0.05%;
+    transform: scale(1.05);
+  }
+  .overlay-list-display{
+    margin-bottom: -0.5%;
+    left:9.79%;
+    transform:scale(1.05)
+  }
+  .border-grow:hover{
+    transform:scale(1.15)
+  }
+}
+/*120% zoom*/
+@media screen and (min-width: 1280px) and (max-width: 1407px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: -0.05%;
+    transform: scale(0.9);
+  }
+  .overlay-list-display{
+    margin-bottom: -1.1%;
+    left:9.16%;
+    transform:scale(0.9)
+  }
+  .border-grow:hover{
+    transform:scale(1)
+  }
+}
+/*130% zoom*/
+@media screen and (min-width: 1184px) and (max-width: 1279px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: -0.05%;
+    transform: scale(0.9);
+  }
+  .overlay-list-display{
+    margin-bottom: -1.35%;
+    left:8.76%;
+    transform:scale(0.9)
+  }
+  .border-grow:hover{
+    transform:scale(1)
+  }
+}
+/*140% zoom*/
+@media screen and (min-width: 1088px) and (max-width: 1183px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: -0.09%;
+    transform: scale(0.8);
+  }
+  .overlay-list-display{
+    margin-bottom: -1.65%;
+    left:8.3%;
+    transform:scale(0.8)
+  }
+  .border-grow:hover{
+    transform:scale(0.9)
+  }
+}
+/*150% zoom*/
+@media screen and (min-width: 1024px) and (max-width: 1087px) {
+  .pos-overlay-button{
+    margin-bottom: -1%;
+    margin-right: -0.09%;
+    transform: scale(0.8);
+  }
+  .overlay-list-display{
+    margin-bottom: -1.85%;
+    left:8.04%;
+    transform:scale(0.8)
+  }
+  .border-grow:hover{
+    transform:scale(0.9)
+  }
+}
+/*160% zoom*/
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+
+}
+/*170% zoom*/
+@media screen and (min-width: 896px) and (max-width: 959px) {
+  .mobileHide { display: none; }
+}
+/*180% zoom*/
+@media screen and (min-width: 864px) and (max-width: 895px) {
+  .mobileHide { display: none; }
+}
+/*190% zoom*/
+@media screen and (min-width: 800px) and (max-width: 863px) {
+  .mobileHide { display: none; }
+}
+/*200% zoom*/
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .mobileHide { display: none; }
+}
+/*210% zoom*/
+@media screen and (min-width: 736px) and (max-width: 767px) {
+  .mobileHide { display: none; }
+}
+/*220% zoom*/
+@media screen and (min-width: 704px) and (max-width: 735px) {
+  .mobileHide { display: none; }
+}
+/*230% zoom*/
+@media screen and (min-width: 672px) and (max-width: 703px) {
+  .mobileHide { display: none; }
+}
+/*240% zoom*/
+@media screen and (min-width: 640px) and (max-width: 671px) {
+  .mobileHide { display: none; }
+}
+/*250% zoom*/
+@media screen and (min-width: 608px) and (max-width: 639px) {
+  .mobileHide { display: none; }
+}
+/*260% zoom*/
+@media screen and (min-width: 576px) and (max-width: 607px) {
+  .mobileHide { display: none; }
+}
+
+/*270% zoom NONE available*/
+
+
+/*280% zoom*/
+@media screen and (min-width: 544px) and (max-width: 575px) {
+  .mobileHide { display: none; }
+}
+
+/*290% zoom NONE AVAILABLE*/
+
+
+/*300% zoom*/
+@media screen and (min-width: 512px) and (max-width: 543px) {
+  .mobileHide { display: none; }
+}
+/*310% zoom*/
+@media screen and (min-width: 480px) and (max-width: 511px) {
+  .mobileHide { display: none; }
+}
+
+/*320% & 330% zoom NOT AVAILABLE*/
+
+
+/*340% zoom*/
+@media screen and (min-width: 448px) and (max-width: 479px) {
+  .mobileHide { display: none; }
+}
+
+/*350% zoom NOT AVAILABLE*/
+
+/*360% zoom*/
+@media screen and (min-width: 416px) and (max-width: 447px) {
+  .mobileHide { display: none; }
+}
+
+/*380% zoom NOT AVAILABLE*/
+
+/*390% zoom*/
+@media screen and (min-width: 384px) and (max-width: 415px) {
+  .mobileHide { display: none; }
+}
+
+/*400% & 410% zoom NOT AVAILABLE */
+
+/*420% zoom*/
+@media screen and (min-width: 352px) and (max-width: 383px) {
+  .mobileHide { display: none; }
+}
+
+/*430% , 440%, & 450% zoom NOT AVAILABLE */
+
+/*460% zoom*/
+@media screen and (min-width: 320px) and (max-width: 351px) {
+.mobileHide { display: none; }
+}

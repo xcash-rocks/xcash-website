@@ -1,0 +1,118 @@
+.section{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.w-row {
+    margin-bottom: 30px;
+}
+.avatar-block{
+  margin-bottom: 15px;
+}
+.avatar{
+  vertical-align: middle;
+  width: 175px;
+  height: 175px;
+  /* border-radius: 50%;
+  border: 1px solid #ff6d00; */
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.people-container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.people-text {
+  text-align: center;
+}
+.people-name {
+  margin-top: 0px;
+  color: #ff6d00;
+}
+.scrolldwn-button {
+  border: 0;
+  background-color: transparent;
+}
+.scrolldwn-button:hover {
+  border: 0;
+  background-color: transparent;
+  color: #1f1f1f;
+}
+.team-lottie {
+    width: 70%;
+}
+.team-animation{
+  left: auto;
+  top: -40px;
+  right: 0;
+  /* bottom:  -120px; */
+  width: 40%;
+  background-color: #fff;
+  opacity: 0.15;
+}
+@media screen and (max-width: 1200px) {
+	.team-animation {
+      left: 0%;
+      top: auto;
+      right: auto;
+      bottom:  -20px;
+	    width: 60%;
+		}
+}
+
+.team-header-section {
+    height: 60vw;
+    position: relative;
+    /* display: flex; */
+    align-items: center;
+}
+.w-container {
+    /*padding-top: 15vw;
+     padding-bottom: 5vw; */
+    margin-left: auto;
+    margin-right: auto;
+    /* min-width: 940px; */
+    width: 90%;
+    max-width: 980px;
+}
+.people-title {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .w-col-3 {
+      width: 33%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team-animation {
+    left: 0;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    width: 160%;
+  }
+
+      width: 50%;
+      .w-col-3,.w-col-4 {
+  }
+  .info-bubble {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 414px) {
+
+  .w-col-3,.w-col-4 {
+      width: 100%;
+  }
+
+}

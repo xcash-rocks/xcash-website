@@ -1,0 +1,361 @@
+.buttonClick{
+  background: transparent;
+}
+
+.bb, .bb::before, .bb::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }.bb {
+    content: '';
+    top:-14%;
+    width: 2.5%;
+    height: 30%;
+    margin-top: 15%;
+    z-index: 10;
+    border-left: transparent;
+    animation: clipMe 500s linear infinite;
+    animation-play-state: running;
+  }.bb:hover{animation-play-state: paused;}
+
+  @keyframes clipMe {
+ 0%{ left:0; top: 4%}
+ 5%{ left: 0%; top: 163%}
+ 10%{ left: 0%; top: 326%}
+ 15%{ left:0; top: 489%}
+ 20%{ left: 0%; top: 652%}
+ 25%{ left: 0%; top: 815%}
+ 30%{ left: 0%; top: 978%}
+ 35%{ left: 0%; top: 1141%;}
+ 40%{ left:0; top: 1304%}
+ 45%{ left: 0%; top: 1467%}
+ 50%{ left: 0%; top: 1630%}
+ 55%{ left: 0%; top: 1430%}
+ 60%{ left:0; top: 1304%}
+ 65%{ left: 0%; top: 1141%}
+ 70%{ left: 0%; top: 978%}
+ 75%{ left: 0%; top: 815%}
+ 80%{ left: 0%; top: 652%;}
+ 85%{ left:0; top: 489%}
+ 90%{ left: 0%; top: 326%}
+ 95%{ left: 0%; top: 163%}
+ 100%{ left: 0%; top: 1%}
+}
+
+.button-style{
+  width:600%;
+  background-color: #1f1f1f;
+  border:  solid 1px #fa741c;
+}.button-style:hover{
+  transform:scale(1);
+  color: #F7BF23;
+}
+
+.a-style{
+  text-align:center;
+  font-size: 17px;
+  color:#fa741c;
+  text-decoration: none;
+}.a-style:hover{color: #f1f1f1;}
+
+.top-border{
+  border-top-right-radius:100px;
+  border-top-left-radius:100px;
+}
+.mid-border{
+  border-top:#f1f1f1 solid 1px;
+  border-bottom: #f1f1f1 solid 1px;
+}
+.bottom-border{
+  border-top:#f1f1f1 solid 1px;
+  border-bottom-right-radius:35px;
+  border-bottom-left-radius:35px;
+}.bottom-border:hover{display: visible}
+
+.date-style{
+  font-size:0.75rem;
+  color:#F7BF23;
+ }
+
+.guru{
+  width:650%;
+  height:650%;
+  z-index: 1;
+  margin-top: -700%;
+  margin-bottom: -350%;
+  margin-left:-28%;
+}
+
+.orb{
+  width:250%;
+  height:250%;
+  z-index: 1;
+  margin-top: -1000%;
+  margin-bottom: -280%;
+  margin-left:170%;
+}
+
+@media screen and (max-width: 301px) {
+  .mobileHide {
+     display: none;}
+}
+@media screen and (max-width: 479px) {
+ .mobileHide {
+     display: none;}
+}
+@media screen and (max-width: 767px) {
+  .mobileHide {
+    display: none;}
+}
+@media screen and (max-width: 991px) {
+ .mobileHide {
+   display: none;}
+}
+
+/*30% zoom*/
+@media screen and (min-width: 5120px) {
+  .button-style{
+    line-height:380%;
+  }
+  .a-style{
+    font-size: 320%;
+  }
+  .date-style{
+    font-size:100%;
+   }
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1450%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*40% zoom*/
+@media screen and (min-width: 3840px)  and (max-width: 5119px) {
+  .button-style{
+    line-height:320%;
+  }
+  .a-style{
+    font-size: 270%;
+  }
+  .date-style{
+    font-size:90%;
+   }
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1470%}
+    50%{ left: 0%; top: 1700%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*50% zoom*/
+@media screen and (min-width: 3072px) and (max-width: 3839px) {
+  .button-style{
+    line-height:280%;
+  }
+  .a-style{
+    font-size: 230%;
+  }
+  .date-style{
+    font-size:80%;
+   }
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*60% zoom*/
+@media screen and (min-width: 2560px) and (max-width: 3071px) {
+  .button-style{
+    line-height:230%;
+  }
+  .a-style{
+    font-size: 200%;
+  }
+  .date-style{
+    font-size:70%;
+   }
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*70% zoom*/
+@media screen and (min-width: 2208px) and (max-width: 2559px) {
+  .button-style{
+    line-height:200%;
+  }
+  .a-style{
+    font-size: 170%;
+  }
+  .date-style{
+    font-size:67%;
+   }
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*80% zoom*/
+@media screen and (min-width: 1920px) and (max-width: 2207px) {
+  .button-style{
+    line-height:170%;
+  }
+  .a-style{
+    font-size: 140%;
+  }
+  .date-style{
+    font-size:60%;
+   }
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}
+/*90% zoom*/
+@media screen and (min-width: 1696px) and (max-width: 1919px) {
+  .button-style{
+    line-height:150%;
+  }
+  .a-style{
+    font-size: 120%;
+  }
+  .date-style{
+    font-size:62%;
+   }
+  @keyframes clipMe {
+    0%{ left:0; top: 4%}
+    5%{ left: 0%; top: 163%}
+    10%{ left: 0%; top: 326%}
+    15%{ left:0; top: 489%}
+    20%{ left: 0%; top: 652%}
+    25%{ left: 0%; top: 815%}
+    30%{ left: 0%; top: 978%}
+    35%{ left: 0%; top: 1141%;}
+    40%{ left:0; top: 1304%}
+    45%{ left: 0%; top: 1370%}
+    50%{ left: 0%; top: 1490%}
+    55%{ left: 0%; top: 1370%}
+    60%{ left:0; top: 1304%}
+    65%{ left: 0%; top: 1141%}
+    70%{ left: 0%; top: 978%}
+    75%{ left: 0%; top: 815%}
+    80%{ left: 0%; top: 652%;}
+    85%{ left:0; top: 489%}
+    90%{ left: 0%; top: 326%}
+    95%{ left: 0%; top: 163%}
+    100%{ left: 0%; top: 1%}
+   }
+}

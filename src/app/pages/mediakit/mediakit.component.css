@@ -1,0 +1,32 @@
+.metrics-container {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1f1f1f;
+}
+.press-item {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    list-style-type: disc;
+}
+.press-link {
+  text-decoration: none;
+}
+.background-animation.press-animation {
+
+    left: auto;
+    top: auto;
+    right: 2%;
+    bottom: auto;
+    width: 30%;
+}
+.background-animation.statistics-animation{
+    left: auto;
+    top: auto;
+    right: 2%;
+    bottom: auto;
+    width: 30%;
+}

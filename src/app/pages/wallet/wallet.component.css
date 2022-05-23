@@ -1,0 +1,43 @@
+.download-info{
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-word;
+  word-break: break-word;
+  -ms-hyphens: manual;
+  -moz-hyphens: manual;
+  -webkit-hyphens: manual;
+  hyphens: manual;
+}
+@media screen and (max-width: 1024px) {
+  .button-container{
+    width:30%;
+   }
+}
+@media screen and (max-width: 667px) {
+  .button-container{
+    width:50%;
+   }
+}
+@media screen and (max-width: 414px) {
+  .button-container{
+    width:80%;
+   }
+}
+
+@media screen and (min-width: 496px) and (max-width: 991px) {
+  .os-menu {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .button-orange.vertical-list.download-button {
+      margin-right: 0px;
+      width: 100%;
+  }
+  .macos{
+    margin-left: 10px;
+  }
+  .linux{
+    margin-left: 10px;
+  }
+}

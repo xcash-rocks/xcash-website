@@ -1,0 +1,361 @@
+.scroll-to-top {
+    position: fixed;
+    right: 2.15%;
+    bottom: 2%;
+    width:62.844px;
+    height:45.5px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    border: transparent;
+}
+.show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+    /* background-color: transparent; */
+}
+.scroll-to-top button {
+   background-color: transparent;
+   padding: 6.3px;
+   margin-left:3px;
+}
+.border-glow{
+   visibility: visible;
+}
+.border-glow.inverse:hover {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.06);
+}
+.scroll-back-button {
+    background-color: transparent;
+    color: #ff6d00;
+}
+/*30% zoom*/
+@media screen and (min-width: 5120px) {
+  .scroll-to-top button{
+   transform: scale(6);
+  }
+}
+/*40% zoom*/
+@media screen and (min-width: 3840px)  and (max-width: 5119px) {
+  .scroll-to-top button{
+    transform: scale(5);
+   }
+}
+/*50% zoom*/
+@media screen and (min-width: 3072px) and (max-width: 3839px) {
+  .scroll-to-top button{
+    transform: scale(4);
+   }
+}
+
+/*60%-80% zoom*/
+@media screen and (min-width: 1920px) and (max-width: 3071px) {
+  .scroll-to-top button{
+    transform: scale(3);
+   }
+}
+/*90% zoom*/
+@media screen and (min-width: 1696px) and (max-width: 1919px) {
+  .scroll-to-top button{
+    transform: scale(2.8);
+   }
+}
+/*100% zoom*/
+@media screen and (min-width: 1536px) and (max-width: 1695px) {
+  .scroll-to-top button{
+    transform: scale(2.6);
+   }
+}
+/*110% zoom*/
+@media screen and (min-width: 1408px) and (max-width: 1535px) {
+  .scroll-to-top button{
+    transform: scale(2.4);
+   }
+}
+/*120% zoom*/
+@media screen and (min-width: 1280px) and (max-width: 1407px) {
+  .scroll-to-top button{
+    transform: scale(2.15);
+   }
+}
+/*130% zoom*/
+@media screen and (min-width: 1184px) and (max-width: 1279px) {
+  .scroll-to-top button{
+    transform: scale(2);
+   }
+}
+/*140% zoom*/
+@media screen and (min-width: 1088px) and (max-width: 1183px) {
+  .scroll-to-top button{
+    transform: scale(1.9);
+   }
+}
+/*150% zoom*/
+@media screen and (min-width: 1024px) and (max-width: 1087px) {
+  .scroll-to-top button{
+    transform: scale(1.8);
+   }
+}
+/*160% zoom*/
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+  .scroll-to-top button{
+    transform: scale(1.7);
+   }
+}
+/*170% zoom*/
+@media screen and (min-width: 896px) and (max-width: 959px) {
+  .scroll-to-top {
+    right: 1.15%;
+    width:52.844px;
+    height:42.5px;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:-2.5px;
+     margin-top:-11%;
+     transform: scale(1.6);
+  }
+}
+
+/*180% zoom*/
+@media screen and (min-width: 864px) and (max-width: 895px) {
+  .scroll-to-top {
+    right: 0.75%;
+    width:47.844px;
+    height:38.844px;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:-5px;
+     margin-top:-28%;
+     transform: scale(1.5);
+  }
+}
+/*190% zoom*/
+@media screen and (min-width: 800px) and (max-width: 863px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1.4);
+  }
+}
+/*200% zoom*/
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1.3);
+  }
+}
+/*210% zoom*/
+@media screen and (min-width: 736px) and (max-width: 767px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1.2);
+  }
+}
+/*220% zoom*/
+@media screen and (min-width: 704px) and (max-width: 735px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1.2);
+  }
+}
+/*230% zoom*/
+@media screen and (min-width: 672px) and (max-width: 703px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1.1);
+  }
+}
+/*240% zoom*/
+@media screen and (min-width: 640px) and (max-width: 671px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1);
+  }
+}
+/*250% zoom*/
+@media screen and (min-width: 608px) and (max-width: 639px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1);
+  }
+}
+/*260% zoom*/
+@media screen and (min-width: 576px) and (max-width: 607px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1);
+  }
+}
+
+/*270% zoom NONE available*/
+
+
+/*280% zoom*/
+@media screen and (min-width: 544px) and (max-width: 575px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scr  oll-to-top button {
+   padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1);
+  }
+}
+
+/*290% zoom NONE AVAILABLE*/
+
+
+/*300% zoom*/
+@media screen and (min-width: 512px) and (max-width: 543px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scr  oll-to-top button {
+   padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1);
+  }
+}
+/*310% zoom*/
+@media screen and (min-width: 480px) and (max-width: 511px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+     transform: scale(1);
+  }
+}
+
+/*320% & 330% zoom NOT AVAILABLE*/
+
+
+/*340% zoom*/
+@media screen and (min-width: 448px) and (max-width: 479px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+  }
+}
+
+/*350% zoom NOT AVAILABLE*/
+
+/*360% zoom*/
+@media screen and (min-width: 416px) and (max-width: 447px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+  }
+}
+
+/*380% zoom NOT AVAILABLE*/
+
+/*390% zoom*/
+@media screen and (min-width: 384px) and (max-width: 415px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+  }
+}
+
+/*400% & 410% zoom NOT AVAILABLE */
+
+/*420% zoom*/
+@media screen and (min-width: 352px) and (max-width: 383px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+  }
+}
+
+/*430% , 440%, & 450% zoom NOT AVAILABLE */
+
+/*460% zoom*/
+@media screen and (min-width: 320px) and (max-width: 351px) {
+  .scroll-to-top {
+    border:none;
+    background-color: transparent;
+   }
+   .scroll-to-top button {
+     padding: 6.3px;
+     margin-left:7px;
+     margin-top:-0%;
+  }
+}

@@ -1,0 +1,51 @@
+<button class="bb buttonClick mobileHide" (click)="flagOn = !flagOn">
+
+    <div *ngIf="flagOn">
+      <ngx-lottie-view path="assets/documents/clickHint.json" class="orb" data-default-duration="1.1833333333333333" data-duration="5">
+      </ngx-lottie-view>
+    </div>
+
+    <div *ngIf="!flagOn">
+      <ngx-lottie-view path="assets/documents/enlightenedBeing.json" class="guru" data-default-duration="1.1833333333333333" data-duration="5">
+      </ngx-lottie-view>
+
+      <div style="margin-top:300%;">
+          <button class="button-style top-border">
+              <a class="a-style" href="https://www.xcash.foundation/contribute">
+                  <strong>Join Our Team</strong>
+             </a>
+          </button>
+          <button class="button-style mid-border">
+              <a class="a-style" href="https://www.coingecko.com/en/coins/x-cash">
+                  <strong>Trade</strong></a>
+          </button>
+          <button class="button-style mid-border">
+              <a class="a-style" href="http://calculator.xcash.foundation/">
+                  <strong>Stake Calculator</strong>
+             </a>
+          </button>
+          <button class="button-style mid-border">
+              <a class="a-style" href="https://x-bank.io/">
+                  <strong>Cross-Chain Swaps</strong>
+             </a>
+          </button>
+          <button class="button-style mid-border">
+              <a class="a-style" href="https://www.xcash.foundation/contribute">
+                  <strong>X-Hub (Beta)</strong>
+             </a>
+          </button>
+          <button class="button-style bottom-border">
+              <a class="a-style" href="https://discord.gg/EXvTZTHUQ8">
+                  <strong>Community Voice<span class="date-style"><br>Wednesday 7pm UTC+2</span></strong></a>
+          </button>
+      </div>
+  </div>
+</button>
+
+<div *ngIf="flagOn"></div>
+<div cdkOverlayOrigin #trigger="cdkOverlayOrigin"></div>
+<ng-template
+    [cdkConnectedOverlay]
+    [cdkConnectedOverlayOpen]="isOpen"
+    (backdropClick)="isOpen = !isOpen">
+</ng-template>
