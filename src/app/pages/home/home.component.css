@@ -4010,7 +4010,8 @@
 		padding-left: 20px;
 	}
 }
-@media screen and (max-width: 301px) {
+
+@media screen and (min-width: 301px) and (max-width: 319px) {
 
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
@@ -4062,19 +4063,22 @@
 	.landing-animation-left {
 		position:absolute;
 		margin-right:14%;
-	    top: 36%;
-		left:-1%;
+	    top: 35.4%;
+		left:-8%;
 	    right: 0;
 	    bottom: -12.7%;
-	    width: 64%;
+	    width: 68%;
+		height: 72%;
 		transform:scaleX(-1);
 		}.landing-animation {
 		position:absolute;
-		margin-left:23.6%;
-		margin-right:-40%;
-		margin-bottom: 29.3%;
-		width: 64%;
-		transform: scale(0.705);
+		margin-left:3%;
+		margin-right:-37%;
+		margin-top:-2.3%;
+		margin-bottom: 20.3%;
+		width: 68%;
+		height: 73%;
+		transform: scale(1.01);
 		}.welcome-to-web3-reposition-resizing-for-small-screen{
 		margin-left:-2%;
 		transform: scale(0.72);
@@ -4082,39 +4086,35 @@
 		margin-left:-1%;
 		}#scroll-arrow-button{
 		position:relative;
-		margin-left:-6.65%;
-		margin-top:-19%;
+		margin-left:-1.2%;
+		margin-top:-15%;
 		transform: scale(0.35);
+		}.discover-larger{
+			margin-left:2%;
 		}.fuel-move{
-		margin-left:0%;
-		margin-top:-19%;
-		transform: scale(0.75);
+		margin-left:-21%;
+		margin-top:-25%;
+		margin-bottom:-8%;
+		width:140%;
+		transform: scale(0.64);
 		}
 	.pos-boysit{
 		position:relative;
-		left: 35%;
-		bottom: 20%;
-		width:200%;
+		left: 39%;
+		bottom: 50%;
+		width:10%;
 		transform: scale(2);
-		margin-left: -14%;
-		margin-top:60%;
+		margin-left: -12%;
+		margin-top:100%;
+		margin-bottom:20%;
+	}.pos-box-left{
+		position: relative;
+		left: -6%;
+	}.landing-art-text{
+		margin-top:-80%;
+		margin-bottom: -30%;
 	}
-	.pos-boysit{
-		position:relative;
-		left: 35%;
-		bottom: 20%;
-		width:200%;
-		transform: scale(2);
-		margin-left: -14%;
-		margin-top:60%;
-	}
-	.landing-animation {
-		left: 0%;
-	    top: auto;
-	    right: 0;
-	    bottom: 0;
-	    width: 100%;
-	}
+
 	.center, .center2{
 		left: auto;
 	}
@@ -4122,9 +4122,7 @@
 	.landing-headline > h2  {
 		width: 100%;
 	}
-    #scroll-arrow-button{
-        position:relative; left:17px; top:10
-    }
+  
 	.landing-headline > h1 {
 		font-size: 2.8em;
 	}
