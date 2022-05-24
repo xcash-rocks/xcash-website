@@ -22,13 +22,10 @@
   width: 240px;
   height: 240px;
 }
-.lottie-move-scale{
-border: 1px green solid;
-}
 @media screen and (max-width: 767px)  {
   .lottie-move-scale{
-    /* margin-top: 5%;
-    margin-left: 17%; */
+    margin-top: 5%;
+    margin-left: 17%;
   }
 }
 .round-animation-column{
