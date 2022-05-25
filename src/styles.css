@@ -5,6 +5,11 @@ body {
   font-size: 16px;
   line-height: 20px;
 }
+body {
+	max-width: 140%;
+	overflow-x: hidden;
+}
+
 
 h1 {
   /* width: 80%; */
