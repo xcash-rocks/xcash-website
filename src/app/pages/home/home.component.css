@@ -4063,14 +4063,15 @@
 	.landing-animation-left {
 		position:absolute;
 		margin-right:14%;
-	    top: 35.4%;
+		top: 35.4%;
 		left:-8%;
-	    right: 0;
-	    bottom: -12.7%;
-	    width: 68%;
+		right: 0;
+		bottom: -12.7%;
+		width: 68%;
 		height: 72%;
 		transform:scaleX(-1);
-		}.landing-animation {
+	}
+	.landing-animation {
 		position:absolute;
 		margin-left:3%;
 		margin-right:-37%;
@@ -4079,7 +4080,8 @@
 		width: 68%;
 		height: 73%;
 		transform: scale(1.01);
-		}.welcome-to-web3-reposition-resizing-for-small-screen{
+	}
+	.welcome-to-web3-reposition-resizing-for-small-screen{
 		margin-left:-2%;
 		transform: scale(0.72);
 		margin-top:15%;
@@ -4097,7 +4099,7 @@
 		margin-bottom:-8%;
 		width:140%;
 		transform: scale(0.64);
-		}
+	}
 	.pos-boysit{
 		position:relative;
 		left: 39%;
@@ -4107,10 +4109,12 @@
 		margin-left: -12%;
 		margin-top:100%;
 		margin-bottom:20%;
-	}.pos-box-left{
+	}
+	.pos-box-left{
 		position: relative;
 		left: -6%;
-	}.landing-art-text{
+	}
+	.landing-art-text{
 		margin-top:-80%;
 		margin-bottom: -30%;
 	}
@@ -4122,7 +4126,7 @@
 	.landing-headline > h2  {
 		width: 100%;
 	}
-  
+
 	.landing-headline > h1 {
 		font-size: 2.8em;
 	}
