@@ -4,7 +4,10 @@ body {
   color: #1f1f1f;
   font-size: 16px;
   line-height: 20px;
+	max-width: 140%;
+	overflow-x: hidden;
 }
+
 
 h1 {
   /* width: 80%; */
