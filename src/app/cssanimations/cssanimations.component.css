@@ -2,25 +2,28 @@
   background: transparent;
 }
 
-.bb, .bb::before, .bb::after {
+  .bb, .bb::before, .bb::after {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-  }.bb {
+  }
+  .bb {
     content: '';
     top:-14%;
     width: 2.5%;
-    height: 30%;
+    /* height: 30%; */
+    height: 22px;
     margin-top: 15%;
     z-index: 10;
     border-left: transparent;
     animation: clipMe 500s linear infinite;
     animation-play-state: running;
-  }.bb:hover{animation-play-state: paused;}
+  }
+  .bb:hover{animation-play-state: paused;}
 
-  @keyframes clipMe {
+@keyframes clipMe {
  0%{ left:0; top: 4%}
  5%{ left: 0%; top: 163%}
  10%{ left: 0%; top: 326%}
