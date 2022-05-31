@@ -1,3 +1,7 @@
+.button-dark:hover{
+	background-color:#fa741c
+}
+
 .example-list {
 	width: 130px;
 	border: solid 5px #fa741c;
@@ -9,23 +13,17 @@
   }
 .landing-block {
 	display: flex;
-	/* min-height: 100px; */
-  /* margin-right: 10px;
-	margin-bottom: 20px;
-  margin-top: 20px;
-	margin-left: 10px; */
 	padding: 20px;
 	flex-direction: column;
 	justify-content: space-around;
 	border-style: solid;
 	border-width: 1px;
 	transition: all 200ms ease;
-	/* color: #fff; */
 	text-decoration: none;
 	cursor: pointer;
 }
 .landing-block.orange {
-	border-color: #ff6d00;
+	border-color: #fa741c;
 }
 .landing-block h3 {
   margin: 0;
@@ -40,6 +38,7 @@
 }
 .move-this-subtitle-text-left{
 	margin-left:-2.5%;
+	font-size: 1.5rem;
 }
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
