@@ -17,24 +17,25 @@
 }
 
 .wxcash-style{
-	position:relative;
-	right:-2%;
+  position:relative;
+	left:2.2%;
 	top:0%;
 	margin:0%;
-  border: #fa741c solid 4px;
-	border-radius: 100%;
 	float: right;
-	width:265px
+	width:250px;
+  border: #fa741c solid 2px;
+	border-radius: 100%;
 }
 .reduced-width {
   width: 60%;
 }
 @media screen and (max-width: 479px) {
   .reduced-width {
-  width: 80%;
+    width: 80%;
   }
   .wxcash-style{
-    	left: 0%;
+    float: none;
+    margin-bottom: 25px;
   }
 }
 /*30% zoom*/
