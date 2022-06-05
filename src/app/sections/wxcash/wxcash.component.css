@@ -16,6 +16,14 @@
   margin-top:-4%;
 }
 
+.link-orange{
+	text-decoration: none
+}
+.link-white{
+	text-decoration: none;
+	color: #f1f1f1
+}
+
 .wxcash-style{
   position:relative;
 	left:2.2%;
