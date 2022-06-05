@@ -3521,6 +3521,12 @@
 
 /*340% zoom*/
 @media screen and (min-width: 448px) and (max-width: 479px) {
+	.blur-it-all{
+		filter: brightness(0.2)
+	}
+	.blur-it-all:hover{
+		filter: brightness(1)
+	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
@@ -3691,6 +3697,12 @@
 
 /*360% zoom*/
 @media screen and (min-width: 416px) and (max-width: 447px) {
+	.blur-it-all{
+		filter: brightness(0.2)
+	}
+	.blur-it-all:hover{
+		filter: brightness(1)
+	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
@@ -3865,6 +3877,12 @@
 
 /*390% zoom*/
 @media screen and (min-width: 384px) and (max-width: 415px) {
+	.blur-it-all{
+		filter: brightness(0.2)
+	}
+	.blur-it-all:hover{
+		filter: brightness(1)
+	}
 	.total-scale-py-screens{
 		transform:scale(0.81);
 		margin-top:-26%;
@@ -4043,6 +4061,12 @@
 
 /*420% zoom*/
 @media screen and (min-width: 352px) and (max-width: 383px) {
+	.blur-it-all{
+		filter: brightness(0.2)
+	}
+	.blur-it-all:hover{
+		filter: brightness(1)
+	}
 	.total-scale-py-screens{
 		transform:scale(0.81);
 		margin-top:-26%;
@@ -4226,6 +4250,12 @@
 
 /*460% zoom*/
 @media screen and (min-width: 320px) and (max-width: 351px) {
+	.blur-it-all{
+		filter: brightness(0.2)
+	}
+	.blur-it-all:hover{
+		filter: brightness(1)
+	}
 	.total-scale-py-screens{
 		transform:scale(0.81);
 		margin-top:-26%;
@@ -4403,6 +4433,12 @@
 }
 
 @media screen and (min-width: 301px) and (max-width: 319px) {
+	.blur-it-all{
+		filter: brightness(0.2)
+	}
+	.blur-it-all:hover{
+		filter: brightness(1)
+	}
 	.total-scale-py-screens{
 		transform:scale(0.81);
 		margin-top:-35%;
