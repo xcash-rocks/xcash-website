@@ -64,12 +64,6 @@
 	object-fit: fill;
 	border-bottom: #fa741c 2px dotted;
   }
-.card-dark-style{
-	width:240px;
-	height:240px;
-	/* border: #fa741c solid 2.5px;
-	border-radius: 100%; */
-}
 
 .card-dark-style{
 	width:240px;
@@ -3536,7 +3530,7 @@
 		margin-top:5%;
 		margin-left:17%;
 	}.pos-dpops-button{
-		margin-left:19.2%;
+		margin-left:17.2%;
 	}
 	.sidechains-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
@@ -3579,13 +3573,13 @@
 		margin-left:6%;
 	}
 	.pubpri-lottie{
-		margin-top:3%;
-		margin-left:23.4%;
+		margin-top:5%;
+		margin-left:21%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
-		margin-top: 63.2%;
-		margin-left:26%;
+		margin-top: 64.2%;
+		margin-left:22.7%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -3619,7 +3613,7 @@
 		position:absolute;
 		margin-left:17.6%;
 		right: 0;
-		margin-bottom: 1.27%;
+		margin-bottom: -1.9%;
 		width: 64%;
 		transform: scale(0.64);
 		}.welcome-to-web3-reposition-resizing-for-small-screen{
