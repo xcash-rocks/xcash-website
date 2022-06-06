@@ -501,6 +501,9 @@
     margin-top: 5.2%;
     margin-left: 26.8%;
   }
+  .reduced-width{
+    width:100%;
+  }
 }
 
 /*350% zoom NOT AVAILABLE*/

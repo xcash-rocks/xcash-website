@@ -35,7 +35,7 @@
 
 .pos-button-column{
 	margin-top: -5%;
-  margin-left:2%;
+  	margin-left:2%;
 }
 .reduced-width {
   width: 60%;
@@ -378,6 +378,18 @@
 	}
 	.eco-button{
 	  margin-left:7%
+	}
+	.wallet-style{
+		position:absolute;
+		margin-top: 175%;
+		left:21%;
+	  }
+	.pos-button-column{
+		margin-top: 68%;
+		margin-left:35%;
+	}
+	.last-button{
+		margin-left:5%;
 	}
   }
 

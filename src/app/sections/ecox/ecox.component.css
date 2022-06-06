@@ -482,14 +482,17 @@
   .ecox-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
-		margin-top: -27%;
+		margin-top: -22%;
 		margin-bottom: -8%;
 	}
   .leaf-svg-enlarge{
     left:-9%;
   }
   .eco-button{
-    margin-left:7%
+    margin-left:12%
+  }
+  .reduced-width{
+    width:100%;
   }
 }
 

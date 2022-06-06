@@ -625,20 +625,27 @@
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -268px;
-    left:11%;
+    left:-35%;
     white-space: nowrap;
-    top: -287px;
+    top: -457px;
     bottom: 100px;
-    margin-top: 90px;
+    margin-top: 35px;
     margin-bottom:-3000px;
     opacity: 1;
     width:500px;
+  }
+  .pos-button-foundation{
+    margin-top:71%;
+    margin-left:26.5%
+    }
+  .reduced-width{
+    width:100%;
   }
   .foundation-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
     margin-top: -6%;
-		margin-bottom: 140%;
+		margin-bottom: 180%;
 	}
 }
 
