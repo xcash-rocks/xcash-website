@@ -629,13 +629,13 @@
     white-space: nowrap;
     top: -457px;
     bottom: 100px;
-    margin-top: 35px;
+    margin-top: -220px;
     margin-bottom:-3000px;
     opacity: 1;
     width:500px;
   }
   .pos-button-foundation{
-    margin-top:71%;
+    margin-top:79%;
     margin-left:26.5%
     }
   .reduced-width{
@@ -645,7 +645,7 @@
 		transform:scale(0.84);
 		margin-left:-0%;
     margin-top: -6%;
-		margin-bottom: 180%;
+		margin-bottom: 190%;
 	}
 }
 
