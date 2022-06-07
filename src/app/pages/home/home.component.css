@@ -4065,8 +4065,6 @@
 	}.width-xdex-text{
 		width:150%;
 	}
-	}
-
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
@@ -4230,7 +4228,7 @@
 		list-style: none;
 	    padding-left: 20px;
 	}
-
+}
 
 
 /*350% zoom NOT AVAILABLE*/
