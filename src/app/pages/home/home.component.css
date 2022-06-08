@@ -71,7 +71,7 @@
 
 }
 
-  .section-hybrid.black {
+  .section-hybrid.black{
 	position: relative;
 	background-color: #1f1f1f;
 	color: #f1f1f1;
@@ -83,7 +83,6 @@
 }
 
 .underline-stake{
-
 	font-size: 1.04rem;
 	border: #fa741c 2px dotted;
 	border-top: none;
@@ -92,7 +91,6 @@
 
 }
 .bothline-stake{
-
 	font-size: 1.04rem;
 	border: #fa741c 2px dotted;
 	border-top: none;
@@ -108,7 +106,6 @@
 
   .section-hybrid.half-height-hybrid.middle-centered {
 	position: relative;
-
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -123,7 +120,6 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	/* max-width: 940px; */
 	max-width: 980px;
   }
 
@@ -144,10 +140,6 @@
 .section {
 	border-bottom: 2px dotted #fa741c;
 }
-
-
-
-/* global for all width's */
 
 .landing-headline  > h1 {
 	padding-top:0px;
@@ -208,11 +200,7 @@
 	margin-right: 13%;
 	margin-left: 1%
 }
-/* .wxcash-style{
-	position:absolute;
-	top:18%;
-	left:59%;
-} */
+
 .dex-style{
 	position:relative;
 	right:0%;
@@ -266,14 +254,10 @@
 }
 
 .large{
-
 	font-size: large;
-
 }
 
 .list-align-left{
-
-	/* position:relative; left:-260px; top:-20; */
 	text-align: left;
 	margin-bottom: 2rem;
 
@@ -327,57 +311,57 @@
 }
 
 .computing-text-align{
-
-	position:relative; left:270px; top:0;
-
+	position:relative;
+	left:270px;
+	top:0;
 }
 
 .pos-heading{
-
-	position:relative; left:-130px; top:0;
-
+	position:relative;
+	left:-130px;
+	top:0;
 }
 
 .pos-votebox{
-
-	position:relative; left:22px; top:0;
-
+	position:relative;
+	left:22px;
+	top:0;
 }
 
 .pos-abs{
-
-	position:absolute; left:28px; top:0;
-
+	position:absolute;
+	left:28px;
+	top:0;
 }
 
 .pos-abs-move{
-
-	position:absolute; left:-35px; top:-48px;
-
+	position:absolute;
+	left:-35px;
+	top:-48px;
 }
 
 .pos-abs-green{
-
-	position:absolute; left:23px; top:0;
-
+	position:absolute;
+	left:23px;
+	top:0;
 }
 
 .pos-down{
-
-	position:absolute; left:36px; top:219;
-
+	position:absolute;
+	left:36px;
+	top:219;
 }
 
 .pos-leaf{
-
-	position:absolute; left:-11px; top:-7;
-
+	position:absolute;
+	left:-11px;
+	top:-7;
 }
 
 .pos-leaf-text{
-
-	position:absolute; left:26px; top:215;
-
+	position:absolute;
+	left:26px;
+	top:215;
 }
 
 .move-left-now{
@@ -387,11 +371,9 @@
 
 .asterix-hide{
 	color:#1f1f1f
-
 }
 
 .style-atm{
-
 	left:auto;
 	top: 30px;
 	right:-20%;
@@ -418,7 +400,6 @@
 
 .pos-xgreen{
 	position:absolute; left:20px; top:15;
-
 }
 .pos-boysit{
 	position:absolute;
