@@ -507,7 +507,7 @@
 		top:310px;
 		margin-bottom:-28%;
 		margin-top:-20%;
-		margin-left:60%;
+		margin-left:64.7%;
 		width: 550px;
 	}.list-2 {
 		font-size: 1rem;
@@ -539,7 +539,12 @@
 		margin-top:27%;
 	}.scale-total-features-list{
 		margin-left:-9%;
-		margin-top:4%;
+		margin-top:5%;
+	}
+	.grow-hybrid-subs{
+		margin-top:2%;
+		margin-bottom:4.3%;
+		font-size:1.5rem;
 	}
 	.slide-replace{
 		display:none;

@@ -42,21 +42,24 @@
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
   .scale-for-screen-sizes{
-    margin-top:10%;
+    margin-top:11%;
     transform: scale(2);
     margin-bottom:10%;
   }
   .key-features-move-left{
-    margin-left:-11%;
-    margin-top:3%;
+    margin-left:1%;
+    margin-top:4%;
+    width:95%;
   }
   .scale-this-text{
-    font-size: 210%;
+    font-size: 1.9rem;
     margin-left:0.5%;
+    margin-top:1%
   }
   .scale-these-subtitles{
     font-size: 116%;
     margin-left:0.5%;
+    
   }
 }
 /*40% zoom*/
