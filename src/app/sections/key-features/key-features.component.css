@@ -59,11 +59,15 @@
   .scale-these-subtitles{
     font-size: 116%;
     margin-left:0.5%;
-    
   }
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
+  .scale-this-text{
+    font-size: 1.9rem;
+    margin-left:0.5%;
+    margin-top:1%
+  }
   .scale-for-screen-sizes{
     margin-top:13%;
     transform: scale(2);
@@ -72,6 +76,10 @@
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
+  .scale-this-text{
+    margin-left:0%;
+    margin-top:0%
+  }
   .scale-for-screen-sizes{
     margin-top:14%;
     transform: scale(1.8);
@@ -80,6 +88,11 @@
 }
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
+  .scale-this-text{
+    margin-left:0%;
+    margin-top:0%;
+    font-size: 1.5rem;
+  }
   .scale-for-screen-sizes{
     margin-top:14%;
     transform: scale(1.6);
