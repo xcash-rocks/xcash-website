@@ -37,42 +37,45 @@
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -400px;
-    left:41%;
+    left:15%;
     white-space: nowrap;
     top: -1340px;
     bottom: 100px;
     margin-top: 170px;
     margin-bottom:-2000px;
     opacity: 1;
-    width:800px;
+    width:900px;
   }
   .foundation-scale-and-positioning-for-small-screens{
 		transform:scale(2.15);
 		margin-left:38.6%;
-		margin-top: 10%;
+		margin-top: 15%;
 		margin-bottom: 12%;
 	}
 }
+
 /*30% zoom*/
-@media screen and (min-width: 5120px ) {
+@media screen and (min-width: 5120px )  {
   .background-animation.rocket-animation{
     position:relative;
-    padding-top: -400px;
-    left:43%;
+    left:13%;
     white-space: nowrap;
     top: -1640px;
     bottom: 100px;
-    margin-top: 170px;
+    margin-top: 70px;
     margin-bottom:-3000px;
     opacity: 1;
-    width:800px;
+    width:1100px;
   }
   .foundation-scale-and-positioning-for-small-screens{
 		transform:scale(2.15);
 		margin-left:41.5%;
-		margin-top: 5%;
-		margin-bottom: 20%;
+		margin-top: 15%;
+		margin-bottom: 15%;
 	}
+  .block-move{
+    margin-top:-20%;
+  }
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
