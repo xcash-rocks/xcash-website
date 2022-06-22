@@ -54,6 +54,12 @@
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
+	.wxcash-subt{
+		margin-top:1.5%;
+		margin-bottom:3%;
+		font-size:1.35rem;
+		width:61%
+	}
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {

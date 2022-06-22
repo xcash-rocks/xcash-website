@@ -78,6 +78,12 @@
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
+  .grow-subs{
+		margin-top:2%;
+		margin-bottom:5.3%;
+		font-size:1.4rem;
+    width:90%;
+	}
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {

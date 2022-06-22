@@ -53,6 +53,9 @@
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
+	.move-wild{
+		margin-left:17%;
+	}
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {

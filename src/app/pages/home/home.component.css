@@ -80,7 +80,10 @@
 
   .stake-subt{
 	margin-bottom:5%;
+	font-size:1.35rem;
+	width:80%
 }
+
 
 .underline-stake{
 	font-size: 1.04rem;
@@ -466,6 +469,11 @@
 	}
 	.xpy-style{
 		left:0%;
+	}.reduce-subs-py{
+		margin-top:2%;
+		margin-bottom:4.3%;
+		font-size:1.3rem;
+		width:80%
 	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(2.15);
@@ -544,7 +552,10 @@
 	.grow-hybrid-subs{
 		margin-top:2%;
 		margin-bottom:4.3%;
-		font-size:1.5rem;
+		font-size:1.4rem;
+	}
+	.grow-hybrid-subs.dpops-specific{
+		font-size:1.3rem;
 	}
 	.slide-replace{
 		display:none;
@@ -594,6 +605,11 @@
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
+	.xpy-style{
+		left:6%;
+		margin-top:-30%;
+		width:27%
+	}
 	.grow-hybrid-subs{
 		margin-top:2%;
 		margin-bottom:4.3%;
@@ -725,6 +741,11 @@
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
+	.xpy-style{
+		left:3%;
+		margin-top:-30%;
+		width:27%
+	}
 	.move-xdex-svg-right{
 		left:1.8%;
 	}
@@ -857,6 +878,11 @@
 }
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
+	.xpy-style{
+		left:3%;
+		margin-top:0%;
+		width:25%
+	}
 	.grow-hybrid-subs{
 		margin-top:2%;
 		margin-bottom:4.3%;
@@ -986,6 +1012,11 @@
 }
 /*70% zoom*/
 @media screen and (min-width: 2208px) and (max-width: 2559px) {
+	.xpy-style{
+		left:-1%;
+		margin-top:0%;
+		width:25%
+	}
 	.move-xdex-svg-right{
 		left:-1.6;
 	}
@@ -1088,6 +1119,11 @@
 }
 /*80% zoom*/
 @media screen and (min-width: 1920px) and (max-width: 2207px) {
+	.xpy-style{
+		left:-2%;
+		margin-top:0%;
+		width:25%
+	}
 	.move-xdex-svg-right{
 		left:1%;
 	}
@@ -1187,6 +1223,11 @@
 }
 /*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
+	.xpy-style{
+		left:-2%;
+		margin-top:0%;
+		width:25%
+	}
 	.move-xdex-svg-right{
 		left:0.2%;
 	}
@@ -1286,6 +1327,9 @@
 }
 /*100% zoom*/
 @media screen and (min-width: 1536px) and (max-width: 1695px) {
+	.xpy-style{
+		left:0%;
+	}
 	.move-xdex-svg-right{
 		left:0.2%;
 	}
@@ -1378,6 +1422,9 @@
 }
 /*110% zoom*/
 @media screen and (min-width: 1408px) and (max-width: 1535px) {
+	.xpy-style{
+		left:-4%;
+	}
 	.move-xdex-svg-right{
 		left:-4%;
 	}
