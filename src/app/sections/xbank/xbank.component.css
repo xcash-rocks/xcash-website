@@ -61,10 +61,11 @@
 		margin-bottom: 10%;
 	}
 	.xbank-subt{
-	margin-bottom:5%;
-	font-size:1.35rem;
-	width:57%
-}
+		margin-top:2%;
+		margin-bottom:5%;
+		font-size:1.6rem;
+		width:80%
+	}
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {

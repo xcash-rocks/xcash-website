@@ -456,6 +456,12 @@
 
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
+	.stake-subt{
+		margin-top:3%;
+		margin-bottom:5%;
+		font-size:1.6rem;
+		width:80%
+	}
 	.style-atm{
 		left:35%;
 	}
