@@ -52,6 +52,10 @@
 		margin-top: 15%;
 		margin-bottom: 12%;
 	}
+  .move-right{
+    font-size:1.3rem;
+    width: 79.8%
+  }
 }
 
 /*30% zoom*/
@@ -76,9 +80,17 @@
   .block-move{
     margin-top:-20%;
   }
+  .move-right{
+    font-size:1.3rem;
+    width: 79.8%
+  }
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
+  .move-right{
+    font-size:1.2rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -400px;
@@ -97,10 +109,15 @@
 		margin-top: 3%;
 		margin-bottom: 40%;
 	}
+  
 }
 
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
+  .move-right{
+    font-size:1.2rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -400px;
@@ -123,6 +140,10 @@
 
 /*70% zoom*/
 @media screen and (min-width: 2208px) and (max-width: 2559px) {
+  .move-right{
+    font-size:1.2rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -400px;
@@ -145,6 +166,10 @@
 
 /*80% zoom*/
 @media screen and (min-width: 1920px) and (max-width: 2207px) {
+  .move-right{
+    font-size:1.15rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -168,6 +193,10 @@
 
 /*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
+  .move-right{
+    font-size:1.15rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -190,7 +219,11 @@
 
 /*100% zoom*/
 @media screen and (min-width: 1536px) and (max-width: 1695px) {
-	.foundation-scale-and-positioning-for-small-screens{
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
+  .foundation-scale-and-positioning-for-small-screens{
 		transform:scale(1);
 		margin-left:17.4%;
 		margin-top: 0.5%;
@@ -199,6 +232,10 @@
 
 /*110% zoom*/
 @media screen and (min-width: 1408px) and (max-width: 1535px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -221,6 +258,10 @@
 
 /*120% zoom*/
 @media screen and (min-width: 1280px) and (max-width: 1407px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -243,6 +284,10 @@
 
 /*130% zoom*/
 @media screen and (min-width: 1184px) and (max-width: 1279px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -265,6 +310,10 @@
 
 /*140% zoom*/
 @media screen and (min-width: 1088px) and (max-width: 1183px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -287,6 +336,10 @@
 
 /*150% zoom*/
 @media screen and (min-width: 1024px) and (max-width: 1087px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -309,6 +362,10 @@
 
 /*160% zoom*/
 @media screen and (min-width: 960px) and (max-width: 1023px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -324,13 +381,17 @@
   .foundation-scale-and-positioning-for-small-screens{
 		transform:scale(0.91);
 		margin-left:11.5%;
-		margin-top: -7%;
+		margin-top: -2%;
     margin-bottom: 59%;
 	}
 }
 
 /*170% zoom*/
 @media screen and (min-width: 896px) and (max-width: 959px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -353,6 +414,10 @@
 
 /*180% zoom*/
 @media screen and (min-width: 864px) and (max-width: 895px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -375,6 +440,10 @@
 
 /*190% zoom*/
 @media screen and (min-width: 800px) and (max-width: 863px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -397,6 +466,10 @@
 
 /*200% zoom*/
 @media screen and (min-width: 768px) and (max-width: 799px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.7%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -300px;
@@ -419,6 +492,10 @@
 
 /*210% zoom*/
 @media screen and (min-width: 736px) and (max-width: 767px) {
+  .move-right{
+    font-size:1.17rem;
+    width: 79.5%
+  }
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -270px;
@@ -434,7 +511,7 @@
   .foundation-scale-and-positioning-for-small-screens{
 		transform:scale(0.91);
 		margin-left:3%;
-		margin-top: -8%;
+		margin-top: -4%;
 		margin-bottom: 70%;
   }
 }
@@ -456,7 +533,7 @@
   .foundation-scale-and-positioning-for-small-screens{
 		transform:scale(0.89);
 		margin-left:3%;
-		margin-top: -12%;
+		margin-top: -5%;
 		margin-bottom: 65%;
 	}
 }
@@ -478,7 +555,7 @@
   .foundation-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0.5%;
-		margin-top: -16%;
+		margin-top: -4%;
     margin-bottom: 63%;
 	}
 }

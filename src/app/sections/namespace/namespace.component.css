@@ -316,6 +316,9 @@
     margin-top: 5.2%;
     margin-left: 28%;
   }
+  .reduced-width{
+    width:100%;
+  }
 }
 /*220% zoom*/
 @media screen and (min-width: 704px) and (max-width: 735px) {
@@ -335,6 +338,9 @@
     position: relative;
     margin-top: 5.2%;
     margin-left: 28.7%;
+  }
+  .reduced-width{
+    width:100%;
   }
 }
 /*230% zoom*/
@@ -356,6 +362,9 @@
     margin-top: 5.2%;
     margin-left: 28.2%;
   }
+  .reduced-width{
+    width:100%;
+  }
 }
 /*240% zoom*/
 @media screen and (min-width: 640px) and (max-width: 671px) {
@@ -375,6 +384,9 @@
     position: relative;
     margin-top: 5.2%;
     margin-left: 29.8%;
+  }
+  .reduced-width{
+    width:100%;
   }
 }
 /*250% zoom*/
@@ -396,6 +408,9 @@
     margin-top: 5.2%;
     margin-left: 29.8%;
   }
+  .reduced-width{
+    width:100%;
+  }
 }
 /*260% zoom*/
 @media screen and (min-width: 576px) and (max-width: 607px) {
@@ -415,6 +430,9 @@
     position: relative;
     margin-top: 5.2%;
     margin-left: 29.8%;
+  }
+  .reduced-width{
+    width:100%;
   }
 }
 
@@ -438,6 +456,9 @@
     position: relative;
     margin-top: 5.2%;
     margin-left: 29.8%;
+  }
+  .reduced-width{
+    width:100%;
   }
 }
 
@@ -463,6 +484,9 @@
     margin-top: 5.2%;
     margin-left: 27.8%;
   }
+  .reduced-width{
+    width:100%;
+  }
 }
 /*310% zoom*/
 @media screen and (min-width: 480px) and (max-width: 511px) {
@@ -482,6 +506,9 @@
     position: relative;
     margin-top: 5.2%;
     margin-left: 26.8%;
+  }
+  .reduced-width{
+    width:100%;
   }
 }
 
@@ -533,6 +560,9 @@
     margin-top: 5.2%;
     margin-left: 24.8%;
   }
+  .reduced-width{
+    width:100%;
+  }
 }
 
 /*380% zoom NOT AVAILABLE*/
@@ -555,6 +585,9 @@
     position: relative;
     margin-top: 5.2%;
     margin-left: 22.6%;
+  }
+  .reduced-width{
+    width:100%;
   }
 }
 
@@ -579,6 +612,9 @@
     margin-top: 5.2%;
     margin-left: 21.1%;
   }
+  .reduced-width{
+    width:100%;
+  }
 }
 
 /*430% , 440%, & 450% zoom NOT AVAILABLE */
@@ -601,5 +637,8 @@
     position: relative;
     margin-top: 5.2%;
     margin-left: 19%;
+  }
+  .reduced-width{
+    width:100%;
   }
 }

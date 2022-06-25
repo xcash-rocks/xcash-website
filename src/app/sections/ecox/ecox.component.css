@@ -353,6 +353,9 @@
   .eco-button{
     margin-left:19%
   }
+  .reduced-width{
+    width:95%;
+  }
 }
 /*220% zoom*/
 @media screen and (min-width: 704px) and (max-width: 735px) {
@@ -367,6 +370,9 @@
   }
   .eco-button{
     margin-left:19%
+  }
+  .reduced-width{
+    width:95%;
   }
 }
 /*230% zoom*/
@@ -383,6 +389,9 @@
   .eco-button{
     margin-left:19%
   }
+  .reduced-width{
+    width:95%;
+  }
 }
 /*240% zoom*/
 @media screen and (min-width: 640px) and (max-width: 671px) {
@@ -397,6 +406,9 @@
   }
   .eco-button{
     margin-left:17%
+  }
+  .reduced-width{
+    width:95%;
   }
 }
 /*250% zoom*/
@@ -413,6 +425,9 @@
   .eco-button{
     margin-left:17%
   }
+  .reduced-width{
+    width:95%;
+  }
 }
 /*260% zoom*/
 @media screen and (min-width: 576px) and (max-width: 607px) {
@@ -427,6 +442,9 @@
   }
   .eco-button{
     margin-left:14%
+  }
+  .reduced-width{
+    width:95%;
   }
 }
 
@@ -445,6 +463,9 @@
   }
   .eco-button{
     margin-left:13%
+  }
+  .reduced-width{
+    width:95%;
   }
 }
 
@@ -465,6 +486,9 @@
   .eco-button{
     margin-left:12%
   }
+  .reduced-width{
+    width:95%;
+  }
 }
 /*310% zoom*/
 @media screen and (min-width: 480px) and (max-width: 511px) {
@@ -480,11 +504,10 @@
   .eco-button{
     margin-left:10%
   }
+  .reduced-width{
+    width:95%;
+  }
 }
-
-/*320% & 330% zoom NOT AVAILABLE*/
-
-
 /*340% zoom*/
 @media screen and (min-width: 448px) and (max-width: 479px) {
   .ecox-scale-and-positioning-for-small-screens{
@@ -500,11 +523,9 @@
     margin-left:12%
   }
   .reduced-width{
-    width:100%;
+    width:95%;
   }
 }
-
-/*350% zoom NOT AVAILABLE*/
 
 /*360% zoom*/
 @media screen and (min-width: 416px) and (max-width: 447px) {
@@ -520,9 +541,10 @@
   .eco-button{
     margin-left:3%
   }
+  .reduced-width{
+    width:95%;
+  }
 }
-
-/*380% zoom NOT AVAILABLE*/
 
 /*390% zoom*/
 @media screen and (min-width: 384px) and (max-width: 415px) {
@@ -538,9 +560,10 @@
   .eco-button{
     margin-left:0%
   }
+  .reduced-width{
+    width:95%;
+  }
 }
-
-/*400% & 410% zoom NOT AVAILABLE */
 
 /*420% zoom*/
 @media screen and (min-width: 352px) and (max-width: 383px) {
@@ -556,9 +579,10 @@
   .eco-button{
     margin-left:-4%
   }
+  .reduced-width{
+    width:95%;
+  }
 }
-
-/*430% , 440%, & 450% zoom NOT AVAILABLE */
 
 /*460% zoom*/
 @media screen and (min-width: 320px) and (max-width: 351px) {
@@ -573,5 +597,8 @@
   }
   .eco-button{
     margin-left:-5%
+  }
+  .reduced-width{
+    width:95%;
   }
 }

@@ -616,7 +616,12 @@
 		font-size:1.5rem;
 	}
 	.move-xdex-svg-right{
-		left:3%;
+		position:absolute;
+		left:80%;
+		margin-top:-5%;
+	}
+	.move-coming-soon-xdex{
+		margin-top:15%;
 	}
 	.style-atm{
 		left:40%;
@@ -747,7 +752,12 @@
 		width:27%
 	}
 	.move-xdex-svg-right{
-		left:1.8%;
+		position:absolute;
+		left:75%;
+		margin-top:-5%;
+	}
+	.move-coming-soon-xdex{
+		margin-top:15%;
 	}
 	.style-atm{
 		left:50%;
@@ -890,6 +900,7 @@
 	}
 	.move-xdex-svg-right{
 		left:3.4%;
+		margin-top:-3.6%;
 	}
 	.py-margin{
 		margin-bottom:14%
