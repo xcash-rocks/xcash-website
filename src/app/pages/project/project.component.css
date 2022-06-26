@@ -1,3 +1,28 @@
 .coin-allocation-text-container {
   margin-left: 20px;
 }
+.roadmap-ongoing {
+    border-top: 5px solid #f1f1f1;
+    color: #f1f1f1;
+}
+.collection-item-ongoing {
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+}
+.column-ongoing {
+    color: #f1f1f1;
+}
+.button-ongoing,
+.button-done  {
+  background-color: #ffffff;
+  font-weight: 400;
+}
+.button-ongoing:hover,
+.button-roadmap.button-ongoing:hover {
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+.button-orange{
+  background-color: #1f1f1f;
+}
