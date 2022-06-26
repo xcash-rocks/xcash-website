@@ -56,3 +56,32 @@
     margin-left: 10px;
   }
 }
+
+.input-orange {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fa741c;
+    background-color: #f1f1f1;
+    color: #fa741c;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.copy-input {
+    padding: 8px 15px;
+    width: 60%;
+    float: left;
+    margin-right: 5px;
+}
+
+.copy-span {
+    padding: 8px 15px;
+    width: 50%;
+    height: 40px;
+    overflow: hidden;
+    float: left;
+    white-space: nowrap;
+    margin-right: 5px;
+}

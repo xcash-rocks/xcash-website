@@ -126,6 +126,22 @@
                 <p word-wrap="break-word" class="download-info">467260CE8061ECF67CE1353813657ADE0754ACF3DBD494CC8EB40B67B26FDFF6</p>
                 <div>⚠️ This is an early access alpha release. Please read the instructions before using.</div>
                 <a href="https://github.com/X-CASH-official/desktop-wallet/releases/tag/v0.0.1-alpha" class="button-orange w-button">Download</a>
+                <p>
+                  <span class="input-orange copy-span">
+                    wget https://github.com/X-CASH-official/desktop-wallet/releases/download/v0.0.1-alpha/v0.0.1-alpha-xcash-gui-wallet-linux.zip
+                  </span>
+                  <button
+                      class="button-orange w-button"
+                      type="button"
+                      ngxClipboard
+                      [cbContent]="'wget https://github.com/X-CASH-official/desktop-wallet/releases/download/v0.0.1-alpha/v0.0.1-alpha-xcash-gui-wallet-linux.zip'"
+                      (cbOnSuccess)="isCopied1 = true"
+                      (cbOnError)="onCopyFailure()"
+                      [class.btn-success]="isCopied1"
+                    >
+                      Copy
+                  </button>
+                </p>
               </div>
             </div>
             <div class="download-column w-col w-col-6">
@@ -136,6 +152,23 @@
                 <h4 class="wallet-info">SHA256</h4>
                 <p word-wrap="break-word" class="download-info">8589B270C99E9E03E04819DBD6EDDA5F68175701B7D80DAFEE78D04F84CA9DCE</p>
                 <a href="https://github.com/X-CASH-official/xcash-core/releases/download/2.0.1/xcash-cli-linux-2.0.1.zip" class="button-orange w-button">Download</a>
+
+                <p>
+                  <span class="input-orange copy-span">
+                  wget https://github.com/X-CASH-official/xcash-core/releases/download/2.0.1/xcash-cli-linux-2.0.1.zip
+                  </span>
+                  <button
+                      class="button-orange w-button"
+                      type="button"
+                      ngxClipboard
+                      [cbContent]="'wget https://github.com/X-CASH-official/xcash-core/releases/download/2.0.1/xcash-cli-linux-2.0.1.zip'"
+                      (cbOnSuccess)="isCopied1 = true"
+                      (cbOnError)="onCopyFailure()"
+                      [class.btn-success]="isCopied2"
+                    >
+                      Copy
+                  </button>
+                </p>
               </div>
             </div>
           </div>

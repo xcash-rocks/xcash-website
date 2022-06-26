@@ -19,8 +19,7 @@ import { OverlayModule } from "@angular/cdk/overlay";
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { CssanimationsComponent } from './cssanimations/cssanimations.component';
 
-
-
+import { ClipboardModule } from 'ngx-clipboard';
 
 @NgModule({
   declarations: [
@@ -38,8 +37,9 @@ import { CssanimationsComponent } from './cssanimations/cssanimations.component'
     NgxPageScrollCoreModule,
     HttpClientModule,
     OverlayModule,
-    DragDropModule
- 
+    DragDropModule,
+    ClipboardModule
+
   ],
   providers: [
     httpdataservice,

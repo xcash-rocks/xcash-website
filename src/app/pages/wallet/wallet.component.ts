@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ClipboardService } from 'ngx-clipboard';
+import { NgModule } from '@angular/core';
 
 @Component({
   selector: 'app-wallet',
@@ -16,7 +17,13 @@ export class WalletComponent implements OnInit {
   // onClickToggle(){
   //   this.toggle = !this.toggle;
   // }
-
+  text1: string;
+  text2: string;
+  textModal: string;
+  isCopied1: boolean;
+  isCopied2: boolean;
+  isCopied3: boolean;
+  basic = false;
 
   divTab = 'winWallet';
   divToggle(index){
@@ -38,8 +45,19 @@ export class WalletComponent implements OnInit {
     }
   }
 
-  constructor() {}
+  constructor(private _clipboardService: ClipboardService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    // Handle copy response globally https://github.com/maxisam/ngx-clipboard#handle-copy-response-globally
+    this._clipboardService.copyResponse$.subscribe(re => {
+        if (re.isSuccess) {
+            alert('Copy success!');
+        }
+    });
+  }
+
+  onCopyFailure() {
+      alert('copy fail!');
+  }
 
 }

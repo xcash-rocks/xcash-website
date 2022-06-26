@@ -28,6 +28,7 @@
     "animejs": "^3.2.1",
     "jquery": "^3.6.0",
     "lottie-web": "^5.8.1",
+    "ngx-clipboard": "^15.1.0",
     "ngx-lottie-view": "^0.0.3",
     "ngx-page-scroll": "^8.0.0",
     "ngx-page-scroll-core": "^8.0.0",
