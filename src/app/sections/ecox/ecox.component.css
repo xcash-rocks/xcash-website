@@ -12,7 +12,9 @@
 	position:relative;
   font-weight: bold;
 }
-
+.unbolden-text{
+  font-weight:normal;
+}
 .reduced-width{
   width: 78%;
 }

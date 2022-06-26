@@ -1,7 +1,9 @@
 .margin-top{
   margin-top:4.6%;
 }
-
+.unbolden-text{
+	font-weight:normal;
+}
 .section {
   border-bottom: 2px dotted #ff6d00;
 }
