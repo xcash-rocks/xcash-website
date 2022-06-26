@@ -71,18 +71,20 @@
 
 .copy-input {
     padding: 8px 15px;
-    width: 60%;
     float: left;
     margin-right: 0px;
 }
 
 .copy-span {
     padding: 8px 15px;
-    width: 65%;
+    width: 60%;
     height: 40px;
     overflow: hidden;
     float: left;
     white-space: nowrap;
     margin-right: 0px;
     border-right: 0px;
+}
+.copy-cmd-box{
+
 }
