@@ -39,6 +39,10 @@
   visibility: visible;
 }
 
+.unbolden-text{
+  font-weight:normal
+}
+
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
   .scale-for-screen-sizes{
