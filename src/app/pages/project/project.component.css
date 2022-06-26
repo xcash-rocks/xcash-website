@@ -12,16 +12,30 @@
 .column-ongoing {
     color: #f1f1f1;
 }
-.button-ongoing,
-.button-done  {
-  background-color: #ffffff;
-  font-weight: 400;
+.button-ongoing{
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+
 }
 .button-ongoing:hover,
 .button-roadmap.button-ongoing:hover {
-    background-color: #1f1f1f;
-    color: #f1f1f1;
-    border: 1px solid #f1f1f1;
+  background-color: #ffffff;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.button-done  {
+  background-color: #148ca5;
+  font-weight: 400;
+  color: #f1f1f1;
+}
+.button-done:hover,
+.button-roadmap.button-done:hover {
+  background-color: #ffffff;
+  font-weight: 700;
+  color: #148ca5;
+  border-color:  #148ca5;
 }
 .button-orange{
   background-color: #1f1f1f;
