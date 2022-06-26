@@ -73,15 +73,16 @@
     padding: 8px 15px;
     width: 60%;
     float: left;
-    margin-right: 5px;
+    margin-right: 0px;
 }
 
 .copy-span {
     padding: 8px 15px;
-    width: 50%;
+    width: 65%;
     height: 40px;
     overflow: hidden;
     float: left;
     white-space: nowrap;
-    margin-right: 5px;
+    margin-right: 0px;
+    border-right: 0px;
 }
