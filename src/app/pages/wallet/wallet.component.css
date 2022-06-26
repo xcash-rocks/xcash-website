@@ -8,6 +8,21 @@
   -webkit-hyphens: manual;
   hyphens: manual;
 }
+
+
+.button-orange {
+  background-color: #ffffff;
+}
+
+.button-orange:hover {
+  background-color: #fa741c;
+  color: #f1f1f1;
+}
+
+.background-animation.white {
+    background-color: #ffffff;
+}
+
 @media screen and (max-width: 1024px) {
   .button-container{
     width:30%;
