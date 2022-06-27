@@ -36,8 +36,8 @@
 }.overlay-list-display:hover{
   opacity: 100%;
 }.overlay-list-display> li:nth-child(2) {
-  border-top:  solid #f1f1f1 1px;
-  border-bottom: solid #f1f1f1 1px;
+  border-top:  solid #1f1f1f 1px;
+  border-bottom: solid #1f1f1f 1px;
   text-decoration: none;
 }.overlay-list-display> li:last-child {
   border-top:none;
