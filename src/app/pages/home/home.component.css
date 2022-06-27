@@ -283,7 +283,19 @@
 
 
 .reduced-width{
-	width: 75%
+	width: 75%;
+	
+}
+
+.reduced-width-use-cash{
+	width: 55%;
+	margin-left:1.3%;
+}.move-title-use-cash{
+	margin-left:1.3%
+}
+
+.use-subt-manipulation{
+	font-size:1.4rem;
 }
 
 .reduced-width-hybrid{

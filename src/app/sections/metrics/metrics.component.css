@@ -8,7 +8,9 @@
 .metrics-container {
 	background-color: #1f1f1f;
 }
-
+.metrics-row{
+	margin-left:900px;
+}
 .background-animation.woman-animation{
     position:relative;
     padding-top: -268px;
