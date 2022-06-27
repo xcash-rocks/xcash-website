@@ -1,7 +1,7 @@
 .scroll-to-top {
     position: fixed;
     right: 2.15%;
-    bottom: 5%;
+    bottom: 1%;
     width:62.844px;
     height:45.5px;
     opacity: 0;
@@ -28,7 +28,7 @@
 }
 .scroll-back-button {
     background-color: transparent;
-    color: #ff6d00;
+    color: #1189A5;
 }
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
@@ -60,31 +60,26 @@
     transform: scale(3);
    }
 }
-/*80% zoom*/
 @media screen and (min-width: 1920px) and (max-width: 2207px) {
   .scroll-to-top button{
     transform: scale(3);
    }
 }
-/*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
   .scroll-to-top button{
     transform: scale(2.8);
    }
 }
-/*100% zoom*/
 @media screen and (min-width: 1536px) and (max-width: 1695px) {
   .scroll-to-top button{
     transform: scale(2.6);
    }
 }
-/*110% zoom*/
 @media screen and (min-width: 1408px) and (max-width: 1535px) {
   .scroll-to-top button{
     transform: scale(2.4);
    }
 }
-/*120% zoom*/
 @media screen and (min-width: 1280px) and (max-width: 1407px) {
   .scroll-to-top button{
     transform: scale(2.15);
@@ -93,7 +88,7 @@
 /*130% zoom*/
 @media screen and (min-width: 1184px) and (max-width: 1279px) {
   .scroll-to-top button{
-    transform: scale(2);
+    transform: scale(1.8);
    }
 }
 /*140% zoom*/
@@ -111,7 +106,7 @@
 /*160% zoom*/
 @media screen and (min-width: 960px) and (max-width: 1023px) {
   .scroll-to-top button{
-    transform: scale(1.7);
+    transform: scale(1.2);
    }
 }
 /*170% zoom*/
