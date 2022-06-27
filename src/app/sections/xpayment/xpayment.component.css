@@ -23,7 +23,9 @@
   }
 .xpay-subt{
 	margin-left:2%;
-	margin-bottom: 2%
+	margin-bottom: -2%;
+	margin-top: 2%;
+	font-size:1.6rem;
 }
 
 .wallet-style2{
