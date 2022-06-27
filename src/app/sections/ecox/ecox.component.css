@@ -12,6 +12,7 @@
 	position:relative;
   font-weight: bold;
 }
+
 .unbolden-text{
   font-weight:normal;
 }
@@ -110,6 +111,11 @@
   background-color: #1f1f1f;
 }
 
+.grow-subs{
+  font-size:1.85rem;
+  width:88%;
+
+}
 
 @media screen and (max-width: 301px) {
   .leaf-svg-enlarge{
@@ -131,8 +137,8 @@
 		margin-bottom: 10%;
 	}
   .grow-subs{
-		font-size:1.4rem;
-    width:90%;
+		font-size:1.9rem;
+    width:88%;
 	}
   .reduced-width{
     margin-top:2%;
@@ -148,6 +154,10 @@
 		margin-left:38.6%;
 		margin-top: 10%;
 		margin-bottom: 12%;
+	}
+  .grow-subs{
+		font-size:1.9rem;
+    width:88%;
 	}
 }
 /*50% zoom*/

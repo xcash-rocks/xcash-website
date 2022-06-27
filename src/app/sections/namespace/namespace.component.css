@@ -58,6 +58,12 @@
   background-color: #1f1f1f;
 }
 
+.grow-subs{
+  margin-top:2%;
+  margin-bottom:5.3%;
+  font-size:1.6rem;
+  width:90%;
+}
 
 @media screen and (max-width: 301px) {
   .leaf-svg-enlarge{
@@ -77,12 +83,6 @@
 		margin-left:41.5%;
 		margin-top: 10%;
 		margin-bottom: 10%;
-	}
-  .grow-subs{
-		margin-top:2%;
-		margin-bottom:5.3%;
-		font-size:1.4rem;
-    width:90%;
 	}
 }
 /*40% zoom*/
