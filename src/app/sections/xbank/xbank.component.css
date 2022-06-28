@@ -23,7 +23,8 @@
 
 .xbank-subt{
   margin-left:2%;
-  margin-bottom: 2%
+  margin-bottom: 2%;
+  font-size:1.5rem;
 }
 
 .xbanklogo{
@@ -62,12 +63,7 @@
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
-	.xbank-subt{
-		margin-top:2%;
-		margin-bottom:5%;
-		font-size:1.6rem;
-		width:80%
-	}
+
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {

@@ -80,7 +80,7 @@
 
   .stake-subt{
 	margin-bottom:5%;
-	font-size:1.35rem;
+	font-size:1.45rem;
 	width:80%
 }
 
@@ -475,6 +475,23 @@
 
 .unbolden-text{
 	font-weight:normal;
+}
+
+.reduce-subs-py{
+	margin-top:2%;
+	margin-bottom:4.3%;
+	font-size:1.5rem;
+	width:80%
+}
+.grow-hybrid-subs{
+	font-size:1.4rem;
+	width:80%
+}
+
+
+.grow-hybrid-subs.dpops-specific{
+	font-size:1.4rem;
+	width:80%
 }
 
 /*30% zoom*/
@@ -1058,7 +1075,7 @@
 		width:25%
 	}
 	.move-xdex-svg-right{
-		left:-1.6;
+		left:-5.2%;
 	}
 	.py-margin{
 		margin-bottom:14%
@@ -1165,7 +1182,8 @@
 		width:25%
 	}
 	.move-xdex-svg-right{
-		left:1%;
+		left:-7.8%;
+		margin-top:-3.7%;
 	}
 	.py-margin{
 		margin-bottom:14%
@@ -1269,7 +1287,8 @@
 		width:25%
 	}
 	.move-xdex-svg-right{
-		left:0.2%;
+		left:-7.7%;
+		margin-top:-3.4%;
 	}
 	.py-margin{
 		margin-bottom:-10%
@@ -1371,7 +1390,8 @@
 		left:0%;
 	}
 	.move-xdex-svg-right{
-		left:0.2%;
+		left:-7.7%;
+		margin-top:-3.4%;
 	}
 	.py-margin{
 		margin-bottom:-15%
@@ -1466,7 +1486,8 @@
 		left:-4%;
 	}
 	.move-xdex-svg-right{
-		left:-4%;
+		left:-7.7%;
+		margin-top:-3.4%;
 	}
 	.use-scale-and-positioning-for-small-screens{
 		transform:scale(0.95);
@@ -1934,10 +1955,12 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:67%;
-		top:110%;
+		top:185%;
 	}
 	.move-coming-soon-xdex {
-	margin-top:30%;
+	position:absolute;
+	margin-top:20%;
+	margin-left:1.1%;
 	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.91);
@@ -2045,12 +2068,15 @@
 @media screen and (min-width: 896px) and (max-width: 959px) {
 	.move-xdex-svg-right{
 		position: absolute;
-		margin-left:68%;
-		top:110%;
+		margin-left:67%;
+		top:195%;
 	}
 	.move-coming-soon-xdex {
-		margin-top:33%;
-		}
+	position:absolute;
+	margin-top:20%;
+	margin-left:1.1%;
+	}
+
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.91);
 		margin-left:6.2%;
@@ -2192,12 +2218,14 @@
 	}
 	.move-xdex-svg-right{
 		position: absolute;
-		margin-left:70%;
-		top:110%;
+		margin-left:67%;
+		top:195%;
 	}
 	.move-coming-soon-xdex {
-		margin-top:33%;
-		}
+	position:absolute;
+	margin-top:20%;
+	margin-left:1.1%;
+	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.91);
 		margin-left:5.8%;
@@ -2336,12 +2364,14 @@
 	}
 	.move-xdex-svg-right{
 		position: absolute;
-		margin-left:72%;
-		top:110%;
+		margin-left:67%;
+		top:195%;
 	}
 	.move-coming-soon-xdex {
-		margin-top:33%;
-		}
+	position:absolute;
+	margin-top:20%;
+	margin-left:1.1%;
+	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.91);
 		margin-left:1.5%;
@@ -2476,12 +2506,14 @@
 @media screen and (min-width: 768px) and (max-width: 799px) {
 	.move-xdex-svg-right{
 		position: absolute;
-		margin-left:75%;
-		top:110%;
+		margin-left:67%;
+		top:199%;
 	}
 	.move-coming-soon-xdex {
-		margin-top:33%;
-		}
+	position:absolute;
+	margin-top:20%;
+	margin-left:1.1%;
+	}
 	.dpops-scale-and-positioning-for-small-screens{
 		transform:scale(0.91);
 		margin-left:-0.2%;
@@ -2630,8 +2662,8 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:60%;
-		top:157%;
-		transform:scale(0.9)
+		top:140%;
+		transform:scale(0.8)
 	}
 	.stake-lottie-move{
 		margin-top:-113%;
@@ -2819,8 +2851,8 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:60%;
-		top:195%;
-		transform:scale(0.9)
+		top:165%;
+		transform:scale(0.8)
 	}
 
 	.stake-scale-and-positioning-for-small-screens{
@@ -3000,12 +3032,12 @@
 		width:70%;
 		left:61%;
 }
-	.move-xdex-svg-right{
-		position: absolute;
-		margin-left:55%;
-		top:187%;
-		transform:scale(0.9)
-	}
+.move-xdex-svg-right{
+	position: absolute;
+	margin-left:60%;
+	top:185%;
+	transform:scale(0.8)
+}
 	.stake-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0.5%;
@@ -3737,8 +3769,8 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:46%;
-		top:195%;
-		transform:scale(0.9)
+		top:165%;
+		transform:scale(0.7)
 	}
 	.stake-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
@@ -3913,12 +3945,12 @@
 		position:absolute;
 		margin-top:60%;
 }
-	.move-xdex-svg-right{
-		position: absolute;
-		margin-left:40%;
-		top:210%;
-		transform:scale(0.9)
-	}
+.move-xdex-svg-right{
+	position: absolute;
+	margin-left:46%;
+	top:185%;
+	transform:scale(0.7)
+}
 	.stake-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0%;
@@ -4094,12 +4126,12 @@
 		position:absolute;
 		margin-top:60%;
 }
-	.move-xdex-svg-right{
-		position: absolute;
-		margin-left:40%;
-		top:250%;
-		transform:scale(0.88)
-	}
+.move-xdex-svg-right{
+	position: absolute;
+	margin-left:46%;
+	top:185%;
+	transform:scale(0.7)
+}
 	.move-coming-soon-xdex {
 		margin-left:2.5%;
 		}
