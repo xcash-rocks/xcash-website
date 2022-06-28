@@ -303,6 +303,9 @@
 		margin-top: -22%;
 		margin-bottom: -8%;
   }
+  .contract-width{
+	font-size:90%
+}
 
 }
 /*310% zoom*/
@@ -313,7 +316,9 @@
 		margin-top: -22%;
 		margin-bottom: -8%;
 	}
-
+	.contract-width{
+		font-size:80%
+	}
 }
 
 /*340% zoom*/
@@ -337,7 +342,9 @@
 		margin-left:25.5%;
 		margin-top:67%;
 	}
-
+	.contract-width{
+		font-size:90%
+	}
 
 }
 
@@ -351,7 +358,9 @@
 		margin-top: -27%;
 		margin-bottom: -8%;
 	}
-
+	.contract-width{
+		font-size:80%
+	}
 }
 
 
@@ -364,7 +373,9 @@
 		margin-top: -27%;
 		margin-bottom: -8%;
 	}
-
+	.contract-width{
+		font-size:80%
+	}
 }
 
 
@@ -375,6 +386,9 @@
 		margin-left:-0%;
 		margin-top: -45%;
 		margin-bottom: -8%;
+	}
+	.contract-width{
+		font-size:80%
 	}
 
 }
@@ -388,6 +402,9 @@
 		margin-left:-0%;
 		margin-top: -51%;
 		margin-bottom: -12%;
+	}
+	.contract-width{
+		font-size:80%
 	}
 
 }
