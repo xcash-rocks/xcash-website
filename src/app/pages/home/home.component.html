@@ -40,5 +40,10 @@
 
   <app-partners class="blur-it-all"></app-partners>
 
-  <app-discover class="blur-it-all"></app-discover>
+  <div mouseover="rocket_flag">
+
+  <ngx-lottie-view [ngClass]="rocket_flag ? 'rocket-animation-style' : ''" path="assets/documents/rocket3.json" class="rocket-animation-onscroll" data-default-duration="1.1833333333333333" data-duration="5">
+  </ngx-lottie-view>
+</div>
+  <app-discover class="blur-it-all "></app-discover>
 

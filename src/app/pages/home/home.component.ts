@@ -91,8 +91,9 @@ openanimation() {
         loop: true,
 
       });
-
   }
+  rocket_flag:boolean = true
+
   ngOnInit() {
 
     clearInterval(this.httpdataservice.Timer);

@@ -1,3 +1,29 @@
+.rocket-animation-style{
+	background-color:transparent;
+	z-index:20;
+	position:absolute;
+	bottom:-2020%;
+	width:15%;
+	opacity:0;
+	animation-play-state: running;
+	animation: rocket-animated 15s linear;
+}
+
+@keyframes rocket-animated {
+	0%{ top: 2120%; opacity:1}
+	10%{  top: 1908%; opacity:1}
+	20%{ top: 1696%; opacity:1}
+	30%{ top: 1484%; opacity:1}
+	40%{ top: 1272%; opacity:1}
+	50%{  top: 1060%; opacity:1}
+	60%{  top: 848%; opacity:1}
+	70%{  top: 636%; opacity:1}
+	80%{  top: 424%; opacity:1}
+	90%{  top: 212%; opacity:1}
+	100%{top: 0%; opacity:0;display:none}
+   }
+
+
 .section-dark {
 	background-color: #1f1f1f;
 	color: #f1f1f1;
@@ -496,6 +522,9 @@
 
 /*30% zoom*/
 @media screen and (min-width: 5120px) {
+	.rocket-animation-style{
+		display:none;
+	}
 	.stake-subt{
 		margin-top:3%;
 		margin-bottom:5%;
@@ -651,6 +680,9 @@
 }
 /*40% zoom*/
 @media screen and (min-width: 3840px)  and (max-width: 5119px) {
+	.rocket-animation-style{
+		display:none;
+	}
 	.xpy-style{
 		left:6%;
 		margin-top:-30%;
@@ -792,6 +824,9 @@
 }
 /*50% zoom*/
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
+	.rocket-animation-style{
+		display:none;
+	}
 	.xpy-style{
 		left:3%;
 		margin-top:-30%;
@@ -934,6 +969,9 @@
 }
 /*60% zoom*/
 @media screen and (min-width: 2560px) and (max-width: 3071px) {
+	.rocket-animation-style{
+		display:none;
+	}
 	.xpy-style{
 		left:3%;
 		margin-top:0%;
@@ -1069,6 +1107,9 @@
 }
 /*70% zoom*/
 @media screen and (min-width: 2208px) and (max-width: 2559px) {
+	.rocket-animation-style{
+		display:none;
+	}
 	.xpy-style{
 		left:-1%;
 		margin-top:0%;
@@ -1176,6 +1217,9 @@
 }
 /*80% zoom*/
 @media screen and (min-width: 1920px) and (max-width: 2207px) {
+	.rocket-animation-style{
+		display:none;
+	}
 	.xpy-style{
 		left:-2%;
 		margin-top:0%;
@@ -1281,6 +1325,9 @@
 }
 /*90% zoom*/
 @media screen and (min-width: 1696px) and (max-width: 1919px) {
+	.rocket-animation-style{
+		display:none;
+	}
 	.xpy-style{
 		left:-2%;
 		margin-top:0%;
@@ -1749,7 +1796,7 @@
 /*140% zoom*/
 @media screen and (min-width: 1088px) and (max-width: 1183px) {
 	.move-xdex-svg-right{
-		left:-4%;
+		left:-12%;
 	}
 	.style-atm{
 		left:52%;
@@ -1843,7 +1890,7 @@
 /*150% zoom*/
 @media screen and (min-width: 1024px) and (max-width: 1087px) {
 	.move-xdex-svg-right{
-		left:-3.5%;
+		left:-8.5%;
 	}
 	.style-atm{
 		left:52%;
@@ -1955,7 +2002,7 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:67%;
-		top:185%;
+		top:215%;
 	}
 	.move-coming-soon-xdex {
 	position:absolute;
@@ -2069,7 +2116,7 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:67%;
-		top:195%;
+		top:230%;
 	}
 	.move-coming-soon-xdex {
 	position:absolute;
@@ -2219,7 +2266,7 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:67%;
-		top:195%;
+		top:231%;
 	}
 	.move-coming-soon-xdex {
 	position:absolute;
@@ -2365,7 +2412,7 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:67%;
-		top:195%;
+		top:230%;
 	}
 	.move-coming-soon-xdex {
 	position:absolute;
@@ -2507,7 +2554,7 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:67%;
-		top:199%;
+		top:242%;
 	}
 	.move-coming-soon-xdex {
 	position:absolute;
@@ -2662,7 +2709,7 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:60%;
-		top:140%;
+		top:155%;
 		transform:scale(0.8)
 	}
 	.stake-lottie-move{
@@ -2851,7 +2898,7 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:60%;
-		top:165%;
+		top:195%;
 		transform:scale(0.8)
 	}
 
@@ -3035,7 +3082,7 @@
 .move-xdex-svg-right{
 	position: absolute;
 	margin-left:60%;
-	top:185%;
+	top:215%;
 	transform:scale(0.8)
 }
 	.stake-scale-and-positioning-for-small-screens{
@@ -3217,8 +3264,8 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:51%;
-		top:187%;
-		transform:scale(0.9)
+		top:213%;
+		transform:scale(0.88)
 	}
 	.stake-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
@@ -3400,8 +3447,8 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:51%;
-		top:195%;
-		transform:scale(0.9)
+		top:230%;
+		transform:scale(0.8)
 	}
 	.stake-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
@@ -3769,7 +3816,7 @@
 	.move-xdex-svg-right{
 		position: absolute;
 		margin-left:46%;
-		top:165%;
+		top:185%;
 		transform:scale(0.7)
 	}
 	.stake-scale-and-positioning-for-small-screens{
@@ -3948,7 +3995,7 @@
 .move-xdex-svg-right{
 	position: absolute;
 	margin-left:46%;
-	top:185%;
+	top:195%;
 	transform:scale(0.7)
 }
 	.stake-scale-and-positioning-for-small-screens{
@@ -4129,7 +4176,7 @@
 .move-xdex-svg-right{
 	position: absolute;
 	margin-left:46%;
-	top:185%;
+	top:245%;
 	transform:scale(0.7)
 }
 	.move-coming-soon-xdex {
