@@ -45,6 +45,20 @@ p {
 a {
   color: #fa741c;
 }
+.checkpoint{
+	margin-top:-46%;
+	left:-100%;
+	width:1000%;
+	height:5%;
+	position:absolute;
+  }
+.animate-typed-text{
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typed-headers 2s steps(60, end);
+  }@keyframes typed-headers{
+	from { width: 0; }
+  }
 
 .body {
   background-color: #f1f1f1;

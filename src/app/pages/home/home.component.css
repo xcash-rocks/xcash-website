@@ -1,3 +1,7 @@
+
+
+
+
 .rocket-animation-style{
 	background-color:transparent;
 	z-index:20;
@@ -2009,6 +2013,7 @@
 }
 /*160% zoom*/
 @media screen and (min-width: 960px) and (max-width: 1023px) {
+
 	.pubpri-lottie{
 		right:2%;
 	}
@@ -3317,7 +3322,6 @@
 	.reduced-width.stake-mobile{
 		width:69%
 	}
-	
 	.use-scale-and-positioning-for-small-screens{
 		transform:scale(0.84);
 		margin-left:-0.5%;
@@ -5854,4 +5858,13 @@
 		display:none
 	}
 
+}
+//remove heading text animation from small screens
+@media screen and (min-width: 0px) and (max-width: 1023px){
+	.checkpoint{
+		display:none
+	}
+	.animate-typed-text{
+		display:none
+	}
 }
