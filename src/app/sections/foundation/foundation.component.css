@@ -732,20 +732,17 @@
 		margin-bottom: 190%;
 	}
 }
-
-/*350% zoom NOT AVAILABLE*/
-
 /*360% zoom*/
 @media screen and (min-width: 416px) and (max-width: 447px) {
   .background-animation.rocket-animation{
     position:relative;
     padding-top: -268px;
-    left:5%;
+    left:12%;
     white-space: nowrap;
     top: -287px;
     bottom: 100px;
-    margin-top: 90px;
-    margin-bottom:-3000px;
+    margin-top: 20px;
+    margin-bottom:-2500px;
     opacity: 1;
     width:500px;
   }
