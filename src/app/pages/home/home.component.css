@@ -2743,7 +2743,8 @@
 		margin-left:3%;
 		margin-top: -8%;
 		margin-bottom: -7%;
-		
+	}.hybrid-width-text{
+		width:120%;
 	}
 	.use-scale-and-positioning-for-small-screens{
 		transform:scale(0.91);
@@ -2798,7 +2799,7 @@
 	}
 	.pubpri-lottie{
 		margin-top:5%;
-		margin-left:30%;
+		margin-left:31.5%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
@@ -2904,6 +2905,7 @@
 }
 /*220% zoom*/
 @media screen and (min-width: 704px) and (max-width: 735px) {
+	
 	.stake-lottie-move{
 		position:absolute;
 		margin-top:-101%;
@@ -2991,12 +2993,14 @@
 	}
 	.pubpri-lottie{
 		margin-top:5%;
-		margin-left:27%;
+		margin-left:33%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 45%;
-		margin-left:28.7%;
+		margin-left:32.4%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -3183,12 +3187,14 @@
 	}
 	.pubpri-lottie{
 		margin-top:5%;
-		margin-left:27%;
+		margin-left:31%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 45%;
-		margin-left:28.7%;
+		margin-left:30.3%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -3373,12 +3379,14 @@
 	}
 	.pubpri-lottie{
 		margin-top:5%;
-		margin-left:27%;
+		margin-left:30%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 47%;
-		margin-left:28.9%;
+		margin-left:30%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -3550,12 +3558,14 @@
 	}
 	.pubpri-lottie{
 		margin-top:3%;
-		margin-left:26%;
+		margin-left:29%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 47%;
 		margin-left:28.3%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.total-scale-py-screens{
 		transform:scale(0.81);
@@ -3757,12 +3767,14 @@
 	}
 	.pubpri-lottie{
 		margin-top:3%;
-		margin-left:26%;
+		margin-left:28%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 49.6%;
-		margin-left:28.3%;
+		margin-left:28%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -3945,12 +3957,14 @@
 	}
 	.pubpri-lottie{
 		margin-top:3%;
-		margin-left:26%;
+		margin-left:28%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 51.9%;
-		margin-left:28.3%;
+		margin-left:28%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -4150,7 +4164,9 @@
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 55.2%;
-		margin-left:26.7%;
+		margin-left:24.8%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -4345,12 +4361,14 @@
 	}
 	.pubpri-lottie{
 		margin-top:3%;
-		margin-left:24.4%;
+		margin-left:24%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 59.2%;
-		margin-left:27.5%;
+		margin-left:23.9%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -4575,12 +4593,14 @@
 	}
 	.pubpri-lottie{
 		margin-top:5%;
-		margin-left:21%;
+		margin-left:20.5%;
 		margin-bottom:20%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 64.2%;
-		margin-left:22.7%;
+		margin-left:21%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -4819,13 +4839,15 @@
 	}
 	.pubpri-lottie{
 		margin-top:3%;
-		margin-left:19.4%;
+		margin-left:19.2%;
 		margin-bottom:20%;
 		width:75%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 68.2%;
-		margin-left:22.5%;
+		margin-left:20.5%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -5058,13 +5080,15 @@
 	}
 	.pubpri-lottie{
 		margin-top:3%;
-		margin-left:18.4%;
+		margin-left:16.4%;
 		margin-bottom:20%;
 		width:75%;
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 73.2%;
-		margin-left:22.2%;
+		margin-left:18.4%;
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -5305,8 +5329,10 @@
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 73.2%;
-		margin-left:14.7%;
+		margin-left:13%;
 		transform:scale(0.8);
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -5539,15 +5565,17 @@
 		margin-left:4%;
 	}.pubpri-lottie{
 		margin-top:3%;
-		margin-left:5.4%;
+		margin-left:5.6%;
 		margin-bottom:20%;
 		transform:scale(0.8);
 	}.hybrid-button-screens{
 		position:absolute;
 		margin-top: 83.2%;
-		margin-left:11.8%;
+		margin-left:9.7%;
 		margin-bottom:-20%;
 		transform:scale(0.8);
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
@@ -5757,10 +5785,12 @@
 		transform:scale(0.8);
 	}.hybrid-button-screens{
 		position:absolute;
-		margin-top: 88.2%;
-		margin-left:8.8%;
+		margin-top: 80.2%;
+		margin-left:7%;
 		margin-bottom:-20%;
 		transform:scale(0.8);
+	}.hybrid-width-text{
+		width:115%;
 	}
 	.pos-logo-list{
 		position:relative;
