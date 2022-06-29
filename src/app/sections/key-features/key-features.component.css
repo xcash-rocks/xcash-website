@@ -13,7 +13,12 @@
   width:181px;
   height:181px;
   margin-left:76px;
-}
+}.lottie-shrink.lottie-border{
+  border: #fa741c 1px solid;
+  border-radius:100%;
+}.lottie-shrink.lottie-border-eco{
+  border: #fa741c 1px solid;
+  border-radius:100%;}
 .avatar{
   vertical-align: middle;
   width: 200px;
