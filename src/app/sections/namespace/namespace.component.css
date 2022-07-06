@@ -65,6 +65,8 @@
   width:90%;
 }
 
+
+
 @media screen and (max-width: 301px) {
   .leaf-svg-enlarge{
     position: relative;
@@ -309,12 +311,12 @@
     position:relative;
     width:42%;
     margin-top:5%;
-    margin-left:17.5%;
+    margin-left:23.5%;
   }
   .button-black-New {
     position: relative;
     margin-top: 5.2%;
-    margin-left: 28%;
+    margin-left: 34%;
   }
   .reduced-width{
     width:100%;
@@ -330,14 +332,14 @@
 	}
   .img-namespace{
     position:relative;
-    width:44%;
+    width:43%;
     margin-top:5%;
-    margin-left:17.5%;
+    margin-left:23.5%;
   }
   .button-black-New {
     position: relative;
-    margin-top: 5.2%;
-    margin-left: 28.7%;
+    margin-top: 4%;
+    margin-left: 34.1%;
   }
   .reduced-width{
     width:100%;
@@ -355,12 +357,12 @@
     position:relative;
     width:44%;
     margin-top:5%;
-    margin-left:17.5%;
+    margin-left:23.6%;
   }
   .button-black-New {
     position: relative;
-    margin-top: 5.2%;
-    margin-left: 28.2%;
+    margin-top: 2.2%;
+    margin-left: 34%;
   }
   .reduced-width{
     width:100%;
@@ -378,12 +380,12 @@
     position:relative;
     width:48%;
     margin-top:5%;
-    margin-left:17.5%;
+    margin-left:21.8%;
   }
   .button-black-New {
     position: relative;
-    margin-top: 5.2%;
-    margin-left: 29.8%;
+    margin-top: 4.2%;
+    margin-left: 34%;
   }
   .reduced-width{
     width:100%;
@@ -401,12 +403,12 @@
     position:relative;
     width:52%;
     margin-top:5%;
-    margin-left:17.5%;
+    margin-left:19.5%;
   }
   .button-black-New {
     position: relative;
     margin-top: 5.2%;
-    margin-left: 29.8%;
+    margin-left: 32%;
   }
   .reduced-width{
     width:100%;
@@ -422,22 +424,19 @@
 	}
   .img-namespace{
     position:relative;
-    width:54%;
+    width:52%;
     margin-top:5%;
-    margin-left:15.5%;
+    margin-left:19.5%;
   }
   .button-black-New {
     position: relative;
     margin-top: 5.2%;
-    margin-left: 29.8%;
+    margin-left: 32.5%;
   }
   .reduced-width{
     width:100%;
   }
 }
-
-/*270% zoom NONE available*/
-
 
 /*280% zoom*/
 @media screen and (min-width: 544px) and (max-width: 575px) {
@@ -450,19 +449,17 @@
     position:relative;
     width:57%;
     margin-top:5%;
-    margin-left:15.5%;
+    margin-left:16.5%;
   }
   .button-black-New {
     position: relative;
     margin-top: 5.2%;
-    margin-left: 29.8%;
+    margin-left: 30.8%;
   }
   .reduced-width{
     width:100%;
   }
 }
-
-/*290% zoom NONE AVAILABLE*/
 
 
 /*300% zoom*/

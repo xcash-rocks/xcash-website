@@ -19,6 +19,9 @@
 }.lottie-shrink.lottie-border-eco{
   border: #fa741c 1px solid;
   border-radius:100%;}
+  .lottie-shrink.leaf-specific{
+    margin-right:30%;
+  }
 .avatar{
   vertical-align: middle;
   width: 200px;
