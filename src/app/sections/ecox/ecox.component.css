@@ -358,11 +358,12 @@
 		margin-top: -8%;
 		margin-bottom: -7%;
   }
-  .leaf-svg-enlarge{
-    left:-9%;
+  
+  .xleaf-lottie{
+   margin-left:10.5%;
   }
   .eco-button{
-    margin-left:19%
+    margin-left:28.5%
   }
   .reduced-width{
     width:95%;
@@ -376,12 +377,12 @@
 		margin-top: -12%;
 		margin-bottom: -7%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
-  }
-  .eco-button{
-    margin-left:19%
-  }
+  .xleaf-lottie{
+    margin-left:10.5%;
+   }
+   .eco-button{
+     margin-left:28.5%
+   }
   .reduced-width{
     width:95%;
   }
@@ -394,12 +395,12 @@
 		margin-top: -16%;
 		margin-bottom: -7%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
-  }
-  .eco-button{
-    margin-left:19%
-  }
+  .xleaf-lottie{
+    margin-left:10.5%;
+   }
+   .eco-button{
+     margin-left:28.5%
+   }
   .reduced-width{
     width:95%;
   }
@@ -412,12 +413,12 @@
 		margin-top: -16%;
 		margin-bottom: -7%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
-  }
-  .eco-button{
-    margin-left:17%
-  }
+  .xleaf-lottie{
+    margin-left:10.5%;
+   }
+   .eco-button{
+     margin-left:28.5%
+   }
   .reduced-width{
     width:95%;
   }
@@ -430,12 +431,12 @@
 		margin-top: -16%;
 		margin-bottom: -7%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
-  }
-  .eco-button{
-    margin-left:17%
-  }
+  .xleaf-lottie{
+    margin-left:10.5%;
+   }
+   .eco-button{
+     margin-left:28.5%
+   }
   .reduced-width{
     width:95%;
   }
@@ -448,18 +449,16 @@
 		margin-top: -18%;
 		margin-bottom: -8%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
-  }
-  .eco-button{
-    margin-left:14%
-  }
+  .xleaf-lottie{
+    margin-left:6.8%;
+   }
+   .eco-button{
+     margin-left:25.3%
+   }
   .reduced-width{
     width:95%;
   }
 }
-
-/*270% zoom NONE available*/
 
 
 /*280% zoom*/
@@ -469,19 +468,16 @@
 		margin-top: -22%;
 		margin-bottom: -8%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
-  }
-  .eco-button{
-    margin-left:13%
-  }
+  .xleaf-lottie{
+    margin-left:5.8%;
+   }
+   .eco-button{
+     margin-left:24.3%
+   }
   .reduced-width{
     width:95%;
   }
 }
-
-/*290% zoom NONE AVAILABLE*/
-
 
 /*300% zoom*/
 @media screen and (min-width: 512px) and (max-width: 543px) {
@@ -491,11 +487,11 @@
 		margin-top: -22%;
 		margin-bottom: -8%;
   }
-  .leaf-svg-enlarge{
-    left:-9%;
+  .xleaf-lottie{
+    margin-left:4.8%;
   }
   .eco-button{
-    margin-left:12%
+    margin-left:23.3%
   }
   .reduced-width{
     width:95%;
@@ -509,11 +505,11 @@
 		margin-top: -22%;
 		margin-bottom: -8%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
+  .xleaf-lottie{
+    margin-left:2.8%;
   }
   .eco-button{
-    margin-left:10%
+    margin-left:21.3%
   }
   .reduced-width{
     width:95%;
@@ -527,11 +523,11 @@
 		margin-top: -22%;
 		margin-bottom: -8%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
+  .xleaf-lottie{
+    margin-left:2.5%;
   }
   .eco-button{
-    margin-left:12%
+    margin-left:20%
   }
   .reduced-width{
     width:95%;
@@ -546,11 +542,11 @@
 		margin-top: -27%;
 		margin-bottom: -8%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
+  .xleaf-lottie{
+    margin-left:0%;
   }
   .eco-button{
-    margin-left:19%
+    margin-left:16.8%
   }
   .reduced-width{
     width:95%;
@@ -565,11 +561,11 @@
 		margin-top: -27%;
 		margin-bottom: -8%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
+  .xleaf-lottie{
+    margin-left:0%;
   }
   .eco-button{
-    margin-left:0%
+    margin-left:16.8%
   }
   .reduced-width{
     width:95%;
@@ -584,11 +580,11 @@
 		margin-top: -45%;
 		margin-bottom: -8%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
+  .xleaf-lottie{
+    margin-left:-7%;
   }
   .eco-button{
-    margin-left:-4%
+    margin-left:10%
   }
   .reduced-width{
     width:95%;
@@ -603,11 +599,11 @@
 		margin-top: -51%;
 		margin-bottom: -12%;
 	}
-  .leaf-svg-enlarge{
-    left:-9%;
+  .xleaf-lottie{
+    margin-left:-13%;
   }
   .eco-button{
-    margin-left:-5%
+    margin-left:7%
   }
   .reduced-width{
     width:95%;

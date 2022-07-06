@@ -2778,7 +2778,7 @@
 		margin-top:5%;
 		margin-left:26.5%;
 	}.pos-sidechains-button{
-		margin-left:26.4%;
+		margin-left:25.3%;
 	}
 	.total-scale-hybrid-screens{
 		transform:scale(0.81);
@@ -3898,7 +3898,7 @@
 		margin-bottom: -8%;
 	}.stake-lottie-move{
 		position:absolute;
-		margin-top:-161%;
+		margin-top:-151%;
 		margin-left:64%;
 		transform:scale(0.9)
 	}
@@ -4090,13 +4090,14 @@
 		margin-top:51%;
 		margin-left:30.7%;
 		margin-bottom:-0%;
+		margin-right:10%
 	}.stake-button-mid{
-		margin-left:1%;
+		margin-left:4%;
 	}.stake-button-low{
-		margin-left:4.5%
+		margin-left:16.5%
 	}.stake-lottie-move{
 		position:absolute;
-		margin-top:-85%;
+		margin-top:-93%;
 		margin-left:21%;
 		transform:scale(0.9)
 	}.reduced-width.stake-mobile{
@@ -4291,17 +4292,18 @@
 		margin-bottom: -8%;
 	}
 	.buttons-stake{
-		margin-top:61%;
-		margin-left:26.7%;
+		margin-top:59%;
+		margin-left:31.7%;
 		margin-bottom:-0%;
+		margin-right:10%
 	}.stake-button-mid{
-		margin-left:1%;
+		margin-left:4%;
 	}.stake-button-low{
-		margin-left:4.5%
+		margin-left:16.5%
 	}.stake-lottie-move{
 		position:absolute;
-		margin-top:-95%;
-		margin-left:17%;
+		margin-top:-99%;
+		margin-left:21%;
 		transform:scale(0.9)
 	}.reduced-width.stake-mobile{
 		width:100%;
@@ -4488,17 +4490,18 @@
 		margin-top: -25%;
 		margin-bottom: -10%;
 	}.buttons-stake{
-		margin-top:63%;
-		margin-left:26.7%;
+		margin-top:62%;
+		margin-left:30.9%;
 		margin-bottom:-0%;
+		margin-right:10%
 	}.stake-button-mid{
-		margin-left:1%;
+		margin-left:4%;
 	}.stake-button-low{
-		margin-left:4.5%
+		margin-left:17.4%
 	}.stake-lottie-move{
 		position:absolute;
-		margin-top:-100%;
-		margin-left:17%;
+		margin-top:-104%;
+		margin-left:21%;
 		transform:scale(0.9)
 	}.reduced-width.stake-mobile{
 		width:100%;
@@ -4765,17 +4768,18 @@
 		margin-top: -27%;
 		margin-bottom: -8%;
 	}.buttons-stake{
-		margin-top:69%;
-		margin-left:25%;
+		margin-top:62%;
+		margin-left:28.9%;
 		margin-bottom:-0%;
+		margin-right:10%
 	}.stake-button-mid{
-		margin-left:1%;
+		margin-left:4%;
 	}.stake-button-low{
-		margin-left:4.5%
+		margin-left:18.2%
 	}.stake-lottie-move{
 		position:absolute;
-		margin-top:-110%;
-		margin-left:15%;
+		margin-top:-114%;
+		margin-left:17.8%;
 		transform:scale(0.9)
 	}.reduced-width.stake-mobile{
 		width:100%;
@@ -4962,17 +4966,18 @@
 /*390% zoom*/
 @media screen and (min-width: 384px) and (max-width: 415px) {
 	.buttons-stake{
-		margin-top:71%;
-		margin-left:27%;
+		margin-top:68%;
+		margin-left:27.9%;
 		margin-bottom:-0%;
+		margin-right:10%
 	}.stake-button-mid{
-		margin-left:1%;
+		margin-left:4%;
 	}.stake-button-low{
-		margin-left:4.5%
+		margin-left:18.2%
 	}.stake-lottie-move{
 		position:absolute;
-		margin-top:-125%;
-		margin-left:15%;
+		margin-top:-123%;
+		margin-left:15.8%;
 		transform:scale(0.9)
 	}.reduced-width.stake-mobile{
 		width:100%;
@@ -5262,17 +5267,18 @@
 		margin-top: -45%;
 		margin-bottom: -8%;
 	}.buttons-stake{
-		margin-top:71%;
-		margin-left:25%;
+		margin-top:80%;
+		margin-left:23.2%;
 		margin-bottom:-0%;
+		margin-right:10%
 	}.stake-button-mid{
-		margin-left:1%;
+		margin-left:6%;
 	}.stake-button-low{
-		margin-left:4.5%
+		margin-left:21.2%
 	}.stake-lottie-move{
 		position:absolute;
-		margin-top:-130%;
-		margin-left:12%;
+		margin-top:-137%;
+		margin-left:10.4%;
 		transform:scale(0.9)
 	}.reduced-width.stake-mobile{
 		width:100%;
@@ -5508,19 +5514,22 @@
 		margin-top: -51%;
 		margin-bottom: -12%;
 	}.buttons-stake{
-		margin-top:91%;
-		margin-left:23%;
+		margin-top:101%;
+		margin-left:20.9%;
+		margin-right:10%;
 		margin-bottom:-0%;
 	}.stake-button-mid{
-		margin-left:1%;
+		margin-left:6%;
 	}.stake-button-low{
-		margin-left:4.5%
-	}.stake-lottie-move{
+		margin-left:23.5%}
+	.stake-lottie-move{
 		position:absolute;
-		margin-top:-150%;
-		margin-left:9%;
+		margin-top:-160%;
+		margin-left:6%;
 		transform:scale(0.9)
-	}.reduced-width.stake-mobile{
+	}
+
+	.reduced-width.stake-mobile{
 		width:100%;
 	}
 
@@ -5725,17 +5734,18 @@
 		margin-top: -51%;
 		margin-bottom: -12%;
 	}.buttons-stake{
-		margin-top:91%;
-		margin-left:19%;
+		margin-top:101%;
+		margin-left:20.9%;
+		margin-right:10%;
 		margin-bottom:-0%;
 	}.stake-button-mid{
-		margin-left:1%;
+		margin-left:6%;
 	}.stake-button-low{
-		margin-left:4.5%
-	}.stake-lottie-move{
+		margin-left:23.5%}
+	.stake-lottie-move{
 		position:absolute;
-		margin-top:-150%;
-		margin-left:5%;
+		margin-top:-160%;
+		margin-left:6%;
 		transform:scale(0.9)
 	}.reduced-width.stake-mobile{
 		width:100%;
